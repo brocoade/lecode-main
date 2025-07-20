@@ -1,0 +1,41 @@
+{
+    "categorie": "🍽️ Maladies Digestives",
+    "difficulte": "Difficile",
+    "questions": [
+        {
+            "question": "7. Le syndrome de Cronkhite-Canada est un trouble rare dans lequel une personne (toujours un homme) croit être enceinte.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "reponse_correcte": "Faux",
+            "explication": "Réponse : Faux. Le syndrome de Cronkhite-Canada est un trouble rare qui provoque une perte du goût, des polypes intestinaux, une perte de cheveux et des anomalies de la croissance des ongles. Sa cause est inconnue et il touche principalement les hommes d'origine japonaise.",
+            "difficulte": "Difficile",
+            "categorie": "🍽️ Maladies Digestives"
+        },
+        {
+            "question": "8. Un garçon de 15 ans se plaint d'une diarrhée qui s'aggrave et de douleurs abdominales intenses. Il va à la selle jusqu'à 6 fois par jour et a remarqué la présence occasionnelle de sang. Il se sent mal et a également des douleurs lombaires.",
+            "options": [
+                "Maladie de Crohn",
+                "Cancer de l'intestin",
+                "Diverticulite",
+                "Syndrome du côlon irritable"
+            ],
+            "reponse_correcte": "Maladie de Crohn",
+            "explication": "Réponse : Maladie de Crohn. L'histoire suggère une maladie inflammatoire de l'intestin, la maladie de Crohn étant la plus probable dans cette tranche d'âge. La présence de sang et la nature aggravante rendent le syndrome du côlon irritable peu probable ; et le cancer de l'intestin est extrêmement rare chez une personne de cet âge.",
+            "difficulte": "Difficile",
+            "categorie": "🍽️ Maladies Digestives"
+        },
+        {
+            "question": "9. Le syndrome de Korsakoff est causé par une consommation excessive de foie et d'oignons.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "reponse_correcte": "Faux",
+            "explication": "Réponse : Faux C'est totalement faux, le syndrome de Korsakoff est causé par une carence en thiamine, généralement associée à une malnutrition sévère ou à un alcoolisme chronique. Les symptômes incluent l'amnésie, la perte de mémoire, la fabulation et l'apathie. Le syndrome de Korsakoff peut également impliquer une hémorragie et une perte de neurones. Ce syndrome conduit généralement à la nécessité d'une prise en charge à temps plein, mais des avancées dans le domaine de la médecine pourraient améliorer le pronostic pour certains patients. Les effets d'un verre de trop, une fois de trop, peuvent ruiner votre vie.",
+            "difficulte": "Difficile",
+            "categorie": "🍽️ Maladies Digestives"
+        }
+    ]
+}

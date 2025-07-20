@@ -1,0 +1,171 @@
+{
+  "categories": {
+    "DIGESTION": {
+      "id": "1",
+      "title": "Troubles de la Digestion",
+      "description": "Maladies qui touchent l'estomac et les intestins",
+      "color": "#FF9800",
+      "image": "nutrition.png",
+      "diseases": [
+        {
+          "id": "1",
+          "title": "Gastro-entérite",
+          "description": "Inflammation de l'estomac et des intestins",
+          "image": "nutrition.png",
+          "definition": "C'est quand ton ventre et tes intestins sont irrités, ce qui peut te donner mal au ventre et te faire vomir ou avoir la diarrhée.",
+          "funFact": "Ton intestin contient des milliards de bonnes bactéries qui t'aident à digérer !",
+          "details": {
+            "symptoms": {
+              "children": "Mal au ventre 🤢, Envie de vomir 😫, Diarrhée 🏃, Fatigue 😴",
+              "adults": "Douleurs abdominales, Nausées et vomissements, Diarrhée, Déshydratation possible"
+            },
+            "prevention": {
+              "children": "Bien se laver les mains 🧼, Manger propre 🥗, Boire de l'eau propre 💧",
+              "adults": "Hygiène des mains, Désinfection des surfaces, Conservation des aliments"
+            },
+            "treatment": {
+              "children": "Boire beaucoup d'eau 💧, Se reposer 🛏️, Manger léger 🍚",
+              "adults": "Hydratation, Repos, Régime adapté"
+            }
+          }
+        },
+        {
+          "id": "2",
+          "title": "Ulcère gastrique",
+          "description": "Lésion de la paroi de l'estomac",
+          "image": "nutrition.png",
+          "definition": "C'est comme une petite blessure dans ton estomac qui fait mal quand tu manges.",
+          "details": {
+            "symptoms": {
+              "children": "Mal au ventre 😣, Pas faim 😕",
+              "adults": "Douleurs épigastriques, Perte d'appétit"
+            }
+          }
+        },
+        {
+          "id": "3",
+          "title": "Constipation chronique",
+          "description": "Difficulté à évacuer les selles",
+          "image": "nutrition.png",
+          "definition": "C'est quand c'est difficile d'aller faire caca pendant plusieurs jours.",
+          "details": {
+            "symptoms": {
+              "children": "Dur d'aller aux toilettes 🚽, Mal au ventre 😖",
+              "adults": "Selles rares et dures, Douleurs abdominales"
+            }
+          }
+        }
+      ]
+    },
+    "INFECTIONS": {
+      "id": "2",
+      "title": "Infections et Virus",
+      "description": "Maladies causées par les microbes et les virus",
+      "color": "#F44336",
+      "image": "infections_virus.png",
+      "diseases": [
+        {
+          "id": "1",
+          "title": "Paludisme",
+          "description": "Maladie infectieuse transmise par les moustiques",
+          "image": "infections_virus.png",
+          "definition": "Le paludisme est une maladie qui nous rend malade à cause d'un tout petit parasite qui entre dans notre corps quand un moustique spécial nous pique.",
+          "funFact": "Les moustiques qui transmettent le paludisme ne piquent que la nuit !",
+          "details": {
+            "symptoms": {
+              "children": "Très chaud 🤒, Tremblements 🥶, Mal à la tête 😣",
+              "adults": "Fièvre > 38.5°C, Frissons intenses, Céphalées sévères"
+            },
+            "prevention": {
+              "children": "Dormir sous une moustiquaire 🛏️, Porter des vêtements longs 👕",
+              "adults": "Moustiquaires imprégnées, Protection vestimentaire"
+            }
+          }
+        },
+        {
+          "id": "2",
+          "title": "Grippe",
+          "description": "Infection virale respiratoire contagieuse",
+          "image": "infections_virus.png",
+          "definition": "C'est un virus qui te rend malade avec de la fièvre et le nez qui coule.",
+          "details": {
+            "symptoms": {
+              "children": "Fièvre 🤒, Nez qui coule 🤧, Toux 😷",
+              "adults": "Fièvre élevée, Rhinorrhée, Toux sèche"
+            }
+          }
+        },
+        {
+          "id": "3",
+          "title": "COVID-19",
+          "description": "Maladie infectieuse causée par le coronavirus",
+          "image": "infections_virus.png",
+          "definition": "C'est un nouveau virus qui peut rendre malade et qui se transmet facilement entre les personnes.",
+          "details": {
+            "symptoms": {
+              "children": "Fièvre 🤒, Toux 😷, Plus d'odeurs 👃",
+              "adults": "Fièvre, Toux sèche, Perte odorat/goût"
+            }
+          }
+        }
+      ]
+    },
+    "RESPIRATORY": {
+      "id": "4",
+      "title": "Problèmes de Respiration",
+      "description": "Maladies qui touchent les poumons et la respiration",
+      "color": "#9C27B0",
+      "image": "respiration.png",
+      "diseases": [
+        {
+          "id": "1",
+          "title": "Asthme",
+          "description": "Maladie inflammatoire des bronches",
+          "image": "respiration.png",
+          "definition": "C'est quand tes bronches se serrent et que tu as du mal à respirer.",
+          "details": {
+            "symptoms": {
+              "children": "Difficile de respirer 😮‍💨, Sifflement 🌬️, Toux la nuit 😴",
+              "adults": "Dyspnée, Sibilants, Toux nocturne"
+            }
+          }
+        },
+        {
+          "id": "2",
+          "title": "Bronchite",
+          "description": "Inflammation des bronches",
+          "image": "respiration.png",
+          "definition": "C'est quand tes bronches sont irritées et que tu tousses beaucoup.",
+          "details": {
+            "symptoms": {
+              "children": "Beaucoup de toux 😷, Mal à la poitrine 😣",
+              "adults": "Toux productive, Douleurs thoraciques"
+            }
+          }
+        }
+      ]
+    },
+    "HEART": {
+      "id": "6",
+      "title": "Santé du Cœur",
+      "description": "Maladies qui touchent le cœur et les vaisseaux",
+      "color": "#795548",
+      "image": "coeurs.png",
+      "diseases": [
+        {
+          "id": "1",
+          "title": "Hypertension",
+          "description": "Pression artérielle élevée",
+          "image": "coeurs.png",
+          "definition": "C'est quand le sang pousse trop fort dans tes vaisseaux.",
+          "details": {
+            "symptoms": {
+              "children": "Mal à la tête 😣, Fatigue 😴",
+              "adults": "Céphalées, Fatigue, Vertiges"
+            }
+          }
+        }
+      ]
+    }
+  }
+} 

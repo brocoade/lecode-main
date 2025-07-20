@@ -1,0 +1,162 @@
+{
+    "categorie": "🧴 Maladies Dermatologiques",
+    "difficulte": "Facile",
+    "questions": [
+        {
+            "question": "10. Quel cancer de la peau est localement agressif mais présente un faible risque de métastase ?",
+            "options": [
+                "carcinome épidermoïde",
+                "carcinome basocellulaire",
+                "mélanome malin",
+                "granulome pyogénique"
+            ],
+            "reponse_correcte": "carcinome basocellulaire",
+            "explication": "Réponse : carcinome basocellulaire Le carcinome basocellulaire est décrit comme une lésion cutanée avec une ulcération centrale et une bordure surélevée et nacrée entourant l'ulcération centrale. C'est le type le plus typique et le plus courant de carcinome basocellulaire. Il est localement invasif car il détruit de nombreux tissus normaux autour de lui. Cependant, c'est un carcinome in situ, ce qui signifie qu'il ne traverse presque jamais la lame basale, donc aucune métastase ne se produit. Cela contraste avec le carcinome épidermoïde, qui est connu pour son risque élevé de métastase.",
+            "difficulte": "Facile",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "3. Quelle condition ne serait PAS caractérisée par des vésicules ?",
+            "options": [
+                "asthme",
+                "eczéma",
+                "réactions allergiques",
+                "varicelle"
+            ],
+            "reponse_correcte": "asthme",
+            "explication": "Réponse : asthme Une vésicule est une petite cloque remplie de liquide. Dans de nombreux cas, les vésicules peuvent se rompre facilement et libérer leur liquide sur la peau. Elles sont souvent minuscules et non mortelles ; elles peuvent être causées par une exposition excessive de la peau au soleil sans protection adéquate (j'en ai une expérience personnelle), ou faire partie d'une réaction allergique, d'une affection cutanée ou de certaines maladies comme la varicelle. Cependant, elles ne sont généralement pas liées à des problèmes pulmonaires. Une grosse cloque est appelée bulle, qui vient du grec pour « bulle », et est définie comme « une grande vésicule décrite comme une cloque arrondie ou de forme irrégulière contenant du liquide séreux ou séropurulent ». Vous pourriez vouloir appeler votre médecin pour celle-là !",
+            "difficulte": "Facile",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "9. Quel serait un nom plus commun pour une épiderme partiellement déconnecté qui se sépare de l'éponychium ?",
+            "options": [
+                "bouton de fièvre",
+                "acné",
+                "pellicule",
+                "oignon"
+            ],
+            "reponse_correcte": "pellicule",
+            "explication": "Réponse : pellicule Une pellicule est un morceau de peau qui se sépare de la cuticule (éponychium). Le traitement consiste à le couper avec des ciseaux à cuticules propres, ne pas l'arracher ou le mâcher. Masser une crème pour les mains ou une lotion dans la cuticule deux ou trois fois par jour est également recommandé. Clairement, ce n'est pas un problème mettant la vie en danger et, s'il n'est pas traité, il guérira probablement tout seul. De plus, une pellicule semble être un terme impropre puisque c'est la peau adjacente à l'ongle qui dépasse, mais parmi tous les choix énumérés ci-dessus, ce serait ma préférence.",
+            "difficulte": "Facile",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "21. L'urticaire peut se former en réponse à une exposition à des allergènes, à des changements de température (chez certaines personnes) ou lors de certaines infections. Quel est le terme médical pour ces démangeaisons ?",
+            "options": [
+                "Uvéite",
+                "Urticaire",
+                "Urétrite",
+                "Ombilication"
+            ],
+            "reponse_correcte": "Urticaire",
+            "explication": "Réponse : Urticaire Les antihistaminiques sont utilisés pour améliorer les symptômes - dans la plupart des cas, les lésions disparaissent dans les 48 heures. L'urticaire est très courante ; on estime que 20 % des personnes en feront l'expérience à un moment de leur vie.",
+            "difficulte": "Facile",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "8. La maladie de Raynaud est une condition caractérisée par :",
+            "options": [
+                "Syndrome du côlon irritable",
+                "Épistaxis",
+                "Vasospasme",
+                "Gastro-entérite chronique"
+            ],
+            "reponse_correcte": "Vasospasme",
+            "explication": "Réponse : Vasospasme La personne atteinte de la maladie de Raynaud réagit au stress et au froid par un blanchiment de la peau causé par une vasoconstriction. Lorsque la vasoconstriction s'atténue, une sensation de battements, de brûlure et de douleur survient. Cette maladie survient généralement de manière bilatérale (les deux mains, les deux pieds, etc.) et affecte principalement les mains, mais elle peut également toucher les pieds, les lobes des oreilles et le bout du nez. Elle est 5 fois plus fréquente chez les femmes que chez les hommes.",
+            "difficulte": "Facile",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "6. Ces petits points rouges sous-cutanés (pétéchies) sont apparus sur le bras supérieur de Mme Twinkle Twinkle pendant une minute après l'application d'un bandage pas trop serré pendant 5 à 10 minutes.",
+            "options": [
+                "Signe de Rossolimo",
+                "Signe de Rumpel-Leede",
+                "Signe de Rigler",
+                "Signe de Rovsing"
+            ],
+            "reponse_correcte": "Signe de Rumpel-Leede",
+            "explication": "Réponse : Signe de Rumpel-Leede Ces points indiquent une fragilité capillaire et une tendance aux saignements si plus de 20 pétéchies par pouce carré apparaissent, mais ne suffisent pas à diagnostiquer la fièvre hémorragique de la dengue (FHD, une maladie virale de type grippal causée par la piqûre d'un moustique infecté). La dengue est plus fréquente dans les zones tropicales du monde. Ces pétéchies sont dues à une fuite de sang des capillaires dans la peau. Cette découverte est une indication d'un problème sous-jacent grave, incitant toute personne présentant ce signe à consulter un médecin immédiatement.",
+            "difficulte": "Facile",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "6. Quel est le nom plus courant de ce trouble, également connu sous le nom de maladie de Hansen ?",
+            "options": [
+                "Psoriasis",
+                "Tuberculose",
+                "Rosacée",
+                "Lèpre"
+            ],
+            "reponse_correcte": "Lèpre",
+            "explication": "Réponse : Lèpre. Il s'agit d'un stade précoce de la lèpre. Si elle n'est pas traitée, le patient développera des granulomes de la peau, des voies respiratoires, des yeux et des nerfs. La lèpre peut mettre plus de 25 ans à tuer le patient. Dans les années 1980, plus de cinq millions de personnes étaient atteintes, mais la maladie est curable, et en 2012, ce nombre était tombé à moins de 200 000. Plus de la moitié de ces cas se trouvent en Inde. Le traitement dure environ un an, et après le premier mois, le patient n'est plus contagieux.",
+            "difficulte": "Facile",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "6. Cette maladie, également appelée maladie de Hansen, affecte la muqueuse du système respiratoire supérieur, mais le signe extérieur est des lésions cutanées. Si elle n'est pas traitée, les dommages à la peau, à la muqueuse des voies respiratoires et aux yeux peuvent être irréversibles. Cette maladie affecte l'humanité depuis des milliers d'années et est mentionnée dans la Bible. Elle est causée par une bactérie, mais nous ne savons pas exactement comment elle est transmise. Quel est le nom de cette maladie ? (Indice : La Bible.)",
+            "options": [
+                "Dermatite atopique",
+                "Lèpre",
+                "Eczéma nummulaire",
+                "Eczéma dyshidrotique"
+            ],
+            "reponse_correcte": "Lèpre",
+            "explication": "Réponse : Lèpre. On a toujours cru que la lèpre était contractée par contact avec une personne infectée. Aujourd'hui, de nombreux médecins pensent qu'elle pourrait également être transmise par \"voie respiratoire\", comme l'indique l'Organisation mondiale de la santé. La lèpre peut survenir n'importe où, mais elle est plus fréquente dans les régions tropicales et subtropicales.",
+            "difficulte": "Facile",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "4. Une femme de 19 ans ressent une douleur sourde dans le bas de l'abdomen. Elle se sent mal, a des brûlures en urinant et urine plus fréquemment.",
+            "options": [
+                "Grossesse",
+                "Chlamydia",
+                "Pyélonéphrite",
+                "Cystite"
+            ],
+            "reponse_correcte": "Cystite",
+            "explication": "Réponse : Cystite. Ce tableau clinique est classique de la cystite, une infection de la vessie. Celle-ci est fréquente chez les jeunes femmes pour des raisons anatomiques. La pyélonéphrite est une infection rénale, généralement le patient aurait de fortes douleurs dorsales et se sentirait très mal.",
+            "difficulte": "Facile",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "10. En 1979, l'Organisation mondiale de la santé a déclaré que cette maladie virale avait été éradiquée avec succès. Son signe le plus évident était l'éruption de grandes pustules sur la peau, qui laissaient souvent des cicatrices. Elle avait un taux de mortalité élevé, mais la reine Elizabeth I fut l'une des victimes qui y survécut.",
+            "options": [
+                "Peste bubonique",
+                "Variole",
+                "Diphtérie",
+                "Lèpre"
+            ],
+            "reponse_correcte": "Variole",
+            "explication": "Réponse : Variole. Parmi les autres victimes de la variole figurent Abraham Lincoln et Joseph Staline. Variola est un autre nom pour la variole. Bien que la maladie ait été officiellement déclarée éradiquée, des vaccins contre la variole sont toujours produits en raison de la menace de guerre biologique.",
+            "difficulte": "Facile",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "2. Lequel des éléments suivants est un signe courant d'empoisonnement à l'alcool ?",
+            "options": [
+                "Œdème",
+                "Surdité",
+                "Perte de cheveux",
+                "Hypothermie"
+            ],
+            "reponse_correcte": "Hypothermie",
+            "explication": "Réponse : Hypothermie L'empoisonnement à l'alcool peut arriver à n'importe qui et est différent de l'alcoolisme, qui est un trouble chronique. Les symptômes de l'empoisonnement à l'alcool sont l'hypothermie, une respiration lente ou irrégulière, une peau ou des lèvres bleuâtres, des vomissements et des convulsions. Un empoisonnement aigu à l'alcool peut entraîner un coma, des lésions cérébrales permanentes et la mort. La consommation rapide et excessive d'alcool est particulièrement dangereuse, car la personne peut boire une quantité mortelle d'alcool avant de perdre connaissance. Il suffit de consommer une boisson de trop.",
+            "difficulte": "Facile",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "4. Un diagnostic de furoncle vous fait étudier une brochure de cercueils. Quel problème médical vous a fait paniquer cette fois-ci ?",
+            "options": [
+                "Points noirs",
+                "Furoncle",
+                "Tache de rousseur",
+                "Cellulite"
+            ],
+            "reponse_correcte": "Furoncle",
+            "explication": "Réponse : Furoncle Les furoncles sont causés par des bactéries, généralement Staphylococcus aureus, qui infectent un follicule pileux, qui se remplit ensuite de pus. Ils doivent généralement être drainés, mais peuvent disparaître spontanément et ne causent normalement pas de problèmes supplémentaires. Un point noir est causé par un excès de sébum qui bloque un follicule pileux. Cela attire ensuite des débris de peau, qui deviennent noirs, d'où le nom commun. Le nom médical est comédon ouvert. Une tache de rousseur est également connue sous le nom grec d'ephelis et est formée par une concentration de mélanine, généralement chez les personnes à la peau claire. La cellulite provoque un aspect capitonné de la peau, souvent sur les cuisses, formé par des poches de graisse sous la peau.",
+            "difficulte": "Facile",
+            "categorie": "🧴 Maladies Dermatologiques"
+        }
+    ]
+}

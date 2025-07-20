@@ -1,0 +1,175 @@
+{
+    "categorie": "🍽️ Maladies Digestives",
+    "difficulte": "Moyen",
+    "questions": [
+        {
+            "question": "2. Quelles sont les principales caractéristiques d'un foie cirrhotique ?",
+            "options": [
+                "fibrose et nécrose",
+                "nécrose et apoptose",
+                "nécrose et formation de nodules",
+                "fibrose et formation de nodules"
+            ],
+            "reponse_correcte": "fibrose et formation de nodules",
+            "explication": "Réponse : fibrose et formation de nodules La cirrhose du foie est une maladie chronique et le processus prend beaucoup de temps avant que les symptômes ne soient réellement ressentis par les individus. Comme il y a eu une atteinte du parenchyme hépatique (tissu fonctionnel du foie) et que les hépatocytes (cellules du foie) sont morts à cause de cette atteinte, le foie se guérit par la fibrose et la régénération. Malheureusement, ces processus peuvent devenir pathologiques. La fibrose tend à limiter la régénération des hépatocytes, formant des nodules sphériques visibles à la surface du foie.",
+            "difficulte": "Moyen",
+            "categorie": "🍽️ Maladies Digestives"
+        },
+        {
+            "question": "4. Quel marqueur tumoral peut confirmer un diagnostic de cancer du côlon ?",
+            "options": [
+                "alpha-foetoprotéine (AFP)",
+                "antigène carcinoembryonnaire (ACE)",
+                "gonadotrophine chorionique humaine (HCG)",
+                "antigène glucidique 19-9 (CA 19-9)"
+            ],
+            "reponse_correcte": "antigène carcinoembryonnaire (ACE)",
+            "explication": "Réponse : antigène carcinoembryonnaire (ACE) L'alpha-foetoprotéine est un marqueur tumoral sérique impliqué dans le carcinome hépatocellulaire (cancer du foie). La gonadotrophine chorionique humaine est élevée dans le sérum des femmes enceintes ou des femmes atteintes d'un cancer trophoblastique malin (choriocarcinome). L'antigène glucidique (CA 19-9) est un marqueur tumoral sérique impliqué dans le carcinome pancréatique.",
+            "difficulte": "Moyen",
+            "categorie": "🍽️ Maladies Digestives"
+        },
+        {
+            "question": "3. Les symptômes de la rougeole sont souvent mémorisés sous forme d'une série allitérative commençant par un son dur \"c\". Lequel des éléments suivants n'est PAS un symptôme ?",
+            "options": [
+                "constipation",
+                "coryza",
+                "toux",
+                "conjonctivite"
+            ],
+            "reponse_correcte": "constipation",
+            "explication": "Réponse : constipation Évidemment, l'éruption cutanée est un autre symptôme majeur, mais le son \"c\" manquant est celui des taches de Koplik, qui sont observées très tôt dans la maladie sous forme de petites taches à l'intérieur de la bouche sur la muqueuse des joues. Si le patient ne semble pas malade, ce n'est pas la rougeole - vous vous sentez assez \"mal en point\" si vous l'avez. L'éruption commence à la racine des cheveux et se propage vers le bas.",
+            "difficulte": "Moyen",
+            "categorie": "🍽️ Maladies Digestives"
+        },
+        {
+            "question": "4. L'obstruction intestinale peut être causée par :",
+            "options": [
+                "Toutes les options listées",
+                "Embolie des vaisseaux mésentériques",
+                "Iléus paralytique",
+                "Déséquilibre électrolytique"
+            ],
+            "reponse_correcte": "Toutes les options listées",
+            "explication": "Réponse : Toutes les options listées L'obstruction intestinale peut entraîner une perforation, une péritonite, un choc hypovolémique ou septique et, si elle n'est pas traitée, la mort.",
+            "difficulte": "Moyen",
+            "categorie": "🍽️ Maladies Digestives"
+        },
+        {
+            "question": "5. La maladie de Hirschsprung est :",
+            "options": [
+                "La même chose qu'un volvulus",
+                "Pancréatite",
+                "Un trouble congénital du gros intestin",
+                "Un exemple d'invagination intestinale"
+            ],
+            "reponse_correcte": "Un trouble congénital du gros intestin",
+            "explication": "Réponse : Un trouble congénital du gros intestin La maladie de Hirschsprung (mégacôlon congénital) est caractérisée par l'absence ou la réduction des cellules ganglionnaires parasympathiques dans la paroi colorectale. Cette maladie altère la motilité intestinale et provoque une constipation sévère.",
+            "difficulte": "Moyen",
+            "categorie": "🍽️ Maladies Digestives"
+        },
+        {
+            "question": "3. La maladie de Huntington est une maladie héréditaire. Laquelle des affirmations suivantes NE décrit PAS la maladie ?",
+            "options": [
+                "Mouvements dansants",
+                "Détresse respiratoire au début",
+                "Crises de colère et périodes de dépression suicidaire",
+                "Peut avoir un appétit vorace"
+            ],
+            "reponse_correcte": "Détresse respiratoire au début",
+            "explication": "Réponse : Détresse respiratoire au début La chorée de Huntington est causée par une dégénérescence du cortex cérébral et des noyaux gris centraux. Elle touche généralement les personnes entre 25 et 55 ans, avec un âge moyen d'environ 35 ans. Il n'existe pas de traitement connu pour la maladie de Huntington, et c'est une maladie totalement épuisante à la fois pour le patient et pour l'aidant. Des hallucinations, un comportement paranoïaque et des secousses (légères à violentes) se produisent, la parole devient inintelligible et il y a une perte de contrôle des intestins et de la vessie. La mort survient généralement 10 à 15 ans après le début. Une maladie particulièrement horrible.",
+            "difficulte": "Moyen",
+            "categorie": "🍽️ Maladies Digestives"
+        },
+        {
+            "question": "8. La maladie de Crohn affecte le plus souvent quelles zones du tractus gastro-intestinal ?",
+            "options": [
+                "Intestin grêle et gros intestin",
+                "Œsophage et estomac",
+                "Côlon et rectum",
+                "Duodénum et jéjunum"
+            ],
+            "reponse_correcte": "Intestin grêle et gros intestin",
+            "explication": "Réponse : Intestin grêle et gros intestin La maladie de Crohn est une affection inflammatoire récurrente qui peut affecter n'importe quelle zone du tractus gastro-intestinal, de la bouche à l'anus. Cependant, dans la majorité des cas, ce sont l'intestin grêle et le gros intestin qui sont principalement touchés. Les parents, frères et sœurs ou enfants des personnes atteintes de la maladie de Crohn sont plus susceptibles de développer la maladie de Crohn que les autres.",
+            "difficulte": "Moyen",
+            "categorie": "🍽️ Maladies Digestives"
+        },
+        {
+            "question": "5. Sarah a des règles très douloureuses et des douleurs persistantes dans la région de son bassin et du bas du dos. De quelle condition pourrait-elle souffrir ?",
+            "options": [
+                "endométriose",
+                "endocardite",
+                "ebola",
+                "ésotropie"
+            ],
+            "reponse_correcte": "endométriose",
+            "explication": "Réponse : endométriose L'endométriose est une condition médicale qui affecte l'utérus chez les femmes. Elle survient lorsque la muqueuse de l'utérus se développe dans d'autres zones, comme derrière l'utérus ou sur les ovaires, les intestins ou la vessie. Lorsque cela se produit, des règles abondantes, des douleurs et l'infertilité peuvent en résulter. Certaines femmes peuvent ne pas réaliser qu'elles ont cette condition jusqu'à ce qu'elles aient des difficultés à tomber enceintes. Les analgésiques et les hormones peuvent aider les personnes atteintes de cette condition, mais certains cas graves nécessitent une intervention chirurgicale. Il existe également des traitements qui peuvent aider les femmes atteintes d'endométriose à tomber enceintes.",
+            "difficulte": "Moyen",
+            "categorie": "🍽️ Maladies Digestives"
+        },
+        {
+            "question": "3. J'ai besoin d'aide ! Je suis allé chez le médecin pour des problèmes digestifs, et elle a dit que j'avais la \"maladie du taxi idiot\" ! Je ne conduis pas de taxi ! Quelle maladie auto-immune affectant la paroi de l'intestin grêle pourrais-je avoir ?",
+            "options": [
+                "Maladie cœliaque",
+                "Maladie de la silice",
+                "Maladie des coliques",
+                "Maladie des cils"
+            ],
+            "reponse_correcte": "Maladie cœliaque",
+            "explication": "Réponse : Maladie cœliaque. La maladie cœliaque, également appelée \"sprue\" ou \"intolérance au gluten\", affecte les villosités de la paroi de l'intestin grêle, empêchant l'absorption correcte de certains aliments. Elle est associée à la consommation de céréales contenant du gluten. Les symptômes varient, mais les douleurs abdominales, la diarrhée et d'autres troubles gastro-intestinaux sont typiques. Le traitement consiste à suivre un régime strict sans gluten.",
+            "difficulte": "Moyen",
+            "categorie": "🍽️ Maladies Digestives"
+        },
+        {
+            "question": "4. J'ai besoin d'aide ! J'ai des problèmes digestifs chroniques, et le médecin dit que mes voyelles pourraient être de mauvaise humeur. Elle a épelé \"IBS\" pour que les voyelles ne l'entendent pas. Elle doit avoir un doctorat en linguistique plutôt qu'en médecine. Quel syndrome intestinal pourrais-je avoir ?",
+            "options": [
+                "Syndrome des haricots insupportables",
+                "Syndrome infectieux du corps",
+                "Syndrome du côlon irritable",
+                "Situation inflammatoire de l'intestin"
+            ],
+            "reponse_correcte": "Syndrome du côlon irritable",
+            "explication": "Réponse : Syndrome du côlon irritable. Les patients souffrant du SCI (syndrome du côlon irritable) peuvent souffrir davantage car le nom de leur maladie semble si trivial qu'il peut être rejeté comme étant dans leur tête, même par les médecins. Le stress et la réponse du cerveau à la douleur continue jouent un rôle, provoquant des spasmes intestinaux, d'où le terme alternatif \"colite spasmodique\". Les douleurs abdominales et les problèmes intestinaux sont débilitants et peuvent interférer avec le travail et les relations.",
+            "difficulte": "Moyen",
+            "categorie": "🍽️ Maladies Digestives"
+        },
+        {
+            "question": "9. Un homme de 88 ans est progressivement devenu très ictérique. Il a remarqué que son urine est très foncée et a perdu environ 8 kg au cours des 6 derniers mois. Il n'a pas de douleurs abdominales.",
+            "options": [
+                "Cancer du foie",
+                "Cholélithiase (calculs biliaires)",
+                "Cancer du pancréas",
+                "Hépatite A"
+            ],
+            "reponse_correcte": "Cancer du pancréas",
+            "explication": "Réponse : Cancer du pancréas. L'ictère et l'urine foncée suggèrent une obstruction du système biliaire après qu'il a quitté le foie. Dans ce cas, l'absence de douleur rend les calculs biliaires peu probables. L'histoire de perte de poids et l'âge du monsieur sont des facteurs fortement impliquants pour un cancer.",
+            "difficulte": "Moyen",
+            "categorie": "🍽️ Maladies Digestives"
+        },
+        {
+            "question": "1. Lequel de ces organes peut se régénérer ?",
+            "options": [
+                "Les reins",
+                "Le cerveau",
+                "Le foie",
+                "Le cœur"
+            ],
+            "reponse_correcte": "Le foie",
+            "explication": "Réponse : Le foie. Cette propriété permet à une personne vivante de donner une partie de son foie et de se rétablir.",
+            "difficulte": "Moyen",
+            "categorie": "🍽️ Maladies Digestives"
+        },
+        {
+            "question": "3. Vous pensez qu'il est temps de commencer à écrire votre testament lorsque vous découvrez que vous souffrez de dyspepsie. Comment appelle-t-on cela plus couramment ?",
+            "options": [
+                "Rots",
+                "Gastro-entérite",
+                "Indigestion",
+                "Nausées"
+            ],
+            "reponse_correcte": "Indigestion",
+            "explication": "Réponse : Indigestion Ce terme a également des origines grecques, avec « dys » signifiant mauvais et « pepsis » signifiant digestion. Les symptômes incluent des douleurs, des ballonnements et une sensation de satiété, et peuvent être soulagés en prenant des antiacides pour neutraliser les acides gastriques. Parfois, les symptômes peuvent être causés par un ulcère peptique ou même un cancer, donc vos craintes pourraient être réalistes cette fois. La gastro-entérite est une inflammation de l'estomac et de l'intestin grêle, provoquant des vomissements et de la diarrhée, et les nausées sont la sensation d'avoir besoin de vomir. Les rots impliquent l'expulsion de gaz par la bouche et sont également connus sous le nom d'éructations.",
+            "difficulte": "Moyen",
+            "categorie": "🍽️ Maladies Digestives"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "categorie": "❤️ Maladies Cardiovasculaires",
+    "difficulte": "Difficile",
+    "questions": [
+        {
+            "question": "5. Ah, quelle belle journée à explorer les paysages de la Vallée de la Mort. Soudain, vous entendez un bourdonnement étrange et ressentez une douleur vive à la cheville. Un crotale vous a mordu. Votre ami appelle rapidement à l'aide. À l'hôpital, un traitement spécial est administré pour contrer le venin. Que vous injecte-t-on par voie intraveineuse pour vous sauver la vie ?",
+            "options": [
+                "antivenin",
+                "prozac",
+                "antitoxine",
+                "phénol"
+            ],
+            "reponse_correcte": "antivenin",
+            "explication": "Réponse : antivenin. Le nom technique de l'antivenin pour les crotales est l'antivenin polyvalent crotalidé, qui fonctionne pour tous les crotales d'Amérique du Nord. Il existe de nombreux sérums antivenimeux spécifiques à des serpents (monovalents) ou à des groupes de serpents (polyvalents). La rapidité du traitement est essentielle pour survivre à une morsure de serpent.",
+            "difficulte": "Difficile",
+            "categorie": "❤️ Maladies Cardiovasculaires"
+        },
+        {
+            "question": "10. Bien que rare, l'hypervitaminose est généralement causée par l'ingestion excessive de compléments vitaminiques.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "reponse_correcte": "Vrai",
+            "explication": "Réponse : Vrai L'hypervitaminose est essentiellement un surdosage de vitamines. Elle est très rarement causée par une surconsommation de nourriture, mais plutôt par la prise excessive de compléments vitaminiques et minéraux. Les symptômes varient selon la vitamine ou le minéral dont le niveau est trop élevé. La mort peut survenir, mais elle est rare. L'hypervitaminose est généralement due à un excès de vitamines liposolubles plutôt qu'hydrosolubles. Des niveaux élevés de vitamine A peuvent entraîner une perte de cheveux, de l'ostéoporose et une hypertension intracrânienne. Un excès de vitamine D peut provoquer une calcification des os et des tissus mous comme le cœur et les reins. Des niveaux excessifs de vitamine E peuvent entraîner des saignements excessifs, une hypothyroïdie et une peau tachetée. Prenez uniquement la dose recommandée sur l'emballage, car trop de comprimés de vitamines et de minéraux n'est pas bon pour votre santé.",
+            "difficulte": "Difficile",
+            "categorie": "❤️ Maladies Cardiovasculaires"
+        }
+    ]
+}

@@ -1,0 +1,769 @@
+{
+    "categorie": "🦴 Maladies Musculo-squelettiques",
+    "difficulte": "Moyen",
+    "questions": [
+        {
+            "question": "2. Quelle est l'évolution typique des patients atteints de fibrodysplasie ossifiante progressive ?",
+            "options": [
+                "Ils développent une très longue chevelure.",
+                "Ils deviennent incapables de bouger.",
+                "Ils perdent toutes leurs dents de manière répétée.",
+                "Ils souffrent de hoquets incontrôlables."
+            ],
+            "reponse_correcte": "Ils deviennent incapables de bouger.",
+            "explication": "Réponse : Ils deviennent incapables de bouger. Cette maladie entraîne une croissance excessive d’os et de tissus conjonctifs, finissant par immobiliser totalement le patient.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "10. Pendant la Seconde Guerre mondiale, le « pied plat » était une raison pour le Service Sélectif de qualifier une personne comme 4F, c'est-à-dire inacceptable pour le service militaire. Quel est le nom scientifique de cette condition ?",
+            "options": [
+                "coqueluche",
+                "pyrexie",
+                "priapisme",
+                "pes planus"
+            ],
+            "reponse_correcte": "pes planus",
+            "explication": "Réponse : pes planus Le pes planus, appelé PP dans le monde scientifique, est, selon WebMD, « une condition dans laquelle l'arche longitudinale du pied, qui s'étend longitudinalement le long de la plante du pied, ne s'est pas développée normalement... Un pied ou les deux pieds peuvent être affectés ». Il peut être causé génétiquement, par une blessure ou par une maladie, par exemple l'arthrite, un accident vasculaire cérébral, le diabète ; la plupart des enfants naissent avec des pieds plats jusqu'à ce que l'« arche longitudinale » se développe normalement, entre l'âge de trois et cinq ans. Les changements dans les conditions de vie comme la prise de poids ou un environnement de travail différent peuvent causer de la douleur à ceux qui n'ont généralement pas de PP, alors portez de bonnes chaussures, emmenez ces arches tombées aux « arches dorées » et asseyez-vous !",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "3. Toutes les complications suivantes peuvent survenir si une personne se fracture le tibia ou le fémur. Mais laquelle des complications suivantes est une complication grave et potentiellement mortelle qui peut survenir immédiatement après une fracture grave ?",
+            "options": [
+                "Embolie graisseuse",
+                "Myosite ossifiante",
+                "Mauvaise consolidation",
+                "Ostéomyélite"
+            ],
+            "reponse_correcte": "Embolie graisseuse",
+            "explication": "Réponse : Embolie graisseuse La mauvaise consolidation est la condition où les deux extrémités fracturées de l'os ne parviennent pas à se ressouder après une période d'immobilisation et de soins appropriés. La myosite ossifiante se produit lorsqu'il y a une calcification au niveau des sites de lésion musculaire pendant la guérison. L'ostéomyélite peut être due à une infection des sites de fracture en raison de soins inappropriés. Toutes ces complications peuvent survenir longtemps après la fracture et ne sont pas mortelles. L'embolie graisseuse peut survenir peu de temps après un incident traumatique et est potentiellement mortelle. Elle se présente avec une augmentation du rythme cardiaque (tachycardie), une augmentation du rythme respiratoire (tachypnée) et une température élevée. Un signe pathognomonique du syndrome d'embolie graisseuse est la présence d'une éruption pétéchiale sur la poitrine, le cou, les aisselles, la muqueuse buccale et les épaules. Tout cela est dû aux dommages causés par les acides gras libres qui endommagent les cellules des vaisseaux sanguins, et l'insuffisance respiratoire est généralement la cause de décès. Il est important d'immobiliser une personne après une fracture. La personne doit ensuite être transportée à l'hôpital où elle doit être surveillée et traitée de manière appropriée.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "24. Vous saviez que cette question concernerait les rayons X ! Lequel des types de procédures radiographiques suivantes entraîne la plus grande dose de radiation pour le patient ?",
+            "options": [
+                "scanner abdominal (tomodensitométrie)",
+                "lavement baryté (radiographies de contraste du côlon)",
+                "UIV (urographie intraveineuse, étude des reins avec colorant)",
+                "radiographie pulmonaire (vue de face et de profil)"
+            ],
+            "reponse_correcte": "scanner abdominal (tomodensitométrie)",
+            "explication": "Réponse : scanner abdominal (tomodensitométrie) La dose de radiation des rayons X est mesurée en millisieverts. L'exposition annuelle due à la radiation de fond est d'environ 3 mSv/an. Un scanner abdominal est d'environ 10 mSv, soit environ 3 ans de radiation. Une UIV génère environ 1,5 à 2,5 mSv, une radiographie pulmonaire environ 0,1 mSv et un lavement baryté est une autre grosse dose à 7 mSv. (Ces doses varient quelque peu en fonction de la taille de la personne, du nombre d'images prises et d'autres variables.) Voler un avion à travers les États-Unis équivaut à environ une radiographie pulmonaire, mais pas autant que les autres études.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "8. Lequel des éléments suivants n'est PAS un symptôme du choléra ?",
+            "options": [
+                "appendicite",
+                "diarrhée",
+                "maux de tête",
+                "vomissements"
+            ],
+            "reponse_correcte": "appendicite",
+            "explication": "Réponse : appendicite Le choléra provoque tous ces symptômes SAUF l'appendicite. L'appendice est juste un vestige de nos ancêtres. S'il s'enflamme, il doit être retiré.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "5. Les nodules d'Heberden et de Bouchard sont des signes de quelle maladie ?",
+            "options": [
+                "Goutte",
+                "Arthrose",
+                "Ostéomyélite",
+                "Maladie de Paget"
+            ],
+            "reponse_correcte": "Arthrose",
+            "explication": "Réponse : Arthrose Ces nodules sont généralement durs et indolores et apparaissent généralement sur les côtés et près de l'extrémité des doigts. Ils contiennent de l'os et du cartilage et surviennent généralement chez les personnes d'âge moyen et âgées atteintes d'arthrose.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "6. Un signe de Brudzinski positif peut indiquer quelle maladie ?",
+            "options": [
+                "Caillot sanguin",
+                "Pancréatite",
+                "Fracture cervicale",
+                "Méningite"
+            ],
+            "reponse_correcte": "Méningite",
+            "explication": "Réponse : Méningite Le patient est placé en position couchée, le médecin place ses mains derrière le cou du patient et le fléchit vers l'avant. S'il y a de la douleur et de la résistance, cela peut indiquer une inflammation méningée, une blessure au cou ou de l'arthrite. Mais si le patient fléchit également ses genoux et ses hanches en réponse au mouvement du cou, il y a de fortes chances qu'il ait une méningite. Ce n'est qu'un outil de diagnostic.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "1. Le pédiatre a palpé cette masse en forme de saucisse dans l'abdomen (quadrant supérieur droit) d'un nourrisson.",
+            "options": [
+                "Signe de Dance",
+                "Signe de Dahl",
+                "Signe de Dalrymple",
+                "Signe de Darier"
+            ],
+            "reponse_correcte": "Signe de Dance",
+            "explication": "Réponse : Signe de Dance Le signe de Dance est considéré comme un signe pathognomonique de l'invagination intestinale (télescopage d'une partie de l'intestin dans une autre). L'invagination intestinale survient généralement pour des raisons inconnues chez les nourrissons de moins d'un an. Le signe de Dance ne peut pas être palpé si le nourrisson pleure car les muscles abdominaux sont tendus. Le taux de mortalité augmente rapidement si le traitement n'est pas administré immédiatement dans les 24 heures suivant l'invagination. L'invagination intestinale est caractérisée par des cris perçants, des douleurs abdominales sévères, des vomissements de liquide teinté de bile, du mucus sanglant dans les selles et des selles en gelée de groseille.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "2. M. Pacific a remarqué cette petite saillie osseuse sur l'articulation distale de l'index de son ami.",
+            "options": [
+                "Nodules de Gandy-Gamma",
+                "Signe de Hoffman",
+                "Nodule d'Heberden",
+                "Corps de Gamma-Favre"
+            ],
+            "reponse_correcte": "Nodule d'Heberden",
+            "explication": "Réponse : Nodule d'Heberden Les nodules d'Heberden sont souvent observés chez les personnes atteintes d'arthrose (OA), généralement au niveau des articulations interphalangiennes distales des doigts. Ils résultent du développement d'éperons calcifiés du cartilage articulaire. Les gènes jouent un rôle important dans la formation de la maladie. L'arthrose affecte principalement les articulations portantes. À mesure que la maladie progresse, la douleur survient avec un léger mouvement ou même au repos.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "3. Mama Mia a observé que son fils de quatre ans s'appuie toujours sur ses mains pour se lever.",
+            "options": [
+                "Signe de Gunn",
+                "Signe de Grey-Turner",
+                "Signe de Gordon",
+                "Signe de Gower"
+            ],
+            "reponse_correcte": "Signe de Gower",
+            "explication": "Réponse : Signe de Gower Le signe de Gower est un signe classique de la dystrophie musculaire de Duchenne. La dystrophie musculaire de Duchenne est une maladie génétique qui affaiblit les muscles proches du tronc, des hanches et des épaules. Les personnes atteintes ont des difficultés à se lever d'une position assise ou allongée. La maladie est à vie et touche généralement les hommes. La faiblesse apparaît dans la petite enfance.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "4. Il y a eu une contraction des muscles du visage de M. Unmentionable après un léger tapotement sur le nerf facial devant le tragus de l'oreille.",
+            "options": [
+                "Signe de Crowe",
+                "Signe de Chadwick",
+                "Signe de Cullen",
+                "Signe de Chvostek"
+            ],
+            "reponse_correcte": "Signe de Chvostek",
+            "explication": "Réponse : Signe de Chvostek Le signe de Chvostek est le résultat d'une hyperexcitabilité des nerfs. Il indique généralement un faible taux de calcium sérique (hypocalcémie) ou un faible taux de magnésium sérique (hypomagnésémie). L'hypothyroïdie peut provoquer une hypocalcémie. L'alcoolisme peut provoquer une hypomagnésémie.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "7. Un claquement a été entendu lorsque le pédiatre a abducté la hanche d'un nourrisson de neuf mois alors que la jambe était soulevée vers l'avant.",
+            "options": [
+                "Signe d'Oppenheimer",
+                "Signe d'Ortolani",
+                "Signe d'Osler",
+                "Signe d'Osborn"
+            ],
+            "reponse_correcte": "Signe d'Ortolani",
+            "explication": "Réponse : Signe d'Ortolani Le signe d'Ortolani indique une hanche disloquée chez les nourrissons. Généralement, les nourrissons de sexe féminin sont touchés. Environ 80 à 95 % des nourrissons atteints ont un développement normal de la hanche s'ils sont diagnostiqués et traités avant l'âge de six mois.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "10. M. Wonderful a été choqué de voir ces cicatrices et abrasions sur le dos des mains de sa petite amie.",
+            "options": [
+                "Signe de Romberg",
+                "Signe de Romana",
+                "Signe de Russell",
+                "Signe de Riesman"
+            ],
+            "reponse_correcte": "Signe de Russell",
+            "explication": "Réponse : Signe de Russell Le signe de Russell est une découverte dermatologique chez les personnes atteintes de boulimie résultant de tentatives manuelles pour provoquer des vomissements. D'autres manifestations physiques de la boulimie incluent des joues gonflées \"comme celles d'un écureuil\" causées par des vomissements répétés, une décoloration des dents due à l'exposition à l'acide gastrique lors des vomissements et des fluctuations de poids. Ces signes ont été nommés d'après les personnes suivantes : Jean Baptiste Hippolyte Dance, un pathologiste français William Heberden, un médecin anglais William Richard Gower, un neurologue britannique Frantisek Chvostek, un médecin militaire tchèque-autrichien Pierre Bitot, un médecin français Theodore Rumpel, un chirurgien allemand Carl Stockbridge Leede, un médecin américain Marino Ortolani, un pédiatre italien Jean Lhermitte, un neurologue et neuropsychiatre français Jean Martin Charcot, un neurologue français Gerald Russell, un psychiatre britannique Merci d'avoir joué.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "7. Le terme néphrolithiase fait référence à laquelle des options suivantes ?",
+            "options": [
+                "Calculs biliaires",
+                "Calculs rénaux",
+                "Kystes rénaux",
+                "Néphrose lipoïdique"
+            ],
+            "reponse_correcte": "Calculs rénaux",
+            "explication": "Réponse : Calculs rénaux Les calculs biliaires sont appelés cholélithiase. Il existe plusieurs troubles impliquant des kystes dans les reins et la néphrose lipoïdique est une maladie impliquant la membrane glomérulaire du néphron.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "9. La paracentèse est une procédure utilisée pour faire quoi ?",
+            "options": [
+                "Retirer des calculs rénaux",
+                "Drainer le liquide des poumons en cas d'épanchement pleural",
+                "Gratter les débris des sinus pendant une intervention chirurgicale",
+                "Drainer le liquide ascitique de la cavité péritonéale"
+            ],
+            "reponse_correcte": "Drainer le liquide ascitique de la cavité péritonéale",
+            "explication": "Réponse : Drainer le liquide ascitique de la cavité péritonéale Une aiguille de gros calibre est insérée dans la cavité péritonéale. Jusqu'à 15 litres de liquide peuvent être drainés parfois !",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "4. Vous venez de lancer cinquante passes lors d'un match de football victorieux, mais le lundi, votre bursite à l'épaule vous fait vraiment souffrir. Le médecin de l'équipe dit qu'il peut vous soigner pour dimanche prochain. Il sort une longue aiguille pour s'assurer qu'elle atteint l'articulation. Le médecin sourit et dit : \"Cela pourrait faire un peu mal.\" Quel est le nom du médicament anti-inflammatoire qu'il a injecté ?",
+            "options": [
+                "novocaïne",
+                "cortisone",
+                "démérol",
+                "lidocaïne"
+            ],
+            "reponse_correcte": "cortisone",
+            "explication": "Réponse : cortisone. La cortisone est utilisée pour réduire l'inflammation, non seulement pour la bursite de l'épaule, mais aussi pour le tennis elbow, l'arthrite et le syndrome du canal carpien. Ce n'est pas un analgésique, mais elle est souvent mélangée à de la lidocaïne ou de la marcaine pour soulager la douleur.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "10. Une personne s'effondre soudainement dans la rue. Lorsque les secours arrivent, ils préparent une seringue et injectent un médicament. Quel médicament est administré pour tenter de réanimer la victime d'un arrêt cardiaque ?",
+            "options": [
+                "caféine",
+                "adrénaline",
+                "nicotine",
+                "quinine"
+            ],
+            "reponse_correcte": "adrénaline",
+            "explication": "Réponse : adrénaline. L'adrénaline, également appelée épinéphrine, est le médicament le plus couramment utilisé pour traiter rapidement un arrêt cardiaque. Des doses sont administrées toutes les trois minutes. Le temps est crucial pour réanimer une victime de crise cardiaque. Il est également essentiel que quelqu'un pratique la RCP en attendant les secours.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "2. Parce que je suis ta sœur, tu m'appelles et me dis que ton mari a soudainement du mal à articuler, a des problèmes d'équilibre et dit qu'il ressent un engourdissement dans son bras gauche. Quand tu me demandes ce qui pourrait lui arriver, que te dis-je ?",
+            "options": [
+                "Il est encore ivre",
+                "Vérifie-le demain",
+                "Il doit être surmené et fatigué",
+                "Il a peut-être fait un AVC"
+            ],
+            "reponse_correcte": "Il a peut-être fait un AVC",
+            "explication": "Réponse : Il a peut-être fait un AVC. Ce sont les symptômes classiques d'un accident vasculaire cérébral (AVC), accompagnés de problèmes de vision et de maux de tête sévères. Je te dis également d'appeler immédiatement les services d'urgence, car plus un AVC est traité rapidement, meilleur est le pronostic.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "4. Ma mère vient me rendre visite et me confie que mon père semble avoir des problèmes. Quand je lui demande ce qu'il en est, elle me dit qu'il a du mal à se souvenir de certaines choses, qu'il cherche souvent ses mots, qu'il semble désorienté par moments et qu'il paraît déprimé. Je reconnais que mon père souffre probablement de quelle maladie ?",
+            "options": [
+                "Ostéoporose",
+                "Démence",
+                "VIH/SIDA",
+                "Arthrite"
+            ],
+            "reponse_correcte": "Démence",
+            "explication": "Réponse : Démence. Les symptômes indiquent clairement une démence. Quand je demande à ma mère si mon père a également des difficultés à s'organiser, à résoudre des problèmes, semble agité et a parfois des hallucinations, elle me dit que c'est le cas. Bien que je lui recommande de l'emmener chez un gériatre dès que possible, je ne lui dis pas que la démence est incurable et généralement progressive.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "6. J'ai invité mon père à regarder le Super Bowl sur mon énorme télévision 3D. À son arrivée, il me confie qu'il a des problèmes de vision, notamment une vue trouble, des difficultés à voir la nuit et des \"halos\" autour des lumières. Après le match, que je lui suggère-t-il comme problème possible ?",
+            "options": [
+                "Un besoin de nouvelles lunettes",
+                "Dégénérescence maculaire",
+                "Cataractes",
+                "Conjonctivite"
+            ],
+            "reponse_correcte": "Cataractes",
+            "explication": "Réponse : Cataractes. Ses symptômes correspondent à des cataractes. Je l'encourage à prendre rendez-vous avec un ophtalmologiste dès que possible. Je lui dis également qu'une chirurgie au laser peut généralement \"guérir\" ses cataractes en remplaçant le cristallin de l'œil. Les halos autour des lumières peuvent également être associés au glaucome, mais les autres symptômes correspondent aux cataractes.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "10. Après avoir été de l'autre côté du continent pendant de nombreuses années, je me rends sur la côte est pour rendre visite à ma grand-mère de 85 ans. Je remarque, bien sûr, qu'elle a beaucoup vieilli depuis la dernière fois. Je vois également qu'elle est voûtée, courbée et semble beaucoup plus petite que la dernière fois que je l'ai vue. De quoi je pense-t-elle qu'elle souffre ?",
+            "options": [
+                "Arthrite",
+                "Malnutrition",
+                "Scorbut",
+                "Ostéoporose"
+            ],
+            "reponse_correcte": "Ostéoporose",
+            "explication": "Réponse : Ostéoporose. Cela semble être un cas classique d'ostéoporose. Cette maladie n'a pratiquement aucun symptôme jusqu'à ce qu'elle se manifeste et n'a pas de remède. Je serre ma grand-mère dans mes bras et mange le modeste repas qu'elle a préparé avec peine. Je ne laisse pas mes larmes paraître.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "1. Une fièvre, une angine (douleur thoracique), une toux sèche non productive, une dyspnée (essoufflement), un pouls rapide et fort, et une douleur qui irradie de la bordure sous-sternale (processus xiphoïde/diaphragme) vers l'épaule ou le cou, indiquent quel type de diagnostic classique ?",
+            "options": [
+                "Athérosclérose",
+                "Péricardite",
+                "Crise cardiaque",
+                "Tachycardie ventriculaire"
+            ],
+            "reponse_correcte": "Péricardite",
+            "explication": "Réponse : Péricardite. La péricardite signifie une inflammation du péricarde. Le péricarde est une enveloppe de tissu qui recouvre le muscle cardiaque. Cette maladie a deux stades. Le premier stade est caractérisé par de la fièvre, des douleurs thoraciques, une dyspnée, etc. Le deuxième stade est plus grave et nécessite une attention médicale accrue. Une péricardiocentèse (retrait de liquide du péricarde) peut être nécessaire pour éliminer toute accumulation de liquide autour du muscle cardiaque.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "3. Cette condition survient principalement dans les familles d'origine est-européenne, en particulier les Juifs ashkénazes. De quoi s'agit-il ?",
+            "options": [
+                "Maladie de Tay-Sachs",
+                "Syndrome de Down",
+                "Mort subite du nourrisson (MSN)",
+                "Coarctation de l'aorte"
+            ],
+            "reponse_correcte": "Maladie de Tay-Sachs",
+            "explication": "Réponse : Maladie de Tay-Sachs. Il s'agit d'un trouble neurodégénératif héréditaire du métabolisme des lipides (graisses) causé par une déficience de l'enzyme hexosaminidase A, ce qui entraîne une accumulation de sphingolipides dans le cerveau. Cette maladie peut être diagnostiquée in utero (dans l'utérus) par amniocentèse.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "10. Si une personne a un pouls absent dans les deux bras et dans les artères carotides, une paraparésie transitoire, une cécité transitoire et une atrophie des muscles faciaux, quel est le diagnostic le plus probable ?",
+            "options": [
+                "Syndrome de Waterhouse-Friderichsen",
+                "Syndrome de Kawasaki",
+                "Artérite de Takayasu",
+                "Syndrome de Reye"
+            ],
+            "reponse_correcte": "Artérite de Takayasu",
+            "explication": "Réponse : Artérite de Takayasu. L'artérite de Takayasu est une inflammation de l'aorte, de ses principales branches et de l'artère pulmonaire. Si le sang est obstrué dans l'une de ces artères, la mort peut survenir.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "7. Quel est le nom du syndrome dans lequel le muscle pectoral principal est absent ?",
+            "options": [
+                "Syndrome de Poland",
+                "Syndrome de Chine",
+                "Syndrome du Brésil",
+                "Syndrome du Mexique"
+            ],
+            "reponse_correcte": "Syndrome de Poland",
+            "explication": "Réponse : Syndrome de Poland. Le syndrome de Poland est une malformation congénitale affectant le muscle pectoral et la main d'un seul côté du corps. Ce syndrome touche à la fois les hommes et les femmes. La cause de ce syndrome n'était pas connue au début du XXIe siècle. Le muscle pectoral principal est absent d'un côté, et les doigts de la main du même côté sont palmés. Chez les filles, le sein du côté affecté peut être absent, et une chirurgie reconstructrice peut être envisagée. Cette image représente les armoiries de la Pologne.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "2. Cette maladie est une maladie virale contagieuse du système nerveux central (cerveau et moelle épinière). Elle était autrefois connue sous le nom de paralysie infantile, car on croyait à tort qu'elle n'affectait que les enfants. L'une des personnes les plus célèbres atteintes de cette maladie fut Franklin Delano Roosevelt, le 32e président des États-Unis, qui fut confiné à un fauteuil roulant à cause de celle-ci.",
+            "options": [
+                "Poliomyélite",
+                "Ostéomyélite",
+                "Spina bifida",
+                "Tétraplégie"
+            ],
+            "reponse_correcte": "Poliomyélite",
+            "explication": "Réponse : Poliomyélite. La plupart des personnes qui contractent la polio ne finissent pas paralysées. Parmi les célèbres survivants de la polio figurent Alan Alda, Arthur C. Clarke et Jack Nicklaus.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "5. Cette maladie provoque la destruction de la gaine de myéline, une couche graisseuse qui recouvre certaines fibres nerveuses, entraînant de multiples cicatrices qui interfèrent avec la transmission des impulsions nerveuses. Les symptômes peuvent varier considérablement, mais incluent souvent des mouvements raides, saccadés et non coordonnés des muscles. La carrière d'acteur de Richard Pryor a été écourtée par cette maladie.",
+            "options": [
+                "Sclérose en plaques",
+                "Tétanos",
+                "Poliomyélite",
+                "Épilepsie"
+            ],
+            "reponse_correcte": "Sclérose en plaques",
+            "explication": "Réponse : Sclérose en plaques. Parmi les autres célèbres personnes atteintes figurent le regretté Michael Crichton et Annette Funicello. Dans la série télévisée \"À la Maison Blanche\", le personnage de Josiah \"Jed\" Bartlett, le président américain fictif, est diagnostiqué avec la sclérose en plaques. Selon Wikipédia, les intrigues impliquant la SEP ont contribué à éduquer les téléspectateurs sur la nature de cette maladie.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "9. Cette maladie très douloureuse est causée par l'accumulation de cristaux d'acide urique dans les articulations. Un autre nom pour elle est la podagre. Elle a également été connue sous le nom de \"maladie des rois\", et l'un des plus célèbres patients fut le roi Henri VIII.",
+            "options": [
+                "Syphilis",
+                "Goutte",
+                "Ostéomyélite",
+                "Polyarthrite rhumatoïde"
+            ],
+            "reponse_correcte": "Goutte",
+            "explication": "Réponse : Goutte. La goutte est une forme d'arthrite. Les symptômes sont la douleur, le gonflement, la chaleur, la rougeur et la raideur des articulations. Traditionnellement, elle a été considérée comme une maladie des riches oisifs qui abusent des aliments riches et de l'alcool, en particulier du porto. Cependant, bien que certains aliments et l'alcool puissent aggraver la maladie, ils ne la causent pas. Parmi les célèbres personnes atteintes de la goutte figurent Isaac Newton, Alfred Lord Tennyson, Karl Marx et Benjamin Franklin.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "5. Quelle partie du corps est étudiée par un EMG ?",
+            "options": [
+                "Cerveau",
+                "Muscles",
+                "Sang",
+                "Cœur"
+            ],
+            "reponse_correcte": "Muscles",
+            "explication": "Réponse : Muscles. Un EMG est un électromyogramme. Il mesure l'activité électrique dans les muscles. Il peut détecter des troubles tels que la polymyosite.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "8. Roger, le conteur roumain de 60 ans, adore son match de tennis hebdomadaire et sa séance de vantardise avec les garçons, mais malheureusement, il n'a pas joué récemment. Il se plaignait d'une douleur de picotement et d'engourdissement affectant les côtés de son pouce et de ses trois premiers doigts, alors il est allé à la clinique de physiothérapie locale pour un diagnostic. La zone charnue à la base de son pouce semblait faible et moins tonique qu'avant. Rick était tellement furieux parce qu'il ne pouvait pas frapper la balle sans ressentir de douleur dans sa main. De quelle condition souffrait-il probablement ?",
+            "options": [
+                "Syndrome du canal carpien",
+                "Polyarthrite rhumatoïde",
+                "Capsulite rétractile",
+                "Bursite"
+            ],
+            "reponse_correcte": "Syndrome du canal carpien",
+            "explication": "Réponse : Syndrome du canal carpien. Le syndrome du canal carpien (SCC) affecte la zone du poignet où le nerf médian passe à travers le canal carpien. Dans cette zone se trouvent les os du carpe et une bande fibreuse appelée \"rétinaculum des fléchisseurs\". L'espace dans le canal est réduit, donc le nerf médian est comprimé, et une douleur de picotement et un engourdissement peuvent être ressentis dans le pouce et les deux ou trois premiers doigts. Les muscles alimentés par le nerf médian sont affectés, et une tension et un gonflement des doigts peuvent être ressentis. Le SCC peut être causé par un traumatisme dans la zone ou par de l'arthrite dans l'articulation du poignet, ce qui peut entraîner une inflammation et un gonflement du tendon dans le canal carpien. Des attelles peuvent être portées la nuit pour empêcher le mouvement de l'articulation du poignet, soulageant ainsi la pression sur la zone enflammée. Les injections de corticostéroïdes et la chirurgie sont également des moyens de traiter ce problème.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "9. Quelle maladie dégénérative a été nommée d'après le chirurgien anglais qui a été le premier à faire une description détaillée de la maladie dans un article intitulé \"Un essai sur la paralysie agitante\" ?",
+            "options": [
+                "Chorée de Sydenham",
+                "Maladie de Parkinson",
+                "Maladie de Wilson",
+                "Paralysie de Bell"
+            ],
+            "reponse_correcte": "Maladie de Parkinson",
+            "explication": "Réponse : Maladie de Parkinson. En 1817, James Parkinson a publié \"Un essai sur la paralysie agitante\", qui est devenu son œuvre médicale la plus durable. Dans cet essai, Parkinson a détaillé les cas de six patients qui présentaient les symptômes classiques de ce qui était alors connu sous le nom de \"paralysie agitante\" ou \"paralysie tremblante\". Ce n'est que des années après la mort de Parkinson que la maladie a été appelée maladie de Parkinson, un nom adopté par Jean-Martin Charcot dans les années 1860. Une maladie dégénérative du système nerveux central, la maladie de Parkinson est caractérisée par un tremblement qui se propage lentement, une rigidité musculaire, des troubles de la parole et des compétences motrices, ainsi qu'une démarche caractéristique. Parmi les personnes célèbres diagnostiquées avec la maladie de Parkinson figurent Michael J. Fox, Muhammad Ali et l'ancien Premier ministre canadien Pierre Trudeau.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "3. Le phénomène connu sous le nom de 'rage stéroïdienne' peut être observé chez quel groupe de personnes si elles utilisent trop de stéroïdes anabolisants ?",
+            "options": [
+                "Les hommes d'âge moyen",
+                "Toute personne prenant des stéroïdes anabolisants peut présenter ces symptômes",
+                "Les femmes ménopausées",
+                "Les adolescents"
+            ],
+            "reponse_correcte": "Toute personne prenant des stéroïdes anabolisants peut présenter ces symptômes",
+            "explication": "Réponse : Toute personne prenant des stéroïdes anabolisants peut présenter ces symptômes La prise excessive de stéroïdes anabolisants affecte toute personne qui en consomme, homme ou femme, jeune ou âgé. Il existe des problèmes médicaux légitimes traités par ces composés, comme la puberté retardée et les troubles de la croissance. Mais la majorité des personnes qui prennent des stéroïdes anabolisants sont des hommes jeunes ou d'âge moyen qui ne réalisent pas les effets négatifs de leur usage. Ces effets incluent une réduction du nombre de spermatozoïdes, une atrophie des testicules, la perte de cheveux, la rage, la manie et la psychose. Les hommes et les femmes qui utilisent des stéroïdes anabolisants augmentent leur risque de crise cardiaque, d'accident vasculaire cérébral, d'hypertension artérielle, de maladie du foie et de cancer. Bien que la prise de stéroïdes puisse aider les jeunes hommes à développer plus de muscles plus rapidement, les effets à long terme peuvent être catastrophiques pour leur santé. À moins d'être prescrits par un médecin, prendre même une seule dose de stéroïdes anabolisants est une dose de trop.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "8. Le syndrome neurologique connu sous le nom de maladie de Minamata est causé par une surexposition à laquelle des substances suivantes ?",
+            "options": [
+                "Sodium",
+                "Chlorophylle",
+                "Oxygène",
+                "Mercure"
+            ],
+            "reponse_correcte": "Mercure",
+            "explication": "Réponse : Mercure Décrite pour la première fois en 1956 à Minamata, au Japon, cette maladie est une forme d'empoisonnement au mercure. Elle a été causée par le rejet systématique de méthylmercure dans le système d'eau de la ville par une usine chimique locale pendant plus de 35 ans. Les premiers symptômes sont généralement un engourdissement, une ataxie, une faiblesse musculaire et une perte des capacités auditives, d'élocution et de vision. Une exposition continue provoquera une paralysie progressive, une perte de conscience, puis la mort. Le mercure est une substance extrêmement toxique qui peut provoquer une multitude de symptômes en cas d'exposition. Tout contact avec le mercure est un contact de trop.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "3. Le prochain appel du Dr Acula le conduit à l'unité psychiatrique, où il rencontre un patient qui lui dit que des voix lui mettent des idées dans la tête et lui disent de faire des choses qu'il ne veut pas faire. Il semble agité et craintif. Quel est le premier diagnostic auquel le médecin pense ?",
+            "options": [
+                "Trouble de la personnalité multiple",
+                "Schizophrénie",
+                "Dépression",
+                "Trouble bipolaire"
+            ],
+            "reponse_correcte": "Schizophrénie",
+            "explication": "Réponse : Schizophrénie La schizophrénie est un trouble psychotique majeur avec une grande variété de signes et symptômes, notamment des croyances erronées, des hallucinations, une pensée confuse et un comportement social anormal. Elle est traitée par des médicaments et une thérapie.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "4. Le prochain appel du Dr Acula concerne un patient souffrant d'une fracture de Pott. Quelle partie de l'anatomie de ce patient le Dr Acula va-t-il examiner ?",
+            "options": [
+                "Poignet",
+                "Cheville",
+                "Fémur",
+                "Humérus"
+            ],
+            "reponse_correcte": "Cheville",
+            "explication": "Réponse : Cheville Une fracture de Pott est une fracture de la cheville impliquant les deux malléoles. (Les malléoles sont les protubérances osseuses de chaque côté de la cheville, l'interne appartenant au tibia et l'externe à la fibula.) Elle implique généralement une fracture de la fibula distale accompagnée d'une dislocation de l'articulation de la cheville. Elle est nommée d'après le médecin anglais Percivall Pott, qui l'a décrite en 1769.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "5. Pendant que je suis aux urgences, je remarque un médecin soulever la jambe d'un patient allongé sur le dos (en position couchée), et le médecin demande au patient si cette action lui fait mal. Le patient déclare que cela fait très mal, même lorsque sa jambe n'est pas soulevée très haut. Le médecin n'est qu'un interne, alors je propose de servir de comparaison pour lui. Lorsqu'il soulève mes jambes, cela ne me fait pas mal du tout. Quel signe le patient souffrant a-t-il présenté ?",
+            "options": [
+                "Signe de Kehr",
+                "Signe de McMurray",
+                "Signe de Kernig",
+                "Signe de Lasegue"
+            ],
+            "reponse_correcte": "Signe de Lasegue",
+            "explication": "Réponse : Signe de Lasegue Un signe de Lasegue positif (il est considéré comme positif lorsqu'il y a de la douleur) indique que le patient souffre d'une blessure musculo-squelettique au dos. Cela peut être quelque chose comme une hernie discale. Vous pouvez voir ce signe appelé signe de Lazarevich-Laseague dans certains textes, car il a également été décrit par un médecin serbe à peu près à la même époque. Merci à Dobrila de m'en avoir parlé. Vous remarquerez peut-être que beaucoup de choses en médecine portent le nom du médecin qui les a décrites en premier - comme le signe de Cullen, le signe de Kehr et celui-ci, le signe de Lazarevich-Laseague. Il porte ce nom d'après les noms de famille des deux médecins qui l'ont décrit en premier.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "6. Encore un patient souffrant de douleurs abdominales. Il n'y a pas d'ecchymoses visibles, alors je demande au patient si je peux palper (toucher ou presser) son ventre. Comme le patient se plaint de douleurs dans le quadrant supérieur droit (QSD), je vérifie d'abord les trois autres zones. Lorsque je presse son QSD, je demande au patient de respirer profondément. Il respire lentement et profondément, mais il s'arrête de respirer pendant une seconde parce que cela fait trop mal. Quel signe ce patient vient-il de montrer ?",
+            "options": [
+                "Signe de McMurray",
+                "Signe de Murphy",
+                "Signe de Nikolsky",
+                "Signe d'Osler"
+            ],
+            "reponse_correcte": "Signe de Murphy",
+            "explication": "Réponse : Signe de Murphy Le signe de Murphy est un indicateur classique de cholécystite. La cholécystite est une inflammation de la vésicule biliaire, généralement causée par des calculs biliaires. La douleur est causée lorsque le diaphragme qui descend presse la vésicule biliaire enflammée contre mes doigts. Je peux personnellement témoigner de la douleur que cela provoque !",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "8. Le prochain patient est extrêmement froid. J'ai pris sa température, et elle n'est que de 34 degrés Celsius. Indépendamment de la raison ou de la manière dont le patient est devenu aussi froid, à quel trouble cardiaque dois-je être très vigilant et attentif ?",
+            "options": [
+                "Fibrillation auriculaire (FA)",
+                "Rythmes d'échappement jonctionnels",
+                "Contractions ventriculaires prématurées (PVC)",
+                "Fibrillation ventriculaire (FV)"
+            ],
+            "reponse_correcte": "Fibrillation ventriculaire (FV)",
+            "explication": "Réponse : Fibrillation ventriculaire (FV) L'hypothermie est le terme correct lorsque la température corporelle centrale descend en dessous de 35 degrés Celsius. C'est une urgence médicale et le patient nécessite un réchauffement lent et régulier. Les causes de l'hypothermie incluent l'exposition, l'immersion, une septicémie sévère, un traumatisme grave, une surdose de barbituriques et un accident vasculaire cérébral (AVC), également connu sous le nom d'attaque cérébrale.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "9. J'ai vu des policiers demander à une personne de se tenir au garde-à-vous (raide et droite avec les talons joints) et lui demander si elle pouvait fermer les yeux comme test d'ébriété. Si la personne vacille ou tombe, cela peut être considéré comme une indication positive que la personne testée est en état d'ébriété. Cela aussi a un nom. Quel est le nom de ce signe particulier ?",
+            "options": [
+                "Signe de la corde",
+                "Signe de Rogoff",
+                "Signe de Romana",
+                "Signe de Romberg"
+            ],
+            "reponse_correcte": "Signe de Romberg",
+            "explication": "Réponse : Signe de Romberg Un signe de Romberg positif peut indiquer d'autres choses que l'intoxication alcoolique. Cela peut également être un indicateur d'une dégénérescence de la moelle épinière ou d'une lésion de la colonne postérieure. Il est important de se rappeler que certaines choses considérées comme inhabituelles sont en fait normales pour certaines personnes. Saviez-vous que des pupilles inégales (anisocorie) sont normales chez environ 20 % de la population ?",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "10. Certaines personnes qui visitent le site FunTrivia pourraient avoir besoin de consulter un médecin pour un possible syndrome du canal carpien (je pourrais en faire partie). Comme test pour cela, le médecin peut demander au patient de fléchir les poignets. Vous êtes considéré comme ayant testé positif si vous montrez quel signe lorsque cet acte devient douloureux en moins d'une minute ?",
+            "options": [
+                "Signe de Tinel",
+                "Signe de McMurray",
+                "Signe de Patrick",
+                "Signe de Phalen"
+            ],
+            "reponse_correcte": "Signe de Phalen",
+            "explication": "Réponse : Signe de Phalen Un signe de Phalen positif est celui où des picotements ou des douleurs surviennent lorsque les poignets sont fléchis, et il est considéré comme un indicateur du syndrome du canal carpien. Plus cela se produit rapidement (picotements ou douleurs), plus le patient a besoin d'une intervention chirurgicale pour corriger ce trouble. Le signe de Tinel est également associé au syndrome du canal carpien, mais implique que le médecin percute (ou tape) le poignet. N'oubliez pas que ce ne sont que des indications - heureusement, nous ne sommes pas tous pareils, et ce qui est normal pour une personne peut ne pas l'être pour une autre. Aucun signe ne doit être considéré isolément, ils doivent être pris en compte avec les antécédents du patient et la raison de l'appel en premier lieu.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "1. Which of the following parts of the body would be affected by Crohn's disease?",
+            "options": [
+                "The bowel",
+                "The brain",
+                "The eyes",
+                "The heart"
+            ],
+            "reponse_correcte": "The bowel",
+            "explication": "Answer: The bowel Crohn's is a disease of the bowel.  It causes stomach pains, diarrhoea and nausea.  This can lead to weight loss and extreme tiredness.  There is, as yet, no cure for this condition but the symptoms can be eased with medication.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "3. What would you have difficulty doing if you suffered from emphysema?",
+            "options": [
+                "Eating",
+                "Breathing",
+                "Speaking",
+                "Hearing"
+            ],
+            "reponse_correcte": "Breathing",
+            "explication": "Answer: Breathing Emphysema is a lung disease often caused by smoking or exposure to pollution in which the air sacs in the lungs become damaged. This makes it difficult to breathe, which leads to less oxygen being absorbed into the blood stream.  It is characterised by severe coughing, wheezing and fatigue.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "5. Which disease used to be known as consumption?",
+            "options": [
+                "Influenza",
+                "Diptheria",
+                "Tonsilitis",
+                "Tuberculosis"
+            ],
+            "reponse_correcte": "Tuberculosis",
+            "explication": "Answer: Tuberculosis Tuberculosis, or TB as it is often known, is spread by the inhalation of mycobacterium from the tiny droplets from the coughs or sneezes of infected persons.  It can be treated by a long course of antibiotics.  Before the discovery of antibiotics, it was fatal and people took a long time to die of TB. It was often thought of as a romantic disease. For instance Verdi's 'La Traviata' and Puccini's 'La Bohème' both featured heroines who died of consumption.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "7. Where would you feel pain if you were suffering from angina?",
+            "options": [
+                "Stomach",
+                "Back",
+                "Ears",
+                "Chest"
+            ],
+            "reponse_correcte": "Chest",
+            "explication": "Answer: Chest Angina is a pain in the chest which occurs when not enough blood is reaching the heart.  It can be a warning of possible heart attack or stroke. Medical advice should be sought, and it may be that changes in diet or an exercise regime are advised. Medication is also often prescribed.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "1. Mrs. Silva's cousin has been diagnosed with Paget's disease. What part of his body is affected?",
+            "options": [
+                "Vision",
+                "Liver",
+                "Bones",
+                "Muscles"
+            ],
+            "reponse_correcte": "Bones",
+            "explication": "Answer: Bones Paget's disease can affect any bone or multiple bones in the body, never affecting the entire skeleton. Although we think of bones as an inert part of the body, they are in reality living tissue, which is constantly being renewed. Bones are always in a process of renewal where the new tissue gradually replaces the old one, in an orderly and balanced way, always keeping them healthy and firm. In the case of Paget's disease, the bones' renewal process is disrupted and can be much more accelerated than normal, leading to the creation of fragile bones subject to deformities and fractures. The disease is often called Paget's disease of bone to distinguish it from other ailments named for James Paget, a pathologist and surgeon of the nineteenth century.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "3. Mrs. Silva's uncle, 75 years old, has complained that when he gets up in the morning, or when he gets up quickly after some time sitting, he feels a little dizzy and sometimes feels he is going to faint. What is the most likely cause of this symptom?",
+            "options": [
+                "He's going a little crazy",
+                "Episode of orthostatic hypotension",
+                "Brain cancer",
+                "Arterial hypertension"
+            ],
+            "reponse_correcte": "Episode of orthostatic hypotension",
+            "explication": "Answer: Episode of orthostatic hypotension Elderly people are more susceptible to feeling dizzy or lightheaded or even fainting when they stand up quickly. It is a condition in which the blood pressure drops quickly and this fact is called orthostatic hypotension or postural hypotension. These symptoms clear up quickly. When they are very frequent or persist for a long time they may be signalling more serious problems.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "4. Mrs. Silva's sister is feeling a lot of pain in her foot and has the feeling of stepping on a sharp stone. What disease is she probably suffering from?",
+            "options": [
+                "Morton's neuroma",
+                "Heel spur",
+                "Plantar fasciitis",
+                "Bunions"
+            ],
+            "reponse_correcte": "Morton's neuroma",
+            "explication": "Answer: Morton's neuroma Morton's neuroma is a thickening in the ball of the foot. It is a condition that causes a lot of pain, as if the person is standing on a pebble. It happens eight to ten times more in women than in men. High-heeled shoes are sometimes linked to the incidence of this neuroma. Various treatments are indicated for this neuroma: change the type of shoes, use of specially made soft pads, corticosteroid or sclerosing alcohol injections and radio frequency ablation. When the patient does not respond to any of these treatments then foot surgery is indicated.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "5. Mrs. Silva's daughter noticed a change in her health and went to see a doctor. After the examination, the doctor said that she is suffering from anosmia. What kind of problem does she have?",
+            "options": [
+                "Memory loss",
+                "Smell loss",
+                "Vision loss",
+                "Hair loss"
+            ],
+            "reponse_correcte": "Smell loss",
+            "explication": "Answer: Smell loss Anosmia, sometimes called smell blindness, refers to the loss of the ability to smell. It can be a temporary or permanent condition and can be caused by numerous factors. Anosmia can be dangerous, especially in conditions where the patient cannot smell gas or spoiled food. It can be an early sign of degenerative brain disease.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "7. As Mrs. Silva's husband had a lot of pain in his knees and fingers, he went to the doctor and was diagnosed with osteoarthritis, which is a degenerative joint disease.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "reponse_correcte": "True",
+            "explication": "Answer: True The word arthritis is used to mean any disorder that affects joints and its effects are joint pain and stiffness. There are two most common forms of arthritis: rheumatoid arthritis (which is an autoimmune disease) and osteoarthritis which is a degenerative joint disease. Osteoarthritis usually occurs due to age and affects fingers, knees and hips. The disease results from break down of joint cartilage and underlying bone. In general, symptoms will appear over time and treatment includes exercise, reducing stress on the joint, either by using a cane or losing weight when needed, and pain medication. Joint replacement sometimes is a necessary option if there is ongoing disability despite other treatments.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "8. Mrs. Silva's six year old grandson is not going to school because he has head lice, which are highly contagious.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "reponse_correcte": "True",
+            "explication": "Answer: True The medical term for head lice infestation is pediculosis capitis. It is an infectious disease that spreads easily from person to person by close body contact or by sharing personal items. The louse (pl. lice) or their eggs (nits) can be seen on the hair and easily diagnosed. Head lice are a common problem, specially for kids. The tiny parasitic insects commonly live on people's head and are feed by their blood. Their bites can make the scalp itchy. The treatment depends on the patient's age, physical condition and the degree of infestation. Many head lice medicines are available over the counter. One of the safest ways to stop infestation is to use a good lice comb.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "9. Trying to forget all these problems Mrs. Silva decided to make a lunch for her whole family. However, one of the guests choked on the food. Which of these is the best solution to deal with the problem?",
+            "options": [
+                "Lie the person face down",
+                "Apply the Heimlich maneuver",
+                "Give him water to drink",
+                "Lie the person on his back"
+            ],
+            "reponse_correcte": "Apply the Heimlich maneuver",
+            "explication": "Answer: Apply the Heimlich maneuver Choking occurs when an object lodges in the windpipe or throat, blocking the passage of air. To solve the problem, one indicated procedure is the Heimlich maneuver which is also named abdominal thrusts. In this case, the rescuer positions himself behind the patient and exerts sudden and increasingly pressure on the bottom of the diaphragm. Currently the protocol for this type of treatment recommends that the patient first coughs, then hard back slaps are given and finally the abdominal thrust procedures begin. It is necessary to remember that choking prevents oxygen from reaching the brain so the rescue has to be quick.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "2. If the root of your teeth have increased quantity of normal cementum, your teeth appear to be much greater in size. So, which of the following conditions fits these symptoms?",
+            "options": [
+                "Hyperadrenalism",
+                "Hypercalcemia",
+                "Hyperrootemia",
+                "Hypercementosis"
+            ],
+            "reponse_correcte": "Hypercementosis",
+            "explication": "Answer: Hypercementosis Cementum is a calcified substance that surrounds the root of a tooth. It can be a complication of Paget's disease.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "4. What is the medical term for abnormally high sweating?",
+            "options": [
+                "Hypertrichosis",
+                "Hypersweating",
+                "Hyperpersparia",
+                "Hyperhidrosis"
+            ],
+            "reponse_correcte": "Hyperhidrosis",
+            "explication": "Answer: Hyperhidrosis Hyperhidrosis can be localized or generalized. Areas of the body with increased quantities of sweat glands are more susceptible to this condition. It is due to the overactivity of the sympathetic nervous system.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "6. An abnormal alignment of the eyes can be called what?",
+            "options": [
+                "Hyperoculia",
+                "Hyperlensia",
+                "Hypertropia",
+                "Hyperprismia"
+            ],
+            "reponse_correcte": "Hypertropia",
+            "explication": "Answer: Hypertropia Hypertropia is also commonly known as squint or strabismus. A fault in the extra-ocular muscles can lead to this condition. One of its symptoms is the \"lazy eye\". The function of the affected eye is severely reduced.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "7. What disease was first described by Prof. Jos van der Meer?",
+            "options": [
+                "Hyper-IgM syndrome",
+                "Hyper-IgG syndrome",
+                "Hyper-IgA syndrome",
+                "Hyper-IgD syndrome"
+            ],
+            "reponse_correcte": "Hyper-IgD syndrome",
+            "explication": "Answer: Hyper-IgD syndrome He described this disease in 1984. It was the apparent effect of mutation in the gene for mevalonate kinase. Symptoms include: fever, joint pain and skin lesions.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "8. What condition indicates a heightened sense of taste?",
+            "options": [
+                "Hypertastia",
+                "Hyperflavoria",
+                "Hypertonguia",
+                "Hypergeusia"
+            ],
+            "reponse_correcte": "Hypergeusia",
+            "explication": "Answer: Hypergeusia A damage to the posterior fossa of the brain and  Addison's Disease can cause it. The patient has an abnormal craving for salty and sour foods.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "4. In 1902, Mazatlan experienced a lethal epidemic, that caused inflammation of lymphs and fever. Mexican authorities reacted by immediately closing the port and burning infected houses. The disease disappeared after three years, although it claimed the lives of many \"sinaloenses\".\n\nWhich disease, known for being the believed cause of the Black Death, is this?",
+            "options": [
+                "Scarlet fever",
+                "Bubonic plague",
+                "Gonorrhea",
+                "E. coli"
+            ],
+            "reponse_correcte": "Bubonic plague",
+            "explication": "Answer: Bubonic plague Bubonic plague can cause gangrene, fever, cramps and seizures, among other terrible symptoms that derive in death of the infected person within four days if not treated. It is usually transmitted by rodents, mosquitoes or fleas that carry the bacteria. The bacteria, Yersinia pestis, was the pathogen that possibly caused the Black Death, one of the worst pandemics in human history, as it killed millions of people in Europe.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "5. In 1918, an influenza pandemic broke out around the world. Since World War I was reaching its end, soldiers became more susceptible to contract this type of flu, which is believed to have entered Mexico with an American citizen from New York.\n\nWhich nickname did this flu, which infected around 500 million people, receive?",
+            "options": [
+                "Austrian flu",
+                "British flu",
+                "German flu",
+                "Spanish flu"
+            ],
+            "reponse_correcte": "Spanish flu",
+            "explication": "Answer: Spanish flu Because Spain was a neutral country during World War I, it was easier to report the consequences of the flu epidemic in this country than in other nations involved in the conflict, due to censorship. King Alfonso XIII contracted the illness, further expanding the relationship of the sickness to Spain, even though nations like France, Germany and the United States also suffered from the pandemic. It was one of the first influenza pandemics to be recorded. In Mexico, it caused 500,000 deaths, as well as new public health measures, like avoiding congregated places, breathing through the nose instead of through the mouth, and not spitting on the floor.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        },
+        {
+            "question": "9. In Mexico, overweight people represent more than 70% of the population, making the abnormal and excessive accumulation of fats and calories a public health issue. What is this condition known as?",
+            "options": [
+                "Obesity",
+                "Tuberculosis",
+                "Cancer",
+                "Salmonella"
+            ],
+            "reponse_correcte": "Obesity",
+            "explication": "Answer: Obesity Obesity can lead to several other diseases such as diabetes and heart conditions. Mexico has one of the fastest-growing obesity rates in the world, being one of the countries with the most obese people, along with the United States. Consumption of fruits and vegetables replacing processed foods and fats is recommended, as well as having a healthy lifestyle and exercising. The Mexican government has started several campaigns to help reduce obesity, including a new law introduced in 2014 that placed additional taxes on junk food in an attempt to encourage healthy eating habits.",
+            "difficulte": "Moyen",
+            "categorie": "🦴 Maladies Musculo-squelettiques"
+        }
+    ]
+}

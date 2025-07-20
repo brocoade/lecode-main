@@ -1,0 +1,58 @@
+{
+    "categorie": "❤️ Maladies Cardiovasculaires",
+    "difficulte": "Facile",
+    "questions": [
+        {
+            "question": "20. Ce trouble est caractérisé par des tics multiples, des vocalisations aboyantes ou grognantes, et occasionnellement de la coprolalie (cris de mots obscènes). Les enfants atteints ont souvent également des troubles du comportement.",
+            "options": [
+                "Syndrome de Tietze",
+                "Névralgie du trijumeau",
+                "Syndrome de Gilles de la Tourette",
+                "Sclérose tubéreuse"
+            ],
+            "reponse_correcte": "Syndrome de Gilles de la Tourette",
+            "explication": "Réponse : Syndrome de Gilles de la Tourette Les tics simples sont très courants dans l'enfance et disparaissent souvent lentement. Le syndrome de Tourette peut durer toute la vie, mais il est traitable s'il est sévère (les symptômes de nombreuses personnes sont légers et ne nécessitent pas nécessairement de traitement). Les patients atteints ont un taux plus élevé de trouble obsessionnel-compulsif et de trouble déficitaire de l'attention que les enfants non atteints. Une infection streptococcique récente (par exemple, une angine streptococcique) peut induire certains troubles de tics - les études sur cette association sont en cours.",
+            "difficulte": "Facile",
+            "categorie": "❤️ Maladies Cardiovasculaires"
+        },
+        {
+            "question": "1. L'essoufflement de l'oncle de Sofia s'aggrave progressivement, même au repos. Oh non ! Les résultats des tests prouvent qu'il a de l'emphysème. Quelle pourrait en être la cause ?",
+            "options": [
+                "un manque de potassium",
+                "la paresse et un manque total d'exercice",
+                "trop de glucides dans l'alimentation",
+                "le tabagisme régulier à long terme"
+            ],
+            "reponse_correcte": "le tabagisme régulier à long terme",
+            "explication": "Réponse : le tabagisme régulier à long terme L'emphysème est une condition médicale dans laquelle les alvéoles pulmonaires se remplissent d'air, ce qui les endommage. Du tissu cicatriciel peut également se former. Bientôt, les alvéoles se transforment en grandes poches irrégulières avec des trous. La taille du poumon est progressivement réduite, empêchant suffisamment d'oxygène d'entrer dans la circulation sanguine. L'expiration de l'air devient un problème lorsque les petites fibres élastiques qui ouvrent les voies respiratoires menant aux alvéoles sont détruites. Le tabagisme régulier à long terme est la cause la plus fréquente de cette maladie. D'autres causes incluent la consommation de marijuana ou la pollution de l'air, comme les fumées d'usine. Cette condition ne peut pas être guérie, mais le traitement peut atténuer les symptômes et ralentir la progression. Les complications de l'emphysème incluent l'hypertension pulmonaire, le poumon collapsé, l'expansion et l'affaiblissement du cœur et des infections récurrentes. Dans certains cas graves, où toutes les autres options échouent, une transplantation pulmonaire peut être recommandée.",
+            "difficulte": "Facile",
+            "categorie": "❤️ Maladies Cardiovasculaires"
+        },
+        {
+            "question": "2. Un homme de 56 ans présente une apparition soudaine de douleurs thoraciques centrales écrasantes irradiant vers les deux bras et sa mâchoire. Il est essoufflé au repos et incapable de terminer ses phrases.",
+            "options": [
+                "Infarctus du myocarde (crise cardiaque)",
+                "Crise d'asthme sévère",
+                "Ulcère duodénal",
+                "Embolie pulmonaire"
+            ],
+            "reponse_correcte": "Infarctus du myocarde (crise cardiaque)",
+            "explication": "Réponse : Infarctus du myocarde (crise cardiaque). Ce tableau clinique est à nouveau assez classique, cette fois d'un infarctus aigu du myocarde, ou crise cardiaque. L'asthme sévère peut également provoquer des douleurs thoraciques écrasantes et un essoufflement ; cependant, l'irradiation de la douleur vers les bras et la mâchoire est plus fréquente dans les infarctus du myocarde.",
+            "difficulte": "Facile",
+            "categorie": "❤️ Maladies Cardiovasculaires"
+        },
+        {
+            "question": "10. Le ministre de l'Église est venu finaliser les arrangements pour votre service funèbre, ayant entendu le médecin mentionner votre maladie. Vous avez une toux, mais cela semble bien pire lorsqu'elle est décrite comme quoi ?",
+            "options": [
+                "Tussis",
+                "Talipes",
+                "Tachycardie",
+                "Transpiration"
+            ],
+            "reponse_correcte": "Tussis",
+            "explication": "Réponse : Tussis Tussis a une origine latine et fait référence à une légère toux qui est peu susceptible de conduire à votre décès. Le mot apparaît également dans le terme médical pour la maladie plus grave de la coqueluche, communément appelée coqueluche. La tachycardie signifie que le cœur bat trop vite, et la transpiration peut être utilisée comme alternative à la sudation. Le talipes fait référence à une déformation du pied, un type étant le pied bot, et est une condition avec laquelle certains bébés naissent.",
+            "difficulte": "Facile",
+            "categorie": "❤️ Maladies Cardiovasculaires"
+        }
+    ]
+}

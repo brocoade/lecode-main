@@ -1,0 +1,19 @@
+{
+    "categorie": "🌬️ Maladies Respiratoires",
+    "difficulte": "Facile",
+    "questions": [
+        {
+            "question": "8. Les personnes atteintes de cette condition souffrent de défauts dans leur tissu conjonctif et sont généralement grandes et minces avec des membres et des doigts longs. Quel est le nom de ce trouble génétique, nommé d'après le pédiatre français qui a été le premier à faire une description détaillée de la maladie en 1896 ?",
+            "options": [
+                "Syndrome de Marfan",
+                "Syndrome de Donohue",
+                "Syndrome de Morquio",
+                "Syndrome de Winchester"
+            ],
+            "reponse_correcte": "Syndrome de Marfan",
+            "explication": "Réponse : Syndrome de Marfan. En 1896, Antoine Marfan a examiné une fillette de cinq ans nommée Gabrielle et a été frappé par ses membres et doigts disproportionnément longs. Marfan a appelé cette condition \"dolicostenomely\" (du grec pour membres minces) et a utilisé le terme \"pattes d'araignée\" pour décrire les caractéristiques physiques inhabituelles de la patiente lorsqu'il a présenté ses découvertes à la Société Médicale des Hôpitaux de Paris. Au fil du temps, d'autres cas similaires ont été rapportés, et la description de la maladie a été élargie pour inclure des défauts du système cardiovasculaire, des poumons et des yeux. En 1931, la maladie était communément appelée syndrome de Marfan. Si elle n'est pas diagnostiquée et traitée, le syndrome de Marfan peut entraîner une mort subite, le plus souvent due à une rupture de l'aorte. C'est ce qui est arrivé à la médaillée olympique de volley-ball Flo Hyman et au compositeur de \"Rent\" Jonathan Larson. Le compositeur britannique Sir John Tavener a également été diagnostiqué avec le syndrome de Marfan.",
+            "difficulte": "Facile",
+            "categorie": "🌬️ Maladies Respiratoires"
+        }
+    ]
+}

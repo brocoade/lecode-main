@@ -1,0 +1,19 @@
+{
+    "categorie": "🧠 Maladies Neurologiques",
+    "difficulte": "Difficile",
+    "questions": [
+        {
+            "question": "1. Cette maladie est un trouble dégénératif du système nerveux central (le cerveau et la moelle épinière). L'un de ses symptômes les plus connus est un tremblement prononcé. Elle est rare chez les personnes de moins de 60 ans. Parmi les célèbres personnes atteintes de cette maladie figurent Michael J. Fox et Muhammad Ali.",
+            "options": [
+                "Sclérose en plaques",
+                "Épilepsie",
+                "Délirium tremens",
+                "Maladie de Parkinson"
+            ],
+            "reponse_correcte": "Maladie de Parkinson",
+            "explication": "Réponse : Maladie de Parkinson. Ce trouble a été nommé d'après le Dr James Parkinson, un médecin britannique. Parmi les autres célèbres personnes atteintes figurent Billy Graham, Vincent Price et Salvador Dali.",
+            "difficulte": "Difficile",
+            "categorie": "🧠 Maladies Neurologiques"
+        }
+    ]
+}

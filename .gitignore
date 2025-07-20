@@ -1,0 +1,119 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dépendances
+node_modules/
+.pnp
+.pnp.js
+
+# Expo
+.expo/
+dist/
+web-build/
+.expo-shared/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig
+*.ipa
+*.apk
+*.aab
+
+# Metro
+.metro-health-check*
+metro-cache/
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Variables d'environnement et secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+google-services.json
+GoogleService-Info.plist
+
+# Données sensibles médicales (spécifique à Meducare)
+**/patient-data/
+**/medical-records/
+**/*credentials*
+**/*secret*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache
+.eslintcache
+.cache/
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Build
+build/
+ios/build/
+android/build/
+android/app/build/
+android/captures/
+android/.gradle/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+
+# Fichiers de configuration locale
+local.properties
+*.local
+config.local.js
+credentials.json
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Fichiers IDE et éditeurs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime*
+.project
+.classpath
+*.iml
+xcuserdata/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+
+# Tests et couverture
+coverage/
+.nyc_output/
+
+# Spécifique à Expo
+ios/Pods/
+.vercel
+.now
+
+# EAS
+eas-build-pre-install-script.sh
+eas-build-post-install-script.sh
+eas.json
+
+app-example

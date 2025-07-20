@@ -1,0 +1,97 @@
+{
+    "categorie": "🛡️ Maladies Auto-immunes",
+    "difficulte": "Facile",
+    "questions": [
+        {
+            "question": "1. Quel est un autre terme pour désigner la calvitie ?",
+            "options": [
+                "ablation",
+                "alopécie",
+                "abcès",
+                "abrasion"
+            ],
+            "reponse_correcte": "alopécie",
+            "explication": "Réponse : alopécie L'alopécie est une autre façon de dire calvitie ou perte de cheveux. Cependant, la condition connue sous le nom d'« alopécie areata » est une maladie auto-immune où le système immunitaire attaque par erreur les follicules pileux, provoquant la chute de touffes de cheveux et laissant des plaques lisses. La raison pour laquelle le système immunitaire attaque les follicules est inconnue, mais ce n'est généralement pas permanent. Elle est plus fréquente chez les personnes de moins de vingt ans, mais les enfants ou les adultes de tout âge peuvent être touchés et, contrairement à l'alopécie, les femmes et les hommes semblent être touchés de manière égale. Parmi les exemples de personnes ayant ou ayant eu cette condition, on trouve Christopher Reeve et Neve Campbell.",
+            "difficulte": "Facile",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "8. Mme Epsilon a ressenti une soudaine secousse électrique parcourant sa colonne vertébrale et ses membres après avoir fléchi la tête pour signer un document.",
+            "options": [
+                "Signe de Levine",
+                "Signe de Leser-Trelat",
+                "Signe de Larrey",
+                "Signe de Lhermitte"
+            ],
+            "reponse_correcte": "Signe de Lhermitte",
+            "explication": "Réponse : Signe de Lhermitte Le signe de Lhermitte survient chez environ 33 % des patients atteints de sclérose en plaques (SEP) lorsque le cou est fléchi vers l'avant. Il est rarement douloureux mais généralement un indicateur d'une augmentation de l'activité de la maladie. La sclérose en plaques est une maladie chronique, imprévisible et souvent débilitante du système nerveux central qui interrompt le flux d'informations entre le cerveau et le corps. La maladie est plus susceptible de se développer chez les femmes. Le signe de Lhermitte est également observé dans d'autres troubles de la moelle épinière cervicale.",
+            "difficulte": "Facile",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "6. Quelle maladie a été découverte pour la première fois dans les années 1980 après qu'un grand nombre d'hommes homosexuels soient tombés malades ?",
+            "options": [
+                "SIDA/VIH",
+                "SRAS",
+                "Chlamydia",
+                "Tuberculose"
+            ],
+            "reponse_correcte": "SIDA/VIH",
+            "explication": "Réponse : SIDA/VIH Le VIH/SIDA a attiré l'attention des professionnels de la santé en 1981 lorsqu'un grand nombre d'hommes homosexuels aux États-Unis ont commencé à développer des cancers rares et n'ont pas répondu aux traitements courants pour une variété de maladies curables. Il a depuis été découvert qu'un homme en Afrique avait le virus dans son sang dans un échantillon de 1959 et qu'un adolescent aux États-Unis avait également le virus présent dans un échantillon de son sang prélevé en 1969.",
+            "difficulte": "Facile",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "9. J'ai besoin d'aide ! J'ai des douleurs articulaires, mais le médecin dit que c'est parce qu'Arthur nous a regardés. Elle est vraiment médiévale, croyant au mauvais œil ! De plus, personne ne nous regardait. Que voulait-elle vraiment dire ?",
+            "options": [
+                "Athiritis",
+                "Arthérite",
+                "Arthrite",
+                "Arthurite"
+            ],
+            "reponse_correcte": "Arthrite",
+            "explication": "Réponse : Arthrite. Dans mon enfance dans le Mississippi, le mari d'une vieille dame pensait qu'elle parlait d'être au lit avec un homme nommé \"Arthur Itis\" alors qu'elle se plaignait de douleurs articulaires l'empêchant de se lever. La blague reflète la façon dont le mot était prononcé par les gens de la campagne. L'arthrite (trois syllabes, pas quatre) désigne l'inflammation des articulations, les zones où les os se rencontrent. Le type le plus courant est l'arthrose, mais il existe plusieurs types, dont la polyarthrite rhumatoïde et le lupus. Ce sont des maladies auto-immunes.",
+            "difficulte": "Facile",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "4. Laquelle de ces maladies est la plus courante ?",
+            "options": [
+                "Sclérose en plaques (SEP)",
+                "Dystrophie musculaire",
+                "Fibrose kystique (FK)",
+                "Lupus"
+            ],
+            "reponse_correcte": "Lupus",
+            "explication": "Réponse : Lupus. Bien que moins connue, le lupus est une maladie auto-immune incurable qui touche plus de personnes que les trois autres maladies réunies.",
+            "difficulte": "Facile",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "1. Commençons ce quiz sur les bestioles avec une question sur un parasite qui est réapparu en nombre épidémique ces dernières années. Autrefois presque éradiqué dans le monde développé, on le trouve maintenant presque partout et vous pourriez le ramener chez vous n'importe quel jour. Il mesure environ 5 mm de long, est de couleur rouge-brun et a un corps plat. Une idée de ce que c'est ?",
+            "options": [
+                "Punaise de lit",
+                "Pou du livre",
+                "Coléoptère des tapis",
+                "Mite des vêtements"
+            ],
+            "reponse_correcte": "Punaise de lit",
+            "explication": "Réponse : Punaise de lit La punaise de lit la plus commune est Cimex Lectularius. En raison de l'utilisation du DDT, elle était rarement trouvée dans les pays développés dans les années 1940, mais les interdictions de pesticides et l'augmentation des voyages ont entraîné une augmentation spectaculaire depuis 1995. Vous pourriez en ramener une d'un siège de cinéma, des vêtements de quelqu'un d'autre, d'un lit d'hôtel ou de meubles d'occasion, entre autres, et tout ce que vous pouvez faire est d'appeler les services de lutte antiparasitaire. Principalement nocturnes, ces petites bêtes vous mordent sans douleur (elles injectent gentiment un anesthésiant dans votre peau avant de mordre) et boivent jusqu'à trois fois leur poids en sang. Elles se reproduisent facilement, donc une ou deux punaises de lit peuvent rapidement devenir plusieurs centaines. Vous pourriez finir avec une allergie ou une éruption cutanée, ainsi que des marques de morsures. Du bon côté (il y en a un, vous demandez ?) leur présence chez vous n'est pas un signe que vous êtes sale. Elles peuvent entrer par de minuscules ouvertures et sont attirées par le dioxyde de carbone que vous exhalez en respirant. Elles ne se soucient pas vraiment que vous viviez dans un palais ou une fosse.",
+            "difficulte": "Facile",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "3. Une chose que je fais inconsciemment chez les personnes que je rencontre est de regarder leurs lobes d'oreilles. Je n'aime pas les boucles d'oreilles, je fais cela pour une raison. Certaines personnes ont des plis sur leurs lobes d'oreilles parce que c'est normal pour elles. Cependant, pour d'autres, cela peut indiquer autre chose. Que peut indiquer un pli du lobe de l'oreille ?",
+            "options": [
+                "Un risque réduit d'athérosclérose coronarienne",
+                "Un risque réduit de diabète sucré",
+                "Un risque accru de diabète sucré",
+                "Un risque accru d'athérosclérose coronarienne"
+            ],
+            "reponse_correcte": "Un risque accru d'athérosclérose coronarienne",
+            "explication": "Réponse : Un risque accru d'athérosclérose coronarienne Un pli diagonal sur le lobe de l'oreille a été statistiquement lié à un risque accru d'athérosclérose coronarienne et aortique - des dépôts de plaque qui peuvent se détacher et provoquer une crise cardiaque. Il y a encore une certaine confusion quant à la raison pour laquelle cela se produit, nous savons simplement que cela arrive.",
+            "difficulte": "Facile",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        }
+    ]
+}

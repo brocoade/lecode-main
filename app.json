@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "MEDUCARE",
+    "slug": "meducare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/meducare-logo.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/meducare-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3E8E41"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.meducare.app",
+      "associatedDomains": [
+        "applinks:meducare01-ea9c1.firebaseapp.com"
+      ]
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/meducare-logo.png",
+        "backgroundColor": "#3E8E41"
+      },
+      "package": "com.meducare.app",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "meducare01-ea9c1.firebaseapp.com",
+              "pathPrefix": "/finishSignIn"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/images/meducare-logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-localization"
+    ],
+    "scheme": "meducare",
+    "newArchEnabled": true
+  }
+}

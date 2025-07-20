@@ -1,0 +1,205 @@
+{
+  "categories": {
+    "1": {
+      "id": "1",
+      "name": "Troubles de la Digestion",
+      "description": "Maladies qui touchent l'estomac et les intestins",
+      "color": "#FF9800",
+      "icon": "nutrition",
+      "order": 1
+    },
+    "2": {
+      "id": "2",
+      "name": "Infections et Virus",
+      "description": "Maladies causées par des microbes et des virus",
+      "color": "#F44336",
+      "icon": "infections_virus",
+      "order": 2
+    }
+  },
+  "diseases": {
+    "digestion_1": {
+      "id": "digestion_1",
+      "categoryId": "1",
+      "title": "Gastro-entérite",
+      "shortDescription": "Inflammation de l'estomac et des intestins",
+      "definition": "C'est quand ton ventre et tes intestins sont irrités, ce qui peut te donner mal au ventre et te faire vomir ou avoir la diarrhée.",
+      "funFact": "Ton intestin contient des milliards de bonnes bactéries qui t'aident à digérer ! Quand tu as une gastro, ces petits helpers sont perturbés.",
+      "image": "gastro_main",
+      "order": 1,
+      "targetAudience": ["children", "adults"],
+      "sections": {
+        "symptoms": {
+          "children": [
+            {
+              "title": "Signes chez l'enfant",
+              "content": [
+                "Mal au ventre 🤢",
+                "Envie de vomir 😫",
+                "Diarrhée 🏃",
+                "Fatigue 😴",
+                "Parfois un peu de fièvre 🤒"
+              ]
+            }
+          ],
+          "adults": [
+            {
+              "title": "Signes chez l'adulte",
+              "content": [
+                "Douleurs abdominales",
+                "Nausées et vomissements",
+                "Diarrhée",
+                "Déshydratation possible",
+                "Fièvre légère"
+              ]
+            }
+          ]
+        },
+        "causes": [],
+        "prevention": {
+          "children": [
+            {
+              "title": "Comment l'éviter ?",
+              "content": [
+                "Bien se laver les mains avec du savon 🧼",
+                "Manger des aliments bien lavés 🥗",
+                "Boire de l'eau propre 💧",
+                "Ne pas partager ses couverts quand on est malade 🥄"
+              ]
+            }
+          ],
+          "adults": [
+            {
+              "title": "Mesures préventives",
+              "content": [
+                "Hygiène des mains rigoureuse",
+                "Désinfection des surfaces",
+                "Conservation appropriée des aliments",
+                "Éviter le contact avec les personnes malades"
+              ]
+            }
+          ]
+        },
+        "treatment": {
+          "children": [
+            {
+              "title": "Comment guérir ?",
+              "content": [
+                "Boire beaucoup d'eau 💧",
+                "Se reposer au lit 🛏️",
+                "Manger léger 🍚",
+                "Prendre les médicaments prescrits 💊"
+              ]
+            }
+          ],
+          "adults": [
+            {
+              "title": "Traitement",
+              "content": [
+                "Hydratation abondante",
+                "Repos",
+                "Régime alimentaire adapté",
+                "Médicaments si nécessaire"
+              ]
+            }
+          ]
+        },
+        "whenToConsult": [
+          {
+            "title": "Quand voir le docteur ?",
+            "content": [
+              "Si tu vomis beaucoup 🤮",
+              "Si tu as très mal au ventre 😖",
+              "Si tu as beaucoup de fièvre 🤒",
+              "Si tu ne peux plus boire d'eau 💧"
+            ]
+          }
+        ]
+      },
+      "resources": {
+        "images": {
+          "main": "gastro_main.png",
+          "symptoms": "gastro_symptoms.png",
+          "prevention": "gastro_prevention.png"
+        },
+        "videos": {
+          "explanation": "gastro_explainer.mp4"
+        }
+      }
+    },
+    "infection_1": {
+      "id": "infection_1",
+      "categoryId": "2",
+      "title": "Paludisme",
+      "shortDescription": "Maladie transmise par les moustiques",
+      "definition": "Le paludisme est une maladie qui nous rend malade à cause d'un tout petit parasite qui entre dans notre corps quand un moustique spécial nous pique. C'est comme si un minuscule envahisseur se cachait dans notre sang !",
+      "funFact": "Les moustiques qui transmettent le paludisme ne piquent que la nuit. C'est pour ça qu'on dort sous des moustiquaires !",
+      "image": "malaria_main",
+      "order": 1,
+      "targetAudience": ["children", "adults"],
+      "sections": {
+        "symptoms": {
+          "children": [
+            {
+              "title": "Comment tu te sens ?",
+              "content": [
+                "Très chaud (fièvre) 🤒",
+                "Tremblements de froid 🥶",
+                "Mal à la tête 😣",
+                "Très fatigué 😴",
+                "Tu transpires beaucoup 💦"
+              ]
+            }
+          ],
+          "adults": [
+            {
+              "title": "Symptômes",
+              "content": [
+                "Fièvre élevée > 38.5°C",
+                "Frissons intenses",
+                "Céphalées sévères",
+                "Fatigue intense",
+                "Sueurs profuses"
+              ]
+            }
+          ]
+        },
+        "causes": [],
+        "prevention": {
+          "children": [
+            {
+              "title": "Comment se protéger ?",
+              "content": [
+                "Dormir sous une moustiquaire 🛏️",
+                "Porter des vêtements longs 👕",
+                "Utiliser un spray anti-moustiques 🧴",
+                "Fermer les fenêtres le soir 🪟"
+              ]
+            }
+          ],
+          "adults": [
+            {
+              "title": "Mesures préventives",
+              "content": [
+                "Utilisation de moustiquaires imprégnées",
+                "Protection vestimentaire",
+                "Répulsifs adaptés",
+                "Prophylaxie médicamenteuse si nécessaire"
+              ]
+            }
+          ]
+        }
+      },
+      "resources": {
+        "images": {
+          "main": "malaria_main.png",
+          "mosquito": "malaria_mosquito.png",
+          "prevention": "malaria_prevention.png"
+        },
+        "videos": {
+          "prevention": "malaria_prevention.mp4"
+        }
+      }
+    }
+  }
+} 

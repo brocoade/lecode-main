@@ -1,0 +1,50 @@
+// Règles Firestore pour Meducare
+// À copier dans la console Firebase (Firestore Database > Rules)
+
+// RÈGLES DE DÉVELOPPEMENT - NE PAS UTILISER EN PRODUCTION
+// Ces règles permettent un accès complet pendant le développement
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      // Permettre toutes les opérations pendant le développement
+      allow read, write: if true;
+    }
+  }
+}
+
+// RÈGLES POUR LA PRODUCTION (À UTILISER PLUS TARD)
+/*
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Règles pour la collection users
+    match /users/{userId} {
+      // Permettre la lecture si l'utilisateur est authentifié
+      allow read: if request.auth != null;
+      
+      // Permettre la création et la mise à jour de son propre document
+      allow create, update: if request.auth != null && request.auth.uid == userId;
+      
+      // Seul l'administrateur peut supprimer un utilisateur
+      allow delete: if false;
+    }
+    
+    // Règles générales pour toutes les autres collections
+    match /{document=**} {
+      allow read: if request.auth != null;
+      allow write: if false;  // Par défaut, on bloque l'écriture sauf si des règles spécifiques l'autorisent
+    }
+  }
+}
+*/
+
+/* 
+INSTRUCTIONS:
+1. Connectez-vous à la console Firebase: https://console.firebase.google.com/
+2. Sélectionnez votre projet: meducare01-ea9c1
+3. Dans le menu de gauche, cliquez sur "Firestore Database"
+4. Cliquez sur l'onglet "Rules"
+5. Remplacez tout le contenu par les règles ci-dessus
+6. Cliquez sur "Publier"
+*/ 

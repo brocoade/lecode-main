@@ -1,0 +1,108 @@
+{
+    "categorie": "🛑 Maladies Endocriniennes",
+    "difficulte": "Moyen",
+    "questions": [
+        {
+            "question": "8. Un patient diabétique développe des symptômes incluant des tremblements, de la transpiration et de la confusion. Quelle est la cause la plus probable ?",
+            "options": [
+                "hypertension",
+                "hypocondrie",
+                "hyperglycémie",
+                "hypoglycémie"
+            ],
+            "reponse_correcte": "hypoglycémie",
+            "explication": "Réponse : hypoglycémie Le diabète sucré survient lorsque le corps ne produit pas d'insuline (type 1) ou lorsque le corps ne répond pas correctement à l'insuline (type 2). Cela entraîne une élévation de la glycémie. Dans les deux types, un surdosage ou un défaut d'alimentation pendant le traitement peut entraîner une hypoglycémie. La plupart des diabétiques reconnaissent leurs symptômes lorsqu'ils sont \"bas\" et savent qu'ils doivent manger quelque chose avant que cela ne progresse vers un point dangereux. Les symptômes de l'hyperglycémie sont très différents - soif, augmentation de la miction, somnolence.",
+            "difficulte": "Moyen",
+            "categorie": "🛑 Maladies Endocriniennes"
+        },
+        {
+            "question": "10. De nombreux troubles ont une forme différente qui survient chez les patients plus jeunes, ce qui leur vaut l'adjectif \"juvénile\" pour distinguer la maladie qui survient chez les enfants de la forme adulte. Lequel des termes suivants n'est PAS un terme approprié ?",
+            "options": [
+                "polypes coliques juvéniles",
+                "arthrite rhumatoïde juvénile",
+                "diabète juvénile",
+                "leucémie myélomonocytaire juvénile"
+            ],
+            "reponse_correcte": "diabète juvénile",
+            "explication": "Réponse : diabète juvénile Le terme \"diabète juvénile\" est fréquemment utilisé mais est considéré comme obsolète - le terme approprié est diabète de type 1. La raison de ce changement est que les enfants sont diagnostiqués en grand nombre avec le diabète \"adulte\", ou diabète de type 2, en raison de l'épidémie d'obésité. De plus, le diabète de type 1, causé par la destruction auto-immune des cellules produisant l'insuline, peut survenir chez les adultes ainsi que chez les enfants.",
+            "difficulte": "Moyen",
+            "categorie": "🛑 Maladies Endocriniennes"
+        },
+        {
+            "question": "15. Vrai ou Faux : Une personne avec un indice de masse corporelle (IMC, poids en kg divisé par la taille en mètres carrés) de 29 est obèse.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "reponse_correcte": "Faux",
+            "explication": "Réponse : Faux Non, 29 est dans la plage \"surpoids\". La normale est de 20 à 25, le surpoids est de 25,1 à 29,9, l'obésité est de 30 ou plus. Un IMC de 40 ou plus indique une obésité morbide, lorsque des mesures plus drastiques (comme la chirurgie bariatrique) peuvent être indiquées. L'obésité est maintenant considérée comme une \"épidémie\", en fait, un article dans le \"New England Journal of Medicine\" en 2007 suggère qu'elle pourrait être quelque peu \"contagieuse\", car les personnes dans des réseaux sociaux partagés développent souvent des degrés similaires d'obésité.",
+            "difficulte": "Moyen",
+            "categorie": "🛑 Maladies Endocriniennes"
+        },
+        {
+            "question": "2. La prochaine fois que le bip du Dr Acula retentit, il est appelé pour voir une patiente atteinte de la maladie d'Addison. Quelle partie du corps de cette patiente ne fonctionne pas correctement ?",
+            "options": [
+                "Foie",
+                "Rein",
+                "Glandes surrénales",
+                "Tronc cérébral"
+            ],
+            "reponse_correcte": "Glandes surrénales",
+            "explication": "Réponse : Glandes surrénales La maladie d'Addison est un trouble endocrinien dans lequel les glandes surrénales, situées au-dessus des reins, ne produisent pas suffisamment d'hormones stéroïdes. Elle est nommée d'après Thomas Addison, qui l'a décrite en 1855.",
+            "difficulte": "Moyen",
+            "categorie": "🛑 Maladies Endocriniennes"
+        },
+        {
+            "question": "9. Le prochain patient du Dr Acula a été diagnostiqué avec un diabète insipide. Quelle hormone n'est pas produite en quantité suffisante ?",
+            "options": [
+                "Glucagon",
+                "Vasopressine",
+                "Mélatonine",
+                "Angiotensine"
+            ],
+            "reponse_correcte": "Vasopressine",
+            "explication": "Réponse : Vasopressine Le diabète insipide se présente avec des symptômes similaires à ceux du diabète sucré non traité (mictions excessives et soif extrême), mais l'urine ne contient pas de glucose. Il est causé soit par une production insuffisante de vasopressine (également appelée hormone antidiurétique) par l'hypothalamus, soit par une réponse anormale des reins à cette hormone. Ces conditions sont respectivement appelées diabète insipide neurogène et néphrogène.",
+            "difficulte": "Moyen",
+            "categorie": "🛑 Maladies Endocriniennes"
+        },
+        {
+            "question": "10. With all these family problems, Mrs. Silva started to feel very tired and nervous and decided to visit a doctor too. After several exams, the doctor concludes that Mrs. Silva has Hashimoto's disease. What part of Mrs. Silva's body is affected?",
+            "options": [
+                "Kidneys",
+                "Thyroid gland",
+                "Eyes",
+                "Liver"
+            ],
+            "reponse_correcte": "Thyroid gland",
+            "explication": "Answer: Thyroid gland Hashimoto's disease or Hashimoto's thyroiditis is a chronic inflammation of the thyroid. For unknown reasons, the body turns against itself. It is an autoimmune disease, in which the body attacks the thyroid cells and over the time the person develops hypothyroidism. The disease is more common in older women. With hypothyroidism, the patient needs thyroid hormone replacement treatment for the rest of his or her life.",
+            "difficulte": "Moyen",
+            "categorie": "🛑 Maladies Endocriniennes"
+        },
+        {
+            "question": "10. What is commonly referred to as overactive thyroid?",
+            "options": [
+                "Hyperthyroparadism",
+                "Hyperparathyroidism",
+                "Hyperthyroidism",
+                "Hyperthyroidia"
+            ],
+            "reponse_correcte": "Hyperthyroidism",
+            "explication": "Answer: Hyperthyroidism In hyperthyroidism, there is overproduction of thyroid hormone. Did you know that American president George H. W. Bush, British comedian Marty Feldman, and  American Musician Missy Elliott all suffered from this disease?",
+            "difficulte": "Moyen",
+            "categorie": "🛑 Maladies Endocriniennes"
+        },
+        {
+            "question": "10. Thousands of people in Mexico die from diabetes yearly, making this condition one of the top death causes in the country. This can be caused by an excessive amount of fat in the body and not exercising, as well as genetics. Which hormone does the pancreas stop producing with diabetes?",
+            "options": [
+                "Testosterone",
+                "Insulin",
+                "Cortisol",
+                "Dopamine"
+            ],
+            "reponse_correcte": "Insulin",
+            "explication": "Answer: Insulin Insulin is a hormone that regulates sugar levels in the blood, as well as carbohydrates and fats. Diabetes, a condition related to the lack of insulin produced by the pancreas, can be prevented by maintaining a healthy lifestyle with plenty of exercise, eating fruits and vegetables, and not smoking or drinking sodas or juices that are high in sugar.",
+            "difficulte": "Moyen",
+            "categorie": "🛑 Maladies Endocriniennes"
+        }
+    ]
+}

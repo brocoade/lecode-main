@@ -1,0 +1,1428 @@
+{
+    "categories": {
+        "DIGESTION": {
+            "id": "1",
+            "title": "Troubles de la Digestion",
+            "description": "Maladies qui touchent l'estomac et les intestins",
+            "color": "#FF9800",
+            "image": "nutrition.png",
+            "diseases": [
+                {
+                    "id": "1",
+                    "title": "Gastro-entérite",
+                    "description": "Inflammation de l’estomac et des intestins",
+                    "categoryId": "1",
+                    "image": "nutrition.png",
+                    "definition": "C’est une maladie souvent causée par des microbes dans l’eau ou les aliments, qui rend l’estomac très malade.",
+                    "funFact": "Elle est très fréquente chez les enfants au Bénin, surtout pendant la saison des pluies.",
+                    "whenToConsult": "Si la diarrhée dure plus de 2 jours, si l’enfant est très faible ou s’il y a du sang dans les selles.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Diarrhée liquide 💦, Vomissements 🤮, Fièvre légère 🤒",
+                            "adults": "Perte d’eau importante, Douleurs au ventre, Fatigue"
+                        },
+                        "prevention": {
+                            "children": "Laver les mains souvent 🧼, Boire de l’eau propre 💧",
+                            "adults": "Conserver bien les repas 🍛, Éviter les aliments douteux"
+                        },
+                        "treatment": {
+                            "children": "SRO (eau sucrée salée) 🍼, Zinc pendant 10 jours",
+                            "adults": "Boire beaucoup d’eau, Aller à l’hôpital si besoin"
+                        },
+                        "source": "Ministère de la Santé Bénin – Guide de gestion des diarrhées (2023)"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Ulcère de l’estomac",
+                    "description": "Blessure à l’intérieur de l’estomac",
+                    "categoryId":"1",
+                    "image": "nutrition.png",
+                    "definition": "C’est une plaie dans l’estomac, souvent causée par un microbe ou trop de médicaments comme l’aspirine.",
+                    "whenToConsult": "Si les douleurs sont très fortes ou si on vomit du sang.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Douleurs après avoir mangé 🍽️, Brûlure au ventre 🔥",
+                            "adults": "Vomir du sang, Maigreur, Fatigue"
+                        },
+                        "prevention": {
+                            "children": "Bien manger, Ne pas abuser des médicaments 💊",
+                            "adults": "Éviter les plats très épicés 🌶️, Traiter les microbes comme H. pylori"
+                        },
+                        "treatment": {
+                            "children": "Médicaments pour calmer l’acidité, Antibiotiques si besoin",
+                            "adults": "Traitement complet contre H. pylori 💊, Repos et bonne alimentation"
+                        },
+                        "source": "OMS – Protocoles digestifs pour l’Afrique (2023)"
+                    }
+                },
+                {
+                    "id": "3",
+                    "title": "Constipation",
+                    "description": "Difficulté à faire caca",
+                    "categoryId":"1",
+                    "image": "nutrition.png",
+                    "definition": "Quand on va rarement aux toilettes ou que c’est difficile d’y aller, on parle de constipation.",
+                    "funFact": "Beaucoup de personnes au Bénin mangent peu de fibres, ce qui cause la constipation.",
+                    "whenToConsult": "Si la constipation dure plus de 5 jours ou s’il y a du sang dans les selles.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Ventre gonflé 🎈, Caca dur 🪨, Douleur pour faire caca 😖",
+                            "adults": "Saignement au moment de faire caca, Sensation d’être toujours plein"
+                        },
+                        "prevention": {
+                            "children": "Manger fruits et légumes 🥬, Boire beaucoup d’eau 🥥",
+                            "adults": "Faire de l’exercice 🏃, Éviter de retenir l’envie d’aller aux toilettes"
+                        },
+                        "treatment": {
+                            "children": "Donner du sirop doux, Masser le ventre",
+                            "adults": "Prendre des laxatifs doux, Aller chez le docteur si ça dure"
+                        },
+                        "source": "Programme National Nutrition Bénin (2023)"
+                    }
+                },
+                {
+                    "id": "4",
+                    "title": "Reflux acide",
+                    "description": "Remontée d’acide dans la gorge",
+                    "categoryId":"1",
+                    "image": "nutrition.png",
+                    "definition": "C’est quand de l’acide remonte de l’estomac vers la bouche. Ça brûle et ça fait mal.",
+                    "funFact": "Le reflux peut donner une mauvaise haleine ou une toux bizarre, même la nuit.",
+                    "whenToConsult": "Si les brûlures sont fréquentes, empêchent de dormir ou s’il y a des vomissements fréquents.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Remontées après les repas 🍼, Pleurs après avoir mangé 😢",
+                            "adults": "Brûlures dans la poitrine 🔥, Goût amer dans la bouche"
+                        },
+                        "prevention": {
+                            "children": "Ne pas coucher l’enfant juste après manger, Donner des petits repas",
+                            "adults": "Éviter café et boissons gazeuses ☕🥤, Dormir avec la tête un peu haute"
+                        },
+                        "treatment": {
+                            "children": "Épaissir le lait, Donner des médicaments légers",
+                            "adults": "Prendre des médicaments contre l’acide, Parfois chirurgie si grave"
+                        },
+                        "source": "UNICEF & OMS – Santé infantile et digestive (2022)"
+                    }
+                },
+                {
+                    "id": "5",
+                    "title": "Syndrome de l’intestin irritable",
+                    "description": "Ventre qui fait souvent mal sans raison visible",
+                    "categoryId":"1",
+                    "image": "nutrition.png",
+                    "definition": "C’est quand le ventre est souvent gonflé ou douloureux, même si les examens ne trouvent pas de blessure.",
+                    "funFact": "Le stress à l’école ou au travail peut aggraver les douleurs au ventre.",
+                    "whenToConsult": "Si les douleurs sont fréquentes et gênent la vie quotidienne ou s’il y a perte de poids.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Mal au ventre souvent 🤕, Diarrhée ou constipation",
+                            "adults": "Ballonnements, Caca irrégulier (parfois dur, parfois liquide)"
+                        },
+                        "prevention": {
+                            "children": "Ne pas sauter les repas 🍽️, Manger lentement",
+                            "adults": "Éviter certains aliments comme haricots ou oignons, Bien gérer le stress 🧘"
+                        },
+                        "treatment": {
+                            "children": "Rassurer l’enfant, Donner des repas adaptés",
+                            "adults": "Médicaments contre les spasmes, Faire du sport ou parler à un psy"
+                        },
+                        "source": "OMS – Guide sur les maladies digestives en Afrique (2024)"
+                    }
+                }
+            ]
+        },
+        "INFECTIONS": {
+            "id": "2",
+            "title": "Infections et Virus",
+            "description": "Maladies causées par les microbes et les virus",
+            "color": "#F44336",
+            "image": "infections_virus.png",
+            "diseases": [
+                {
+                    "id": "1",
+                    "title": "Paludisme",
+                    "description": "Maladie infectieuse transmise par les moustiques",
+                    "categoryId":"2",
+                    "image": "infections_virus.png",
+                    "definition": "Le paludisme est une maladie transmise par les piqûres de moustiques. Elle est causée par un parasite appelé Plasmodium.",
+                    "funFact": "Les moustiques piquent surtout la nuit, entre 22h et 4h du matin.",
+                    "whenToConsult": "Consulter immédiatement en cas de fièvre persistante après une piqûre de moustique, ou si l’enfant présente des convulsions ou une faiblesse extrême.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Fièvre qui revient souvent 🔁, Convulsions 😵, Faiblesse",
+                            "adults": "Frissons, Jaunisse 🟡, Maux de tête"
+                        },
+                        "prevention": {
+                            "children": "Dormir sous moustiquaire chaque nuit 🛏️, Éviter les eaux stagnantes",
+                            "adults": "Pulvérisation de l’intérieur des maisons, Médicaments préventifs 💊"
+                        },
+                        "treatment": {
+                            "children": "Médicaments à base d'artémisinine (CTA) 💊 dans les 24h",
+                            "adults": "Traitement de 3 jours avec artéméther-luméfantrine, Suivi médical"
+                        },
+                        "source": "PNLP Bénin – Plan Stratégique 2021-2025"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Grippe",
+                    "description": "Infection virale des voies respiratoires",
+                    "categoryId":"2",
+                    "image": "infections_virus.png",
+                    "definition": "La grippe est une maladie contagieuse qui attaque le nez, la gorge et parfois les poumons. Elle est causée par un virus.",
+                    "whenToConsult": "Consulter si la fièvre dure plus de 3 jours, si la respiration devient difficile ou si l’état général s’aggrave rapidement.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Toux sèche 😷, Fatigue 😴, Douleurs au corps",
+                            "adults": "Fièvre soudaine, Mal de gorge, Frissons"
+                        },
+                        "prevention": {
+                            "children": "Se laver souvent les mains 🧼, Se couvrir le nez en toussant",
+                            "adults": "Vaccin chaque année 💉, Éviter les foules pendant les épidémies"
+                        },
+                        "treatment": {
+                            "children": "Repos, Paracétamol, Beaucoup boire 💧",
+                            "adults": "Antiviraux si cas grave, Isolement pendant 5 jours"
+                        },
+                        "source": "Ministère de la Santé Bénin – Recommandations 2024"
+                    }
+                },
+                {
+                    "id": "3",
+                    "title": "COVID-19",
+                    "description": "Maladie virale causée par le coronavirus",
+                    "categoryId":"2",
+                    "image": "infections_virus.png",
+                    "definition": "COVID-19 est une infection respiratoire causée par le virus SARS-CoV-2. Elle peut provoquer des complications graves.",
+                    "whenToConsult": "Consulter si les symptômes s’aggravent, notamment en cas de difficulté à respirer ou forte fièvre persistante.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Fièvre, Difficulté à respirer 😮‍💨, Fatigue",
+                            "adults": "Toux sèche, Perte de goût ou d’odorat 👃, Courbatures"
+                        },
+                        "prevention": {
+                            "children": "Se laver souvent les mains 🧼, Porter un masque 😷",
+                            "adults": "Vaccination 💉, Éviter les rassemblements"
+                        },
+                        "treatment": {
+                            "children": "Repos, Paracétamol, Hydratation 💧",
+                            "adults": "Oxygène si besoin, Traitements antiviraux selon les cas"
+                        },
+                        "source": "OMS – Informations COVID-19 Afrique (2023)"
+                    }
+                },
+                {
+                    "id": "4",
+                    "title": "Hépatite B",
+                    "description": "Maladie du foie causée par un virus",
+                    "categoryId":"2",
+                    "image": "infections_virus.png",
+                    "definition": "L’hépatite B est une infection grave du foie qui se transmet par le sang, la salive ou lors de rapports non protégés.",
+                    "funFact": "Beaucoup de gens vivent avec le virus sans le savoir.",
+                    "whenToConsult": "Consulter si vous avez la peau ou les yeux jaunes, des douleurs abdominales ou si vous êtes exposé à un risque (relation non protégée, contact avec du sang).",
+                    "details": {
+                        "symptoms": {
+                            "children": "Peau ou yeux jaunes 🟡, Fatigue",
+                            "adults": "Douleur au ventre, Urines foncées"
+                        },
+                        "prevention": {
+                            "children": "Vaccination dès la naissance 💉",
+                            "adults": "Utiliser des préservatifs, Ne pas partager d’objets tranchants"
+                        },
+                        "treatment": {
+                            "children": "Suivi médical régulier, Repos",
+                            "adults": "Médicaments antiviraux selon les cas, Surveillance du foie"
+                        },
+                        "source": "OMS – Fiche Hépatite B (2024)"
+                    }
+                },
+                {
+                    "id": "5",
+                    "title": "Rougeole",
+                    "description": "Infection virale très contagieuse",
+                    "categoryId":"2",
+                    "image": "infections_virus.png",
+                    "definition": "La rougeole est une maladie virale qui provoque fièvre, toux et boutons rouges sur le corps. Elle peut être grave chez les enfants non vaccinés.",
+                    "funFact": "Une personne atteinte peut en contaminer jusqu’à 18 autres.",
+                    "whenToConsult": "Consulter dès l’apparition de fièvre et d’éruptions cutanées, surtout chez les enfants non vaccinés.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Fièvre forte 🌡️, Taches rouges sur tout le corps 🔴, Toux",
+                            "adults": "Fatigue extrême, Complications pulmonaires"
+                        },
+                        "prevention": {
+                            "children": "Vaccination à 9 mois 💉, Éviter le contact avec des malades",
+                            "adults": "Renforcement des vaccins, Hygiène stricte"
+                        },
+                        "treatment": {
+                            "children": "Repos, Hydratation, Vitamine A 💊",
+                            "adults": "Soins de soutien, Surveillance médicale"
+                        },
+                        "source": "UNICEF Bénin – Campagne de vaccination 2023"
+                    }
+                }
+            ]
+        },
+        "RESPIRATORY": {
+            "id": "3",
+            "title": "Problèmes de Respiration",
+            "description": "Maladies qui touchent les poumons et la respiration",
+            "color": "#9C27B0",
+            "image": "respiration.png",
+            "diseases": [
+                {
+                    "id": "1",
+                    "title": "Asthme",
+                    "description": "Maladie inflammatoire des bronches",
+                    "categoryId":"3",
+                    "image": "respiration.png",
+                    "definition": "L’asthme est une maladie qui rend la respiration difficile à cause de l’inflammation des petites voies dans les poumons.",
+                    "funFact": "30% des cas sont aggravés par les brûlis agricoles saisonniers.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Respiration sifflante la nuit 🌬️, Toux après avoir couru 🏃",
+                            "adults": "Essoufflement, Sifflement lors de l’expiration"
+                        },
+                        "prevention": {
+                            "children": "Dormir dans un environnement propre 🛏️, Éviter les allergènes",
+                            "adults": "Plan de traitement personnalisé, Vaccin contre la grippe"
+                        },
+                        "treatment": {
+                            "children": "Utiliser une chambre d’inhalation avec corticoïdes 💨",
+                            "adults": "Sprays quotidiens, Biothérapies pour cas graves"
+                        },
+                        "source": "Société Béninoise de Pneumologie (2023)",
+                        "whenToConsult": "Si l’enfant a du mal à parler en respirant ou s’il se réveille souvent en toussant. Chez l’adulte, si les crises sont fréquentes ou s’aggravent malgré le traitement."
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Bronchite",
+                    "description": "Inflammation des bronches",
+                    "categoryId":"3",
+                    "image": "respiration.png",
+                    "definition": "La bronchite est une infection qui cause une inflammation des bronches avec toux et mucus.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Toux grasse 💛, Fatigue",
+                            "adults": "Essoufflement 😮‍💨, Douleur dans la poitrine"
+                        },
+                        "prevention": {
+                            "children": "Allaitement maternel jusqu'à 6 mois 🤱",
+                            "adults": "Éviter de fumer 🚭, Protéger ses poumons contre la poussière"
+                        },
+                        "treatment": {
+                            "children": "Inhalateurs, Repos, Boire beaucoup 💧",
+                            "adults": "Antibiotiques si surinfection, Aérosols"
+                        },
+                        "source": "Guide de bonne pratique - Ministère Santé Bénin",
+                        "whenToConsult": "Si la toux dure plus de 10 jours ou s’accompagne de fièvre persistante, ou si l’enfant a du mal à respirer."
+                    }
+                },
+                {
+                    "id": "3",
+                    "title": "Pneumonie",
+                    "description": "Infection des poumons",
+                    "categoryId":"3",
+                    "image": "respiration.png",
+                    "definition": "La pneumonie est une infection grave des poumons, souvent causée par des bactéries ou des virus.",
+                    "funFact": "Elle est l’une des premières causes de mortalité infantile dans le monde.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Fièvre, Respiration rapide 😤, Gémissements",
+                            "adults": "Douleur thoracique, Toux avec crachats colorés"
+                        },
+                        "prevention": {
+                            "children": "Vaccin contre le pneumocoque 💉, Bon lavage des mains 🧼",
+                            "adults": "Éviter les courants d’air, Stopper la cigarette 🚭"
+                        },
+                        "treatment": {
+                            "children": "Antibiotiques prescrits, Repos et soins à domicile",
+                            "adults": "Hospitalisation dans les cas graves, Oxygène si besoin"
+                        },
+                        "source": "OMS – Fiche Pneumonie (2023)",
+                        "whenToConsult": "Consulter immédiatement si l’enfant respire vite, fait de la fièvre et gémit, ou si l’adulte crache du sang ou a de fortes douleurs en respirant."
+                    }
+                },
+                {
+                    "id": "4",
+                    "title": "Tuberculose",
+                    "description": "Infection bactérienne des poumons",
+                    "categoryId":"3",
+                    "image": "respiration.png",
+                    "definition": "La tuberculose est une maladie contagieuse causée par une bactérie, qui attaque principalement les poumons.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Toux prolongée, Sueurs nocturnes 😓, Perte de poids",
+                            "adults": "Toux avec sang 🩸, Fatigue extrême"
+                        },
+                        "prevention": {
+                            "children": "Vaccin BCG dès la naissance 💉, Aération des chambres",
+                            "adults": "Dépistage régulier, Traitement préventif pour les contacts"
+                        },
+                        "treatment": {
+                            "children": "Traitement long (6 mois) avec supervision 📆",
+                            "adults": "Combinaison de plusieurs antibiotiques, Suivi médical strict"
+                        },
+                        "source": "Programme National TB – Bénin 2024",
+                        "whenToConsult": "Si la toux dure plus de 2 semaines, s’accompagne de fièvre, sueurs nocturnes ou perte de poids. Si quelqu’un dans l'entourage est atteint de tuberculose."
+                    }
+                },
+                {
+                    "id": "5",
+                    "title": "Rhinite Allergique",
+                    "description": "Réaction allergique des voies respiratoires",
+                    "categoryId":"3",
+                    "image": "respiration.png",
+                    "definition": "La rhinite allergique est une réaction du nez à des substances comme la poussière, le pollen ou les acariens.",
+                    "funFact": "Elle est parfois confondue avec un rhume, mais elle revient toujours à la même saison.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Nez qui coule sans fièvre 🤧, Yeux qui piquent 😢",
+                            "adults": "Éternuements en rafale, Fatigue chronique"
+                        },
+                        "prevention": {
+                            "children": "Aspirer souvent la poussière, Laver les draps à chaud 🧺",
+                            "adults": "Filtre anti-poussière, Éviter les zones à forte végétation"
+                        },
+                        "treatment": {
+                            "children": "Antihistaminiques en sirop, Lavage du nez au sérum",
+                            "adults": "Corticoïdes nasaux, Désensibilisation dans les cas sévères"
+                        },
+                        "source": "Société Française d’Allergologie – Recommandations 2023",
+                        "whenToConsult": "Si les symptômes persistent plus de 2 semaines malgré le traitement, ou s’ils perturbent le sommeil et la vie scolaire ou professionnelle."
+                    }
+                }
+            ]
+        },
+        "HEART": {
+            "id": "4",
+            "title": "Santé du Cœur",
+            "description": "Maladies qui touchent le cœur et les vaisseaux",
+            "color": "#795548",
+            "image": "coeurs.png",
+            "diseases": [
+                {
+                    "id": "1",
+                    "title": "Hypertension",
+                    "description": "Pression artérielle élevée",
+                    "categoryId":"4",
+                    "image": "coeurs.png",
+                    "definition": "Pression artérielle supérieure à 140/90 mmHg mesurée plusieurs fois.",
+                    "funFact": "1 adulte sur 3 au Bénin est hypertendu (étude STEPS 2022).",
+                    "details": {
+                        "symptoms": {
+                            "children": "Saignements de nez fréquents 🤧, Problèmes de vue 👁️",
+                            "adults": "Fatigue, maux de tête, risques d’AVC 🧠"
+                        },
+                        "prevention": {
+                            "children": "Bouger tous les jours ⚽, Éviter trop de sel 🧂",
+                            "adults": "Manger plus de fruits 🍉, Moins de stress"
+                        },
+                        "treatment": {
+                            "children": "Médicaments spécifiques si besoin 💊",
+                            "adults": "Bithérapie (diurétique + IEC), Suivi régulier"
+                        },
+                        "whenToConsult": "Si la tension est souvent supérieure à 140/90 mmHg, ou en cas de maux de tête persistants.",
+                        "source": "Programme National de Lutte contre les MNT Bénin"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Cardiopathies rhumatismales",
+                    "description": "Lésions cardiaques après angine non traitée",
+                    "categoryId":"4",
+                    "image": "coeurs.png",
+                    "definition": "Maladie cardiaque causée par des angines bactériennes non soignées.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Douleurs articulaires 🦵, Fatigue anormale",
+                            "adults": "Essoufflement, Rétention d’eau, Souffle cardiaque"
+                        },
+                        "prevention": {
+                            "children": "Traiter toutes les angines avec antibiotiques 💊",
+                            "adults": "Injections mensuelles de pénicilline pendant plusieurs années"
+                        },
+                        "treatment": {
+                            "children": "Valvuloplastie si valves abîmées 💉",
+                            "adults": "Opération à cœur ouvert selon la gravité 🏥"
+                        },
+                        "whenToConsult": "Après une angine avec fièvre ou douleurs articulaires, ou si l’enfant semble fatigué ou essoufflé.",
+                        "source": "OMS - Plan mondial contre les cardiopathies rhumatismales"
+                    }
+                },
+                {
+                    "id": "3",
+                    "title": "Infarctus du Myocarde",
+                    "description": "Crise cardiaque due à une artère bouchée",
+                    "categoryId":"4",
+                    "image": "coeurs.png",
+                    "definition": "L’infarctus est causé par un caillot qui bloque une artère du cœur.",
+                    "funFact": "Les symptômes peuvent être différents chez les femmes (nausées, fatigue au lieu de douleur thoracique).",
+                    "details": {
+                        "symptoms": {
+                            "children": "Rare chez les enfants, mais attention si douleur thoracique",
+                            "adults": "Douleur intense au thorax, transpiration, malaise 😰"
+                        },
+                        "prevention": {
+                            "children": "Bonne alimentation dès le plus jeune âge 🥦",
+                            "adults": "Éviter le gras 🍔, Marcher 30 min par jour 🏃"
+                        },
+                        "treatment": {
+                            "children": "Soins d’urgence si suspicion",
+                            "adults": "Aspirine, Angioplastie en urgence 🚑"
+                        },
+                        "whenToConsult": "Dès qu’une douleur thoracique apparaît, surtout si elle irradie vers le bras gauche ou la mâchoire.",
+                        "source": "Fédération Mondiale du Cœur (2023)"
+                    }
+                },
+                {
+                    "id": "4",
+                    "title": "Insuffisance Cardiaque",
+                    "description": "Cœur qui pompe mal le sang",
+                    "categoryId":"4",
+                    "image": "coeurs.png",
+                    "definition": "C’est une condition où le cœur n’arrive plus à faire circuler le sang correctement.",
+                    "funFact": "Souvent la conséquence de maladies non soignées comme l’hypertension ou les infections cardiaques.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Essoufflement au jeu 🧸, Gonflement des jambes",
+                            "adults": "Fatigue au moindre effort 😩, Œdèmes des pieds"
+                        },
+                        "prevention": {
+                            "children": "Soigner les infections, Suivi médical régulier",
+                            "adults": "Contrôler sa tension, Réduire le sel et les boissons sucrées"
+                        },
+                        "treatment": {
+                            "children": "Diurétiques, Suivi pédiatrique cardiaque",
+                            "adults": "Traitement à vie : diurétiques, bêtabloquants, IEC"
+                        },
+                        "whenToConsult": "Si vous êtes vite essoufflé, ou que les pieds/gonflements apparaissent, consulter immédiatement.",
+                        "source": "Recommandations HAS 2024"
+                    }
+                },
+                {
+                    "id": "5",
+                    "title": "Arythmie Cardiaque",
+                    "description": "Battements irréguliers du cœur",
+                    "categoryId":"4",
+                    "image": "coeurs.png",
+                    "definition": "Trouble du rythme du cœur, trop rapide, trop lent ou irrégulier.",
+                    "funFact": "Certains enfants naissent avec des arythmies bénignes corrigées par la croissance.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Palpitations 💓, Étourdissements",
+                            "adults": "Sensation de cœur qui saute, Malaise ou fatigue soudaine"
+                        },
+                        "prevention": {
+                            "children": "Éviter les excitants (boissons sucrées, cola) 🥤",
+                            "adults": "Contrôler son stress, Réduire l’alcool et café"
+                        },
+                        "treatment": {
+                            "children": "Surveillance ou médicament selon type",
+                            "adults": "Médicaments antiarythmiques, Ablation par radiofréquence"
+                        },
+                        "whenToConsult": "Si le cœur bat anormalement vite/lent ou de façon irrégulière, ou en cas de malaise soudain.",
+                        "source": "Société Européenne de Cardiologie (2023)"
+                    }
+                }
+            ]
+        },
+        "SKIN": {
+            "id": "5",
+            "title": "Maladies de la Peau 🧴🩹",
+            "description": "Affections courantes de la peau, faciles à comprendre pour tous 👶👦👧",
+            "color": "#4CAF50",
+            "image": "skin.png",
+            "diseases": [
+                {
+                    "id": "1",
+                    "title": "Gale 🐛",
+                    "description": "Infestation par acarien Sarcoptes scabiei 🕷️",
+                    "categoryId":"5",
+                    "image": "skin.png",
+                    "definition": "Une maladie de la peau très contagieuse causée par un petit parasite qui creuse des galeries sous la peau 🏞️.",
+                    "funFact": "Le parasite aime creuser des tunnels sous la peau, c’est pour ça que ça gratte beaucoup ! 🤯",
+                    "details": {
+                        "symptoms": {
+                            "children": "Grattage intense la nuit 🌙, petites cloques entre les doigts ✋",
+                            "adults": "Boutons rouges dans les plis de la peau, sillons visibles 🩸"
+                        },
+                        "prevention": {
+                            "children": "Laver les vêtements à 60°C 👕, éviter de toucher ou partager les affaires 🙅‍♂️",
+                            "adults": "Traiter en même temps toute la famille et les contacts proches 👨‍👩‍👧‍👦"
+                        },
+                        "treatment": {
+                            "children": "Application d’une crème spéciale (Perméthrine 5%) une fois 🧴",
+                            "adults": "Prendre un médicament oral appelé Ivermectine 💊"
+                        },
+                        "whenToConsult": {
+                            "children": "Si l’enfant se gratte beaucoup la nuit ou si les boutons s’étendent 🚨",
+                            "adults": "Si les démangeaisons durent malgré le traitement ou si la peau devient rouge et gonflée 🔥"
+                        },
+                        "source": "Guide de prise en charge IST - Ministère Santé Bénin 📚"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Dermatite atopique 🧴",
+                    "description": "Peau sèche, rouge et qui gratte 😣",
+                    "categoryId":"5",
+                    "image": "skin.png",
+                    "definition": "Une maladie où la peau devient très sèche et irritée, surtout chez les enfants qui ont souvent des allergies 🤧.",
+                    "funFact": "Cette maladie est liée à une peau qui laisse passer plus facilement les choses qui la gênent 🛡️.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Peau rouge et sèche surtout aux plis des bras et jambes 🤕, grattage important ✋",
+                            "adults": "Zones sèches, parfois épaissies et qui démangent beaucoup 😖"
+                        },
+                        "prevention": {
+                            "children": "Utiliser des crèmes hydratantes souvent 🧴, éviter les savons agressifs 🧼",
+                            "adults": "Éviter le stress 😌, les allergènes 🌸, bien hydrater la peau 💧"
+                        },
+                        "treatment": {
+                            "children": "Crèmes hydratantes, parfois crèmes anti-inflammatoires 💊",
+                            "adults": "Soins réguliers de la peau, médicaments en cas de poussée 🩺"
+                        },
+                        "whenToConsult": {
+                            "children": "Si la peau est très rouge, suintante ou si l’enfant souffre beaucoup 😢",
+                            "adults": "Si les démangeaisons empêchent de dormir 🌙 ou si la peau s’infecte 🤒"
+                        },
+                        "source": "OMS – Guide maladies dermatologiques 📘"
+                    }
+                },
+                {
+                    "id": "3",
+                    "title": "Teigne (dermatophytie) 🍄",
+                    "description": "Infection fongique de la peau 🦠",
+                    "categoryId":"5",
+                    "image": "skin.png",
+                    "definition": "Une infection de la peau causée par un champignon qui forme des plaques rondes avec des bords rouges 🔴.",
+                    "funFact": "La teigne est contagieuse et se transmet facilement entre enfants à l’école ou à la maison 🏫🏠.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Plaques rouges rondes qui grattent 🤕, perte de cheveux en cas de cuir chevelu touché 🧑‍🦲",
+                            "adults": "Taches rouges qui s’étendent avec des bords nets et squameux 🩹"
+                        },
+                        "prevention": {
+                            "children": "Ne pas partager peignes, bonnets, serviettes 🧢🚫",
+                            "adults": "Garder la peau propre et sèche 💦, éviter humidité prolongée ☀️"
+                        },
+                        "treatment": {
+                            "children": "Crèmes antifongiques locales 🧴, parfois comprimés en cas sévère 💊",
+                            "adults": "Traitement antifongique jusqu’à disparition complète ✅"
+                        },
+                        "whenToConsult": {
+                            "children": "Si les plaques s’étendent ou deviennent très rouges et douloureuses ⚠️",
+                            "adults": "En cas de persistance malgré traitement ou douleurs 🚑"
+                        },
+                        "source": "Guide Santé Bénin – Dermatologie 📚"
+                    }
+                },
+                {
+                    "id": "4",
+                    "title": "Psoriasis 🩹",
+                    "description": "Maladie chronique de la peau avec plaques rouges et squameuses ❄️",
+                    "categoryId":"5",
+                    "image": "skin.png",
+                    "definition": "Maladie où la peau fabrique trop vite des cellules, formant des plaques épaisses et blanches qui démangent 🤒.",
+                    "funFact": "Le psoriasis n’est pas contagieux et peut être déclenché par le stress ou des infections 😟.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Plaques rouges avec des squames blanches, surtout aux coudes et genoux 🦵",
+                            "adults": "Plaques épaisses, démangeaisons, parfois fissures douloureuses 😖"
+                        },
+                        "prevention": {
+                            "children": "Éviter le stress 😌, garder la peau bien hydratée 💧",
+                            "adults": "Éviter alcool 🍷 et tabac 🚭, bien traiter les infections 🩺"
+                        },
+                        "treatment": {
+                            "children": "Crèmes médicamenteuses, bains d’huile 🛁, suivi médical régulier 🩺",
+                            "adults": "Traitements topiques, photothérapie ☀️, parfois médicaments oraux 💊"
+                        },
+                        "whenToConsult": {
+                            "children": "Si les plaques deviennent rouges, douloureuses ou si l’enfant est gêné 😟",
+                            "adults": "Si la maladie s’étend ou s’aggrave rapidement ⚠️"
+                        },
+                        "source": "OMS – Guide maladies chroniques de la peau 📘"
+                    }
+                },
+                {
+                    "id": "5",
+                    "title": "Acné 😬",
+                    "description": "Boutons sur le visage et le corps 🤳",
+                    "categoryId":"5",
+                    "image": "skin.png",
+                    "definition": "Maladie très fréquente chez les ados, causée par une production trop importante de sébum et des bactéries dans les pores 🦠.",
+                    "funFact": "L’acné peut laisser des cicatrices si on gratte trop les boutons ! 🚫🤏",
+                    "details": {
+                        "symptoms": {
+                            "children": "Boutons rouges et blancs sur le visage, parfois sur le dos 🤕",
+                            "adults": "Boutons, points noirs, inflammation locale 🔴"
+                        },
+                        "prevention": {
+                            "children": "Ne pas toucher ou percer les boutons 🚫🤚, nettoyer la peau doucement 🧼",
+                            "adults": "Utiliser des soins adaptés 🧴, éviter produits gras 🛢️"
+                        },
+                        "treatment": {
+                            "children": "Produits nettoyants doux 🧴, crèmes spécifiques",
+                            "adults": "Médicaments locaux ou oraux prescrits par un dermatologue 🩺"
+                        },
+                        "whenToConsult": {
+                            "children": "Si les boutons deviennent très rouges, douloureux ou s’ils laissent des cicatrices 🚨",
+                            "adults": "En cas d’acné sévère ou persistante malgré traitement 🚑"
+                        },
+                        "source": "Guide Santé Bénin – Dermatologie 📚"
+                    }
+                }
+            ]
+        },
+        "BRAIN": {
+            "id": "6",
+            "title": "Problèmes du Cerveau 🧠🤯",
+            "description": "Maladies du cerveau expliquées simplement pour les petits et les grands 👶👧🧑",
+            "color": "#9C27B0",
+            "image": "brain.png",
+            "diseases": [
+                {
+                    "id": "1",
+                    "title": "Épilepsie ⚡🧠",
+                    "description": "Trouble avec des crises soudaines du cerveau",
+                    "categoryId":"6",
+                    "image": "brain.png",
+                    "definition": "Une maladie où le cerveau fait comme un court-circuit et provoque des secousses ou des absences ⏸️.",
+                    "funFact": "Pendant une crise, certains enfants peuvent juste fixer dans le vide sans bouger 😶.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Secousses du corps, regard dans le vide, perte de conscience 😵",
+                            "adults": "Convulsions, confusions après la crise, pertes de mémoire temporaire 🧏"
+                        },
+                        "prevention": {
+                            "children": "Prendre bien les médicaments 💊, éviter les lumières clignotantes 🚫💡",
+                            "adults": "Dormir suffisamment 😴, éviter l’alcool et le stress 🛑"
+                        },
+                        "treatment": {
+                            "children": "Médicaments anti-crise tous les jours 📆💊",
+                            "adults": "Suivi neurologique et médicaments adaptés 🩺"
+                        },
+                        "whenToConsult": {
+                            "children": "Si l’enfant fait une crise ou perd connaissance 👶🚨",
+                            "adults": "Si des crises se répètent ou deviennent plus longues 🕐"
+                        },
+                        "source": "Guide Neurologie - Ministère Santé Bénin 📚"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Méningite 🧠🔥",
+                    "description": "Infection des membranes du cerveau",
+                    "categoryId":"6",
+                    "image": "brain.png",
+                    "definition": "Une infection grave qui enflamme la protection du cerveau et peut causer des maux de tête et de la fièvre très forte 🌡️.",
+                    "funFact": "Elle peut rendre la lumière trop brillante pour les yeux 😎.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Fièvre forte, nuque raide, vomissements, somnolence 🛏️",
+                            "adults": "Maux de tête intenses, difficulté à regarder la lumière 💡, confusion"
+                        },
+                        "prevention": {
+                            "children": "Vaccins à jour 💉, éviter contact avec personnes malades",
+                            "adults": "Hygiène des mains 🙌, éviter les lieux bondés si épidémie"
+                        },
+                        "treatment": {
+                            "children": "Hospitalisation urgente 🏥, antibiotiques puissants 💊",
+                            "adults": "Soins médicaux intensifs, traitement selon l’origine (bactérienne ou virale)"
+                        },
+                        "whenToConsult": {
+                            "children": "Si l’enfant a fièvre, somnolence et mal à la nuque 🚨",
+                            "adults": "Dès qu’une forte fièvre avec maux de tête apparaît 🧠🔥"
+                        },
+                        "source": "OMS – Guide Méningite 📘"
+                    }
+                },
+                {
+                    "id": "3",
+                    "title": "Céphalée (mal de tête) 😣💥",
+                    "description": "Douleur à la tête fréquente ou intense",
+                    "categoryId":"6",
+                    "image": "brain.png",
+                    "definition": "C’est quand la tête fait mal à cause de stress, fièvre ou autres soucis internes 😵.",
+                    "funFact": "Certains maux de tête viennent parce qu’on ne boit pas assez d’eau ! 💧",
+                    "details": {
+                        "symptoms": {
+                            "children": "Douleur au front ou derrière la tête, fatigue 😫",
+                            "adults": "Pression ou pulsations dans la tête, parfois nausées 🤢"
+                        },
+                        "prevention": {
+                            "children": "Boire beaucoup d’eau 💦, éviter le soleil trop fort 🌞",
+                            "adults": "Gérer le stress 😌, éviter le manque de sommeil 🛏️"
+                        },
+                        "treatment": {
+                            "children": "Repos dans le calme 🧘, paracétamol si nécessaire",
+                            "adults": "Antalgiques simples, relaxation, parfois consultation médicale"
+                        },
+                        "whenToConsult": {
+                            "children": "Si les maux de tête sont fréquents ou empêchent de jouer 🎮🚫",
+                            "adults": "Si la douleur est très forte ou vient d’un coup 🆘"
+                        },
+                        "source": "Guide Santé Enfants – Douleurs Courantes 📖"
+                    }
+                },
+                {
+                    "id": "4",
+                    "title": "Autisme 🧩🧠",
+                    "description": "Trouble du développement du cerveau 👶🧠",
+                    "categoryId":"6",
+                    "image": "brain.png",
+                    "definition": "Un fonctionnement spécial du cerveau qui rend les relations et la communication plus difficiles 💬❌.",
+                    "funFact": "Les enfants autistes peuvent avoir des talents spéciaux, comme retenir beaucoup de choses ou dessiner très bien ! 🎨🧠",
+                    "details": {
+                        "symptoms": {
+                            "children": "Parle peu ou pas, évite le regard, aime les routines 🔁",
+                            "adults": "Difficultés à s’exprimer ou à comprendre les autres, isolement"
+                        },
+                        "prevention": {
+                            "children": "Pas vraiment de prévention connue, mais un bon suivi aide beaucoup 🩺",
+                            "adults": "Diagnostic et accompagnement spécialisés 🧠"
+                        },
+                        "treatment": {
+                            "children": "Thérapies éducatives et jeux adaptés 🧸, soutien familial 👨‍👩‍👧",
+                            "adults": "Accompagnement psychologique et éducatif adapté"
+                        },
+                        "whenToConsult": {
+                            "children": "Si un enfant ne parle pas, évite le contact ou reste trop dans son monde 🌍",
+                            "adults": "Si la personne a du mal à interagir au quotidien 🤝"
+                        },
+                        "source": "Centre National Autisme – Guide Parents 📚"
+                    }
+                },
+                {
+                    "id": "5",
+                    "title": "Trouble du déficit de l’attention avec ou sans hyperactivité (TDAH) 🌀🧠",
+                    "description": "Difficulté à se concentrer et à rester calme 🗯️",
+                    "categoryId":"6",
+                    "image": "brain.png",
+                    "definition": "Une condition où le cerveau a du mal à se concentrer, ce qui rend l’enfant très agité ou distrait 💨.",
+                    "funFact": "Certains enfants avec TDAH pensent tellement vite qu’ils sautent d’une idée à l’autre comme un super-héros mental ! 🦸‍♂️",
+                    "details": {
+                        "symptoms": {
+                            "children": "Bouge tout le temps, interrompt souvent, oublie vite 📚💨",
+                            "adults": "Problèmes à rester attentif longtemps, oublis fréquents 🧾"
+                        },
+                        "prevention": {
+                            "children": "Pas de prévention directe, mais un cadre structuré aide 🏫📅",
+                            "adults": "Organisation du quotidien, techniques de concentration 📋"
+                        },
+                        "treatment": {
+                            "children": "Soutien éducatif, thérapies comportementales, parfois médicaments 🎯",
+                            "adults": "Coaching, stratégies cognitives, traitements adaptés"
+                        },
+                        "whenToConsult": {
+                            "children": "Si l’enfant a du mal à écouter, se concentre difficilement et dérange en classe 🏫",
+                            "adults": "Si le manque d’attention gêne le travail ou la vie sociale 💼🚫"
+                        },
+                        "source": "OMS – Guide TDAH enfants et adultes 📘"
+                    }
+                }
+            ]
+        },
+        "IMMUNE": {
+            "id": "7",
+            "title": "Défenses Immunitaires 🛡️💪",
+            "description": "Maladies et problèmes qui affaiblissent ou perturbent les boucliers du corps 👶👧🧑",
+            "color": "#FFC107",
+            "image": "immune.png",
+            "diseases": [
+                {
+                    "id": "1",
+                    "title": "VIH / SIDA 🦠🛡️",
+                    "description": "Virus qui attaque les soldats du corps",
+                    "categoryId":"7",
+                    "image": "immune.png",
+                    "definition": "Le VIH détruit peu à peu les globules blancs, rendant le corps fragile face aux autres maladies.",
+                    "funFact": "On peut vivre longtemps et en bonne santé avec un traitement pris chaque jour !",
+                    "details": {
+                        "symptoms": {
+                            "children": "Perte de poids 📉, infections fréquentes 🤒",
+                            "adults": "Fatigue permanente 😴, fièvres répétées 🌡️"
+                        },
+                        "prevention": {
+                            "children": "Traitement de la maman pendant la grossesse 🤰💊",
+                            "adults": "Utiliser un préservatif 🛡️, test de dépistage régulier 💉"
+                        },
+                        "treatment": {
+                            "children": "Sirop antirétroviral quotidien 🍯💊",
+                            "adults": "Comprimés antirétroviraux chaque jour 📆"
+                        },
+                        "whenToConsult": {
+                            "children": "Si l’enfant tombe souvent malade ou maigrit vite 🚨",
+                            "adults": "Après un comportement à risque ou si des infections reviennent souvent ⚠️"
+                        },
+                        "source": "OMS – Directives VIH 2024 📚"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Carence en Vitamine A 🥕🛡️",
+                    "description": "Pas assez de vitamine A dans le corps",
+                    "categoryId":"7",
+                    "image": "immune.png",
+                    "definition": "Sans vitamine A, les yeux et le système immunitaire deviennent faibles.",
+                    "funFact": "Une seule mangue bien mûre peut couvrir la moitié du besoin quotidien d’un enfant ! 🥭",
+                    "details": {
+                        "symptoms": {
+                            "children": "Vue trouble le soir 🌙👀, infections répétées 🤧",
+                            "adults": "Peau sèche, fatigue, mauvaise vision nocturne 🌃"
+                        },
+                        "prevention": {
+                            "children": "Manger carottes, patates douces, mangues 🥕🍠🥭",
+                            "adults": "Capsules de vitamine A après l’accouchement 🤱💊"
+                        },
+                        "treatment": {
+                            "children": "Supplément de vitamine A deux fois par an 💉",
+                            "adults": "Gélules de vitamine A prescrites par le médecin 💊"
+                        },
+                        "whenToConsult": {
+                            "children": "Si l’enfant voit mal la nuit ou attrape souvent la grippe 👁️🚨",
+                            "adults": "Si la vision baisse soudainement ou peau très sèche ⚠️"
+                        },
+                        "source": "UNICEF – Programme Vitamine A 2023 📘"
+                    }
+                },
+                {
+                    "id": "3",
+                    "title": "Carence en Zinc 🥜🛡️",
+                    "description": "Manque de zinc, minéral protecteur",
+                    "categoryId":"7",
+                    "image": "immune.png",
+                    "definition": "Le zinc aide les plaies à guérir et renforce les défenses ; sans lui, on tombe plus vite malade.",
+                    "funFact": "Les arachides grillées contiennent beaucoup de zinc et sont délicieuses ! 🥜😋",
+                    "details": {
+                        "symptoms": {
+                            "children": "Retard de croissance 📏, diarrhées fréquentes 💦",
+                            "adults": "Perte d’appétit 🍽️, plaies qui cicatrisent lentement ⏳"
+                        },
+                        "prevention": {
+                            "children": "Manger poisson, haricots, graines de courge 🐟🌱",
+                            "adults": "Équilibrer l’alimentation, éviter régimes monotones 🥗"
+                        },
+                        "treatment": {
+                            "children": "Sirop ou comprimés de zinc pendant 10–14 jours 💊",
+                            "adults": "Supplémentation selon prescription médicale 📄"
+                        },
+                        "whenToConsult": {
+                            "children": "Si l’enfant ne grandit pas bien ou a souvent la diarrhée 🚸",
+                            "adults": "Si les coupures guérissent mal ou perte de cheveux ⚠️"
+                        },
+                        "source": "Programme National Nutrition Bénin 2024 📗"
+                    }
+                },
+                {
+                    "id": "4",
+                    "title": "Kwashiorkor 🍚🛡️",
+                    "description": "Malnutrition sévère avec gros ventre",
+                    "categoryId":"7",
+                    "image": "immune.png",
+                    "definition": "Manque de protéines ; le corps gonfle et les défenses baissent beaucoup.",
+                    "funFact": "Son nom vient d’un mot ghanéen signifiant « l’enfant rouge » car la peau change de couleur.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Ventre très gonflé 🎈, cheveux qui pâlissent 🤍",
+                            "adults": "Extrêmement rare chez l’adulte, perte musculaire sévère 💪"
+                        },
+                        "prevention": {
+                            "children": "Donner assez de lait, œufs, haricots 🥛🥚🌾",
+                            "adults": "Assurer une alimentation variée pour la famille 🍲"
+                        },
+                        "treatment": {
+                            "children": "Aliments thérapeutiques prêts à l’emploi (Plumpy’Nut) 🍫",
+                            "adults": "Rations protéinées, suivi nutritionnel en centre spécialisé 🩺"
+                        },
+                        "whenToConsult": {
+                            "children": "Si l’enfant maigrit mais a un gros ventre ou des pieds gonflés 🚑",
+                            "adults": "Toute malnutrition grave nécessite une consultation urgente ⚠️"
+                        },
+                        "source": "OMS – Protocole de prise en charge de la malnutrition 2023 📒"
+                    }
+                },
+                {
+                    "id": "5",
+                    "title": "Diabète de type 1 🍬🛡️",
+                    "description": "Le corps n’a plus d’insuline",
+                    "categoryId":"7",
+                    "image": "immune.png",
+                    "definition": "Le système immunitaire attaque les cellules qui fabriquent l’insuline, faisant monter le sucre dans le sang.",
+                    "funFact": "Les enfants apprennent vite à s’injecter l’insuline eux-mêmes comme de vrais champions ! 🏅",
+                    "details": {
+                        "symptoms": {
+                            "children": "Soif intense 🚰, envie de faire pipi souvent 🚽, perte de poids 📉",
+                            "adults": "Fatigue, vision trouble 👓"
+                        },
+                        "prevention": {
+                            "children": "Pas vraiment de prévention connue, mais un dépistage rapide aide 🩺",
+                            "adults": "Veiller aux signes d’alerte dans la famille 👨‍👩‍👧‍👦"
+                        },
+                        "treatment": {
+                            "children": "Injections d’insuline chaque jour 💉, régime équilibré 🥗",
+                            "adults": "Insuline, contrôle régulier du sucre, activité physique 🚴"
+                        },
+                        "whenToConsult": {
+                            "children": "Si l’enfant boit beaucoup, maigrit vite ou est très fatigué 🚨",
+                            "adults": "Si la glycémie est souvent haute ou si malaise soudain ⚠️"
+                        },
+                        "source": "Fédération Internationale du Diabète – Guide enfants 2024 📙"
+                    }
+                }
+            ]
+        },
+        "BLOOD": {
+            "id": "8",
+            "title": "Maladies du Sang 🩸🧬",
+            "description": "Découvrons ensemble les maladies du sang, expliquées simplement pour mieux comprendre et agir 👶🧒👧👨👩",
+            "color": "#E91E63",
+            "image": "blood.png",
+            "diseases": [
+                {
+                    "id": "1",
+                    "title": "Anémie par carence en fer 🍽️",
+                    "description": "Manque de fer dans le sang, provoquant fatigue et pâleur",
+                    "categoryId":"8",
+                    "image": "anemia.png",
+                    "definition": "L'anémie est une maladie où le corps manque de globules rouges sains à cause d'un manque de fer. Cela rend la personne fatiguée et pâle.",
+                    "funFact": "Le fer est un minéral important pour transporter l'oxygène dans le corps. Manger des aliments riches en fer, comme les épinards et la viande rouge, peut aider.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Fatigue, pâleur, essoufflement, manque d'appétit",
+                            "adults": "Fatigue persistante, faiblesse, essoufflement, maux de tête, peau pâle"
+                        },
+                        "prevention": {
+                            "children": "Manger des aliments riches en fer comme les légumes verts et la viande, et prendre des suppléments si nécessaire",
+                            "adults": "Consommer une alimentation équilibrée riche en fer, surveiller les pertes de sang (règles abondantes, saignements digestifs)"
+                        },
+                        "treatment": {
+                            "children": "Suppléments de fer, changements alimentaires, parfois transfusions sanguines",
+                            "adults": "Suppléments de fer, traitement de la cause sous-jacente (par exemple, ulcère), transfusions si nécessaire"
+                        },
+                        "whenToConsult": {
+                            "children": "Si l'enfant est souvent fatigué, pâle ou a du mal à se concentrer",
+                            "adults": "Si vous ressentez une fatigue inhabituelle, des étourdissements ou un essoufflement"
+                        },
+                        "source": "https://www.clevelandclinic.org/health/diseases/3929-anemia"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Drépanocytose 🧬",
+                    "description": "Maladie génétique affectant la forme des globules rouges",
+                    "categoryId":"8",
+                    "image": "sickle_cell.png",
+                    "definition": "La drépanocytose est une maladie où les globules rouges ont une forme de faucille, ce qui peut bloquer la circulation sanguine et causer de la douleur.",
+                    "funFact": "Cette maladie est plus fréquente chez les personnes d'origine africaine. Des traitements existent pour aider les personnes à vivre normalement.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Douleurs, fatigue, infections fréquentes, gonflement des mains et des pieds",
+                            "adults": "Douleurs chroniques, fatigue, essoufflement, complications organiques"
+                        },
+                        "prevention": {
+                            "children": "Vaccinations à jour, éviter les infections, prendre des médicaments prescrits",
+                            "adults": "Éviter les déclencheurs de crises (froid, stress), hydratation adéquate, suivi médical régulier"
+                        },
+                        "treatment": {
+                            "children": "Médicaments comme l'hydroxyurée, transfusions sanguines, greffe de moelle osseuse dans certains cas",
+                            "adults": "Hydroxyurée, transfusions régulières, greffe de cellules souches pour certains cas"
+                        },
+                        "whenToConsult": {
+                            "children": "Si l'enfant a de fortes douleurs, de la fièvre ou des signes d'infection",
+                            "adults": "Si vous ressentez des douleurs intenses, de la fièvre ou des signes d'infection"
+                        },
+                        "source": "https://www.mayoclinic.org/diseases-conditions/sickle-cell-anemia/symptoms-causes/syc-20355876"
+                    }
+                },
+                {
+                    "id": "3",
+                    "title": "Hémophilie 🩹",
+                    "description": "Trouble de la coagulation du sang, entraînant des saignements prolongés",
+                    "categoryId":"8",
+                    "image": "hemophilia.png",
+                    "definition": "L'hémophilie est une maladie où le sang ne coagule pas correctement, ce qui peut provoquer des saignements prolongés ou spontanés.",
+                    "funFact": "Avec un traitement approprié, les personnes atteintes d'hémophilie peuvent mener une vie active et normale.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Saignements prolongés, ecchymoses faciles, douleurs articulaires",
+                            "adults": "Saignements internes, douleurs articulaires, hématomes fréquents"
+                        },
+                        "prevention": {
+                            "children": "Éviter les activités à risque, utiliser des protections, suivre les traitements préventifs",
+                            "adults": "Suivi médical régulier, éviter les médicaments anticoagulants sans avis médical"
+                        },
+                        "treatment": {
+                            "children": "Injections de facteurs de coagulation, médicaments spécifiques",
+                            "adults": "Thérapie de remplacement des facteurs de coagulation, soins des articulations"
+                        },
+                        "whenToConsult": {
+                            "children": "Si l'enfant présente des saignements inhabituels ou des douleurs articulaires",
+                            "adults": "En cas de saignements prolongés ou de douleurs articulaires inexpliquées"
+                        },
+                        "source": "https://www.cdc.gov/hemophilia/treatment/index.html"
+                    }
+                },
+                {
+                    "id": "4",
+                    "title": "Leucémie 🧪",
+                    "description": "Cancer du sang affectant les globules blancs",
+                    "categoryId":"8",
+                    "image": "leukemia.png",
+                    "definition": "La leucémie est un cancer du sang où les globules blancs se développent de manière incontrôlée, perturbant la production normale des cellules sanguines.",
+                    "funFact": "Grâce aux avancées médicales, de nombreuses personnes atteintes de leucémie peuvent être traitées efficacement.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Fatigue, fièvre, ecchymoses faciles, infections fréquentes",
+                            "adults": "Fatigue persistante, perte de poids, sueurs nocturnes, douleurs osseuses"
+                        },
+                        "prevention": {
+                            "children": "Pas de prévention spécifique, mais une détection précoce améliore les chances de guérison",
+                            "adults": "Éviter l'exposition aux produits chimiques toxiques, arrêt du tabac"
+                        },
+                        "treatment": {
+                            "children": "Chimiothérapie, parfois greffe de moelle osseuse",
+                            "adults": "Chimiothérapie, thérapies ciblées, greffe de cellules souches"
+                        },
+                        "whenToConsult": {
+                            "children": "Si l'enfant présente une fatigue persistante, des infections fréquentes ou des saignements inhabituels",
+                            "adults": "En cas de fatigue inexpliquée, perte de poids ou infections récurrentes"
+                        },
+                        "source": "https://www.mayoclinic.org/diseases-conditions/leukemia/symptoms-causes/syc-20374373"
+                    }
+                },
+                {
+                    "id": "5",
+                    "title": "Thalassémie 🧬",
+                    "description": "Maladie génétique entraînant une production anormale d'hémoglobine",
+                    "categoryId":"8",
+                    "image": "thalassemia.png",
+                    "definition": "La thalassémie est une maladie héréditaire où le corps produit une hémoglobine anormale, entraînant une anémie et d'autres complications.",
+                    "funFact": "La thalassémie est plus fréquente dans certaines régions du monde, comme le bassin méditerranéen, l'Asie et l'Afrique.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Fatigue, pâleur, retard de croissance, déformations osseuses",
+                            "adults": "Fatigue, faiblesse, essoufflement, complications cardiaques"
+                        },
+                        "prevention": {
+                            "children": "Conseil génétique pour les familles à risque, dépistage prénatal",
+                            "adults": "Suivi médical régulier, éviter les infections, vaccinations à jour"
+                        },
+                        "treatment": {
+                            "children": "Transfusions sanguines régulières, traitement pour éliminer l'excès de fer, greffe de moelle osseuse dans certains cas",
+                            "adults": "Transfusions, chélation du fer, greffe de cellules souches si nécessaire"
+                        },
+                        "whenToConsult": {
+                            "children": "Si l'enfant présente une fatigue excessive, un retard de croissance ou des signes d'anémie",
+                            "adults": "En cas de fatigue persistante, essoufflement ou complications cardiaques"
+                        },
+                        "source": "https://www.cdc.gov/thalassemia/treatment/index.html"
+                    }
+                }
+            ]
+        },
+        "BONES_MUSCLES": {
+            "id": "9",
+            "title": "Os et Muscles 💪🦴",
+            "description": "Maladies courantes des os et des muscles, expliquées simplement pour tous 👶👦👧",
+            "color": "#FF9800",
+            "image": "bones_muscles.png",
+            "diseases": [
+                {
+                    "id": "1",
+                    "title": "Ostéoporose 🦴",
+                    "description": "Fragilité des os, surtout chez les personnes âgées",
+                    "categoryId":"9",
+                    "image": "osteoporosis.png",
+                    "definition": "Maladie où les os deviennent fragiles et se cassent facilement, souvent sans douleur préalable.",
+                    "funFact": "L'ostéoporose est appelée 'maladie silencieuse' car elle ne montre pas de signes avant une fracture.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Rare chez les enfants, mais peut survenir en cas de maladies génétiques.",
+                            "adults": "Fractures fréquentes, perte de taille, dos voûté."
+                        },
+                        "prevention": {
+                            "children": "Alimentation riche en calcium et vitamine D, activité physique régulière.",
+                            "adults": "Exercice régulier, éviter le tabac et l'alcool, supplémentation en calcium et vitamine D si nécessaire."
+                        },
+                        "treatment": {
+                            "children": "Traitement des causes sous-jacentes, supplémentation en calcium et vitamine D.",
+                            "adults": "Médicaments pour renforcer les os, supplémentation en calcium et vitamine D, exercices adaptés."
+                        },
+                        "whenToConsult": {
+                            "children": "Si l'enfant a des fractures fréquentes ou des douleurs osseuses inhabituelles.",
+                            "adults": "En cas de fractures sans cause apparente ou de douleurs osseuses persistantes."
+                        },
+                        "source": "OMS – Guide sur l'ostéoporose 📘"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Ostéomalacie 🌧️",
+                    "description": "Ramollissement des os dû à une carence en vitamine D",
+                    "categoryId":"9",
+                    "image": "osteomalacia.png",
+                    "definition": "Maladie où les os deviennent mous et douloureux à cause d'un manque de minéraux, surtout de vitamine D.",
+                    "funFact": "L'ostéomalacie est l'équivalent du rachitisme chez l'adulte.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Douleurs osseuses, retard de croissance, jambes arquées.",
+                            "adults": "Douleurs diffuses, faiblesse musculaire, fractures fréquentes."
+                        },
+                        "prevention": {
+                            "children": "Exposition au soleil, alimentation riche en vitamine D et calcium.",
+                            "adults": "Supplémentation en vitamine D, alimentation équilibrée, exposition au soleil."
+                        },
+                        "treatment": {
+                            "children": "Supplémentation en vitamine D et calcium, traitement des causes sous-jacentes.",
+                            "adults": "Supplémentation en vitamine D et calcium, traitement des maladies associées."
+                        },
+                        "whenToConsult": {
+                            "children": "Si l'enfant présente des douleurs osseuses ou un retard de croissance.",
+                            "adults": "En cas de douleurs osseuses diffuses ou de faiblesse musculaire persistante."
+                        },
+                        "source": "Guide Santé Bénin – Ostéomalacie 📚"
+                    }
+                },
+                {
+                    "id": "3",
+                    "title": "Ostéomyélite 🦠",
+                    "description": "Infection de l'os causée par des bactéries",
+                    "categoryId":"9",
+                        "image": "osteomyelitis.png",
+                    "definition": "Infection grave de l'os qui peut provoquer des douleurs intenses et de la fièvre.",
+                    "funFact": "L'ostéomyélite peut survenir après une blessure ou une chirurgie osseuse.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Fièvre, douleur osseuse intense, gonflement.",
+                            "adults": "Douleur persistante, rougeur, fièvre, fatigue."
+                        },
+                        "prevention": {
+                            "children": "Hygiène des plaies, traitement rapide des infections.",
+                            "adults": "Soins appropriés des plaies, gestion des maladies chroniques comme le diabète."
+                        },
+                        "treatment": {
+                            "children": "Antibiotiques par voie intraveineuse, parfois chirurgie.",
+                            "adults": "Antibiotiques prolongés, chirurgie pour retirer le tissu infecté si nécessaire."
+                        },
+                        "whenToConsult": {
+                            "children": "Si l'enfant a une douleur osseuse avec fièvre ou gonflement.",
+                            "adults": "En cas de douleur osseuse persistante, fièvre ou signes d'infection."
+                        },
+                        "source": "MSD – Ostéomyélite 📘"
+                    }
+                },
+                {
+                    "id": "4",
+                    "title": "Myopathies inflammatoires 🔥",
+                    "description": "Inflammation des muscles entraînant une faiblesse",
+                    "categoryId":"9",
+                    "image": "myopathy.png",
+                    "definition": "Groupe de maladies où les muscles deviennent faibles et douloureux à cause d'une inflammation.",
+                    "funFact": "Les myopathies peuvent affecter la capacité à effectuer des mouvements simples comme se lever.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Faiblesse musculaire, fatigue, difficulté à marcher.",
+                            "adults": "Faiblesse progressive, douleurs musculaires, difficulté à monter les escaliers."
+                        },
+                        "prevention": {
+                            "children": "Pas de prévention spécifique, mais un diagnostic précoce aide à gérer la maladie.",
+                            "adults": "Pas de prévention spécifique, mais un mode de vie sain peut aider."
+                        },
+                        "treatment": {
+                            "children": "Corticostéroïdes, thérapies physiques, immunosuppresseurs.",
+                            "adults": "Médicaments anti-inflammatoires, physiothérapie, traitement des symptômes."
+                        },
+                        "whenToConsult": {
+                            "children": "Si l'enfant montre une faiblesse musculaire inhabituelle ou une fatigue excessive.",
+                            "adults": "En cas de faiblesse musculaire progressive ou de douleurs inexpliquées."
+                        },
+                        "source": "AFM Téléthon – Myopathies inflammatoires 📘"
+                    }
+                },
+                {
+                    "id": "5",
+                    "title": "Arthrite juvénile 🧒",
+                    "description": "Inflammation des articulations chez les enfants",
+                    "categoryId":"9",
+                    "image": "juvenile_arthritis.png",
+                    "definition": "Maladie auto-immune où le système immunitaire attaque les articulations, provoquant douleur et raideur.",
+                    "funFact": "Contrairement à ce que l'on pense, l'arthrite peut aussi toucher les enfants.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Douleur articulaire, raideur matinale, gonflement des articulations.",
+                            "adults": "Douleurs articulaires, fatigue, fièvre."
+                        },
+                        "prevention": {
+                            "children": "Pas de prévention connue, mais un traitement précoce améliore le pronostic.",
+                            "adults": "Pas de prévention spécifique, mais un mode de vie sain peut aider."
+                        },
+                        "treatment": {
+                            "children": "Médicaments anti-inflammatoires, physiothérapie, suivi médical régulier.",
+                            "adults": "Médicaments pour contrôler l'inflammation, exercices adaptés, suivi médical."
+                        },
+                        "whenToConsult": {
+                            "children": "Si l'enfant a des douleurs articulaires persistantes ou une raideur matinale.",
+                            "adults": "En cas de douleurs articulaires prolongées ou de fatigue inexpliquée."
+                        },
+                        "source": "Arthrite Canada – Arthrite juvénile 📘"
+                    }
+                }
+            ]
+        },
+        "HORMONAL": {
+            "id": "10",
+            "title": "Problèmes Hormonaux 🧠🧬",
+            "description": "Troubles des hormones affectant la croissance, la puberté et le métabolisme chez les enfants et les adultes 👶👨‍👩‍👧‍👦",
+            "color": "#FF9800",
+            "image": "hormonal.png",
+            "diseases": [
+                {
+                    "id": "1",
+                    "title": "Déficit en hormone de croissance 📏",
+                    "description": "Croissance plus lente que la normale",
+                    "categoryId":"10",
+                    "image": "hormonal.png",
+                    "definition": "Le corps ne produit pas assez d'hormone de croissance, ce qui ralentit la taille et le développement.",
+                    "funFact": "Les enfants avec ce déficit peuvent avoir une taille normale à la naissance, mais grandissent plus lentement ensuite.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Croissance lente, petite taille par rapport aux camarades, retard du développement dentaire.",
+                            "adults": "Fatigue, masse musculaire réduite, augmentation de la graisse corporelle."
+                        },
+                        "prevention": {
+                            "children": "Suivi régulier de la croissance, alimentation équilibrée.",
+                            "adults": "Contrôle médical en cas de symptômes persistants."
+                        },
+                        "treatment": {
+                            "children": "Injections d'hormone de croissance sous surveillance médicale.",
+                            "adults": "Thérapie hormonale si nécessaire, sous contrôle médical."
+                        },
+                        "whenToConsult": {
+                            "children": "Si l'enfant grandit moins de 4 cm par an ou montre un retard de croissance.",
+                            "adults": "En cas de fatigue persistante, de faiblesse musculaire ou de changements corporels inexpliqués."
+                        },
+                        "source": "MSD Manuals"
+                    }
+                },
+                {
+                    "id": "2",
+                    "title": "Puberté précoce ⏰",
+                    "description": "Début de la puberté plus tôt que la normale",
+                    "categoryId":"10",
+                    "image": "hormonal.png",
+                    "definition": "Le corps commence les changements de la puberté trop tôt, avant 8 ans chez les filles et 9 ans chez les garçons.",
+                    "funFact": "La puberté précoce est plus fréquente chez les filles que chez les garçons.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Développement des seins ou des testicules, poussée de croissance rapide, poils pubiens précoces.",
+                            "adults": "N/A"
+                        },
+                        "prevention": {
+                            "children": "Éviter l'exposition à des hormones externes, surveillance médicale régulière.",
+                            "adults": "N/A"
+                        },
+                        "treatment": {
+                            "children": "Médicaments pour ralentir le développement pubertaire.",
+                            "adults": "N/A"
+                        },
+                        "whenToConsult": {
+                            "children": "Si des signes de puberté apparaissent avant l'âge normal.",
+                            "adults": "N/A"
+                        },
+                        "source": "Merck Manuals"
+                    }
+                },
+                {
+                    "id": "3",
+                    "title": "Puberté tardive 🕰️",
+                    "description": "Retard dans le début de la puberté",
+                    "categoryId":"10",
+                    "image": "hormonal.png",
+                    "definition": "La puberté ne commence pas à l'âge habituel, ce qui peut être dû à des problèmes hormonaux ou médicaux.",
+                    "funFact": "Un retard de puberté peut être familial et ne pas nécessiter de traitement.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Absence de développement des caractères sexuels secondaires après 13 ans chez les filles et 14 ans chez les garçons.",
+                            "adults": "N/A"
+                        },
+                        "prevention": {
+                            "children": "Suivi médical régulier, alimentation équilibrée.",
+                            "adults": "N/A"
+                        },
+                        "treatment": {
+                            "children": "Traitement hormonal si nécessaire, après évaluation médicale.",
+                            "adults": "N/A"
+                        },
+                        "whenToConsult": {
+                            "children": "Si aucun signe de puberté n'est visible après l'âge habituel.",
+                            "adults": "N/A"
+                        },
+                        "source": "MSD Manuals"
+                    }
+                },
+                {
+                    "id": "4",
+                    "title": "Hypothyroïdie congénitale 🐢",
+                    "description": "Fonctionnement lent de la glande thyroïde dès la naissance",
+                    "categoryId":"10",
+                    "image": "hormonal.png",
+                    "definition": "La glande thyroïde ne produit pas suffisamment d'hormones, affectant la croissance et le développement.",
+                    "funFact": "Un dépistage néonatal permet de détecter cette maladie tôt pour un traitement efficace.",
+                    "details": {
+                        "symptoms": {
+                            "children": "Fatigue, prise de poids, croissance lente, peau sèche.",
+                            "adults": "Fatigue, sensibilité au froid, prise de poids, dépression."
+                        },
+                        "prevention": {
+                            "children": "Dépistage néonatal, suivi médical régulier.",
+                            "adults": "Contrôle régulier de la fonction thyroïdienne."
+                        },
+                        "treatment": {
+                            "children": "Médicaments pour remplacer les hormones thyroïdiennes manquantes.",
+                            "adults": "Traitement hormonal substitutif à vie."
+                        },
+                        "whenToConsult": {
+                            "children": "Si l'enfant présente des signes de fatigue excessive ou de croissance lente.",
+                            "adults": "En cas de symptômes persistants comme la fatigue ou la prise de poids inexpliquée."
+                        },
+                        "source": "CHUV"
+                    }
+                },
+                {
+                    "id": "5",
+                    "title": "Hypogonadisme masculin 🧔",
+                    "description": "Production insuffisante de testostérone chez les garçons",
+                    "categoryId":"10",
+                    "image": "hormonal.png",
+                    "definition": "Les testicules ne produisent pas assez de testostérone, affectant la croissance et le développement sexuel.",
+                    "funFact": "L'hypogonadisme peut être primaire (problème des testicules) ou secondaire (problème de l'hypophyse).",
+                    "details": {
+                        "symptoms": {
+                            "children": "Retard de la puberté, petite taille des testicules, absence de pilosité.",
+                            "adults": "Diminution de la libido, fatigue, perte de masse musculaire."
+                        },
+                        "prevention": {
+                            "children": "Suivi médical en cas de retard de croissance ou de puberté.",
+                            "adults": "Consultation médicale en cas de symptômes persistants."
+                        },
+                        "treatment": {
+                            "children": "Thérapie hormonale pour induire la puberté.",
+                            "adults": "Traitement hormonal substitutif."
+                        },
+                        "whenToConsult": {
+                            "children": "Si la puberté ne commence pas à l'âge habituel.",
+                            "adults": "En cas de symptômes comme la fatigue, la baisse de libido ou la perte de masse musculaire."
+                        },
+                        "source": "Merck Manuals"
+                    }
+                }
+            ]
+        }
+    }
+}

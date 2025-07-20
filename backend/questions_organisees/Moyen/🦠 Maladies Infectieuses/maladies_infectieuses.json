@@ -1,0 +1,663 @@
+{
+    "categorie": "🦠 Maladies Infectieuses",
+    "difficulte": "Moyen",
+    "questions": [
+        {
+            "question": "6. L'analgésie congénitale empêche une personne de faire quoi ?",
+            "options": [
+                "Ressentir la douleur",
+                "Avoir des selles",
+                "Faire pousser des cheveux",
+                "Siffler"
+            ],
+            "reponse_correcte": "Ressentir la douleur",
+            "explication": "Réponse : Ressentir la douleur. L'absence de perception de la douleur est dangereuse, car elle empêche les patients de réagir aux blessures. Beaucoup meurent jeunes à cause d'infections ou de traumatismes non détectés.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "1. La lésion classique de cette maladie est décrite comme ressemblant à une « goutte de rosée sur un pétale de rose ». Les premières apparaissent généralement sur le visage ou le tronc, avec de nouvelles lésions survenant au cours des 5 à 7 jours suivants. Au fur et à mesure que les nouvelles lésions apparaissent, les plus anciennes se recouvrent de croûtes. Une fois que toutes les lésions sont croûtées, l'enfant peut retourner à l'école car il n'est plus contagieux.",
+            "options": [
+                "varicelle",
+                "rougeole",
+                "impétigo",
+                "roséole"
+            ],
+            "reponse_correcte": "varicelle",
+            "explication": "Réponse : varicelle La varicelle est causée par le virus varicelle-zona. Comme pour tous les virus de la famille des herpèsvirus, une fois infecté, le virus réside de manière permanente dans votre corps, généralement à l'état dormant. Varicelle est un autre nom pour la varicelle. Zona est le zona, qui peut survenir si le virus dormant émerge du ganglion de la racine dorsale. Un vaccin est disponible pour prévenir la varicelle chez les enfants, et un autre vaccin est disponible pour les personnes à risque de développer un zona douloureux.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "2. Les enfants contractent cette maladie avant l'âge de 5 ans, généralement avant l'âge de 2 ans. Elle peut en fait prendre de nombreuses formes, mais la maladie classique comprend une fièvre extrêmement élevée (~103-104 degrés Fahrenheit) pendant 1 à 3 jours, avec de l'irritabilité. Une fois la fièvre résolue, l'éruption apparaît - il s'agit généralement d'une éruption rose pâle principalement sur le tronc.",
+            "options": [
+                "rubéole",
+                "roséole",
+                "cinquième maladie",
+                "syndrome pieds-mains-bouche"
+            ],
+            "reponse_correcte": "roséole",
+            "explication": "Réponse : roséole La roséole est causée par l'herpèsvirus humain 6. Auparavant, les éruptions cutanées classiques de l'enfance étaient numérotées - la roséole était la « sixième maladie ». Ainsi, lorsque le virus a été découvert, il était naturel de l'appeler HHV6, et c'était approprié puisque 5 autres herpèsvirus avaient déjà été décrits ! (nous en sommes maintenant à au moins 8)",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "7. Cette éruption ressemble à des « joues giflées », avec des joues rouge vif et une éruption rose à rouge en dentelle sur les bras en particulier. Les enfants peuvent ne pas être très malades, mais si une femme enceinte contracte cette infection, elle peut mettre le fœtus en danger.",
+            "options": [
+                "cinquième maladie",
+                "roséole",
+                "rubéole",
+                "rougeole"
+            ],
+            "reponse_correcte": "cinquième maladie",
+            "explication": "Réponse : cinquième maladie La « cinquième » maladie (AKA érythème infectieux) était l'une des éruptions cutanées classiques numérotées de l'enfance. L'agent causal est le parvovirus B19, qui n'est pas le même virus que l'infection horrible par le parvovirus chez les chiens. Les adultes (en particulier les femmes) peuvent développer une arthrite après l'infection, mais les enfants n'ont généralement pas trop de problèmes. L'éruption peut aller et venir, surtout avec l'exposition au soleil, pendant des semaines à des mois. Le virus arrête la production de globules rouges, donc toute personne ayant un renouvellement rapide des globules rouges a des problèmes - fœtus, patients drépanocytaires, etc.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "8. Un vaccin contre cette éruption cutanée est disponible depuis des décennies. Malgré cela, des épidémies généralisées se sont produites aux États-Unis dans les années 1980, ce qui a conduit à reconnaître que deux doses de vaccin étaient nécessaires pour fournir une protection idéale à la population. L'infection est mortelle pour les enfants malnutris ou co-infectés par le VIH.",
+            "options": [
+                "rubéole",
+                "rougeole",
+                "varicelle",
+                "lèpre"
+            ],
+            "reponse_correcte": "rougeole",
+            "explication": "Réponse : rougeole Les signes et symptômes classiques de la rougeole sont « toux, coryza, conjonctivite et taches de Koplik ». Le coryza est une congestion et un écoulement nasal, la conjonctivite est une inflammation des yeux, et les taches de Koplik sont de minuscules taches à l'intérieur des joues.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "4. Une maladie mortelle peut être transmise par la morsure de l'animal montré sur l'image. Lequel des symptômes suivants est l'un des principaux symptômes de cette maladie mortelle ?",
+            "options": [
+                "Anasarque",
+                "Arthrite",
+                "Luxation de l'épaule",
+                "Hydrophobie"
+            ],
+            "reponse_correcte": "Hydrophobie",
+            "explication": "Réponse : Hydrophobie L'hydrophobie signifie la peur de l'eau et est l'un des symptômes de la maladie mortelle qu'est la rage. La rage est transmise par la morsure d'animaux comme les chiens et les chauves-souris. Elle est causée par le virus de la rage, qui est un lyssavirus. La maladie commence par des symptômes similaires à ceux de la grippe, quelques semaines après la morsure. Plus tard, des complications plus graves se développent, comme la confusion, l'insomnie et parfois la paralysie. La mort survient généralement après l'apparition de symptômes extrêmes, car il n'existe aucun remède. Louis Pasteur a été le pionnier du vaccin contre la rage. Aujourd'hui, les vaccins peuvent être utilisés à des fins de prophylaxie et après une morsure de chien.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "8. Une personne peut contracter la fièvre typhoïde à partir de laquelle des éléments suivants ?",
+            "options": [
+                "Air",
+                "Sol",
+                "Eau",
+                "Métal corrodé"
+            ],
+            "reponse_correcte": "Eau",
+            "explication": "Réponse : Eau La fièvre typhoïde est une maladie infectieuse causée par les organismes Salmonella typhi et Salmonella paratyphi A et B. Elle est généralement transmise en mangeant des aliments contaminés ou en buvant de l'eau contaminée. Les symptômes de cette maladie incluent une forte fièvre, une augmentation du rythme cardiaque (bradycardie), des taches roses sur la peau de la poitrine et d'autres endroits, une diarrhée avec une odeur caractéristique et un délire. Cette maladie peut être mortelle si elle n'est pas traitée. Le diagnostic peut être posé en testant le sang, l'urine ou les selles. Il existe un test appelé test de Widal qui est également utile. Le traitement comprend des antibiotiques comme la ciprofloxacine ou une céphalosporine, tandis que d'autres médicaments comme l'ampicilline et le chloramphénicol peuvent également être utilisés.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "5. Cette infection virale est considérée comme une zoonose, c'est-à-dire une infection transmise des animaux aux humains. Elle a un taux de mortalité élevé et survient principalement en Afrique.",
+            "options": [
+                "Ebola",
+                "Echovirus",
+                "Epstein-Barr",
+                "Encéphalite équine de l'Est"
+            ],
+            "reponse_correcte": "Ebola",
+            "explication": "Réponse : Ebola Les grands primates comme les chimpanzés et les gorilles sont considérés comme le réservoir du virus Ebola, mais cela n'est pas certain. Les autres choix sont également des infections réelles, mais elles ne sont pas des zoonoses.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "6. Parfois, un abcès peut se former dans le coussinet du bout du doigt, surtout après une blessure par écharde ou un autre traumatisme mineur. Quel est le nom donné à ce type d'abcès ?",
+            "options": [
+                "panaris",
+                "phlegmon",
+                "ténosynovite des fléchisseurs",
+                "bactérie dévoreuse de chair"
+            ],
+            "reponse_correcte": "panaris",
+            "explication": "Réponse : panaris Un nom intéressant pour cela, et je ne peux pas déterminer si l'étymologie est liée au terme utilisé pour les criminels. Les panaris (du bout du doigt) sont extrêmement douloureux et nécessitent une incision et un drainage. La ténosynovite des fléchisseurs est une infection de la gaine du tendon, qui peut suivre un panaris. Un phlegmon est un stade d'infection des tissus mous avant la formation d'un abcès, et s'écrit avec un \"ph\" et non un \"f\". La bactérie dévoreuse de chair est un terme journalistique, pas médical.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "9. La grippe est une cause majeure de maladie et de décès dans le monde. En 1918, une terrible pandémie a eu lieu, tuant des millions de personnes. Quel type de grippe a causé cette épidémie ?",
+            "options": [
+                "grippe B",
+                "\"grippe aviaire\"",
+                "grippe C",
+                "grippe A"
+            ],
+            "reponse_correcte": "grippe A",
+            "explication": "Réponse : grippe A La \"grippe aviaire\" qui a commencé à se propager depuis l'Asie au début du 21e siècle est également une souche de grippe A. Il y a eu des épidémies régulières de grippe, mais l'épidémie de \"grippe espagnole\" de 1918 a été particulièrement dévastatrice. Grâce aux miracles du génie génétique moderne, le virus de 1918 a été séquencé à partir de tissus préservés de cette époque. Les virus de la grippe qui circulent chaque année sont généralement différents, en raison de \"dérives\" dans les principales protéines de surface. Les grandes épidémies surviennent lorsqu'il y a un grand \"changement\" dans ces protéines plutôt que de petits changements. Le vaccin est reformulé chaque année pour produire une immunité contre les souches de grippe A et B qui devraient circuler.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "18. Quel est le nom du groupe de petites bactéries intracellulaires qui causent des maladies comme la fièvre pourprée des montagnes Rocheuses et le typhus ?",
+            "options": [
+                "rochalimea",
+                "rycoplasma",
+                "rhabditiformes",
+                "rickettsia"
+            ],
+            "reponse_correcte": "rickettsia",
+            "explication": "Réponse : rickettsia Nommées d'après Howard Taylor Ricketts, qui a étudié le typhus (et est ensuite mort de cette maladie). Le typhus est différent de la typhoïde, et les rickettsia n'ont rien à voir avec le rachitisme.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "25. Ce bactériologiste suisse a découvert l'agent causal de la peste. Il est enterré au Vietnam, où il a ouvert la première école de médecine et une branche de l'Institut Pasteur.",
+            "options": [
+                "Ytter",
+                "Yersin",
+                "Yverain",
+                "Young"
+            ],
+            "reponse_correcte": "Yersin",
+            "explication": "Réponse : Yersin L'organisme qui cause la peste est Yersinia pestis. Alexandre Emile John Yersin a décrit la bactérie.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "1. Quelle maladie provoque une méningo-encéphalite ?",
+            "options": [
+                "tuberculose",
+                "virus du Nil occidental",
+                "grippe",
+                "pyrenidite"
+            ],
+            "reponse_correcte": "virus du Nil occidental",
+            "explication": "Réponse : virus du Nil occidental La méningo-encéphalite est l'inflammation de la moelle épinière et du cerveau. La fièvre du Nil occidental est la seule maladie prouvée pour causer une méningo-encéphalite. Cependant, aucun cas de méningo-encéphalite n'a été signalé dans la tuberculose ou la grippe. Pyrenidite est un mot inventé. =)",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "2. Quelle maladie est transmise par les moustiques ?",
+            "options": [
+                "fièvre des marais",
+                "fièvre pourprée des montagnes Rocheuses",
+                "SIDA",
+                "dengue"
+            ],
+            "reponse_correcte": "dengue",
+            "explication": "Réponse : dengue La dengue est l'une des maladies transmises par les moustiques. D'autres incluent la fièvre jaune et le paludisme. La fièvre des marais est mentionnée dans les Chroniques de l'Underland de Suzanne Collins.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "3. Dans le parc national de Yellowstone, l'une des vues les plus pittoresques est le bassin des geysers de Norris. Les sources chaudes et les bassins contiennent des micro-organismes qui provoquent une forme bactérienne mortelle de méningite et la maladie des légionnaires.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "reponse_correcte": "Vrai",
+            "explication": "Réponse : Vrai Croyez-moi, je suis allé à Yellowstone. C'est pourquoi ils ne vous laissent pas nager dans les sources chaudes, car ils veulent éviter un autre cas de méningite et de maladie des légionnaires.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "4. Une tique du chevreuil peut transmettre la maladie de Lyme et la fièvre pourprée des montagnes Rocheuses.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "reponse_correcte": "Vrai",
+            "explication": "Réponse : Vrai Les tiques du chevreuil ne causent pas ces maladies, mais elles les transmettent ainsi que beaucoup d'autres. Heureusement, je n'ai pas encore été mordu par une tique.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "5. Quel virus cause la variole ?",
+            "options": [
+                "Trypanosome",
+                "Variole",
+                "Psoriasis",
+                "Botulinum"
+            ],
+            "reponse_correcte": "Variole",
+            "explication": "Réponse : Variole Le virus de la variole cause la variole. Cependant, la variole n'est plus une préoccupation majeure dans le monde, grâce aux efforts de l'OMS pour l'éradiquer. Le seul endroit connu où le virus de la variole existe encore est dans l'un des laboratoires de l'OMS.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "10. Quel type de virus cause le cancer du col de l'utérus ?",
+            "options": [
+                "Sécrétions vaginales",
+                "Virus du papillome humain",
+                "Cloustrum Botulinum",
+                "Giardia Lamblia"
+            ],
+            "reponse_correcte": "Virus du papillome humain",
+            "explication": "Réponse : Virus du papillome humain Le virus du papillome humain est l'une des causes du cancer du col de l'utérus, qui ne touche que les femmes (la maladie, pas le virus (qui peut également être présent chez les hommes)). Cette découverte incroyable a montré que le cancer peut être causé par des facteurs biologiques, environnementaux, génétiques ET des virus !",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "7. Si vous étiez un spéléologue, vous pourriez courir le risque de :",
+            "options": [
+                "Histoplasmose",
+                "Candidose",
+                "Cryptococcose",
+                "Lèpre"
+            ],
+            "reponse_correcte": "Histoplasmose",
+            "explication": "Réponse : Histoplasmose L'histoplasmose se trouve couramment dans le sol contaminé par les oiseaux ou les chauves-souris. C'est une infection fongique et la période d'incubation varie de 5 à 18 jours, bien que l'histoplasmose pulmonaire chronique puisse progresser lentement pendant de nombreuses années. La forme aiguë primaire est bénigne, mais la forme progressive est fatale dans environ 90 % des cas. Les symptômes incluent une maladie respiratoire légère, un malaise, des maux de tête, des myalgies, une anorexie, une toux ou des douleurs thoraciques, entre autres.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "9. La douleur dans le quadrant supérieur droit (QSD) de l'abdomen, la jaunisse et la fièvre sont connues sous le nom de triade de _________ concernant la cholangite (inflammation des voies biliaires).",
+            "options": [
+                "Hutchinson",
+                "O'Donoghue",
+                "Cushing",
+                "Charcot"
+            ],
+            "reponse_correcte": "Charcot",
+            "explication": "Réponse : Charcot Les voies biliaires transportent la bile du foie vers la vésicule biliaire et l'intestin. La cholangite survient lorsqu'une voie biliaire obstruée est infectée par des bactéries. Escherichia coli est la bactérie la plus couramment associée à la cholangite.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "1. Les croûtes jaunes et démangeantes souvent vues autour de la bouche chez les enfants sont appelées \"croûtes de lait\". Quel est le terme médical pour cette condition ?",
+            "options": [
+                "Impétigo",
+                "Maladie inflammatoire de la bouche",
+                "Candidose invasive",
+                "Mononucléose infectieuse"
+            ],
+            "reponse_correcte": "Impétigo",
+            "explication": "Réponse : Impétigo L'impétigo est une infection bactérienne qui touche les couches superficielles de la peau, mais des cloques cutanées démangeantes peuvent parfois apparaître dans l'aine ou les aisselles. Le tableau clinique le plus couramment observé est celui de croûtes jaunâtres sur le visage (surtout autour de la bouche), les bras ou les jambes. Les agents responsables sont généralement Staphylococcus aureus ou Streptococcus pyogenes. Comme la maladie est bénigne et ne touche que la peau, le traitement se fait avec des crèmes antibiotiques topiques, tandis que des antibiotiques oraux sont parfois prescrits.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "2. Les symptômes de cette maladie médicale de courte durée mais grave incluent des vomissements et des diarrhées abondants. Laquelle des options suivantes décrit le mieux cette maladie gastro-intestinale ?",
+            "options": [
+                "Neisseria",
+                "Trichuriase",
+                "Thalassémie",
+                "Norovirus"
+            ],
+            "reponse_correcte": "Norovirus",
+            "explication": "Réponse : Norovirus Le norovirus est un groupe de virus hautement transmissibles qui provoquent des vomissements et des diarrhées débilitants de courte durée (généralement 1 à 3 jours). Les patients se rétablissent généralement rapidement, mais un norovirus peut causer des problèmes de santé majeurs chez les nourrissons et les personnes âgées, surtout en cas de déshydratation sévère. Le virus se propage par des aliments/boissons contaminés, en touchant des surfaces contaminées puis en touchant son visage, et en partageant des aliments/boissons avec une personne infectée. Souvent, mais à tort, appelé \"grippe intestinale\", le norovirus tire son nom du lieu de la première épidémie en 1968, Norfolk dans l'Ohio, aux États-Unis.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "10. En utilisant les premières lettres des neuf réponses précédentes, quel est un terme général décrivant toutes ces maladies ?",
+            "options": [],
+            "reponse_correcte": "Infection",
+            "explication": "Réponse : Infection Une infection est toute invasion d'un corps hôte par un agent pathogène et la réponse du corps aux toxines qu'il produit. Les agents pathogènes infectieux peuvent être bactériens, viraux, fongiques, parasitaires (paludisme et vers) ou arthropodiques (comme les tiques et les acariens). Les infections localisées des plaies sont généralement de nature bactérienne et provoquent une réponse localisée. Les infections plus systémiques commencent généralement par des symptômes de type rhume, non pas à cause de l'agent pathogène mais à cause de la réponse normale du corps à une infection. Les symptômes ultérieurs deviennent plus spécifiques à l'agent causal. Souvent, les mécanismes de défense normaux du corps suffisent à combattre les infections, mais parfois d'autres traitements sont nécessaires et doivent être adaptés à l'agent pathogène. Les antibiotiques ne fonctionneront pas sur les infections virales ou fongiques, par exemple. Le traitement ultérieur est généralement de soutien et symptomatique - de soutien en aidant les fonctions normales du corps comme la respiration, et symptomatique lorsque des médicaments sont administrés pour soulager les symptômes.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "1. Oh non ! Vous avez marché sur un clou rouillé. Il est temps de vous précipiter à l'hôpital pour recevoir ce vaccin afin d'éviter le tétanos.",
+            "options": [
+                "listéria",
+                "tétanos",
+                "staphylocoque",
+                "entérocoque"
+            ],
+            "reponse_correcte": "tétanos",
+            "explication": "Réponse : tétanos. Le tétanos est généralement causé par des blessures profondes, en particulier celles impliquant des objets rouillés. La rouille ne provoque pas le tétanos, mais elle offre un environnement propice aux bactéries responsables. Les animaux ne sont pas non plus immunisés. Le cheval du général Robert E. Lee, Traveller, est mort du tétanos après avoir marché sur un clou.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "3. C'est le moment pour votre enfant de quitter le nid et de commencer l'école. Enfin, un peu de temps pour vous ! Cependant, vous devez emmener votre enfant chez le médecin pour des vaccins obligatoires avant qu'il ne puisse entrer à l'école. Quel est l'acronyme de l'un de ces vaccins requis aux États-Unis ?",
+            "options": [
+                "ROR",
+                "IRM",
+                "MIR",
+                "ECG"
+            ],
+            "reponse_correcte": "ROR",
+            "explication": "Réponse : ROR. ROR signifie rougeole, oreillons et rubéole. Les élèves qui commencent l'école ou qui changent d'établissement doivent fournir une preuve de vaccination. Cependant, des exemptions sont possibles pour des raisons religieuses.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "7. Pour beaucoup de gens, ce vaccin annuel est indispensable. Sinon, vos mois d'hiver pourraient être très pénibles !",
+            "options": [
+                "rage",
+                "rhume",
+                "tétanos",
+                "grippe"
+            ],
+            "reponse_correcte": "grippe",
+            "explication": "Réponse : grippe. Le vaccin contre la grippe est fortement recommandé pour les enfants et les personnes âgées. Les médecins et les scientifiques doivent constamment adapter le vaccin car la souche de la grippe évolue. Parfois, comme avec la grippe porcine de 2008-2009, la souche doit apparaître avant qu'un vaccin approprié ne soit produit.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "9. Les vaccins sont également importants pour nos animaux de compagnie. Les chatons sont irrésistibles, et vous ne pouvez pas vous empêcher d'en adopter un. Après avoir adopté votre nouveau compagnon, vous l'emmenez chez le vétérinaire pour un examen et un vaccin pour prévenir cette maladie mortelle très contagieuse chez les chats.",
+            "options": [
+                "boules de poils",
+                "leucose féline",
+                "insuffisance rénale",
+                "propecia"
+            ],
+            "reponse_correcte": "leucose féline",
+            "explication": "Réponse : leucose féline. La leucose féline est une maladie dévastatrice très contagieuse chez les chats. Elle se transmet par les litières, les gamelles, de la mère aux chatons, etc. Malgré son nom, ce n'est pas un cancer, mais un rétrovirus qui provoque une immunosuppression progressive. Des traitements post-infection peuvent ralentir la progression.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "3. Mon frère, qui ne croit pas aux vaccins préventifs, m'appelle et me demande quoi faire. Les joues de sa fille sont gonflées, elle a de la fièvre, des maux de tête et n'a pas d'appétit. Quel problème je suggère que sa fille pourrait avoir ?",
+            "options": [
+                "Rougeole",
+                "Oreillons",
+                "Coqueluche",
+                "Polio"
+            ],
+            "reponse_correcte": "Oreillons",
+            "explication": "Réponse : Oreillons. À mon avis, elle pourrait avoir contracté les oreillons. Je recommande à mon frère d'appeler un pédiatre, d'expliquer les symptômes (les oreillons étant très contagieux) et de demander un rendez-vous dès que possible. Je lui suggère également qu'elle aurait pu éviter cette maladie s'il avait accepté les vaccins.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "4. Dans lequel de ces endroits seriez-vous le plus susceptible de rencontrer un cas d'anthrax ?",
+            "options": [
+                "Déserts",
+                "Sibérie",
+                "Zones urbaines",
+                "Zones rurales agricoles"
+            ],
+            "reponse_correcte": "Zones rurales agricoles",
+            "explication": "Réponse : Zones rurales agricoles. L'anthrax est une maladie bactérienne mortelle généralement trouvée dans les régions agricoles d'Asie centrale et du Sud, ainsi qu'en Afrique subsaharienne. Elle affecte principalement les animaux domestiques, mais peut aussi toucher les humains. Cela se produit lorsque les humains boivent de l'eau ou mangent des aliments contaminés par des spores d'anthrax. Les premiers symptômes sont des plaies sur le visage, les mains et les bras, suivis de fièvre, d'essoufflement, de nausées, de sueurs abondantes et de diarrhée sanglante. Il faut toujours faire attention lorsqu'on manipule un animal malade.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "6. J'ai besoin d'aide ! J'ai mangé des substances étranges comme de la craie, de l'amidon et des éclats de peinture. Le médecin n'est d'aucune aide. Il m'a traité de \"piqueur\" ! Mais peut-être que c'est le nom de la maladie. Quelle maladie ai-je ?",
+            "options": [
+                "Syndrome du brochet",
+                "Maladie de Pick",
+                "Pétéchies",
+                "Pica"
+            ],
+            "reponse_correcte": "Pica",
+            "explication": "Réponse : Pica. Le pica est une maladie souvent observée chez les femmes et les enfants, parfois associée à la malnutrition, en particulier à une carence en fer ou en zinc, bien qu'elle puisse avoir une base culturelle. Les envies disparaissent souvent d'elles-mêmes, mais elles peuvent devenir des obsessions durables. Les complications incluent la malnutrition, l'empoisonnement au plomb (surtout chez les enfants), les infections, les bézoards (masses de matières non digérées) et d'autres obstructions intestinales. La maladie de Pick est une forme de démence. Les pétéchies sont de petites hémorragies, un symptôme plutôt qu'une maladie. Le syndrome du brochet est un phénomène psychologique nommé d'après une expérience avec le poisson brochet.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "8. J'ai besoin d'aide ! Je me transforme en licorne. Une petite corne pousse sur mon front. Le médecin doit penser que j'ai besoin d'un exorcisme, car il s'est mis à me parler en latin ! Quel terme latin est utilisé pour les tumeurs cutanées kératineuses ressemblant à des cornes, du bois ou du corail ?",
+            "options": [
+                "Rhinocerotidae",
+                "Unicornite",
+                "Cornu cutaneum",
+                "Syndrome de la corne occipitale"
+            ],
+            "reponse_correcte": "Cornu cutaneum",
+            "explication": "Réponse : Cornu cutaneum. Un \"cornu cutaneum\" ou corne cutanée est composé de kératine, la même substance que les ongles, et est lié au virus du papillome humain qui cause les verrues. Il semble également lié à une exposition prolongée aux rayons UV. Ces excroissances coniques peuvent apparaître n'importe où sur le corps. Elles sont malignes (carcinome épidermoïde) dans certains cas, mais la majorité sont bénignes. La maladie de la corne occipitale est une condition génétique liée à l'utilisation du cuivre par le corps, provoquant des anomalies cutanées et squelettiques, mais elle ne causerait pas une corne sur le front. Le mot \"rhinocerotidae\" est le nom de la famille des rhinocéros. Le mot \"unicornite\" est une invention.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "3. Cette maladie est appelée trypanosomiase africaine et est transmise par la mouche tsé-tsé, une grosse mouche piqueuse vivant en Afrique, dans la région entre le Sahara et le désert du Kalahari. Ses symptômes incluent de l'anxiété, de la somnolence, de la fièvre diurne, des maux de tête, de l'insomnie nocturne et des ganglions lymphatiques enflés. Quel est le nom de cette maladie ? (Indice : Lisez les symptômes.)",
+            "options": [
+                "Maladie du sommeil",
+                "Filariose",
+                "Pédiculose",
+                "Toxoplasmose"
+            ],
+            "reponse_correcte": "Maladie du sommeil",
+            "explication": "Réponse : Maladie du sommeil. Cette maladie est limitée à l'Afrique, mais les voyageurs qui visitent le continent sont susceptibles de la contracter s'ils se rendent dans des zones agricoles ou de petites villes en Afrique centrale. Cette maladie est endémique dans 36 pays où vivent 60 millions de personnes. Bien que de nombreux cas ne soient pas connus, plusieurs milliers de personnes meurent de cette maladie chaque année.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "1. Un homme de 19 ans présente une apparition rapide de forte fièvre, de nausées et de vomissements, une raideur de la nuque et une photophobie (dégoût des lumières vives). Il commence à développer une éruption cutanée non blanchissante sur tout le corps.",
+            "options": [
+                "Méningite à méningocoques",
+                "Tumeur cérébrale",
+                "Hémorragie sous-arachnoïdienne",
+                "Migraine"
+            ],
+            "reponse_correcte": "Méningite à méningocoques",
+            "explication": "Réponse : Méningite à méningocoques. Il s'agit d'un tableau clinique classique de méningite bactérienne causée par Neisseria meningitidis. L'inflammation des méninges, qui sont les membranes recouvrant le cerveau et la moelle épinière, provoque de la fièvre, des douleurs lors de l'étirement et une photophobie. L'organisme peut également provoquer une septicémie (empoisonnement du sang) avec une éruption purpurique (saignement).",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "8. Cette maladie est causée par une bactérie et est transmise par de la nourriture ou de l'eau contaminée par les excréments ou l'urine d'une personne infectée. Certaines personnes se remettent de la maladie pour devenir des porteurs. La reine Victoria a perdu son bien-aimé prince Albert à cause de cette maladie, également connue sous le nom de fièvre typhoïde.",
+            "options": [
+                "Péritonite",
+                "Dysenterie",
+                "Fièvre typhoïde",
+                "Choléra"
+            ],
+            "reponse_correcte": "Fièvre typhoïde",
+            "explication": "Réponse : Fièvre typhoïde. Parmi les autres célèbres personnes atteintes figurent Alexandre le Grand et Guillaume le Conquérant. Bien sûr, la plus célèbre patiente/porteuse était Mary Mallon, ou Typhoïde Mary, qui a été responsable de plusieurs épidémies de typhoïde à New York au début des années 1900.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "5. Colin, le charmant éleveur de bétail australien, s'est plaint à son médecin de se sentir mal tout le temps et d'être faible et fatigué la plupart des jours. Il a de très mauvais maux de tête et parfois de la fièvre et des frissons. De quelle maladie Colin pourrait-il souffrir ?",
+            "options": [
+                "Grippe",
+                "Brucellose",
+                "Peste bubonique",
+                "Bronchite"
+            ],
+            "reponse_correcte": "Brucellose",
+            "explication": "Réponse : Brucellose. La brucellose est une maladie que les humains peuvent contracter à partir de bovins, de porcs, de chèvres et de moutons infectés par la bactérie Brucella. Le bactériologiste et médecin australien Sir David Bruce (1855-1931) a découvert les causes de la brucellose et de la maladie du sommeil africaine. Les symptômes peuvent inclure de la nervosité, des douleurs articulaires, de la faiblesse, de la fatigue, de la fièvre et de très mauvais maux de tête. Si Colin avait bu le lait non pasteurisé d'une femelle infectée, elle aurait pu lui transmettre la maladie. Si l'éleveur Colin avait touché des animaux infectés et ne s'était pas lavé les mains, il aurait également pu contracter la maladie de cette manière. Si elle n'est pas traitée, Colin se rétablira dans environ 3 à 6 mois, mais des antibiotiques sont disponibles pour lutter contre la bactérie, et Colin se rétablira plus rapidement.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "8. Ce parasite a plus de 800 espèces et est un arthropode suceur de sang, apparenté aux araignées, aux scorpions et aux acariens. Ils préfèrent généralement utiliser des animaux, et chaque type a son hôte préféré, mais ils mordent aussi les humains et peuvent causer des maladies très désagréables. Ils se trouvent partout dans le monde sauf en Antarctique. Qu'est-ce que c'est ?",
+            "options": [
+                "Tiques",
+                "Torcs",
+                "Tacks",
+                "Mouches torpilles"
+            ],
+            "reponse_correcte": "Tiques",
+            "explication": "Réponse : Tiques Une morsure de tique est généralement indolore et vous ne sauriez pas que vous en avez une à moins de la voir. Elles ont quatre étapes dans leur cycle de vie : œuf, larve, nymphe et adulte. La nymphe, qui a à peu près la taille d'une graine de pavot, est la plus susceptible de vous mordre et gonflera jusqu'à plusieurs fois sa taille originale en volant votre sang. Si elle n'est pas dérangée, elle peut rester accrochée pendant une semaine avant de tomber.\r\nMalheureusement, les tiques peuvent porter de nombreuses maladies qui affectent à la fois les humains et les animaux. Les plus connues sont probablement la maladie de Lyme, transmise par les tiques du cerf, et la fièvre pourprée des montagnes Rocheuses, transmise par une variété de tiques. Non traitées, elles peuvent vous rendre très malade. Un bon conseil est de vous assurer que vous avez les jambes et les bras couverts lorsque vous marchez dans une zone à tiques, car les tiques s'accrochent aux herbes et aux plantes, attendant leur chance de sauter sur vous. Le retrait rapide de celles qui parviennent à passer, suivi d'un nettoyage et d'une surveillance ultérieure du site, devrait vous assurer de survivre à l'expérience.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "9. Ces parasites sont parfois considérés comme certains des animaux les plus dangereux sur Terre. Ils existent par milliards partout sauf en Antarctique, se reproduisent dans l'eau stagnante et peuvent transporter des maladies mortelles. Qu'est-ce que c'est ?",
+            "options": [
+                "Mouches",
+                "Poux",
+                "Punaises",
+                "Moustiques"
+            ],
+            "reponse_correcte": "Moustiques",
+            "explication": "Réponse : Moustiques Les moustiques font leurs dégâts en transportant des virus et des bactéries dans leur salive, qui est injectée dans le sang de leurs victimes lorsqu'ils se nourrissent. Cependant, tous les moustiques ne sont pas nuisibles ; certains sont juste une nuisance. Il existe au moins 3500 types de moustiques et la plupart sont actifs le soir et la nuit. Si vous avez de la malchance, vous pourriez finir avec des maladies désagréables comme le paludisme, la dengue, la tularémie, la fièvre jaune ou le virus du Nil occidental. D'un autre côté, si vous savez que vous êtes dans une zone affectée, vous pourriez vous habiller de manière appropriée, utiliser une moustiquaire et un répulsif, et vous pourriez survivre indemne.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "1. Une maladie qui fait l'objet d'un programme d'éradication est la maladie de Hansen. Sous quel nom est-elle souvent connue ?",
+            "options": [
+                "Peste",
+                "Épilepsie",
+                "Syphilis",
+                "Lèpre"
+            ],
+            "reponse_correcte": "Lèpre",
+            "explication": "Réponse : Lèpre La maladie est connue depuis l'époque biblique et est causée par la bactérie Mycobacterium leprae. La bactérie provoque une faiblesse musculaire, des lésions cutanées et des dommages nerveux, et peut être très défigurante. La maladie n'est pas particulièrement contagieuse, et l'ancienne idée des 'colonies de lépreux' pour isoler les patients est révolue. Un traitement précoce avec des antibiotiques est efficace, bien qu'il existe encore des problèmes dans certains pays où la stigmatisation de la lèpre persiste.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "3. La rubéole est une maladie qui a été considérablement réduite grâce à l'introduction de programmes de vaccination. Ses effets sont les plus graves pour quel groupe de personnes ?",
+            "options": [
+                "Les personnes d'âge moyen",
+                "Les personnes âgées",
+                "Les enfants",
+                "Les femmes enceintes"
+            ],
+            "reponse_correcte": "Les femmes enceintes",
+            "explication": "Réponse : Les femmes enceintes La rubéole, également connue sous le nom de rougeole allemande, ne provoque que des symptômes bénins pour la majorité des gens. Pour les femmes enceintes, cependant, elle peut être dévastatrice, car le virus peut traverser le placenta et atteindre le fœtus. Plus tôt la maladie est contractée pendant la grossesse, plus le risque pour le fœtus est élevé, et une interruption de grossesse est souvent recommandée. Le bébé peut naître avec des malformations cardiaques, des problèmes oculaires et/ou une surdité. Des campagnes importantes ont conduit à l'administration du vaccin comme protection standard à tous les enfants, en particulier aux filles, ce qui a permis l'éradication de la maladie dans de nombreux pays.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "4. La diphtérie est une maladie qui affecte quelle partie du corps humain ?",
+            "options": [
+                "Intestin",
+                "Muscles",
+                "Estomac",
+                "Système respiratoire"
+            ],
+            "reponse_correcte": "Système respiratoire",
+            "explication": "Réponse : Système respiratoire La diphtérie est causée par des bactéries, et les symptômes incluent de la fièvre, des maux de gorge, de la toux, des maux de tête et des difficultés à avaler. La maladie provoque un gonflement des ganglions lymphatiques du cou, ce qui peut entraîner de graves problèmes respiratoires et la mort. Le taux de mortalité est normalement de 10 % maximum parmi les personnes atteintes, mais peut être beaucoup plus élevé chez les très jeunes et les personnes âgées. L'introduction d'un vaccin a réduit l'incidence de la maladie.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "5. Jusqu'à la fin du XXe siècle, une seule maladie avait été déclarée éradiquée par l'Organisation mondiale de la santé, en 1979. Quelle est-elle ?",
+            "options": [],
+            "reponse_correcte": "Inconnue",
+            "explication": "Réponse : Variole L'histoire de la variole remonterait à 10 000 avant J.-C., avec des preuves de la maladie trouvées sur la momie du pharaon égyptien Ramsès V, mort en 1145 avant J.-C. La création d'un vaccin contre la variole est généralement attribuée à l'Anglais Edward Jenner au XVIIIe siècle. Suite à un programme mondial de vaccination, la maladie est devenue la première à être officiellement déclarée éradiquée.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "9. Le vaccin ROR est systématiquement administré aux bébés dans de nombreux pays du monde. Le premier R signifie Rougeole, mais quelle maladie représente le deuxième R ?",
+            "options": [],
+            "reponse_correcte": "Inconnue",
+            "explication": "Réponse : Oreillons Le vaccin protège contre la Rougeole, les Oreillons et la Rubéole. Les oreillons, également connus sous le nom de parotidite épidémique, affectent normalement les glandes salivaires, provoquant un gonflement douloureux. Bien que la maladie ne soit normalement pas mortelle, elle peut se propager aux testicules chez les hommes et entraîner une infertilité. Le vaccin a été introduit dans les années 1970 et a permis une réduction considérable de la maladie dans les pays développés.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "8. Votre souffrance continue, car vous avez maintenant une otalgie. Vous avez choisi l'emplacement dans le cimetière, car cela semble terminal. Quelle maladie vous dérange maintenant ?",
+            "options": [
+                "Douleur à l'oreille",
+                "Mal de gorge",
+                "Mal de dents",
+                "Oreille en chou-fleur"
+            ],
+            "reponse_correcte": "Douleur à l'oreille",
+            "explication": "Réponse : Douleur à l'oreille Tout mot se terminant par « algie » fait référence à la douleur et vient du mot grec « algos ». « Otique » signifie relatif à l'oreille, également d'origine grecque, donc la combinaison des deux mots signifie douleur à l'oreille. Chez les enfants, la douleur à l'oreille est généralement causée par une infection de l'oreille, bien que chez les adultes, la douleur soit souvent référée d'une autre partie du corps, par exemple les dents. Le mal de dents est une odontalgie et l'une des causes d'un mal de gorge est la pharyngite, une inflammation du pharynx à l'arrière de la gorge. L'une des causes de l'oreille en chou-fleur est une blessure lors de la pratique du rugby ou de la boxe, où elle est appelée hématome auriculaire traumatique. L'oreille gonfle et se déforme, ce qui peut donner une apparence similaire à un chou-fleur.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "8. If your eyes are red, sore and watery, which of the following may be a possible reason?",
+            "options": [
+                "Conjunctivitis",
+                "Raynaulds",
+                "Parkinsons",
+                "Schizophrenia"
+            ],
+            "reponse_correcte": "Conjunctivitis",
+            "explication": "Answer: Conjunctivitis Conjunctivitis can be caused by either bacterial or viral infection, or it can be the result of an allergy such as hay fever.  It usually clears up within a couple of weeks without treatment.  However, although the other choices I have listed would not normally cause red eye there can be many reasons for it, so if it is not improving or is especially acute medical attention should be sought. A moisturising eye drop may be soothing.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "9. What does a person lose if they suffer from alopecia?",
+            "options": [
+                "Voice",
+                "Memory",
+                "Sense of Smell",
+                "Hair"
+            ],
+            "reponse_correcte": "Hair",
+            "explication": "Answer: Hair Losing the hair can happen for a variety of reasons.  It may be inherited changes in hormones, the result of an infection or a reaction to medication.  Male pattern baldness is the most common type, when the hairline recedes and the hair on the top of the head gradually thins on middle aged men.  However baldness can happen to females too and can occur in any age group.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "2. Mrs. Silva's grandfather, who is hospitalized, has suffered a cytokine storm. What happened to him?",
+            "options": [
+                "He got hysterical because he was in the hospital",
+                "He suffered an electric shock and died",
+                "He lost his memory",
+                "His immune system had a disproportionate reaction to an infection, causing damage to his body"
+            ],
+            "reponse_correcte": "His immune system had a disproportionate reaction to an infection, causing damage to his body",
+            "explication": "Answer: His immune system had a disproportionate reaction to an infection, causing damage to his body Cytokine is a type of protein that helps to coordinate the body's response to an infection. When an infection occurs, cytokine immediately activates immune cells. However, sometimes the cytokine's reaction to the infection causes a disproportionate number of immune cells to act, provoking serious harm or the death of the patients. In this case, a cytokine storm has occurred.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "1. In 1531, when the Spanish conquest was beginning, Mexico suffered one of its first known epidemics. This disease, known in Spanish as \"sarampion\", causes fevers, red eyes, and rashes, as well as the appearance of Koplik's spots. Which disease is this?",
+            "options": [
+                "Malaria",
+                "Measles",
+                "Chickenpox",
+                "Tuberculosis"
+            ],
+            "reponse_correcte": "Measles",
+            "explication": "Answer: Measles Even though it was brought in by the Spanish \"conquistadores\" in 1531, 1545 saw the worst outbreak of measles. The disease also affected Central America and the Incas, as well as Honduras. There are drawings by Aztecs that show people with measles. Measles is caused by a virus and is particularly notable because of the rash it causes, which can last from seven to twelve days. It is an extremely contagious disease given that it can be transmitted through the air and, like Ebola, by transmission of bodily fluids.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "2. In 1540, another epidemic spread in Mexico, forcing the indigenous population to invoke their gods to face the disease. Hundreds of years later, in 1813, it reappeared and caused more than 3000 deaths within seven months.\n\nWhich disease, that causes a dramatic rise in temperature, headaches, delirium, abdominal pain, intestinal haemorrhages and encephalitis, among other symptoms, is this?",
+            "options": [
+                "Typhoid fever",
+                "Tularemia",
+                "Gonorrhea",
+                "Flu"
+            ],
+            "reponse_correcte": "Typhoid fever",
+            "explication": "Answer: Typhoid fever Typhoid fever is often caused by a Salmonella-type bacterium, which is contained in feces. When these contact food or drink, they cause typhoid fever after being ingested. The infection lasts approximately four weeks, and has caused the deaths of notable people like Wilbur Wright and Prince Albert, the husband of Queen Victoria. Typhoid fever has been significantly reduced with the development of vaccines and public health systems. However, it is still common to see salmonella or related diseases in Mexico because of eating street food, which is many times contaminated due to poor hygiene in these establishments.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "3. In 1833, the states of Guanajuato, Campeche, Yucatan, Tamaulipas and San Luis were affected by an outbreak of a disease that first showed in Mexico in 1810. Within 24 hours, 1200 people had died as a result of this illness.\n\nDistinguished by diarrhea and vomiting, in addition to dehydration, which disease caused an approximate of 324,000 deaths during the 1833 outbreak?",
+            "options": [
+                "Cholera",
+                "Pneumonia",
+                "Swine flu",
+                "AIDS"
+            ],
+            "reponse_correcte": "Cholera",
+            "explication": "Answer: Cholera Typically transmitted by ingestion of food and drink contaminated with fecal matter, cholera is one of the most common infections worldwide, and causes thousands of deaths yearly. Due to diarrhea, severe dehydration, which subsequently results in death, is common in patients with cholera. In 2014, a cholera epidemic developed in Ghana, but went unnoticed because of the Ebola outbreak in neighboring nations.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "6. Thanks to an ongoing campaign, this disease is now controlled in Mexico, although it still shows in regions like Chiapas and Guatemala. Carried by mosquitoes, it causes headaches, fever, and vomiting, and is commonly related to poverty, since many children in Africa have died from it.\n\nHow is this disease known?",
+            "options": [
+                "Tuberculosis",
+                "AIDS",
+                "Trachoma",
+                "Malaria"
+            ],
+            "reponse_correcte": "Malaria",
+            "explication": "Answer: Malaria Malaria results in anemia, since the disease is passed by mosquito bites that carry the infection to the blood, affecting the bloodstream. It is common in tropical regions since mosquitoes prefer this type of climate. Since parasites have developed the ability to resist antibiotics and insecticides, the disease remains difficult to eliminate on a worldwide scale.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "7. From 1948 and up to 1955, when a vaccine was introduced, Mexico became affected by a virus caused by contact with bodily fluids. It can cause fever, headaches and vomiting, and in severe cases, muscle paralysis.\n\nIf I mention Jonas Salk, would you be able to figure out which disease I'm referring to?",
+            "options": [
+                "Meningoencephalitis",
+                "Chickenpox",
+                "Rotavirus",
+                "Poliomyelitis"
+            ],
+            "reponse_correcte": "Poliomyelitis",
+            "explication": "Answer: Poliomyelitis Most commonly known as polio, the effects of this disease range from flu-like symptoms (headaches, coughing and sneezing, and fever), to permanent spinal cord and muscular paralysis. In Mexico, 100,000 cases of polio were reported, until in 1955, Jonas Salk announced his polio vaccine, giving immunity from the disease to almost anyone who received the vaccine. Notable people like Donald Sutherland, Francis Ford Coppola and Neil Young, survived polio.",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "8. In 2009, Mexico attracted worldwide attention when a new outbreak of flu was reported. Caused by the H1N1 virus, this type of flu provoked panic in the Mexican population, leading the government to close schools and other public services for weeks.\n\nWhat was this disease, that probably started in Veracruz, otherwise called?",
+            "options": [
+                "Horse flu",
+                "Avian flu",
+                "Swine flu",
+                "Dog flu"
+            ],
+            "reponse_correcte": "Swine flu",
+            "explication": "Answer: Swine flu The 2009 flu pandemic caused worldwide panic, since it went out of control. Even though the Mexican government was praised for its rapid efforts to control the situation, thousands of cases were reported first in Mexico and then throughout the world. It is called swine flu because a virus made of human flu and avian flu mutated with a type of pig flu. Some said that the disease was exaggerated to improve the economy of the country (which actually got worse), but I am the living proof of that not being true, since I myself had the H1N1 flu. I remember that a country-wide exam called ENLACE was cancelled in March 2009 since the outbreak of influenza had been announced and schools shut down, including mine. A year later, in December 2010, I started feeling fever, cough, and a loss of appetite, so I decided to go to the doctor. He told me to go get a swine flu test immediately, and unfortunately, I tested positive. Therefore, I spent 5 days in quarantine, locked inside my room taking Tamiflu (oseltamivir) and watching complete seasons of TV series. I was very lucky to have access to a quality doctor, an efficient test and medicines (which were actually scarce), since many of the flu-caused deaths happened as a result of self-medication or pneumonia coming from not treating the disease in time. Measures taken by the government included using the forearm to cover sneezes, instead of the palm of the hand. This had a permanent effect on me, as I now cover my sneezes with my forearm even though I previously did it with my hand! I can't even remember how to sneeze that way!",
+            "difficulte": "Moyen",
+            "categorie": "🦠 Maladies Infectieuses"
+        }
+    ]
+}

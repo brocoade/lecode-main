@@ -1,0 +1,69 @@
+{
+    "categorie": "🦠 Maladies Infectieuses",
+    "difficulte": "Difficile",
+    "questions": [
+        {
+            "question": "9. La brucellose survient principalement dans quelle profession ?",
+            "options": [
+                "Manipulateurs d'aliments",
+                "Pêcheurs commerciaux",
+                "Manipulateurs de bétail",
+                "Fleuristes"
+            ],
+            "reponse_correcte": "Manipulateurs de bétail",
+            "explication": "Réponse : Manipulateurs de bétail La brucellose est également appelée fièvre ondulante et est une maladie aiguë transmise des animaux à l'homme. Elle survient dans le monde entier, mais l'incidence de la brucellose a considérablement diminué aux États-Unis. Récemment, en Californie et au Texas, il y a eu des cas causés par du lait de chèvre non pasteurisé et du fromage provenant du Mexique. Avec un traitement, elle est rarement mortelle, mais elle a une série de complications redoutables.",
+            "difficulte": "Difficile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "8. Un vaccin efficace contre le paludisme était largement disponible pour prévenir l'infection à la fin du XXe siècle.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "reponse_correcte": "Faux",
+            "explication": "Réponse : Faux. Le paludisme était, et reste, difficile à prévenir. Des médicaments préventifs coûteux existent, mais ils doivent être pris en continu. La méthode la plus efficace consiste à se protéger des moustiques avec des sprays au DEET, des vêtements épais et des moustiquaires. Depuis la création de ce quiz en 2009, un vaccin a été approuvé en 2015, mais son efficacité est limitée et la recherche continue.",
+            "difficulte": "Difficile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "2. Quelle est la maladie extrêmement mortelle qui a causé la gangrène sur la main de ce patient ?",
+            "options": [
+                "Eczéma",
+                "Kératose",
+                "Dermatite séborrhéique",
+                "Peste bubonique"
+            ],
+            "reponse_correcte": "Peste bubonique",
+            "explication": "Réponse : Peste bubonique. La peste bubonique provoque des frissons soudains, des maux de tête, de la fièvre, de la léthargie et des ganglions lymphatiques enflés appelés bubons. Cette terrible maladie est généralement causée par la morsure d'une puce infectée et est très contagieuse. À mesure que la maladie progresse, la gangrène s'installe, tuant les doigts et les orteils. Autrefois, les survivants étaient rares. Aujourd'hui, des antibiotiques sont administrés dès que la maladie est suspectée, augmentant les chances de survie.",
+            "difficulte": "Difficile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "9. Ce pauvre patient souffre de la fièvre pourprée des montagnes Rocheuses, qu'il a contractée par laquelle des options suivantes ?",
+            "options": [
+                "Sa sœur la lui a transmise",
+                "Il a bu de l'eau sale",
+                "Il est né avec",
+                "Une tique l'a mordu"
+            ],
+            "reponse_correcte": "Une tique l'a mordu",
+            "explication": "Réponse : Une tique l'a mordu. La fièvre pourprée des montagnes Rocheuses est causée par la morsure d'une tique Dermacentor. Ces tiques se trouvent dans la plupart des régions d'Amérique du Nord, et leur morsure peut être mortelle. Les premiers signes sont la fièvre, des maux de tête et des douleurs musculaires. L'éruption cutanée apparaît plus tard, rendant le diagnostic plus difficile car ces symptômes peuvent correspondre à de nombreux troubles.",
+            "difficulte": "Difficile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "10. Pendant le déjeuner, notre intrépide belle-sœur Isla s'est plainte de douleurs abdominales et de sensibilité autour de son nombril. Elle se sentait nauséeuse et ne pouvait rien manger. Après l'avoir emmenée à l'hôpital, on lui a diagnostiqué quel problème de santé ?",
+            "options": [
+                "Météorisme",
+                "Appendicite",
+                "Maladie inflammatoire de l'intestin",
+                "Maladie de Crohn"
+            ],
+            "reponse_correcte": "Appendicite",
+            "explication": "Réponse : Appendicite. Isla souffrait d'une appendicite enflammée. L'appendice est un tube de 10 centimètres de long qui s'ouvre dans la première partie du gros intestin. Il ne remplit aucune fonction dans le corps, et dans la plupart des cas, une chirurgie est utilisée pour le retirer. L'obstruction et l'infection sont les principales causes de l'appendicite, où de petits morceaux de matières fécales ou même des vers parasites peuvent être présents. La douleur autour du nombril, la perte d'appétit, les nausées et les vomissements sont tous des symptômes de cette condition, et souvent le diagnostic est difficile en raison du fait que d'autres conditions peuvent avoir les mêmes symptômes.",
+            "difficulte": "Difficile",
+            "categorie": "🦠 Maladies Infectieuses"
+        }
+    ]
+}

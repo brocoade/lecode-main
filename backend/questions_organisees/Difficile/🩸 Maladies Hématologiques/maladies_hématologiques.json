@@ -1,0 +1,19 @@
+{
+    "categorie": "🩸 Maladies Hématologiques",
+    "difficulte": "Difficile",
+    "questions": [
+        {
+            "question": "5. Ma femme s'approche de moi avec hésitation et me dit qu'elle a senti deux masses dans son sein gauche et a eu un écoulement sanguin du mamelon. Nous craignons tous les deux qu'elle ait quelle maladie ?",
+            "options": [
+                "Maladie des seins",
+                "Kyste mammaire",
+                "Cancer du sein",
+                "Grains de beauté mammaires"
+            ],
+            "reponse_correcte": "Cancer du sein",
+            "explication": "Réponse : Cancer du sein. Le cancer du sein est bien sûr la cause la plus probable. Ce cancer peut survenir sans symptômes jusqu'à un stade relativement avancé. J'insiste immédiatement pour qu'elle prenne rendez-vous avec un oncologue et explique les symptômes. Le médecin programme plusieurs tests avant le rendez-vous. [Heureusement, le cancer du sein est souvent traité avec succès.]",
+            "difficulte": "Difficile",
+            "categorie": "🩸 Maladies Hématologiques"
+        }
+    ]
+}

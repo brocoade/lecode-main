@@ -1,0 +1,134 @@
+{
+    "categorie": "🌬️ Maladies Respiratoires",
+    "difficulte": "Moyen",
+    "questions": [
+        {
+            "question": "5. Quelle affirmation décrit le mieux les lésions causées par la tuberculose ?",
+            "options": [
+                "inflammation granulomateuse aiguë avec nécrose liquéfiante",
+                "inflammation granulomateuse aiguë avec nécrose caséeuse",
+                "inflammation granulomateuse chronique avec nécrose caséeuse",
+                "inflammation granulomateuse chronique avec nécrose liquéfiante"
+            ],
+            "reponse_correcte": "inflammation granulomateuse chronique avec nécrose caséeuse",
+            "explication": "Réponse : inflammation granulomateuse chronique avec nécrose caséeuse La tuberculose est causée par Mycobacterium tuberculosis, un bacille intracellulaire acido-résistant. Les patients atteints de tuberculose sont souvent asymptomatiques car cette bactérie réside à l'intérieur des macrophages et possède des facteurs qui l'empêchent d'être lysée à l'intérieur. C'est un organisme à croissance lente, et donc les symptômes progressent graduellement. Histologiquement, le corps répond aux agents pathogènes par une inflammation granulomateuse chronique. La nécrose caséeuse décrit la lésion observée au microscope.",
+            "difficulte": "Moyen",
+            "categorie": "🌬️ Maladies Respiratoires"
+        },
+        {
+            "question": "9. La fibrose kystique est liée à la génétique. La mortalité chez la plupart des patients atteints de fibrose kystique est liée à quel organe ?",
+            "options": [
+                "Reins",
+                "Cœur",
+                "Poumons",
+                "Foie"
+            ],
+            "reponse_correcte": "Poumons",
+            "explication": "Réponse : Poumons Cette maladie est génétique. C'est un trouble autosomique récessif et est généralement diagnostiqué vers l'âge de six mois. De nombreux systèmes du corps humain sont perturbés à cause de cette condition. Certains des symptômes gastro-intestinaux incluent une distension abdominale, un iléus méconial et une obstruction intestinale. Les symptômes respiratoires peuvent être une toux, une respiration sifflante et un essoufflement. Le test de la sueur est utilisé pour le diagnostic de la fibrose kystique, et un scanner peut être réalisé. Les médicaments qui peuvent être administrés pour la fibrose kystique sont des bronchodilatateurs, des agents anti-inflammatoires et des mucolytiques. La mort dans la plupart des cas de fibrose kystique est due à une insuffisance respiratoire.",
+            "difficulte": "Moyen",
+            "categorie": "🌬️ Maladies Respiratoires"
+        },
+        {
+            "question": "6. La labyrinthite est une inflammation de :",
+            "options": [
+                "La moelle osseuse",
+                "Le cerveau",
+                "L'oreille interne",
+                "Le pancréas"
+            ],
+            "reponse_correcte": "L'oreille interne",
+            "explication": "Réponse : L'oreille interne L'oreille interne contrôle à la fois l'audition et l'équilibre. La labyrinthite provoque généralement des vertiges sévères avec des mouvements de la tête et une perte auditive. Elle résulte des mêmes organismes qui causent des maladies fébriles aiguës, comme la pneumonie et la grippe.",
+            "difficulte": "Moyen",
+            "categorie": "🌬️ Maladies Respiratoires"
+        },
+        {
+            "question": "2. L'amiante peut causer de nombreuses maladies. Si une personne est exposée à une grande quantité d'amiante, quelle condition terminale est la plus susceptible de se produire ?",
+            "options": [
+                "Effondrement alvéolaire",
+                "Bronchite",
+                "Mésothéliome",
+                "Épanchement pleural"
+            ],
+            "reponse_correcte": "Mésothéliome",
+            "explication": "Réponse : Mésothéliome. Le mésothélium est une couche de tissu fibreux qui tapisse l'espace pleural des poumons. Si une personne est exposée à une quantité excessive d'amiante, la maladie peut devenir mortelle et se transformer généralement en tumeurs malignes au sein du mésothélium, ce qui aboutit au mésothéliome. Le pronostic de ce cancer est mauvais.",
+            "difficulte": "Moyen",
+            "categorie": "🌬️ Maladies Respiratoires"
+        },
+        {
+            "question": "6. Un ancien nom pour cette maladie est la consomption. Elle est causée par une bactérie et, bien qu'elle puisse affecter de nombreuses parties du corps, la plupart des gens l'associent aux poumons. L'un des signes révélateurs est le crachat ou la toux de sang. La famille Brontë a souffert de cette maladie.",
+            "options": [
+                "Pneumonie",
+                "Emphysème",
+                "Typhus",
+                "Tuberculose"
+            ],
+            "reponse_correcte": "Tuberculose",
+            "explication": "Réponse : Tuberculose. Anne et Emily Brontë, ainsi que leur frère Branwell, sont morts de la tuberculose en l'espace de deux ans. Le certificat de décès de Charlotte indiquait la tuberculose comme cause de décès, mais il existe des preuves qu'elle pourrait en fait être morte du typhus ou de l'hyperémèse (vomissements excessifs pendant la grossesse).",
+            "difficulte": "Moyen",
+            "categorie": "🌬️ Maladies Respiratoires"
+        },
+        {
+            "question": "3. Gary, le gourmet galopant, souffrait de paupières tombantes, de vision double, de paralysie faciale, de vertiges, de difficultés à avaler et, lors d'un tournoi de cuisine la semaine dernière, il s'est effondré. La chance de Gary a tourné après qu'il ait englouti les cornichons boutonneux des conserves maison de sa grand-mère pour le déjeuner. Quelle était la cause la plus probable de ses problèmes de santé ?",
+            "options": [
+                "Paralysie de Bell",
+                "Salmonelle",
+                "AVC",
+                "Botulisme"
+            ],
+            "reponse_correcte": "Botulisme",
+            "explication": "Réponse : Botulisme. Le botulisme est une forme très grave d'intoxication alimentaire causée par la bactérie \"Clostridium botulinum\". La bactérie peut se trouver dans les aliments qui ont été mis en conserve, en bouteille et conservés à la maison. La bactérie peut se développer et se reproduire sans oxygène et à des températures très basses. La plupart des personnes sont directement emmenées à l'hôpital où des émétiques (médicaments provoquant des vomissements) et des antitoxines sont administrés. De nombreux patients ont besoin d'une respiration artificielle en route vers l'hôpital, et beaucoup meurent après leur arrivée.",
+            "difficulte": "Moyen",
+            "categorie": "🌬️ Maladies Respiratoires"
+        },
+        {
+            "question": "7. Skunkee, la charmante, et son mari Chris, étaient dans un avion pour visiter Disneyland quand soudain elle n'entendait plus correctement. Ses oreilles lui faisaient mal et se sentaient inconfortablement bouchées. Qu'est-ce qui pourrait causer son inconfort ?",
+            "options": [
+                "Barotite",
+                "Barotraumatisme",
+                "Otite moyenne aérienne",
+                "Toutes ces réponses"
+            ],
+            "reponse_correcte": "Toutes ces réponses",
+            "explication": "Réponse : Toutes ces réponses. La barotite, le barotraumatisme et l'otite moyenne aérienne sont tous des termes désignant la condition que certaines personnes ressentent lors de la descente d'un avion. L'accumulation de liquide dans l'oreille moyenne provoque la douleur et l'inconfort, surtout si le passager a un rhume ou une grippe. L'altitude accrue provoque une expansion du gaz dans l'oreille moyenne, qui s'échappe par un canal menant à la cavité nasale. Si ce canal est obstrué à cause d'un rhume ou d'une grippe, le gaz ne peut pas revenir dans l'oreille moyenne pendant la descente. Souvent, le tympan est poussé vers l'intérieur et du liquide s'accumule dans l'oreille moyenne. Des sprays nasaux peuvent être utilisés avant le vol et pendant la descente pour garder le canal ouvert. Avaler aide, et les enfants devraient recevoir quelque chose à manger pendant la descente. Les médicaments décongestionnants aident également.",
+            "difficulte": "Moyen",
+            "categorie": "🌬️ Maladies Respiratoires"
+        },
+        {
+            "question": "5. Passer trop de temps à travailler dans une mine de charbon peut causer lequel des troubles suivants ?",
+            "options": [
+                "Pneumoconiose des mineurs de charbon",
+                "Maladie de Hansen des mineurs de charbon",
+                "Fibrose kystique des mineurs de charbon",
+                "Synesthésie des mineurs de charbon"
+            ],
+            "reponse_correcte": "Pneumoconiose des mineurs de charbon",
+            "explication": "Réponse : Pneumoconiose des mineurs de charbon La pneumoconiose, également connue sous le nom de maladie du poumon noir, est causée par l'inhalation de poussière de charbon et est couramment observée chez les mineurs de charbon. Le charbon inhalé s'accumule progressivement dans les poumons, les recouvrant d'une poussière de graphite bleu-noir distinctive. La pneumoconiose n'apparaît généralement qu'après 10 ans d'exposition et est traitable, mais incurable à ce jour. L'accumulation de poussière de charbon provoque une bronchite, des spasmes de toux, de l'emphysème et une perte de la capacité des poumons à absorber l'oxygène une fois que la fibrose s'installe. La pneumoconiose est également liée à la polyarthrite rhumatoïde et peut-être à la formation de cancer. Trop de poussière de charbon n'est définitivement pas bon pour la santé de quiconque.",
+            "difficulte": "Moyen",
+            "categorie": "🌬️ Maladies Respiratoires"
+        },
+        {
+            "question": "9. La macadamia est un trouble sanguin dans lequel le patient naît avec un sang épais, noir et collant.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "reponse_correcte": "Faux",
+            "explication": "Réponse : Faux Cette affirmation est totalement fausse. La macadamia est une espèce végétale originaire d'Indonésie, d'Australie et de Nouvelle-Calédonie. Ces arbres à feuilles persistantes produisent la délicieuse noix de macadamia. Il n'existe pas de trouble sanguin réel qui corresponde à tous ces critères, mais il arrive que du sang ancien puisse sembler avoir cette texture. Il peut également apparaître dans les poumons de patients souffrant de choléra morbus.",
+            "difficulte": "Moyen",
+            "categorie": "🌬️ Maladies Respiratoires"
+        },
+        {
+            "question": "1. Votre hypocondrie se réveille lorsque vous voyez que le médecin a écrit « coryza » sur votre arrêt maladie. De quelle maladie souffrez-vous ?",
+            "options": [
+                "Grippe",
+                "Sinusite",
+                "Bronchite",
+                "Rhume"
+            ],
+            "reponse_correcte": "Rhume",
+            "explication": "Réponse : Rhume Tous ces maux sont généralement causés par des virus. Le nom de coryza proviendrait des mots grecs « kara », signifiant tête, et « zeein », signifiant bouillir, ce qui décrit le nez qui coule associé à la maladie. Le seul remède vraiment efficace contre le rhume est le temps. La grippe présente des symptômes similaires au rhume, notamment un mal de gorge et des maux de tête, mais elle est causée par un virus différent et est plus grave. La sinusite est une inflammation des cavités nasales, et la bronchite est une inflammation des voies respiratoires vers les poumons.",
+            "difficulte": "Moyen",
+            "categorie": "🌬️ Maladies Respiratoires"
+        }
+    ]
+}

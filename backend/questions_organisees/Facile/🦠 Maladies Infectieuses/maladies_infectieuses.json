@@ -1,0 +1,420 @@
+{
+    "categorie": "🦠 Maladies Infectieuses",
+    "difficulte": "Facile",
+    "questions": [
+        {
+            "question": "7. Dans l'analyse du liquide céphalo-rachidien (LCR) d'une personne atteinte de méningite, laquelle des observations suivantes indiquerait une méningite syphilitique ?",
+            "options": [
+                "présence de neutrophiles, glucose normal",
+                "absence de neutrophiles, glucose normal",
+                "présence de neutrophiles, glucose diminué",
+                "absence de neutrophiles, glucose diminué"
+            ],
+            "reponse_correcte": "absence de neutrophiles, glucose diminué",
+            "explication": "Réponse : absence de neutrophiles, glucose diminué La syphilis est une cause atypique de méningite, causée par une bactérie spirochète, Treponema pallidum. La présence de globules blancs, en particulier de neutrophiles, dans le LCR indiquerait que la cause de la méningite est bactérienne. Cependant, même si la syphilis est causée par une bactérie, elle n'attire pas les neutrophiles. Lorsque la concentration de glucose dans le LCR diminue, cela signifie simplement que quelque chose utilise le glucose. Les bactéries sont les suspects habituels lorsque la concentration de glucose dans le LCR est diminuée.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "4. Cette éruption cutanée est causée par la même bactérie qui cause l'« angine streptococcique ». Si elle n'est pas traitée, elle peut entraîner des problèmes cardiaques et articulaires.",
+            "options": [
+                "syndrome de choc toxique",
+                "scarlatine",
+                "maladie de Lyme",
+                "fièvre pourprée des montagnes Rocheuses"
+            ],
+            "reponse_correcte": "scarlatine",
+            "explication": "Réponse : scarlatine Le Streptococcus pyogenes, ou streptocoque du groupe A, cause l'angine streptococcique courante et la scarlatine moins courante. L'éruption de la scarlatine est décrite comme ayant une texture de papier de verre et est évidemment d'un rouge vif. Les lecteurs de « Little Women » et du « Lapin en velours » reconnaîtront qu'avant l'invention des antibiotiques, il s'agissait d'une infection potentiellement mortelle. Une infection streptococcique non traitée peut entraîner un rhumatisme articulaire aigu, qui affecte le cœur et les articulations.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "9. Le virus qui cause cette maladie peut également provoquer une méningite et une inflammation du muscle cardiaque (myocardite).",
+            "options": [
+                "cinquième maladie",
+                "maladie de Lyme",
+                "syndrome pieds-mains-bouche",
+                "hépatite B"
+            ],
+            "reponse_correcte": "syndrome pieds-mains-bouche",
+            "explication": "Réponse : syndrome pieds-mains-bouche Le coupable habituel du syndrome pieds-mains-bouche est le Coxsackie A15, qui appartient à la même grande famille que les poliovirus. Le virus circule davantage en été et provoque de petites cloques sur les paumes, les plantes des pieds, l'intérieur de la bouche et souvent les fesses. Les cloques se rompent facilement et ne sont pas douloureuses, laissant des ulcères superficiels. La maladie n'est pas grave et suit son cours. La méningite causée par ce virus provoque un mal de tête sévère mais ne cause généralement pas de problèmes durables. La myocardite, cependant, peut être mortelle. La maladie de Lyme affecte également le cœur et le cerveau, mais elle est causée par un type de bactérie, pas un virus.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "7. La maladie de la silicose est liée à la silice, elle est donc liée à laquelle des éléments suivants ?",
+            "options": [
+                "Bois",
+                "Granite",
+                "Gaz",
+                "Électricité"
+            ],
+            "reponse_correcte": "Granite",
+            "explication": "Réponse : Granite Le granite contient beaucoup de quartz, qui est une forme très courante de silice cristalline. L'inhalation de poussière et de fumée contenant de la silice cristalline est la cause de la silicose. La silicose est un type de pneumoconiose, terme utilisé pour les maladies causées par l'inhalation de poussière pendant une longue durée. Les particules de silice sont ingérées par les cellules des alvéoles pulmonaires, ce qui déclenche un processus inflammatoire causant des dommages. Les symptômes incluent des douleurs thoraciques et de la toux. Les études radiologiques sont importantes pour diagnostiquer cette maladie. Un scanner est plus utile qu'une radiographie. Des stéroïdes peuvent être administrés dans le traitement de cette maladie. L'exposition à la silice doit être arrêtée et les infections doivent être prévenues. Si vous travaillez dans des conditions où vous êtes exposé à la silice, il est important de prendre des mesures de protection comme un masque facial et des lunettes.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "2. Cette infection était autrefois connue sous le nom de maladie des abattoirs car elle était souvent contractée par les personnes travaillant dans les abattoirs. Aujourd'hui, elle est plus fréquemment contractée en buvant du lait non pasteurisé.",
+            "options": [
+                "virus de Borna",
+                "brucellose",
+                "babésiose",
+                "borréliose"
+            ],
+            "reponse_correcte": "brucellose",
+            "explication": "Réponse : brucellose La brucellose est particulièrement rare aux États-Unis car le bétail est dépisté. Le lait de chèvre est une source plus fréquente aujourd'hui. Dans d'autres parties du monde, le lait de chameau est un contributeur majeur. La babésiose est une maladie protozoaire transmise par les tiques, principalement dans la région de Martha's Vineyard et ses environs. La borréliose est la fièvre récurrente, également transmise par les tiques (ou les poux). Le virus de Borna a été impliqué par certains chercheurs comme étant lié au développement de maladies mentales chez l'homme.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "7. L'infection par ce parasite protozoaire était initialement plus fréquente chez les personnes qui buvaient de l'eau douce pendant des voyages de camping. Aujourd'hui, la fréquentation des garderies est reconnue comme l'un des plus grands facteurs de risque. Les symptômes incluent des ballonnements et une distension abdominale.",
+            "options": [
+                "Guillain-Barré",
+                "Gardnerella",
+                "Giardia",
+                "Gnathostomiase"
+            ],
+            "reponse_correcte": "Giardia",
+            "explication": "Réponse : Giardia L'infection est rarement grave, et aucun sang n'est visible dans les selles. Elle peut être inconfortable et empêcher les enfants d'absorber correctement les nutriments, elle est donc généralement traitée par une cure d'antibiotiques. Gardnerella est l'un des agents responsables de la vaginose bactérienne, la gnathostomiase est une infection par un ver, et le syndrome de Guillain-Barré est un trouble neurologique qui survient généralement après diverses infections.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "14. Quel terme est appliqué aux infections qui sont contractées dans un hôpital plutôt que dans la communauté ?",
+            "options": [
+                "néphrotique",
+                "négligent",
+                "néostigmatique",
+                "nosocomiale"
+            ],
+            "reponse_correcte": "nosocomiale",
+            "explication": "Réponse : nosocomiale Les infections bactériennes contractées dans un hôpital ou un autre établissement de santé sont beaucoup plus susceptibles d'être résistantes aux antibiotiques standard que les infections contractées dans la communauté. C'est une cause majeure de maladie supplémentaire et de coûts. Les formes courantes d'infection nosocomiale incluent les infections urinaires, les infections de plaies et les pneumonies associées aux ventilateurs.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "23. Cette maladie transmise par les moustiques a été initialement décrite en Afrique, mais a été trouvée en Europe, au Moyen-Orient, en Asie et en Australie. En 1999, elle s'est propagée à l'hémisphère occidental - elle a été initialement détectée dans la région de New York/New Jersey et est censée avoir été propagée par un oiseau ou un moustique infecté.",
+            "options": [
+                "Virus du Nil occidental",
+                "Virus Ebola",
+                "Virus de l'Est du Congo",
+                "Hantavirus"
+            ],
+            "reponse_correcte": "Virus du Nil occidental",
+            "explication": "Réponse : Virus du Nil occidental Beaucoup de battage médiatique a suivi l'arrivée du virus dans de nouvelles régions des États-Unis. En réalité, la plupart des personnes infectées par le virus seront complètement asymptomatiques. La manifestation la plus courante est la fièvre du Nil occidental, qui se résout généralement sans problème. La méningite du Nil occidental est un peu plus sévère dans sa présentation, mais encore une fois, la plupart des gens se rétablissent complètement. L'encéphalite du Nil occidental est la manifestation la plus grave, et malheureusement, les survivants souffrent souvent de séquelles neuropsychiatriques permanentes.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "10. L'ascaridiose est le terme pour :",
+            "options": [
+                "La maladie de l'ankylostome",
+                "L'infection par la teigne",
+                "La trichinose",
+                "L'infection par le ver rond"
+            ],
+            "reponse_correcte": "L'infection par le ver rond",
+            "explication": "Réponse : L'infection par le ver rond L'ascaridiose est une infection par le ver rond et c'est l'infection helminthique la plus courante. Elle se produit dans le monde entier mais est plus fréquente dans les tropiques et en Orient où les agriculteurs utilisent des excréments humains comme engrais. Ascaris lumbricoides ressemble au grand ver de terre. Manger des légumes mal lavés cultivés dans un sol contaminé est un moyen de devenir un hôte pour l'helminthe. La plupart des gens sont asymptomatiques, mais beaucoup peuvent ressentir un léger inconfort gastrique. Le premier indice peut être de vomir un ver ou de passer un ver dans les selles. Ils peuvent être expulsés par le rectum ou par la bouche.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "4. On pense que le virus Ebola a été initialement transmis à l'homme par lequel de ces éléments ?",
+            "options": [
+                "En buvant de l'eau infectée",
+                "En étant piqué par des insectes infectés comme les moustiques",
+                "En inhalant des gouttelettes infectées - il est aéroporté",
+                "En mangeant de la viande infectée de singes"
+            ],
+            "reponse_correcte": "En mangeant de la viande infectée de singes",
+            "explication": "Réponse : En mangeant de la viande infectée de singes Le virus Ebola a été enregistré pour la première fois en 1976 et il n'y a pas encore de réponse définitive sur la façon dont les humains sont infectés. La théorie actuelle est que les gens contractent le virus en mangeant de la viande de singe infectée. Le virus est ensuite facilement transmis entre les personnes par le sang ou les fluides corporels infectés. La fièvre hémorragique Ebola tue entre 50 % et 90 % des personnes infectées - une maladie que vous voulez absolument éviter ! \"The Essential Handbook of Epidemics, Viruses and Plagues\" du Dr Peter Moore est un livre vraiment intéressant à consulter.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "3. Quelle maladie infantile courante présente une éruption cutanée distinctive, ce qui lui vaut le surnom de \"maladie des joues giflées\" ?",
+            "options": [
+                "Cinquième maladie",
+                "Oreillons",
+                "Fasciite",
+                "Rougeole"
+            ],
+            "reponse_correcte": "Cinquième maladie",
+            "explication": "Réponse : Cinquième maladie La cinquième maladie, ou plus correctement, l'érythème infectieux, est une maladie virale aéroportée dont les enfants se rétablissent généralement rapidement. Elle est causée par le Parvovirus B19 et se transmet par la salive et les sécrétions respiratoires. Après les premiers symptômes de type rhume, une éruption cutanée rouge vif apparaît sur le visage. L'éruption se propage ensuite sur le corps et peut ressembler à de la dentelle. La maladie est très contagieuse et se propage avant l'apparition des symptômes. Il n'y a pas de prévention et le traitement est symptomatique - des analgésiques légers pour toute douleur ou fièvre, et des crèmes pour les démangeaisons. Le rétablissement prend généralement une semaine ou deux.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "4. Quelle maladie hémorragique virale se transmet par contact avec du sang et a été nommée d'après un fleuve africain ?",
+            "options": [
+                "Marburg",
+                "Ebola",
+                "Fièvre hémorragique d'Omsk",
+                "Alkhurma"
+            ],
+            "reponse_correcte": "Ebola",
+            "explication": "Réponse : Ebola Initialement appelé \"virus Ebola du Zaïre\" et maintenant simplement connu sous le nom d'\"Ebola\", la maladie a été observée pour la première fois en 1976 au Soudan et au Zaïre et a été nommée d'après la rivière Ebola. La maladie se propage par les fluides corporels infectés, y compris la sueur et le lait maternel, pas seulement par le sang ou les muqueuses. Elle est très contagieuse et a un taux de mortalité d'environ 50 %, bien qu'il puisse atteindre 90 %. L'Ebola commence par des symptômes généraux de maux de tête, de maux de gorge et de fièvre. À mesure que la maladie progresse, des douleurs articulaires, des vomissements et des diarrhées surviennent, suivis d'une éruption cutanée sombre et granuleuse (maculo-papuleuse). Après environ une semaine, des saignements commencent et la coagulation sanguine est perturbée, ce qui entraîne une hémorragie continue.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "5. Quelle maladie, avec plus d'un million de cas dans le monde chaque année, est généralement contractée à partir d'approvisionnements en eau contaminés et peut être traitée par une simple thérapie de réhydratation ?",
+            "options": [
+                "Syndrome de Sakati",
+                "Schistosomiase",
+                "Choléra",
+                "Candidose"
+            ],
+            "reponse_correcte": "Choléra",
+            "explication": "Réponse : Choléra Le choléra est une maladie très virulente causée par certaines souches de la bactérie Vibrio cholerae. La voie de transmission à l'homme est l'eau contaminée, qui à son tour est polluée par des matières fécales en raison d'un traitement inefficace de l'eau. Bien que souvent considéré comme une maladie des pays en développement, le choléra est une préoccupation majeure partout où les zones sont inondées et les stations d'épuration des eaux usées sont submergées et/ou inopérantes pendant de longues périodes. Bien que la diarrhée aqueuse sévère qui caractérise cette maladie puisse tuer rapidement les personnes (en raison d'une déshydratation massive), la plupart présentent des symptômes plus légers et beaucoup d'autres sont des porteurs asymptomatiques, bien que leurs selles soient contaminées par la bactérie pendant jusqu'à dix jours. Le traitement avec une \"solution de réhydratation orale\" est extrêmement efficace s'il est effectué à temps. Les premières occurrences de cette maladie remontent au delta du Gange en Inde au milieu du XIXe siècle.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "6. Quelle condition, mortelle si elle n'est pas traitée, est causée par la bactérie Clostridium et se manifeste généralement d'abord par des contractions douloureuses des muscles de la mâchoire et du cou ?",
+            "options": [
+                "Botulisme",
+                "Thyrotoxicose",
+                "Méningite bactérienne",
+                "Tétanos"
+            ],
+            "reponse_correcte": "Tétanos",
+            "explication": "Réponse : Tétanos Le tétanos est également communément appelé \"trismus\" en raison de l'effet de spasme musculaire produit par la toxine libérée par la bactérie Clostridium tetani. C'est un organisme anaérobie et on le trouve donc dans les blessures profondes de type perforation. Les premiers muscles touchés sont ceux qui contrôlent la mâchoire et la région du cou. Les spores de la bactérie sont extrêmement courantes, résidant dans le sol et parfois dans les matières fécales des animaux. Le point d'entrée le plus courant des spores dans le corps est les blessures qui sont entrées en contact avec de tels matériaux, par exemple des coupures aux mains pendant le jardinage. Si elle n'est pas traitée, 10 à 20 % des cas peuvent être mortels, principalement en raison de l'interférence avec le mécanisme respiratoire. Les infections tétaniques sont traitées avec de l'immunoglobuline humaine antitétanique (TIG) et un vaccin est disponible pour les personnes sensibles, notamment les nourrissons.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "7. Un groupe de symptômes courants incluant une forte fièvre, un écoulement nasal, des maux de gorge, des douleurs musculaires et articulaires, des maux de tête, de la toux et des éternuements, et une sensation de fatigue peut être causé par plusieurs agents externes, mais lequel des éléments suivants est l'agent le plus probable ?",
+            "options": [
+                "Bactérie Clostridium perfringens",
+                "Virus de la grippe A",
+                "Levure Candida albicans",
+                "Giardia duodenalis"
+            ],
+            "reponse_correcte": "Virus de la grippe A",
+            "explication": "Réponse : Virus de la grippe A La grippe, souvent abrégée en \"grippe\", est un groupe de maladies virales dont il existe trois types : A, B et C. La grippe A est la maladie la plus grave et aussi la plus susceptible de provoquer des épidémies généralisées. La grippe A est pathogène pour l'homme et peut causer la mort chez les jeunes, les personnes âgées et les personnes atteintes de maladies chroniques. Comme il s'agit d'un virus, les antibiotiques sont inefficaces et la prévention est préférable par la vaccination. Comme le virus a deux protéines de surface \"H\" et \"N\" qui mutent chaque année, des vaccins annuels sont nécessaires pour surmonter les mutations.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "8. Le mal d'oreille est le principal symptôme observé dans cette condition, parfois accompagné de fièvre et d'une perte auditive, et parfois d'un écoulement. Quel est le nom de cette condition ?",
+            "options": [
+                "Sepsis fulminant",
+                "Trypanosomiase africaine",
+                "Méningite aseptique",
+                "Otite moyenne"
+            ],
+            "reponse_correcte": "Otite moyenne",
+            "explication": "Réponse : Otite moyenne L'otite moyenne est une infection de l'oreille moyenne. Elle survient lorsqu'un agent pathogène infectieux, généralement un rhume ou une autre infection virale des voies respiratoires, se propage à l'oreille via la trompe d'Eustache. Elle est plus fréquemment observée chez les enfants et les Australiens autochtones en raison de l'anatomie. Dans cette population, la trompe est presque horizontale, permettant une propagation facile, tandis que chez les adultes, la trompe devient plus perpendiculaire. L'oreille moyenne contient les trois osselets et, à mesure que la zone se remplit de pus, elle exerce une pression sur la membrane tympanique et les os ne bougent plus librement, ce qui entraîne une perte auditive temporaire dans l'oreille affectée.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "4. L'encéphalite est une maladie rare du foie qui affecte principalement les alcooliques.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "reponse_correcte": "Faux",
+            "explication": "Réponse : Faux L'encéphalite est une maladie rare du cerveau qui affecte principalement les enfants, les personnes âgées ou les personnes dont le système immunitaire est affaibli. C'est une inflammation du cerveau causée par un virus. Dans les cas légers d'encéphalite, les personnes peuvent ressentir des maux de tête, de la fièvre, une perte d'appétit, une perte d'énergie et un sentiment général de malaise. Dans les cas graves, il peut y avoir plusieurs symptômes liés au système nerveux central ainsi qu'une forte fièvre. Certains de ces symptômes incluent des nausées et des vomissements, une raideur de la nuque, de la confusion, une désorientation, des convulsions, des changements de personnalité, une perte de mémoire, des hallucinations ou même un coma. Le virus de l'herpès simplex est l'une des causes les plus courantes d'encéphalite. La rougeole, les oreillons, la varicelle et d'autres maladies infantiles peuvent provoquer des formes légères d'encéphalite. La plupart des personnes atteintes de cette maladie se rétablissent complètement, mais dans certains cas, où les dommages au cerveau sont graves, elle peut être mortelle.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "6. La nuit, vous êtes réveillé par le bruit de poubelles renversées. En sortant, vous remarquez des ratons laveurs fouillant les déchets. L'un d'eux vous mord à la jambe et s'enfuit. Le médecin aux urgences vous dit que vous devez recevoir une série de vaccins sur 28 jours pour prévenir cette maladie.",
+            "options": [
+                "paludisme",
+                "béribéri",
+                "rage",
+                "lèpre"
+            ],
+            "reponse_correcte": "rage",
+            "explication": "Réponse : rage. La rage peut être une maladie dévastatrice si elle n'est pas traitée rapidement. Très peu de personnes ayant développé la rage ont survécu. Les morsures de chauves-souris sont les plus courantes. Le protocole de vaccination actuel consiste en trois injections sur plusieurs jours.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "7. Une toux chronique, des selles fréquentes et malodorantes, et des infections persistantes des voies respiratoires supérieures sont des signes de quoi ?",
+            "options": [
+                "Pneumonie",
+                "Fibrose kystique",
+                "Cancer du poumon",
+                "Tuberculose"
+            ],
+            "reponse_correcte": "Fibrose kystique",
+            "explication": "Réponse : Fibrose kystique. La fibrose kystique (FK) est un trouble autosomique récessif. La FK provoque une surproduction de sécrétions muqueuses anormalement épaisses par les glandes exocrines.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "5. Quel est le terme courant pour désigner le trouble visible sur cette photo ?",
+            "options": [
+                "Ebola",
+                "Eczéma",
+                "Ectopie",
+                "Éléphantiasis"
+            ],
+            "reponse_correcte": "Éléphantiasis",
+            "explication": "Réponse : Éléphantiasis. Le terme éléphantiasis décrit avec précision l'élargissement du corps, généralement des bras, des jambes et des organes génitaux. Il résulte d'une infection par un ver rond qui affecte les ganglions lymphatiques, empêchant le corps d'éliminer les liquides excédentaires, ce qui provoque un lymphœdème ou un gonflement. Ce trouble, défigurant et invalidant, est transmis par la piqûre d'un moustique porteur des larves du ver. Il est généralement observé dans les régions chaudes et humides de la planète.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "1. J'ai besoin d'aide ! Je pense que le médecin a dit que j'avais de l'étain dans mes pédales. Je n'ai pas fait de vélo depuis des jours, mais mes pieds me démangent. Savez-vous ce qu'est le tinea pedis ?",
+            "options": [
+                "Acouphènes",
+                "Pied d'athlète",
+                "Ongle incarné",
+                "Pityriasis pédiatrique"
+            ],
+            "reponse_correcte": "Pied d'athlète",
+            "explication": "Réponse : Pied d'athlète. Le tinea pedis est une infection fongique communément appelée pied d'athlète. Des crèmes et poudres antifongiques peuvent être achetées sans ordonnance pour traiter cette infection. Pour éviter une réinfection, gardez vos pieds propres et secs, changez souvent de chaussettes et portez des sandales dans les zones publiques comme les piscines.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "1. Cette maladie, classée comme une fièvre hémorragique virale aiguë, est caractérisée par de la fièvre, des frissons, des nausées et des douleurs musculaires. Elle peut finalement causer des dommages au foie et une jaunisse. Elle est causée par un agent viral et transmise par la femelle du moustique Aedes aegypti ou du moustique tigre. Aujourd'hui encore, elle est la cause de plus de 200 000 décès par an dans les régions où les vaccins n'existent pas ou sont difficiles à obtenir. Quel est son nom commun ? (Indice : Cette maladie est associée à une couleur de l'arc-en-ciel.)",
+            "options": [
+                "Dengue",
+                "Fièvre jaune",
+                "Paludisme",
+                "Maladie de Chagas"
+            ],
+            "reponse_correcte": "Fièvre jaune",
+            "explication": "Réponse : Fièvre jaune. La fièvre jaune a été introduite en Amérique lorsque les esclaves ont été amenés dans le Nouveau Monde, car elle est originaire d'Afrique. Ses seuls hôtes sont les moustiques et les primates. Lors de la construction du canal de Panama, les États-Unis ont créé une commission dirigée par le docteur Walter Reed, qui a donné crédit au docteur Finlay, un médecin cubain qui a découvert que le moustique transmettait la maladie. Le gouvernement américain a éliminé les zones de reproduction du moustique, et le taux de mortalité a été considérablement réduit pendant la construction du canal de Panama.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "2. Il s'agit d'une autre maladie transmise par les moustiques, mais dans ce cas, c'est le moustique Anopheles et le parasite est un protozoaire du genre Plasmodium, un organisme unicellulaire. Il n'existe pas de vaccin contre cette maladie, et elle peut être traitée avec de la quinine. La maladie est caractérisée par des symptômes pseudo-grippaux, une forte fièvre, des maux de tête, des frissons, des sueurs et, finalement, elle peut affecter le système respiratoire. Quel est le nom commun de cette maladie ? (Indice : Cette maladie nous rappelle le mot \"mal\" en espagnol.)",
+            "options": [
+                "Maladie pulmonaire obstructive",
+                "Paludisme",
+                "Pneumonie espagnole",
+                "Pneumonie bactérienne"
+            ],
+            "reponse_correcte": "Paludisme",
+            "explication": "Réponse : Paludisme. Cette maladie infecte 400 millions de personnes par an. Il existe des cas graves de paludisme. Le moustique introduit sa salive, où vit le parasite, dans le système circulatoire de la personne, puis le parasite se dirige vers le foie, où il se reproduit. Dans de nombreux cas, la personne infectée peut mourir ou souffrir de frissons et de fièvre après que la maladie soit passée.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "4. Cette maladie, également connue sous le nom de fièvre de la dengue, présente les symptômes suivants : fièvre, maux de tête, douleurs musculaires et articulaires, et une éruption cutanée ressemblant à la rougeole. Dans les cas les plus graves, elle peut provoquer des saignements, un faible taux de plaquettes sanguines et une accumulation de liquide dans la poitrine. Elle est transmise par les moustiques du genre Aedes et est causée par un virus, le Flavivirus. Quel est le nom commun de cette maladie ? (Indice : Elle provoque de la fièvre.)",
+            "options": [
+                "Fièvre de la dengue",
+                "Babésiose",
+                "Balantidiose",
+                "Gale"
+            ],
+            "reponse_correcte": "Fièvre de la dengue",
+            "explication": "Réponse : Fièvre de la dengue. Chaque année, environ cent mille personnes sont infectées par la fièvre de la dengue. Les zones à haut risque sont l'Inde, l'Asie du Sud-Est, le sud de la Chine, l'Amérique du Sud près de l'équateur et les Caraïbes. Il existe également un risque aux États-Unis, près de la frontière avec le Mexique et dans le sud de la Floride.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "8. Cette maladie est causée par le Trypanosoma cruzi, un protozoaire flagellé. Elle est transmise par un insecte suceur de sang qui défèque lorsqu'il mord, déposant le parasite qu'il transporte dans la zone de la morsure. Les insectes sont appelés triatomes ou punaises embrasseuses. La maladie commence par une infection dans la zone de la morsure, puis, dans les stades avancés, elle peut causer de graves problèmes cardiaques et intestinaux. Elle a été découverte par Carlos Chagas, un médecin brésilien. Quel est le nom commun de cette maladie ? (Indice : Vous n'en avez pas besoin.)",
+            "options": [
+                "Ulcère de Buruli",
+                "Trachome",
+                "Maladie de Chagas",
+                "Dysenterie"
+            ],
+            "reponse_correcte": "Maladie de Chagas",
+            "explication": "Réponse : Maladie de Chagas. L'insecte qui transmet le parasite vit en Amérique centrale et du Sud et se trouve dans les maisons en adobe et les coins sombres où vivent des souris et des rats. Certains scientifiques pensent que Darwin aurait pu souffrir de la maladie de Chagas en raison des symptômes qu'il a présentés pendant les dernières années de sa vie, après son retour de son voyage en Amérique du Sud.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "7. Al Capone avait cette maladie sexuellement transmissible causée par la bactérie Treponema pallidum. Si elle n'est pas traitée, elle provoque de graves dommages au système nerveux, entraînant la folie et la mort. Cependant, elle est facilement traitée avec de la pénicilline.",
+            "options": [
+                "Chlamydia",
+                "Gonorrhée",
+                "Syphilis",
+                "SIDA"
+            ],
+            "reponse_correcte": "Syphilis",
+            "explication": "Réponse : Syphilis. Guy de Maupassant, Franz Schubert et Léon Tolstoï étaient des célèbres personnes atteintes de syphilis. Cette maladie est devenue très répandue en Europe au XVIe siècle, principalement en raison des activités des armées de divers pays. Les Anglais et les Allemands l'appelaient \"la maladie française\". Les Français l'appelaient \"la vérole espagnole\" ou \"la maladie anglaise\". Les Italiens l'appelaient \"la maladie espagnole\". En Perse, c'était \"la maladie turque\" et en Russie \"la maladie polonaise\". En bref, chaque pays a nommé et blâmé un autre pays pour la propagation de cette maladie.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "10. Et enfin, nous arrivons aux poux. Et pas trop tôt, pourriez-vous dire.\nLes humains peuvent être infestés par trois types de poux, collectivement appelés Pediculus Humanus. Ils peuvent être trouvés sur la tête, le corps et les zones pubiennes et restent généralement à leur place, sauf pour les poux pubiens qui peuvent également être trouvés dans les cils, les barbes et les aisselles - où les poils sont grossiers.\nQuel nom est donné à ce type de pou ?",
+            "options": [
+                "Rampants",
+                "Homards",
+                "Crabes",
+                "Mouches"
+            ],
+            "reponse_correcte": "Crabes",
+            "explication": "Réponse : Crabes Le terme médical pour l'infestation de poux est 'pédiculose'. Les poux ne peuvent pas survivre longtemps hors du corps et sont transmis par contact. Ils doivent sucer du sang pour survivre. Leurs œufs sont appelés 'lentes' et peuvent facilement être vus attachés aux poils de leurs victimes. Le pou adulte a à peu près la taille d'une graine de sésame et prospère dans des conditions insalubres. Par exemple, les soldats en service actif où ils ne peuvent pas rester propres peuvent être infestés. C'était particulièrement le cas dans les tranchées de la Première Guerre mondiale. Toute personne vivant à proximité des autres, sans accès à des installations de lavage, est susceptible de souffrir. En plus de transporter des maladies désagréables comme le typhus et la fièvre des tranchées, les poux peuvent rendre leurs hôtes malades en général - d'où l'expression 'se sentir malade'. Des bains fréquents et un lavage à chaud des vêtements les élimineront, mais tant qu'ils sont en place, ils rendront leur hôte démangé et inconfortable.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "2. La tuberculose était une cause fréquente de décès en Angleterre au XIXe siècle. Sous quel nom était-elle connue à cette époque ?",
+            "options": [
+                "Maladie de la chute",
+                "Angine",
+                "Fièvre hivernale",
+                "Consomption"
+            ],
+            "reponse_correcte": "Consomption",
+            "explication": "Réponse : Consomption La maladie, causée par des bactéries, attaque particulièrement les poumons et était à l'origine de près de 25 % de tous les décès en Europe au XIXe siècle. Le développement des antibiotiques, en particulier la streptomycine, a entraîné une réduction spectaculaire. L'introduction d'un vaccin, le Bacillus Calmette-Guérin (BCG), au XXe siècle a beaucoup contribué à réduire l'incidence de la maladie. Malheureusement, des souches de la maladie résistantes aux antibiotiques habituels signifient que l'éradication de la maladie reste insaisissable, bien que plusieurs programmes soient en cours pour atteindre cet objectif. La 'maladie de la chute' est un nom pour l'épilepsie, la 'fièvre hivernale' désignait la pneumonie et l'angine était appelée 'quinsy'.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "6. La maladie communément appelée coqueluche est connue sous quel nom scientifique parmi ces options ?",
+            "options": [
+                "Rubéole",
+                "Pertussis",
+                "Varicelle",
+                "Roséole"
+            ],
+            "reponse_correcte": "Pertussis",
+            "explication": "Réponse : Pertussis La maladie est causée par la bactérie Bordetella pertussis. Le son caractéristique de la coqueluche est causé par la difficulté du malade à inhaler de l'air pendant les quintes de toux. Un vaccin contre la maladie est disponible, généralement administré en conjonction avec les vaccins contre la diphtérie et le tétanos. Les craintes que le vaccin puisse être lié à des lésions cérébrales chez les enfants ont entraîné une baisse des taux de vaccination et le retour d'épidémies, prouvant que la maladie est loin d'être éradiquée. La rubéole est un autre nom pour la rougeole, et la varicelle est la varicelle. La roséole est une éruption cutanée soudaine.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "8. La poliomyélite était une cause majeure de paralysie, en particulier chez les jeunes, au début du XXe siècle. Un vaccin a été rendu disponible en 1955 grâce au travail de quel homme ?",
+            "options": [
+                "Jonas Salk",
+                "John Marquez",
+                "Louis Pasteur",
+                "Maurice Hilleman"
+            ],
+            "reponse_correcte": "Jonas Salk",
+            "explication": "Réponse : Jonas Salk La polio est causée par un virus et a été identifiée pour la première fois en 1840 par Jakob Heine. Elle se transmet de personne à personne, en particulier par l'eau contaminée, et les épidémies dans le monde occidental sont devenues courantes pendant les mois d'été. Le vaccin de Salk a été développé à l'Université de Pittsburgh, mais a rapidement été remplacé par un vaccin oral créé par Albert Sabin. Grâce aux programmes de vaccination entrepris, la poliomyélite a été éradiquée dans une grande partie du monde, bien que certaines régions d'Afrique et d'Asie connaissent encore des épidémies. Pasteur a inventé un vaccin contre la rage, et Marquez est crédité du vaccin contre le tétanos. Hilleman a mis au point plusieurs vaccins, notamment contre la rougeole, les oreillons et les hépatites A et B.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "10. La pandémie de grippe qui a commencé en 1918 a été nommée d'après quel pays européen ?",
+            "options": [
+                "Angleterre",
+                "France",
+                "Espagne",
+                "Allemagne"
+            ],
+            "reponse_correcte": "Espagne",
+            "explication": "Réponse : Espagne La pandémie de grippe espagnole a touché la plupart des régions du monde, y compris l'Arctique, et on estime qu'elle a tué au moins cinquante millions de personnes - peut-être même le double. Elle a duré du début de 1918 jusqu'à la fin de 1920, et la plupart des décès concernaient des jeunes adultes. Un vaccin a été développé pour protéger contre les trois virus de la grippe les plus courants, administré aux personnes âgées, mais le virus a de nombreuses variations, ce qui rend difficile son éradication complète.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        },
+        {
+            "question": "6. Savoir que vous avez un hématome périorbitaire vous a conduit à choisir les hymnes pour votre service funèbre. Comment appelle-t-on ce problème médical plus couramment ?",
+            "options": [
+                "Œil au beurre noir",
+                "Mouches volantes",
+                "Orgelet",
+                "Conjonctivite"
+            ],
+            "reponse_correcte": "Œil au beurre noir",
+            "explication": "Réponse : Œil au beurre noir Généralement causé par un coup au visage ou au nez, un œil au beurre noir est causé par l'accumulation de sang et de liquides dans les espaces autour de l'œil. Le saignement provoque une ecchymose qui semble spectaculaire, mais entraîne rarement des problèmes. Un orgelet est une infection des glandes à la base d'un cil et est connu sous le nom de hordeolum, et la conjonctivite est le nom commun de la conjonctivite, une inflammation de l'œil. Les mouches volantes sont les petites taches sombres qui se forment dans l'œil, généralement avec l'âge, et sont normalement inoffensives à moins d'être liées à d'autres symptômes.",
+            "difficulte": "Facile",
+            "categorie": "🦠 Maladies Infectieuses"
+        }
+    ]
+}

@@ -1,0 +1,266 @@
+{
+    "categorie": "🛡️ Maladies Auto-immunes",
+    "difficulte": "Moyen",
+    "questions": [
+        {
+            "question": "9. La thyroïdite de Hashimoto entraîne quelle conséquence ?",
+            "options": [
+                "Goitre",
+                "Goutte",
+                "Gingivite",
+                "Glaucome"
+            ],
+            "reponse_correcte": "Goitre",
+            "explication": "Réponse : Goitre. Cette maladie auto-immune provoque une inflammation de la glande thyroïde, entraînant souvent un goitre. Elle peut aussi causer de la fatigue, une perte de cheveux et un ralentissement du rythme cardiaque.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "6. Quelle est la lésion la plus précoce de l'athérosclérose ?",
+            "options": [
+                "lipomyome",
+                "athérome",
+                "stries lipidiques",
+                "formation de thrombus"
+            ],
+            "reponse_correcte": "stries lipidiques",
+            "explication": "Réponse : stries lipidiques Ces stries lipidiques commencent à apparaître vers l'âge de 10 ans et, avec le temps, progressent pour devenir des lésions athéromateuses et finalement conduire à l'athérosclérose.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "8. Lequel des termes ci-dessous définirait le plus précisément le prurit ?",
+            "options": [
+                "gonflement",
+                "essoufflement",
+                "reflux acide",
+                "démangeaison"
+            ],
+            "reponse_correcte": "démangeaison",
+            "explication": "Réponse : démangeaison Le prurit ou démangeaison (appelons une « démangeaison » une « démangeaison ») est la sensation désagréable qui provoque l'envie de se gratter (et la plupart du temps, vous la ressentez dans le dos juste en dessous de votre portée !). Les démangeaisons peuvent être le résultat de nombreux problèmes différents : réaction médicamenteuse, allergie alimentaire, maladie, vieillissement, peau sèche, cancer, piqûre de moustique, parasites, sumac vénéneux, infection à levures ou, parfois, la raison est inconnue. Le remède dépend entièrement de la cause. Tout le monde vous dit « ne vous grattez pas », mais comment pouvez-vous ne pas le faire ?",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "1. Le sarcome de Kaposi est le plus souvent lié à une maladie causée par quel virus ?",
+            "options": [
+                "Virus de l'immunodéficience humaine",
+                "Cytomégalovirus",
+                "Virus d'Epstein-Barr",
+                "Rotavirus"
+            ],
+            "reponse_correcte": "Virus de l'immunodéficience humaine",
+            "explication": "Réponse : Virus de l'immunodéficience humaine Le sarcome de Kaposi est l'une des principales maladies opportunistes qui surviennent lorsqu'une personne est atteinte du SIDA (Syndrome d'Immunodéficience Acquise), causé par le virus de l'immunodéficience humaine (VIH). Le virus est transmis sexuellement et par transfusion sanguine, et la maladie du SIDA a été découverte dans les années 1980. Le sarcome de Kaposi lié au SIDA est une maladie clinique agressive. Le principal symptôme de la maladie est des lésions cutanées, tandis que d'autres symptômes incluent des vomissements, des nausées, une hémoptysie et des douleurs thoraciques. Une biopsie peut confirmer le diagnostic. Le traitement comprend une thérapie antivirale, une radiothérapie et une thérapie au laser.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "5. L'encéphalopathie de Wernicke est due à l'épuisement des réserves de thiamine dans le corps. Cette condition grave est souvent liée à quoi ?",
+            "options": [
+                "Usines de verre",
+                "Cholestérol élevé",
+                "Alcool",
+                "Produits chimiques utilisés en photographie"
+            ],
+            "reponse_correcte": "Alcool",
+            "explication": "Réponse : Alcool L'encéphalopathie de Wernicke est un trouble neurologique grave dont la cause principale est une carence en thiamine (vitamine B1). Cette carence en thiamine peut à son tour être causée par l'alcoolisme. D'autres conditions comme une famine extrême, l'hyperémèse gravidique (vomissements excessifs pendant la grossesse) et le SIDA peuvent également entraîner une carence en thiamine, conduisant à l'encéphalopathie de Wernicke. Les symptômes de cette condition incluent la confusion, l'ataxie (trouble de la marche) et l'ophtalmoplégie (faiblesse et paralysie oculaire). D'autres symptômes incluent une perte d'audition, une dysphagie ou des difficultés à manger, une amnésie et une psychose. Le traitement comprend l'administration de thiamine dès que possible. L'hypoglycémie doit être contrôlée en administrant du glucose.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "7. Vous êtes un médecin en charge d'une mission en République démocratique du Congo. Un de vos patients présente des signes d'Ebola. Vous examinez son sang et trouvez des parasites dans sa circulation sanguine. Votre patient a-t-il Ebola, et sinon, quelle maladie est-il le plus susceptible d'avoir ?",
+            "options": [
+                "Oui",
+                "Aucune des réponses ci-dessus",
+                "Non, SIDA",
+                "Non, paludisme"
+            ],
+            "reponse_correcte": "Non, paludisme",
+            "explication": "Réponse : Non, paludisme Votre patient n'a pas Ebola. Le virus Ebola a une forme de filaments fins. Le patient a très probablement le paludisme en raison des \"parasites dans sa circulation sanguine\". Le SIDA est causé par un virus, pas par un parasite.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "2. Quelles cellules sont détruites par le corps dans le diabète de type 1 ?",
+            "options": [
+                "Les cellules alpha du pancréas",
+                "Les acini pancréatiques",
+                "Les cellules delta du pancréas",
+                "Les cellules bêta du pancréas"
+            ],
+            "reponse_correcte": "Les cellules bêta du pancréas",
+            "explication": "Réponse : Les cellules bêta du pancréas Le diabète de type 1 implique une destruction auto-immune des cellules bêta dans les îlots de Langerhans du pancréas. Il existe un sous-type appelé diabète de type 1B idiopathique dans lequel aucune preuve d'auto-immunité n'est présente dans la destruction des cellules bêta.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "1. Un ami m'invite à prendre un café et des donuts. Alors que nous commençons notre deuxième tasse, il halète et se tient le ventre. Quand je lui demande ce qui ne va pas, il me dit qu'il a des douleurs soudaines et extrêmement sévères dans le ventre et le dos, ainsi qu'une pulsation près de son nombril. De quoi pourrait-il souffrir, ce qui me pousse à appeler les services d'urgence ?",
+            "options": [
+                "Anévrisme de l'aorte abdominale",
+                "Syndrome du côlon irritable",
+                "Ulcères gastriques",
+                "Colite"
+            ],
+            "reponse_correcte": "Anévrisme de l'aorte abdominale",
+            "explication": "Réponse : Anévrisme de l'aorte abdominale. Ces symptômes correspondent à un anévrisme de l'aorte abdominale, qui se développe lentement sans symptômes avant de se manifester brutalement. De nombreux facteurs peuvent en être la cause, comme l'hérédité, le tabagisme, l'athérosclérose ou un traumatisme. Un traitement médical immédiat est nécessaire pour éviter des complications graves, voire la mort.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "4. Des vertiges, une sensation de choc lorsque le cou est incliné vers l'avant, une myasthénie et des troubles visuels sont tous des signes de quoi ?",
+            "options": [
+                "Sclérose en plaques",
+                "Méningite bactérienne aiguë",
+                "Méningite",
+                "Syndrome des ptérygions multiples"
+            ],
+            "reponse_correcte": "Sclérose en plaques",
+            "explication": "Réponse : Sclérose en plaques. La sclérose en plaques (SEP) est une maladie démyélinisante du cerveau et de la moelle épinière. À mesure que la maladie progresse, les fonctions motrices d'une personne atteinte de SEP finissent par cesser, et la personne décède.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "5. Quelle est la différence entre le VIH et le SIDA ?",
+            "options": [
+                "L'un est une manifestation",
+                "L'un est un trouble auto-immun",
+                "L'un élimine la production de globules rouges",
+                "L'un crée des leucocytes anormaux"
+            ],
+            "reponse_correcte": "L'un est une manifestation",
+            "explication": "Réponse : L'un est une manifestation. Le SIDA signifie Syndrome d'Immunodéficience Acquise. Le SIDA survient après qu'une personne est infectée par le VIH (Virus de l'Immunodéficience Humaine). Il s'agit donc davantage d'une manifestation, car le système immunitaire du corps ne produit pas un certain type de lymphocyte (les cellules T auxiliaires). Les cellules T auxiliaires sont essentielles à la défense principale du corps. Le VIH est également un rétrovirus qui produit l'enzyme transcriptase inverse, permettant au génome viral ARN d'être transcrit en ADN à l'intérieur de la cellule hôte.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "9. Quelle maladie inflammatoire chronique est caractérisée par une photosensibilité, de la fièvre, une alopécie (calvitie), et des lésions cutanées sur le cou ?",
+            "options": [
+                "Lupus",
+                "Maladie de Lyme",
+                "Lymphadénopathie",
+                "Leucémie"
+            ],
+            "reponse_correcte": "Lupus",
+            "explication": "Réponse : Lupus. Le lupus érythémateux systémique (LES) se présente avec une \"éruption en papillon\" sur le visage ou la poitrine. Les caractéristiques physiopathologiques de la maladie incluent une vascularite sévère, une atteinte rénale et des lésions de la peau et du système nerveux.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "10. Une femme de 57 ans a remarqué que ses pieds accrochent lorsqu'elle marche. Elle se plaint que ses jambes sont faibles. À l'examen, elle présente des fasciculations (contractions des fibres musculaires individuelles), une diminution de la force et une atrophie musculaire. Ses réflexes sont vifs et elle a un tonus musculaire accru.",
+            "options": [
+                "Sclérose en plaques",
+                "Polyneuropathie inflammatoire démyélinisante chronique",
+                "Syndrome de Guillain-Barré",
+                "Sclérose latérale amyotrophique (maladie des neurones moteurs)"
+            ],
+            "reponse_correcte": "Sclérose latérale amyotrophique (maladie des neurones moteurs)",
+            "explication": "Réponse : Sclérose latérale amyotrophique (maladie des neurones moteurs). Le mélange de symptômes du neurone moteur supérieur (raideur des membres et réflexes accrus) et du neurone moteur inférieur (atrophie et fasciculations) suggère une maladie des neurones moteurs. Cette maladie affecte la jonction des neurones moteurs supérieurs et inférieurs dans la moelle épinière.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "4. Cette maladie est parfois appelée maladie de Lou Gehrig, d'après le célèbre joueur de baseball américain. Typiquement, ses symptômes commencent par une faiblesse et une atrophie musculaires, évoluant vers des difficultés à parler, mâcher et avaler. Finalement, le patient est incapable de respirer, et cette maladie est donc invariablement fatale. De quelle maladie s'agit-il ?",
+            "options": [
+                "Myasthénie grave",
+                "Dystrophie musculaire",
+                "Sclérose en plaques",
+                "Maladie des neurones moteurs"
+            ],
+            "reponse_correcte": "Maladie des neurones moteurs",
+            "explication": "Réponse : Maladie des neurones moteurs. David Niven a souffert de la maladie de Lou Gehrig, également connue sous le nom de sclérose latérale amyotrophique (SLA). Un autre patient célèbre fut Stephen Hawking.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "2. Lequel de ces éléments n'est PAS une maladie impliquant le système immunitaire ?",
+            "options": [
+                "Sclérose en plaques (SEP)",
+                "SIDA",
+                "Lupus",
+                "Anémie falciforme"
+            ],
+            "reponse_correcte": "Anémie falciforme",
+            "explication": "Réponse : Anémie falciforme. L'anémie falciforme est une maladie héréditaire. Les trois autres sont causées par des problèmes du système immunitaire. Les patients atteints de lupus et de SEP ont des systèmes immunitaires hyperactifs qui attaquent leur propre corps. Les patients atteints du SIDA ont des systèmes immunitaires sous-actifs et sont vulnérables aux infections.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "8. Laquelle de ces maladies pourriez-vous avoir si vous avez un ANA positif ?",
+            "options": [
+                "Syndrome de Sjögren",
+                "Dystrophie musculaire (DM)",
+                "Sclérose en plaques (SEP)",
+                "Fibrose kystique (FK)"
+            ],
+            "reponse_correcte": "Syndrome de Sjögren",
+            "explication": "Réponse : Syndrome de Sjögren. ANA signifie anticorps antinucléaires. Leur présence indique un processus auto-immun. Cependant, en soi, ce n'est pas diagnostique, car il peut également être positif dans d'autres maladies auto-immunes, comme le lupus, la maladie mixte du tissu conjonctif ou la sclérodermie. Il n'est pas présent dans toutes les maladies auto-immunes. Par exemple, les patients atteints de SEP testent négatifs pour cet anticorps.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "10. Quel type de médicament est la prednisolone ?",
+            "options": [
+                "Un analgésique",
+                "Un stéroïde",
+                "Un anti-convulsivant",
+                "Un antidépresseur"
+            ],
+            "reponse_correcte": "Un stéroïde",
+            "explication": "Réponse : Un stéroïde. La prednisolone est un stéroïde qui agit en supprimant le système immunitaire. Les patients prenant des doses élevées et des traitements prolongés de stéroïdes doivent les arrêter progressivement, car leur propre corps a cessé de les produire. Parmi les exemples d'utilisation, on trouve le traitement de certaines maladies auto-immunes et de l'asthme sévère.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "5. Quelle forme de cancer de la peau a pris son nom du dermatologue hongrois qui a décrit la maladie pour la première fois en 1872 ?",
+            "options": [
+                "Sarcome d'Ewing",
+                "Tumeur d'Askin",
+                "Maladie de Filatov",
+                "Sarcome de Kaposi"
+            ],
+            "reponse_correcte": "Sarcome de Kaposi",
+            "explication": "Réponse : Sarcome de Kaposi. Moriz Kohn est né en 1837 dans le village de Kaposvár, en Hongrie. En 1871, il travaillait comme dermatologue à Vienne lorsqu'il s'est converti du judaïsme au catholicisme et a changé son nom de famille en Kaposi, en référence à son lieu de naissance. Un an plus tard, il a publié un compte-rendu d'un type de cancer de la peau qu'il avait observé, qu'il a nommé \"sarcome pigmenté multiple idiopathique de la peau\". La maladie provoquait la formation de lésions sombres sur la peau et survenait plus souvent chez les patients prenant des médicaments immunosuppresseurs. Elle est devenue connue sous le nom de sarcome de Kaposi. Dans les années 1980, le SK est devenu célèbre comme un symptôme identifiant du SIDA en raison des lésions visibles et distinctives associées à la maladie. En 1994, un groupe de virologistes à New York a isolé la cause du SK comme étant un virus distinct du VIH, faisant du SK une infection opportuniste survenant chez les patients atteints du SIDA dont le système immunitaire est affaibli.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "6. La sclérose latérale amyotrophique (SLA) est une maladie qui provoque la dégénérescence des motoneurones du système nerveux central, entraînant une perte de contrôle musculaire volontaire et, finalement, la mort. Quel est le nom familier de cette maladie aux États-Unis ?",
+            "options": [
+                "Maladie de Stephen Hawking",
+                "Maladie de David Niven",
+                "Maladie de Lou Gehrig",
+                "Maladie de Charlie Mingus"
+            ],
+            "reponse_correcte": "Maladie de Lou Gehrig",
+            "explication": "Réponse : Maladie de Lou Gehrig. La SLA est parfois connue sous le nom de maladie de Charcot, d'après Jean-Martin Charcot, le neurologue français qui a décrit la maladie pour la première fois en 1869, mais elle est mieux connue dans les médias sous le nom de maladie de Lou Gehrig, d'après le célèbre joueur de baseball qui a succombé à la maladie en 1941. Gehrig jouait pour les Yankees de New York et était à mi-chemin de la saison 1938 lorsque ses performances ont commencé à décliner. Lorsque ses statistiques de frappe ont atteint un niveau historiquement bas en 1939, Gehrig s'est volontairement mis sur le banc \"pour le bien de l'équipe\", mettant fin à une série record de 2 130 matchs consécutifs qui est restée inégalée pendant 56 ans. Gehrig a ensuite été diagnostiqué avec la SLA, et il a pris sa retraite du baseball en juin 1939. Il est resté actif dans ses derniers jours, se distinguant dans le service public jusqu'à sa mort le 2 juin 1941 à l'âge de 37 ans. L'acteur britannique David Niven, la légende du jazz Charlie Mingus et le physicien renommé Stephen Hawking ont également été diagnostiqués avec la SLA, mais jusqu'à présent, aucun de leurs noms n'a été associé à cette maladie débilitante de la même manière que celui de Gehrig.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "1. Le bip du Dr Acula retentit et il est appelé pour voir une patiente atteinte de la maladie de Basedow. Quelle partie du corps de la patiente sera affectée ?",
+            "options": [
+                "Œil",
+                "Pancréas",
+                "Thyroïde",
+                "Rein"
+            ],
+            "reponse_correcte": "Thyroïde",
+            "explication": "Réponse : Thyroïde La maladie de Basedow est une maladie auto-immune qui entraîne une hyperactivité et un élargissement de la glande thyroïde, souvent accompagnés d'une protrusion des yeux (exophtalmie) et d'un épaississement de la peau sur les tibias (myxœdème prétibial). Elle est nommée d'après le médecin irlandais Robert James Graves, qui l'a décrite en 1835.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        },
+        {
+            "question": "7. Le fleuriste local est prêt à produire les couronnes car on vous a dit que vous souffriez de rhinite allergique. Comment appelle-t-on cela plus couramment ?",
+            "options": [
+                "Rhume des foins",
+                "Catarrhe",
+                "Saignement de nez",
+                "Ronflement"
+            ],
+            "reponse_correcte": "Rhume des foins",
+            "explication": "Réponse : Rhume des foins Le rhume des foins est une inflammation des voies nasales causée par une allergie et a été nommé ainsi car il semblait frapper pendant la saison de la fenaison. Les allergies au pollen, à l'herbe ou à la poussière peuvent déclencher les symptômes de nez qui coule et d'yeux gonflés. L'épistaxis est le terme médical pour un saignement de nez et le stertor fait référence au ronflement. Le catarrhe est une inflammation des muqueuses et est souvent une conséquence d'un rhume. Il dérive des mots grecs pour « vers le bas », qui est « kata », et « écoulement », qui est « rhein », ce qui est une description précise des symptômes.",
+            "difficulte": "Moyen",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "categorie": "🛡️ Maladies Auto-immunes",
+    "difficulte": "Difficile",
+    "questions": [
+        {
+            "question": "6. Si une femme contracte cette éruption cutanée pendant la grossesse, elle peut ne pas être très malade, mais le bébé risque de naître avec des taches qui donnent à l'enfant l'apparence d'un muffin aux myrtilles, des malformations cardiaques, des malformations oculaires et une surdité.",
+            "options": [
+                "cytomégalovirus",
+                "varicelle",
+                "cinquième maladie",
+                "rubéole"
+            ],
+            "reponse_correcte": "rubéole",
+            "explication": "Réponse : rubéole La rubéole, ou « rougeole allemande », est une éruption cutanée assez bénigne mais provoque de graves malformations congénitales si elle est contractée pendant la grossesse. Le vaccin « ROR » comprend la rougeole, les oreillons et la rubéole, et aux États-Unis, toutes les femmes enceintes sont vérifiées pour leur immunité à la rubéole. La rubéole congénitale est maintenant très rare aux États-Unis, mais malheureusement, elle survient encore dans les pays en développement.",
+            "difficulte": "Difficile",
+            "categorie": "🛡️ Maladies Auto-immunes"
+        }
+    ]
+}

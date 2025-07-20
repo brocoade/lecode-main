@@ -1,0 +1,58 @@
+{
+    "categorie": "🧠 Maladies Neurologiques",
+    "difficulte": "Facile",
+    "questions": [
+        {
+            "question": "16. Causée par une destruction des cellules dans la région de la substance noire du cerveau, ce trouble du mouvement est caractérisé par une démarche traînante, des tremblements et une rigidité.",
+            "options": [
+                "Maladie de Purkinje",
+                "Pseudoparalysie de Parrot",
+                "Syndrome de Peutz-Jeghers",
+                "Maladie de Parkinson"
+            ],
+            "reponse_correcte": "Maladie de Parkinson",
+            "explication": "Réponse : Maladie de Parkinson La maladie de Parkinson est relativement courante ; l'acteur Michael J. Fox en est atteint et a parlé ouvertement de la condition. Le neurotransmetteur dopamine est réduit, donc les traitements médicaux incluent des médicaments qui remplacent la dopamine ou réduisent sa dégradation.",
+            "difficulte": "Facile",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "3. Lequel des éléments suivants est un type de crise généralisée vécue par les personnes atteintes d'épilepsie ?",
+            "options": [
+                "Crise partielle simple",
+                "Cryptogénique",
+                "Primidone",
+                "Crise tonico-clonique"
+            ],
+            "reponse_correcte": "Crise tonico-clonique",
+            "explication": "Réponse : Crise tonico-clonique Les crises tonico-cloniques étaient auparavant appelées crises de grand mal et sont les crises motrices majeures les plus courantes. La crise partielle simple est un type de crise partielle, la primidone est un médicament prescrit pour traiter les crises partielles simples et complexes, et le cryptogénique est un type d'épilepsie où la personne est suspectée d'être symptomatique mais il n'y a pas de preuve définitive d'une cause sous-jacente.",
+            "difficulte": "Facile",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "5. J'ai besoin d'aide ! Ma main a commencé à agir toute seule, et je n'ai aucun contrôle sur elle. Le médecin a marmonné quelque chose à propos de créatures de l'espace et du Dr Folamour ! Quel trouble généré par le cerveau ai-je ?",
+            "options": [
+                "Syndrome des OVNI",
+                "Syndrome du membre fantôme",
+                "Syndrome de la main étrangère",
+                "Maladie de Merkwürdigliebe"
+            ],
+            "reponse_correcte": "Syndrome de la main étrangère",
+            "explication": "Réponse : Syndrome de la main étrangère. Parfois appelé \"main anarchique\" ou \"syndrome du Dr Folamour\" en référence au personnage joué par Peter Sellers dans le film du même nom, le syndrome de la main étrangère peut survenir lorsque les deux hémisphères du cerveau perdent leur communication à la suite d'une blessure, d'un AVC, de la maladie d'Alzheimer, d'un traitement chirurgical pour l'épilepsie, etc. La personne perçoit la main affectée comme séparée du reste du corps, semblant avoir une volonté propre, indépendante du contrôle conscient. Aucun remède n'est connu, mais la main étrangère peut être \"occupée\" en tenant un objet pendant que la personne effectue ses tâches quotidiennes. Merkwürdigliebe est le nom de naissance de Folamour, qui signifie essentiellement \"amour étrange\" en allemand, mais il n'a pas été appliqué à ce syndrome. Le syndrome du membre fantôme est un phénomène similaire où le cerveau perçoit un membre absent après une amputation. Le \"syndrome des OVNI\" est le nom d'un \"documentaire\" de 1980 sur les visiteurs de l'espace.",
+            "difficulte": "Facile",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "1. Lequel des éléments suivants serait un nom approprié pour le trouble souvent appelé syndrome du 'punch-drunk' ?",
+            "options": [
+                "Démence à corps de Lewy",
+                "Démence vasculaire",
+                "Démence pugilistique",
+                "Démence d'Alzheimer"
+            ],
+            "reponse_correcte": "Démence pugilistique",
+            "explication": "Réponse : Démence pugilistique La démence pugilistique, ou Dementia pugilistica, est le résultat des commotions cérébrales répétées souvent subies par les boxeurs. Elle est également observée dans d'autres sports, mais est le plus souvent associée au pugilisme (boxe). Ce trouble neurodégénératif est estimé affecter 15 à 20 % de tous les boxeurs professionnels. Les symptômes courants incluent la perte de mémoire, le manque de coordination, les problèmes d'élocution et des symptômes parkinsoniens. Le patient peut également connaître des accès de colère, de jalousie et de paranoïa. La pathologie exacte de ce trouble est encore à l'étude, et on pense que la génétique pourrait jouer un petit rôle dans la prédisposition d'un athlète à ce trouble. Parmi les boxeurs qui auraient souffert de ce trouble figurent Meldrick Taylor, Sugar Ray Robinson et Joe Frazier, pour n'en citer que quelques-uns. Il suffit d'être frappé une fois de trop.",
+            "difficulte": "Facile",
+            "categorie": "🧠 Maladies Neurologiques"
+        }
+    ]
+}

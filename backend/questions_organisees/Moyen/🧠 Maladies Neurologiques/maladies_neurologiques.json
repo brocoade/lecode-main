@@ -1,0 +1,201 @@
+{
+    "categorie": "🧠 Maladies Neurologiques",
+    "difficulte": "Moyen",
+    "questions": [
+        {
+            "question": "3. Une lésion de quel organe peut entraîner le trouble connu sous le nom d'affect pseudobulbaire ?",
+            "options": [
+                "Rein",
+                "Poumon",
+                "Cerveau",
+                "Peau"
+            ],
+            "reponse_correcte": "Cerveau",
+            "explication": "Réponse : Cerveau. L'affect pseudobulbaire (PBA) est une condition médicale qui survient généralement à la suite d'une lésion cérébrale. Elle provoque des épisodes soudains et incontrôlables de rires ou de pleurs. On l'observe souvent chez des patients ayant subi un AVC, un traumatisme crânien ou des maladies neurodégénératives comme la sclérose en plaques ou la maladie de Lou Gehrig (SLA).",
+            "difficulte": "Moyen",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "4. Quel organe est affecté chez les patients atteints du syndrome de Charles Bonnet ?",
+            "options": [
+                "Cœur",
+                "Yeux",
+                "Foie",
+                "Intestin"
+            ],
+            "reponse_correcte": "Yeux",
+            "explication": "Réponse : Yeux. Le syndrome de Charles Bonnet touche les personnes devenant progressivement aveugles. Le cerveau, privé de stimulation visuelle, crée des hallucinations visuelles détaillées et souvent agréables. Ces hallucinations ne sont pas associées à une maladie mentale.",
+            "difficulte": "Moyen",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "3. Laquelle des lésions suivantes est une néoplasie épithéliale bénigne ?",
+            "options": [
+                "fibrome",
+                "gliome",
+                "myome",
+                "adénome"
+            ],
+            "reponse_correcte": "adénome",
+            "explication": "Réponse : adénome L'adénome fait référence à l'épithélium de revêtement qui ressemble aux cellules épithéliales glandulaires. Le fibrome est une néoplasie bénigne des tissus fibreux ou conjonctifs. Le myome est une néoplasie bénigne du tissu musculaire lisse. Le gliome est une tumeur maligne du tissu stromal du système nerveux central, en particulier du cerveau.",
+            "difficulte": "Moyen",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "12. Les signes et symptômes de cette maladie incluent une éruption cutanée circulaire (jusqu'à plusieurs centimètres de diamètre), des douleurs articulaires/arthrite, une paralysie du nerf facial et une méningite.",
+            "options": [
+                "Lèpre",
+                "Loa loa",
+                "Maladie de Lyme",
+                "Légionellose"
+            ],
+            "reponse_correcte": "Maladie de Lyme",
+            "explication": "Réponse : Maladie de Lyme Si elle est traitée peu de temps après l'apparition de l'éruption, les autres signes et symptômes ne surviendront pas. Si les tiques sont retirées rapidement après leur fixation, le risque d'infection est très faible, même dans les zones où le taux de maladie est élevé.",
+            "difficulte": "Moyen",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "13. La malnutrition se présente sous deux formes de base. Quel est le terme pour le type de malnutrition dans lequel la personne devient complètement émaciée en raison d'un manque total d'apport calorique ?",
+            "options": [
+                "Moya moya",
+                "Marasme",
+                "Maladie de la baie de Minimata",
+                "Syndrome de Münchhausen par procuration"
+            ],
+            "reponse_correcte": "Marasme",
+            "explication": "Réponse : Marasme Le kwashiorkor est une malnutrition protéino-calorique ; le régime alimentaire peut être suffisant en amidons, mais pas en protéines. C'est le type classique de famine avec un ventre gonflé et des jambes et des bras squelettiques que nous voyons dans les reportages sur les camps de réfugiés. Malheureusement, le marasme survient dans le monde entier ; dans les pays plus riches, il est généralement le résultat de négligence. Les autres choix sont des conditions réelles - moya moya signifie \"bouffée de fumée\" en japonais, cela fait référence à une condition où les principaux vaisseaux sanguins du cerveau ne sont pas correctement formés et un enchevêtrement de petits vaisseaux (qui ressemblent à une bouffée de fumée sur une radiographie avec colorant) prend le relais, augmentant le risque d'AVC. La maladie de la baie de Minimata fait référence à une libération industrielle désastreuse de polluants qui a entraîné un empoisonnement au mercure généralisé. Le syndrome de Münchhausen par procuration est diagnostiqué lorsque la source de la maladie ou des symptômes d'un patient est trouvée être due aux actions directes d'un soignant - le soignant a une maladie psychiatrique, mais l'enfant ou une autre personne vulnérable souffre physiquement.",
+            "difficulte": "Moyen",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "2. Cette condition épisodique récurrente est parfois considérée comme un avertissement d'un AVC thrombotique à venir. L'incidence augmente fortement après 50 ans et est la plus élevée chez les Noirs et les hommes.",
+            "options": [
+                "Hypertension maligne",
+                "Veines du cou gonflées",
+                "Signe de Homan négatif",
+                "Accident ischémique transitoire"
+            ],
+            "reponse_correcte": "Accident ischémique transitoire",
+            "explication": "Réponse : Accident ischémique transitoire La première personne que j'ai vue avec un AIT m'a fait appeler un code (signal pour que tout le personnel médical vienne). Dix minutes plus tard, le patient était réveillé et se sentait mieux que moi.",
+            "difficulte": "Moyen",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "4. La névralgie du trijumeau (tic douloureux) est un trouble neuralgique douloureux d'un nerf crânien qui affecte le visage, le cuir chevelu et les dents. Quel nerf crânien est en cause ?",
+            "options": [
+                "Glossopharyngien",
+                "Facial",
+                "Trijumeau",
+                "Trochléaire"
+            ],
+            "reponse_correcte": "Trijumeau",
+            "explication": "Réponse : Trijumeau La personne qui a la malchance de souffrir de cette affection a des crises de douleur faciale atroce. Elle survient chez les personnes de plus de 40 ans et touche environ 25 % de femmes en plus que d'hommes. La cause est inconnue, mais elle pourrait être liée à la compression d'une racine nerveuse par une tumeur.",
+            "difficulte": "Moyen",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "9. L'épilepsie est un trouble du cerveau. Quel symptôme récurrent est observé chez les patients épileptiques ?",
+            "options": [
+                "des os fragiles",
+                "des crises",
+                "de la diarrhée",
+                "une perte d'appétit"
+            ],
+            "reponse_correcte": "des crises",
+            "explication": "Réponse : des crises Dans les cas d'épilepsie, les personnes subissent des crises récurrentes, des spasmes musculaires violents et, dans certains cas, une perte de conscience. Certaines personnes épileptiques peuvent ressentir des sensations et des émotions étranges, et leur comportement peut sembler inhabituel. L'épilepsie peut résulter d'une maladie, d'une lésion cérébrale ou d'un développement anormal du cerveau. Parfois, la cause n'est pas connue. Bien que l'épilepsie puisse être contrôlée par des médicaments, il n'existe aucun remède. La chirurgie ou des dispositifs implantés peuvent aider dans certains cas.",
+            "difficulte": "Moyen",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "2. Une femme à l'hôpital entre en travail et souffre beaucoup. Elle serre fort la main du médecin en criant : \"Faites-moi une piqûre !\" Le médecin appelle un anesthésiste pour la soulager avec ce traitement. Comment ce médicament contre la douleur est-il administré ?",
+            "options": [
+                "oralement",
+                "par lavement",
+                "par perfusion intraveineuse",
+                "par péridurale"
+            ],
+            "reponse_correcte": "par péridurale",
+            "explication": "Réponse : par péridurale. L'anesthésie péridurale est le traitement le plus couramment utilisé pour soulager la douleur pendant le travail. Un cathéter est inséré dans l'espace péridural de la colonne vertébrale. Les médicaments engourdissent les nerfs, provoquant une perte de sensation et de douleur.",
+            "difficulte": "Moyen",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "3. Une femme de 78 ans se réveille un matin pour découvrir que le côté gauche de son visage est affaissé. Elle bave, incapable de fermer sa bouche de ce côté. À l'examen, elle présente une paralysie des muscles faciaux gauche, incapable de lever son sourcil, de fermer son œil ou de gonfler sa joue à gauche. Le côté droit est complètement indemne. Elle a récemment perdu son mari à cause d'un cancer de la prostate.",
+            "options": [
+                "Accident vasculaire cérébral (AVC)",
+                "Paralysie de Bell (lésion du nerf crânien VII)",
+                "Sclérose en plaques",
+                "Dépression"
+            ],
+            "reponse_correcte": "Paralysie de Bell (lésion du nerf crânien VII)",
+            "explication": "Réponse : Paralysie de Bell (lésion du nerf crânien VII). Les deux diagnostics les plus probables ici sont la paralysie de Bell et l'AVC. Le fait que la dame soit incapable de lever son sourcil du côté affecté implique que le nerf contrôlant les muscles est endommagé, plutôt que le cerveau. En effet, le muscle frontal, qui effectue cette action, est contrôlé par les deux côtés du cerveau, alors que la plupart des muscles sont contrôlés par un seul côté (le côté opposé). La lésion se situe donc dans le nerf crânien VII qui innerve le frontal, connu sous le nom de paralysie de Bell.",
+            "difficulte": "Moyen",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "6. Laquelle de ces maladies pourriez-vous avoir si vous étiez référé à un endocrinologue ?",
+            "options": [
+                "Maladie d'Addison",
+                "Polyarthrite rhumatoïde",
+                "Maladie de Parkinson",
+                "Néphrite"
+            ],
+            "reponse_correcte": "Maladie d'Addison",
+            "explication": "Réponse : Maladie d'Addison. Les endocrinologues traitent les troubles des hormones et des enzymes, comme la maladie d'Addison. La maladie de Parkinson affecte le cerveau et serait traitée par un neurologue. La polyarthrite rhumatoïde est une maladie inflammatoire généralement traitée par un rhumatologue. La néphrite est une maladie rénale et serait traitée par un néphrologue.",
+            "difficulte": "Moyen",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "1. Quelle forme de démence a été nommée d'après le neuropathologiste et psychiatre allemand qui a identifié le premier cas de la maladie en 1901 ?",
+            "options": [
+                "Maladie d'Abercrombie",
+                "Maladie d'Alpers",
+                "Maladie d'Addison",
+                "Maladie d'Alzheimer"
+            ],
+            "reponse_correcte": "Maladie d'Alzheimer",
+            "explication": "Réponse : Maladie d'Alzheimer. Alois Alzheimer travaillait à l'asile de Francfort en 1901 lorsqu'il a rencontré une femme nommée Auguste Deter. La patiente de 51 ans présentait des symptômes comportementaux inhabituels : elle était désorientée, souffrait de perte de mémoire à court terme et avait des difficultés à lire et à écrire. Ces symptômes se sont aggravés avec le temps, incluant finalement une perte des fonctions mentales supérieures et des hallucinations. Après le décès de la patiente, Alzheimer a examiné son cerveau, dans lequel il a observé des enchevêtrements neurofibrillaires ainsi qu'un amincissement du cortex cérébral. Il a présenté ses découvertes lors d'une conférence de psychiatres allemands en 1906, qualifiant la maladie de \"maladie particulière du cortex cérébral\". Ce n'est qu'en 1910 que le psychiatre Emil Kraepelin a décrit la maladie comme une affection distincte et a proposé qu'elle soit nommée d'après Alzheimer. Parmi les personnes célèbres atteintes de cette maladie figurent Ronald Reagan, Rita Hayworth, Charlton Heston et Terry Pratchett.",
+            "difficulte": "Moyen",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "7. Lequel de ces individus serait le plus susceptible de souffrir d'un accident de décompression ?",
+            "options": [
+                "Un funambule",
+                "Un joueur de basket-ball",
+                "Un mineur d'or",
+                "Un plongeur en eaux profondes"
+            ],
+            "reponse_correcte": "Un plongeur en eaux profondes",
+            "explication": "Réponse : Un plongeur en eaux profondes Remonter à la surface trop rapidement peut provoquer un accident de décompression chez un plongeur en eaux profondes, également connu sous le nom de maladie des caissons. Cette maladie est causée par la formation de bulles d'azote qui bloquent la circulation sanguine et perturbent les vaisseaux sanguins et les nerfs en les étirant et parfois en les déchirant. Des sensations de quelque chose qui rampe sur et sous la peau se produisent lorsque des bulles de gaz se forment sous la peau. La formation de bulles dans le cerveau ou la moelle épinière a un pronostic bien plus sombre, incluant la paralysie ou la mort. Il convient de noter que cette situation se produit également chez les astronautes, car ils sont exposés à de grands changements de pression. Le traitement de cette affection est l'oxygénothérapie hyperbare dans une chambre de recompression. Tout changement rapide de pression peut être trop important ; dans cette course, c'est la lenteur et la régularité qui l'emportent.",
+            "difficulte": "Moyen",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "8. Le prochain patient du Dr Acula a été référé à l'hôpital avec une suspicion de gliome. Vers quelle unité le médecin se dirigera-t-il cette fois-ci ?",
+            "options": [
+                "Chirurgie générale",
+                "Oto-rhino-laryngologie",
+                "Chirurgie vasculaire",
+                "Neurologie"
+            ],
+            "reponse_correcte": "Neurologie",
+            "explication": "Réponse : Neurologie Les gliomes sont des tumeurs du tissu nerveux qui se forment dans le cerveau ou la moelle épinière, principalement dans le cerveau. Ils sont appelés gliomes car ils se forment à partir des cellules gliales.",
+            "difficulte": "Moyen",
+            "categorie": "🧠 Maladies Neurologiques"
+        },
+        {
+            "question": "2. Votre prochain appel concerne un patient souffrant d'un mal de tête sévère, photophobe et très nauséeux. Vous pensez d'abord à une migraine, mais pour être minutieux, vous demandez au patient de poser son menton sur sa poitrine. Étrangement, lorsqu'il le fait, il soulève également ses jambes, bien que vous ne lui ayez pas demandé de bouger les jambes. Comment s'appelle ce signe ?",
+            "options": [
+                "Signe de Kernig",
+                "Signe de Brudzinski",
+                "Signe de Cullen",
+                "Signe de Chip"
+            ],
+            "reponse_correcte": "Signe de Brudzinski",
+            "explication": "Réponse : Signe de Brudzinski Je suis le genre de paramédical qui s'attend au pire tout en espérant le meilleur. Demander à ce patient de poser son menton sur sa poitrine est l'un des tests pour la méningite. Lorsqu'il est présent, le signe de Brudzinski indique que le patient pourrait souffrir de méningite, d'un abcès cérébral ou même d'une hémorragie sous-arachnoïdienne. Cela se produit parce que la flexion de la tête exerce une traction sur les méninges enflammées, ce qui provoque un réflexe de flexion protecteur des jambes.",
+            "difficulte": "Moyen",
+            "categorie": "🧠 Maladies Neurologiques"
+        }
+    ]
+}

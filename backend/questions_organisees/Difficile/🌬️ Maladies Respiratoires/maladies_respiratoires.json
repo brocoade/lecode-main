@@ -1,0 +1,32 @@
+{
+    "categorie": "🌬️ Maladies Respiratoires",
+    "difficulte": "Difficile",
+    "questions": [
+        {
+            "question": "9. Bien que nous ayons gardé contact régulièrement depuis l'obtention de notre diplôme, j'ai été surpris de voir mon ancien colocataire universitaire à ma porte. Toussant, il m'a demandé s'il pouvait entrer. Une fois à l'intérieur, il m'a expliqué qu'il pensait avoir un problème de santé grave qu'il ne voulait pas discuter avec sa femme. Il m'a dit qu'il avait une toux persistante, qu'il crachait du sang et qu'il perdait rapidement du poids. À quel problème de santé je pense-t-il qu'il est probablement confronté ?",
+            "options": [
+                "Hémophilie",
+                "Grippe",
+                "Pneumonie",
+                "Cancer du poumon"
+            ],
+            "reponse_correcte": "Cancer du poumon",
+            "explication": "Réponse : Cancer du poumon. Les symptômes correspondent probablement à un cancer du poumon. Bien que j'aie dit à mon colocataire cela et l'ai exhorté à consulter un oncologue, je lui ai également expliqué que les symptômes du cancer du poumon n'apparaissent généralement qu'à un stade avancé. Je l'ai également supplié de discuter de son problème avec sa femme.",
+            "difficulte": "Difficile",
+            "categorie": "🌬️ Maladies Respiratoires"
+        },
+        {
+            "question": "1. Sammy, l'avaleur de sabre mince, a remarqué après son spectacle qu'il avait des ganglions lymphatiques enflés, une éruption cutanée, de la fièvre, des douleurs articulaires et des glandes salivaires gonflées. Une biopsie effectuée à la clinique médicale locale a confirmé qu'il souffrait de quel type de maladie auto-immune rare ?",
+            "options": [
+                "Maladie de Buerger",
+                "Maladie de Raynaud",
+                "Sarcoïdose de Boeck",
+                "Maladie de Bowen"
+            ],
+            "reponse_correcte": "Sarcoïdose de Boeck",
+            "explication": "Réponse : Sarcoïdose de Boeck. Dans la sarcoïdose de Boeck (SB), les dommages aux organes ressemblent à la tuberculose. La SB est une maladie auto-immune qui affecte généralement les poumons, provoquant des problèmes respiratoires. De nombreux organes du corps sont touchés, y compris les ganglions lymphatiques, les poumons, le foie, la rate, la peau, les yeux, les glandes parotides et les os des doigts et des orteils. Une petite biopsie est prélevée sur un ganglion lymphatique pour tester la maladie, ou un test cutané (réaction de Kveim) peut être utilisé. Un petit gonflement apparaîtra environ six semaines plus tard si le test est positif. La forme subaiguë de la SB peut guérir d'elle-même, mais la forme chronique est généralement traitée avec des corticostéroïdes. Malheureusement, des dommages permanents aux yeux, au cœur et aux poumons surviennent généralement dans la forme chronique.",
+            "difficulte": "Difficile",
+            "categorie": "🌬️ Maladies Respiratoires"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "categorie": "🧴 Maladies Dermatologiques",
+    "difficulte": "Difficile",
+    "questions": [
+        {
+            "question": "8. L'épidermolyse est une maladie rare affectant quelle partie du corps ?",
+            "options": [
+                "Foie",
+                "Peau",
+                "Côlon",
+                "Oreilles"
+            ],
+            "reponse_correcte": "Peau",
+            "explication": "Réponse : Peau. L’épidermolyse, aussi appelée « maladie des papillons », rend la peau extrêmement fragile. Le moindre contact peut provoquer des cloques douloureuses ou des plaies ouvertes, donnant l'apparence de brûlures graves.",
+            "difficulte": "Difficile",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "7. Comment aimeriez-vous savoir que votre corps est utilisé comme incubateur pour des larves de mouches ? Eh bien, il existe une sorte de mouche, trouvée en Amérique, qui fait exactement cela. Connaissez-vous son nom ?",
+            "options": [
+                "Mouche humaine gadfly",
+                "Mouche humaine bot",
+                "Mouche humaine fly bot",
+                "Mouche humaine gadabout"
+            ],
+            "reponse_correcte": "Mouche humaine bot",
+            "explication": "Réponse : Mouche humaine bot Dermatobia hominis, pour lui donner son nom propre, parasite les primates et d'autres animaux ainsi que les humains. Elle est également connue sous le nom de mouche warble américaine. La mouche utilise des moustiques pour déposer ses œufs sur votre peau. Elle capture un moustique (je ne sais pas comment cela est fait) et attache ses œufs au corps du moustique. Elle laisse ensuite le moustique partir pour qu'il puisse voler et vous mordre. Les œufs peuvent éclore en larves pendant que le moustique se nourrit, ou ils peuvent tomber sur votre peau. Les larves utilisent le trou fait par le moustique pour se glisser sous votre peau, et elles y restent pendant huit semaines, après quoi elles tombent pour se nymphoser dans le sol. Les adultes sont petits, gris et ressemblent un peu à des mouches à viande. Apparemment, les larves ne peuvent pas survivre si la plaie n'est pas saine, donc la victime (vous) a rarement un problème d'infection. Heureux ? Moi non plus.",
+            "difficulte": "Difficile",
+            "categorie": "🧴 Maladies Dermatologiques"
+        }
+    ]
+}

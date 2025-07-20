@@ -1,0 +1,186 @@
+{
+    "categorie": "🩸 Maladies Hématologiques",
+    "difficulte": "Moyen",
+    "questions": [
+        {
+            "question": "11. Les personnes qui prennent de la warfarine (nom de marque = Coumadin) comme anticoagulant (\"fluidifiant sanguin\") doivent limiter les aliments riches en vitamine K. Lequel des aliments suivants est le plus riche en vitamine K ?",
+            "options": [
+                "chou frisé",
+                "kumquats",
+                "kiwi",
+                "kashi"
+            ],
+            "reponse_correcte": "chou frisé",
+            "explication": "Réponse : chou frisé La plupart des légumes verts à feuilles contiennent de grandes quantités de vitamine K. Certains patients limitent à tort sévèrement leur consommation de tous les légumes verts, ce qui est en soi un choix malsain.",
+            "difficulte": "Moyen",
+            "categorie": "🩸 Maladies Hématologiques"
+        },
+        {
+            "question": "19. La substitution de la valine à l'acide glutamique dans la structure en acides aminés de la molécule d'hémoglobine entraîne ce trouble.",
+            "options": [
+                "Anémie falciforme",
+                "Anémie sidéroblastique",
+                "Sphérocytose",
+                "Stomatocytose"
+            ],
+            "reponse_correcte": "Anémie falciforme",
+            "explication": "Réponse : Anémie falciforme Les molécules d'hémoglobine anormales rendent les globules rouges moins déformables, ce qui entraîne leur destruction précoce et leur agrégation dans les petits vaisseaux sanguins. Dans la sphérocytose, les protéines de la membrane des globules rouges sont anormales et les cellules prennent une forme sphérique au lieu de la forme normale en \"beignet\". Dans la stomatocytose, les globules rouges ont une forme en coupe. L'anémie sidéroblastique résulte de diverses anomalies dans le métabolisme de l'hème.",
+            "difficulte": "Moyen",
+            "categorie": "🩸 Maladies Hématologiques"
+        },
+        {
+            "question": "22. L'anémie pernicieuse, un trouble caractérisé par des globules rouges élargis présents en nombre réduit, résulte d'une absorption déficiente de quelle vitamine ?",
+            "options": [
+                "Vitamine B12",
+                "Vitamine C",
+                "Vitamine A",
+                "Vitamine E"
+            ],
+            "reponse_correcte": "Vitamine B12",
+            "explication": "Réponse : Vitamine B12 L'anémie peut être due à une maladie de l'intestin grêle terminal où la vitamine est absorbée, ou à une destruction auto-immune des cellules qui produisent un cofacteur nécessaire à son absorption, ou à un apport alimentaire insuffisant en vitamine B12. \"Anémie pernicieuse\" se réfère spécifiquement au manque du facteur nécessaire à l'absorption ; ce \"facteur intrinsèque\" est produit dans l'estomac.",
+            "difficulte": "Moyen",
+            "categorie": "🩸 Maladies Hématologiques"
+        },
+        {
+            "question": "1. Qu'est-ce qu'un anévrisme ?",
+            "options": [
+                "Une dilatation localisée d'un vaisseau sanguin",
+                "Une rupture de la gaine de myéline qui provoque un défaut de conduction nerveuse",
+                "Un caillot sanguin qui se loge dans la circulation pulmonaire",
+                "Un rétrécissement localisé d'un vaisseau sanguin"
+            ],
+            "reponse_correcte": "Une dilatation localisée d'un vaisseau sanguin",
+            "explication": "Réponse : Une dilatation localisée d'un vaisseau sanguin Un anévrisme est généralement causé par un affaiblissement de la paroi du vaisseau sanguin. Les gens peuvent vivre toute leur vie avec un anévrisme sans jamais le savoir, tandis que d'autres anévrismes peuvent se rompre et nécessiter un traitement médical urgent.",
+            "difficulte": "Moyen",
+            "categorie": "🩸 Maladies Hématologiques"
+        },
+        {
+            "question": "2. Penny, la gymnaste parfaitement soignée, se sentait plutôt mal après s'être cassé le bras et elle pouvait voir des fragments d'os sur sa tenue de gym. À l'intérieur de l'os se trouvait un réseau de vaisseaux sanguins et de fibres de tissu conjonctif qui maintiennent ensemble la graisse et les cellules qui produisent de nouvelles cellules sanguines. De quelle couleur sont les deux types de moelle à l'intérieur de nos os ?",
+            "options": [
+                "Rouge et blanc",
+                "Jaune et vert",
+                "Rouge et gris",
+                "Jaune et rouge"
+            ],
+            "reponse_correcte": "Jaune et rouge",
+            "explication": "Réponse : Jaune et rouge. La moelle osseuse jaune est principalement constituée de tissu adipeux, et la moelle rouge contient les cellules qui produisent les cellules sanguines et les plaquettes, qui agissent ensemble comme agents de coagulation du sang. À la naissance, la moelle jaune n'est pas présente dans les os longs, mais vers l'âge scolaire, elle remplace progressivement une partie de la moelle rouge. La moelle rouge se trouve dans la colonne vertébrale, le sternum et les côtes, et la moelle jaune principalement dans les os longs. En vieillissant, la moelle jaune dégénère et forme une substance gélatineuse.",
+            "difficulte": "Moyen",
+            "categorie": "🩸 Maladies Hématologiques"
+        },
+        {
+            "question": "3. Quelle forme de lymphome, ayant l'un des taux de survie les plus élevés parmi les cancers, a pris son nom du médecin qui a décrit la maladie pour la première fois en 1832 ?",
+            "options": [
+                "Maladie de Hodgkin",
+                "Maladie de Bright",
+                "Maladie d'Addison",
+                "Tumeur de Wilms"
+            ],
+            "reponse_correcte": "Maladie de Hodgkin",
+            "explication": "Réponse : Maladie de Hodgkin. Thomas Hodgkin travaillait à l'école de médecine de l'hôpital Guy's à Londres lorsqu'il a identifié la maladie qui porte désormais son nom. Contemporain de Richard Bright et Thomas Addison (qui ont également donné leur nom à des maladies), Hodgkin avait 33 ans lorsqu'il a publié un article intitulé \"On Some Morbid Appearances of the Absorbent Glands and Spleen\" dans le Journal of the Medical and Surgical Society de Londres. Dans son article, Hodgkin a décrit une maladie chez sept patients qui provoquait un gonflement des ganglions lymphatiques et de la rate, notant que les groupes de ganglions lymphatiques contigus étaient attaqués de manière ordonnée. Cependant, il a fallu encore 33 ans avant que le nom de Hodgkin ne soit associé à la maladie. En 1865, Samuel Wilks, un autre médecin de l'hôpital Guy's, a publié un article dans lequel il décrivait la même maladie de manière plus détaillée, cette fois en l'appelant \"maladie de Hodgkin\" en reconnaissance de la priorité de Hodgkin dans l'identification de la maladie. Aujourd'hui, la maladie est traitée par radiothérapie et chimiothérapie, avec un taux de survie de 90 % ou plus si elle est détectée suffisamment tôt. Parmi les personnes célèbres atteintes de la maladie de Hodgkin figurent l'acteur Richard Harris et le cofondateur de Microsoft, Paul Allen.",
+            "difficulte": "Moyen",
+            "categorie": "🩸 Maladies Hématologiques"
+        },
+        {
+            "question": "1. Quel trouble de la coagulation sanguine la reine Victoria est-elle accusée d'avoir transmis à de nombreuses familles royales en Europe ?",
+            "options": [
+                "Neutropénie",
+                "Hémophilie",
+                "Leucémie",
+                "Chalazion"
+            ],
+            "reponse_correcte": "Hémophilie",
+            "explication": "Réponse : Hémophilie L'hémophilie, ou hémophilie, est un trouble génétique de la coagulation sanguine qui signifiait généralement une mort précoce pour la plupart des personnes touchées. Il s'agit d'un trouble lié au chromosome X, qui se manifeste généralement chez les hommes. Le trouble peut être hérité de l'un ou l'autre des parents. Pour qu'une femme manifeste la maladie, elle doit avoir hérité du trouble des deux parents. Il est possible que les femmes aient été plus souvent touchées par la maladie qu'on ne le pense, mais la plupart seraient mortes d'hémorragie lors de leurs premières règles. Par ses neuf enfants, Victoria a propagé cette maladie aux familles royales d'Espagne, de Russie et d'Allemagne. Elle-même est censée avoir été porteuse du gène en raison d'une mutation génétique spontanée, car il n'y avait aucun signe de la maladie chez ses ancêtres. La maladie est devenue si répandue dans la royauté européenne qu'elle a été surnommée \"la maladie des rois\", \"la maladie royale\" et \"le secret de Victoria\". Il existe trois types de la maladie, appelés A, B et C. Ce trouble héréditaire altère la capacité naturelle du sang à coaguler, varie en gravité et la mort est généralement causée par une hémorragie. Aujourd'hui, l'espérance de vie d'une personne atteinte de cette maladie est passée à 50 ans, grâce à des médicaments appropriés, des transfusions et une thérapie génique.",
+            "difficulte": "Moyen",
+            "categorie": "🩸 Maladies Hématologiques"
+        },
+        {
+            "question": "3. L'anémie aplasique est un trouble sanguin qui survient lorsque quelle partie du corps ne produit pas suffisamment de nouvelles cellules ?",
+            "options": [
+                "Foie",
+                "Moelle osseuse",
+                "Thymus",
+                "Pancréas"
+            ],
+            "reponse_correcte": "Moelle osseuse",
+            "explication": "Réponse : Moelle osseuse La moelle osseuse est responsable de la production de nouvelles cellules sanguines. Dans l'anémie aplasique, le patient a un faible nombre des trois types de cellules sanguines, c'est-à-dire les globules rouges, les globules blancs et les plaquettes. L'aplasie est l'échec du développement de la production de tous les composants sanguins, entraînant de faibles niveaux de ces composants, tandis que l'anémie ne se réfère qu'aux faibles niveaux de globules rouges. Bien que la cause du trouble ne soit généralement pas connue, on sait qu'il fait partie de l'empoisonnement par radiation. C'est cette maladie qui a tué Marie Curie après des années d'exposition à des substances radioactives. L'exposition à d'autres toxines comme le benzène et la quinine est également suspectée d'avoir causé certains cas. Un examen de la moelle osseuse est nécessaire pour diagnostiquer ce trouble, et le traitement consiste souvent en des greffes de moelle osseuse et une suppression du système immunitaire, qui serait impliqué dans de nombreux cas. Ce trouble, s'il n'est pas traité, peut entraîner la mort, mais il peut également se résorber de lui-même, suivi d'une rechute. Si une greffe de moelle osseuse ne peut être trouvée, le taux de survie à cinq ans est d'environ 75 %. Ce chiffre atteint près de 90 % avec une bonne compatibilité de moelle osseuse chez les patients jeunes et par ailleurs en bonne santé.",
+            "difficulte": "Moyen",
+            "categorie": "🩸 Maladies Hématologiques"
+        },
+        {
+            "question": "4. Lequel des termes suivants désigne de nombreux types de cancer du sang ?",
+            "options": [
+                "Leuvan",
+                "Leucémie",
+                "Leucine",
+                "Lépidoptères"
+            ],
+            "reponse_correcte": "Leucémie",
+            "explication": "Réponse : Leucémie La leucémie est un terme qui couvre un large spectre de cancers du sang et de la moelle osseuse. Bien que les taux de survie augmentent, les taux de mortalité dus à la maladie restent très élevés. L'âge au début de la maladie, un diagnostic rapide et le type de leucémie sont les principaux facteurs qui affectent le taux de survie. La leucémie est indiquée par une augmentation anormale des \"blastes\", terme informel désignant les globules blancs immatures. Le système immunitaire et le système nerveux central sont souvent affectés. La cause de la leucémie n'est pas connue, mais des mutations génétiques sont suspectées. Celles-ci peuvent survenir spontanément ou être le résultat de radiations ou de substances cancérigènes. Le traitement implique des greffes de moelle osseuse, une chimiothérapie et une radiothérapie.",
+            "difficulte": "Moyen",
+            "categorie": "🩸 Maladies Hématologiques"
+        },
+        {
+            "question": "6. La thrombocytopénie est généralement définie comme un très faible nombre de quel composant sanguin essentiel à la coagulation du sang ?",
+            "options": [
+                "Globules rouges",
+                "Globules blancs",
+                "Plaquettes",
+                "Plasma"
+            ],
+            "reponse_correcte": "Plaquettes",
+            "explication": "Réponse : Plaquettes La thrombocytopénie est la condition d'avoir un très faible nombre de plaquettes. Elle peut être causée par diverses raisons, notamment la génétique, les toxines, les réactions médicamenteuses ou d'autres maladies. Le traitement comprend l'administration de corticostéroïdes pour augmenter le taux de plaquettes et le traitement de la maladie sous-jacente. Les symptômes incluent des ecchymoses, de la fatigue et des problèmes de coagulation. Si elle n'est pas traitée, la mort peut survenir, généralement à la suite d'une hémorragie ou d'une infection.",
+            "difficulte": "Moyen",
+            "categorie": "🩸 Maladies Hématologiques"
+        },
+        {
+            "question": "8. Quel trouble sanguin grave est partagé par le musicien Miles Davis, les joueurs de NFL Ronde et Tiki Barber, et l'acteur Larenz Tate ?",
+            "options": [
+                "Cinquième maladie",
+                "Drépanocytose",
+                "Maladie des cellules T",
+                "Maladie des griffes du chat"
+            ],
+            "reponse_correcte": "Drépanocytose",
+            "explication": "Réponse : Drépanocytose La drépanocytose, ou anémie falciforme, est un trouble sanguin le plus souvent observé chez les personnes d'origine africaine ou méditerranéenne. Les globules rouges sont généralement de forme ronde, mais dans ce trouble, ils prennent une forme de croissant, ce qui les fait se coincer dans les petits vaisseaux sanguins. Ils fournissent également moins d'oxygène aux organes du corps. Le patient souffre d'épisodes douloureux, appelés crises. La douleur survient dans la poitrine, les os longs, l'abdomen et peut s'accompagner d'une soif excessive, de palpitations cardiaques, d'ulcères et d'accidents vasculaires cérébraux. Alors que certains patients ont des crises graves plusieurs fois par an, d'autres n'ont que des symptômes légers tous les deux ou trois ans. La maladie est génétique et transmise des parents à leurs enfants. Si une personne ne reçoit qu'une copie de ce gène d'un seul parent, on dit qu'elle a le trait drépanocytaire ; si elle reçoit une copie des deux parents, elle aura la drépanocytose. Le traitement comprend des analgésiques, des suppléments d'acide folique et des antibiotiques. Les cas graves peuvent nécessiter une dialyse ou une greffe de rein, une ablation de la vésicule biliaire et des greffes de moelle osseuse. L'espérance de vie d'un patient a triplé au cours des 50 dernières années.",
+            "difficulte": "Moyen",
+            "categorie": "🩸 Maladies Hématologiques"
+        },
+        {
+            "question": "10. La méthémoglobinémie est un trouble sanguin qui peut donner à la personne atteinte une apparence bleutée.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "reponse_correcte": "Vrai",
+            "explication": "Réponse : Vrai Les Fugates bleus sont probablement les personnes les plus connues atteintes de ce trouble sanguin. Le trouble peut être léger, provoquant un essoufflement, des maux de tête et des vertiges. Il peut également être grave, provoquant des convulsions, un coma et la mort. Les Fugates vivaient dans une zone rurale avec une forte incidence de mariages consanguins. Ils ont transmis ce trouble de cette manière. Toute la méthémoglobinémie n'est pas génétique. Elle peut être une réaction à certains médicaments. Le trouble est caractérisé par des niveaux élevés de méthémoglobine, une forme oxydée de l'hémoglobine. À l'époque où les Fugates bleus sont devenus célèbres, la maladie n'était pas du tout comprise. Aujourd'hui, elle est traitée avec du bleu de méthylène et de l'oxygène supplémentaire. Ces traitements peuvent minimiser la cyanose, qui donne au patient une apparence bleutée, et rétablissent généralement une couleur normale en un mois. Un traitement continu est indispensable.",
+            "difficulte": "Moyen",
+            "categorie": "🩸 Maladies Hématologiques"
+        },
+        {
+            "question": "1. Vous traitez un patient souffrant de douleurs abdominales et vous remarquez ce qui semble être une ecchymose autour de l'ombilic (nombril). Quel est le nom de ce signe ?",
+            "options": [
+                "Signe de Grey-Turner",
+                "Signe de Cullen",
+                "Signe de Dance",
+                "Ligne de Beau"
+            ],
+            "reponse_correcte": "Signe de Cullen",
+            "explication": "Réponse : Signe de Cullen Le signe de Cullen est une ecchymose autour de l'ombilic. Il indique la présence de sang libre dans le péritoine. Les causes du signe de Cullen incluent une grossesse extra-utérine rompue et une pancréatite hémorragique.",
+            "difficulte": "Moyen",
+            "categorie": "🩸 Maladies Hématologiques"
+        },
+        {
+            "question": "4. Les patients qui se présentent avec des douleurs abdominales ont toute une gamme de maladies ou de blessures potentielles. J'ai emmené un patient à l'hôpital avec des douleurs à la pointe de l'épaule gauche ainsi que des douleurs abdominales. Le patient n'a aucun antécédent de traumatisme à l'épaule, mais il a des antécédents de traumatisme à la région abdominale. Quel signe implique des douleurs à la pointe de l'épaule chez un patient souffrant de douleurs abdominales aiguës ?",
+            "options": [
+                "Signe de Kehr",
+                "Signe de Grey-Turner",
+                "Signe de Cullen",
+                "Signe des simulateurs - ils ne peuvent pas avoir les deux"
+            ],
+            "reponse_correcte": "Signe de Kehr",
+            "explication": "Réponse : Signe de Kehr Le signe de Kehr est indicatif d'une rupture de la rate. La rate laisse échapper du sang dans la cavité abdominale, ce qui irrite le diaphragme. L'irritation du diaphragme est relayée à l'épaule via le nerf phrénique.",
+            "difficulte": "Moyen",
+            "categorie": "🩸 Maladies Hématologiques"
+        }
+    ]
+}

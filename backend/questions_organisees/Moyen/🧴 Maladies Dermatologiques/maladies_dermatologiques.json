@@ -1,0 +1,162 @@
+{
+    "categorie": "🧴 Maladies Dermatologiques",
+    "difficulte": "Moyen",
+    "questions": [
+        {
+            "question": "5. Quel type d'agent infectieux cause la teigne ?",
+            "options": [
+                "champignon",
+                "virus",
+                "bactérie",
+                "ver"
+            ],
+            "reponse_correcte": "champignon",
+            "explication": "Réponse : champignon La « teigne » est plus formellement appelée tinea. Tinea pedis = pied d'athlète, tinea capitis est sur la tête, tinea corporis sur le corps et tinea cruris = démangeaison de l'aine. Les lésions sont généralement rondes avec une bordure surélevée et un centre clair, ce qui, je suppose, rappelait aux gens un ver sous la peau, d'où le nom. Elle est causée par plusieurs champignons différents dans l'environnement. Les chats sont des porteurs notoires.",
+            "difficulte": "Moyen",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "8. La maladie de Lyme est transmise par :",
+            "options": [
+                "Une morsure de tique",
+                "Une morsure de serpent",
+                "Une morsure de puce",
+                "Une morsure de chien"
+            ],
+            "reponse_correcte": "Une morsure de tique",
+            "explication": "Réponse : Une morsure de tique La maladie de Lyme est causée par la spirochète « Borrelia burgdorferi ». Elle est transmise par une tique de la famille des Ixodidae. Une personne peut avoir été récemment exposée à des tiques... dans les bois, etc. La maladie survient lorsqu'une tique injecte de la salive chargée de spirochètes dans la circulation sanguine ou dépose des matières fécales sur la peau. Les symptômes incluent de la fatigue, un malaise et des arthralgies. Près de 10 % des patients rapportent des symptômes cardiaques comme des palpitations et une légère dyspnée, surtout au stade précoce.",
+            "difficulte": "Moyen",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "9. Cette maladie fait souvent la une des journaux car elle est appelée \"maladie mangeuse de chair\" car elle se caractérise par la mort de la peau et des tissus sous-jacents qui progressent rapidement le long d'un membre. Quel est son nom plus formel ?",
+            "options": [
+                "Neisseria gonorrhaeae",
+                "Muguet",
+                "Hépatite C",
+                "Fasciite nécrosante"
+            ],
+            "reponse_correcte": "Fasciite nécrosante",
+            "explication": "Réponse : Fasciite nécrosante Dans cette maladie, un agent pathogène bactérien pénètre dans une rupture de la peau, comme une coupure, et se multiplie rapidement dans les couches superficielles d'un membre ou du périnée, nécrosant (tuant) la peau et le derme. L'agent pathogène est normalement Streptococcus pyogenes ou Staphylococcus aureus. La maladie est potentiellement mortelle et nécessite une thérapie antimicrobienne intraveineuse lourde et ciblée.",
+            "difficulte": "Moyen",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "2. L'éléphantiasis est une infection parasitaire qui provoque un gonflement terrible des bras et des jambes. Où dans le corps humain le ver adulte vit-il ?",
+            "options": [
+                "système lymphatique",
+                "système excréteur",
+                "système reproducteur",
+                "système respiratoire"
+            ],
+            "reponse_correcte": "système lymphatique",
+            "explication": "Réponse : système lymphatique L'éléphantiasis est transmis d'un humain à l'autre lorsque la femelle moustique se nourrit. Le ver qui cause la maladie est appelé ver filaire. Après avoir atteint l'âge adulte, le ver vit dans le système lymphatique. Un autre nom pour la maladie est la filariose lymphatique. L'éléphantiasis provoque un épaississement de la peau et les membres deviennent considérablement élargis et épaissis.",
+            "difficulte": "Moyen",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "7. Mon ami m'appelle parce qu'il est perplexe au sujet de son fils qui a de la fièvre, une toux sèche, une éruption cutanée et des taches rouges sur la peau. Je l'informe que je pense que son fils pourrait avoir lequel de ces problèmes ?",
+            "options": [
+                "Scarlatine",
+                "Oreillons",
+                "Rougeole",
+                "Coqueluche"
+            ],
+            "reponse_correcte": "Rougeole",
+            "explication": "Réponse : Rougeole. Pour moi, c'est un cas classique de rougeole. Je dis à mon ami de garder son fils à l'écart des autres enfants, y compris ses frères et sœurs, et de ne pas l'envoyer à l'école ou dans tout autre endroit où il y a des enfants. Je lui recommande également d'appeler le pédiatre, d'expliquer le problème et de demander un rendez-vous privé en l'absence d'autres enfants.",
+            "difficulte": "Moyen",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "5. Cette maladie est connue sous le nom de filariose lymphatique et est causée par des vers microscopiques en forme de fil qui vivent dans le système lymphatique et sont transmis par les moustiques. Cette maladie est caractérisée par un épaississement de la peau et des tissus sous-jacents, principalement dans les jambes et les cuisses, ainsi que dans le scrotum chez les hommes. Les membres inférieurs du patient prennent des proportions énormes. Comment cette maladie est-elle appelée par le grand public ? (Indice : Vous n'en avez pas besoin.)",
+            "options": [
+                "Fièvre de Katayama",
+                "Échinococcose",
+                "Trichuriase",
+                "Éléphantiasis"
+            ],
+            "reponse_correcte": "Éléphantiasis",
+            "explication": "Réponse : Éléphantiasis. Aujourd'hui, plus d'un milliard de personnes dans 73 pays sont susceptibles de contracter cette maladie, et plus de 120 millions en souffrent. La maladie est généralement contractée pendant l'enfance, mais l'élargissement extrême des membres survient plus tard dans la vie.",
+            "difficulte": "Moyen",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "4. Les amis affolés de Soozy ne pouvaient pas croire que la personne échevelée, hébétée et confuse devant eux venait de se soulager en plein milieu du parc. Essayer de l'aider était un cauchemar car elle était très antisociale et ne semblait pas se souvenir de son nom. Quel problème de santé pourrait causer le comportement très irrationnel de Soozy ?",
+            "options": [
+                "Accident vasculaire cérébral",
+                "Épilepsie",
+                "Tumeur cérébrale",
+                "Méningite"
+            ],
+            "reponse_correcte": "Tumeur cérébrale",
+            "explication": "Réponse : Tumeur cérébrale. Chez les adultes, les tumeurs cérébrales se trouvent souvent dans le cerveau, situé à l'avant du cerveau. Le cerveau contrôle les activités conscientes et la pensée, et reçoit des messages de la peau, des oreilles et des yeux. Il contrôle également nos émotions, notre conscience, notre mémoire, la marche et la mastication. Les tumeurs du lobe frontal du cerveau provoquent des problèmes de mémoire et intellectuels, ainsi qu'un comportement antisocial. Ces personnes ne semblent pas se soucier de leur apparence ou de leur comportement en public. Les scanners cérébraux, les radiographies, les électroencéphalogrammes et les artériogrammes sont des tests utilisés pour détecter ces tumeurs, leur taille et leur emplacement. Une chirurgie peut être utilisée pour retirer la tumeur de Soozy, et des médicaments peuvent être administrés pour réduire la pression à l'intérieur de son crâne.",
+            "difficulte": "Moyen",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "6. En hiver, le pauvre Jimmy, le géant bouffon des champs de neige suisses, s'est plaint d'avoir de petites bosses qui démangent sur le bout des doigts et des orteils, qui brûlent et piquent. Lorsqu'il approchait ses extrémités du feu, la douleur et les picotements augmentaient. Quelle est la cause possible de son inconfort ?",
+            "options": [
+                "Verrues",
+                "Psoriasis",
+                "Engelures",
+                "Carcinomes basocellulaires"
+            ],
+            "reponse_correcte": "Engelures",
+            "explication": "Réponse : Engelures. Les engelures sont un problème inflammatoire de la peau généralement dû à une exposition à des endroits froids et humides. Les engelures sont de petites bosses rouges qui peuvent apparaître sur le bout des doigts et des orteils, ainsi que sur le dos des mains et des pieds. Parfois, elles sont même visibles sur les oreilles, le nez et les joues. Les bosses deviennent souvent plus grosses avec des démangeaisons, des picotements et des sensations de brûlure accrues. Elles prennent une couleur rouge foncé ou violette et peuvent former des cloques qui se rompent et deviennent des ulcères. La chaleur des radiateurs augmente en fait l'inconfort des brûlures et des démangeaisons, et il est conseillé de garder la partie du corps affectée au chaud en utilisant des vêtements supplémentaires. Jimmy a peut-être hérité des engelures du pool génétique familial, et les mêmes zones ont probablement été infectées chaque année lorsque le froid s'installe.",
+            "difficulte": "Moyen",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "3. Revenons aux insectes, mais cette fois parlons des acariens. Ces bestioles désagréables sont généralement transmises par contact peau à peau et peuvent être trouvées dans toutes les parties du monde chez des personnes de tous âges. Vous savez que vous en avez si vous avez des démangeaisons sur la peau et quelque chose qui ressemble à des marques de crayon. Une idée de ce que c'est ?",
+            "options": [
+                "Gale",
+                "Scrapie",
+                "Gale sarcoptique",
+                "Scrapple"
+            ],
+            "reponse_correcte": "Gale sarcoptique",
+            "explication": "Réponse : Gale sarcoptique La gale peut être attrapée à partir de vêtements ou de literie partagés, mais est beaucoup plus probablement transmise par contact direct avec une peau infectée. L'acarien de la gale creuse dans la peau pour pondre ses œufs, et c'est ce terrier qui ressemble à une marque de crayon. Les œufs mettent 21 jours à éclore et des éruptions cutanées qui démangent peuvent apparaître n'importe où sur le corps ; des plaies peuvent se développer à cause des grattages de la victime, et des infections secondaires comme l'impétigo peuvent également se développer. La gale peut être traitée par des crèmes et des onguents spéciaux, ou par des médicaments oraux. Il est nécessaire de laver tous les vêtements et la literie à l'eau chaude pour tuer les acariens et les œufs, et un aspirateur approfondi des lits, des tapis et des meubles rembourrés est nécessaire. Vous démangez déjà ?",
+            "difficulte": "Moyen",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "6. Quelque chose d'un peu différent cette fois. Vous pourriez trouver que vous avez une zone qui démange avec des cloques ou des plaques squameuses, et qui s'étend en cercle. C'est appelé 'teigne' mais savez-vous ce qui la cause ?",
+            "options": [
+                "Acariens",
+                "Une infection fongique",
+                "Poux",
+                "Puces"
+            ],
+            "reponse_correcte": "Une infection fongique",
+            "explication": "Réponse : Une infection fongique Souvent appelée 'Tinea', la teigne est une infection fongique. Elle affecte principalement les enfants mais n'importe qui peut l'attraper. L'hygiène personnelle est le meilleur moyen de prévenir sa propagation, et vous ne devriez pas partager des chapeaux, des peignes, des serviettes, des vêtements, etc. Un lavage approprié de vos vêtements et de votre équipement sportif est également nécessaire. Les chats et les chiens peuvent attraper la teigne et vous la transmettre, donc les animaux avec des poils en plaques devraient être évités s'ils ne sont pas les vôtres - et traités par un vétérinaire s'ils le sont. Le traitement consiste en des crèmes, des lotions et des poudres antifongiques, et parfois des comprimés.",
+            "difficulte": "Moyen",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "2. Vous avez été diagnostiqué avec une tinea pedis, également connue sous le nom de pied d'athlète. Cela n'est généralement pas considéré comme mortel, mais il y a toujours une première fois. Qu'est-ce qui cause cette infection ?",
+            "options": [
+                "Piqûre d'insecte",
+                "Virus",
+                "Friction due à des chaussures trop serrées",
+                "Champignon"
+            ],
+            "reponse_correcte": "Champignon",
+            "explication": "Réponse : Champignon Le champignon est contagieux et prospère dans des environnements humides, comme les zones autour des piscines et des vestiaires. Les personnes qui ont les pieds mouillés pendant une longue période peuvent également souffrir de cette infection, qui provoque des démangeaisons et une desquamation de la peau affectée. Garder les pieds au sec, en particulier entre les orteils, est la meilleure mesure préventive. Le traitement se fait par des crèmes ou des poudres sur les zones affectées, bien que les infections graves puissent nécessiter des médicaments plus forts, par voie orale.",
+            "difficulte": "Moyen",
+            "categorie": "🧴 Maladies Dermatologiques"
+        },
+        {
+            "question": "9. Le crématorium a entendu dire que vous souffriez de pruritus, alors vous a réservé pour mardi prochain. Cela pourrait être un peu prématuré, car vous souffrez de quel problème ?",
+            "options": [
+                "Démangeaisons",
+                "Coup de soleil",
+                "Varices",
+                "Pattes d'oie"
+            ],
+            "reponse_correcte": "Démangeaisons",
+            "explication": "Réponse : Démangeaisons Le pruritus fait référence à la sensation de démangeaison qui vous donne envie de vous gratter et est généralement un symptôme plutôt qu'un diagnostic en soi. Il peut être causé par des problèmes localisés, comme les poux de tête, la dermatite sur les mains ou même par une peau sèche. Des maladies plus graves peuvent également provoquer des démangeaisons, notamment le diabète ou l'insuffisance rénale. Les varices sont des torsions, généralement dans les veines des jambes, et le coup de soleil peut être appelé érythème. Les pattes d'oie peuvent être appelées « rides canthales latérales », mais elles ne sont pas mortelles, même pour les hypocondriaques.",
+            "difficulte": "Moyen",
+            "categorie": "🧴 Maladies Dermatologiques"
+        }
+    ]
+}
