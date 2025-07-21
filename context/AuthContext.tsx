@@ -39,7 +39,7 @@ interface AuthContextType {
   loading: boolean;
   isSignedIn: boolean;
   signIn: (email: string, password: string) => Promise<void>;
-  signUp: (email: string, password: string, name: string, bloodType?: string) => Promise<UserCredential>;
+  signUp: (email: string, password: string, name: string, bloodType?: string, birthDate?: Date) => Promise<UserCredential>;
   signOut: () => Promise<void>;
   forgotPassword: (email: string) => Promise<void>;
   sendSignInLink: (email: string) => Promise<void>;
@@ -65,15 +65,29 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
           const userDoc = await getDoc(doc(firebaseDB, 'users', firebaseUser.uid));
           if (userDoc.exists()) {
             userData = userDoc.data();
+            console.log('Données utilisateur récupérées depuis Firestore:', userData);
+          } else {
+            console.log('Aucun document utilisateur trouvé dans Firestore');
           }
         } catch (e) {
-          console.log('Erreur Firestore:', e);
+          console.error('Erreur lors de la récupération des données Firestore:', e);
         }
-        setUser({
+
+        const user = {
           ...firebaseUser,
           ...userData,
           birthDate: userData.birthDate ? new Date(userData.birthDate) : undefined,
+        };
+
+        console.log('Utilisateur final configuré:', {
+          uid: user.uid,
+          name: user.name,
+          email: user.email,
+          bloodType: user.bloodType,
+          birthDate: user.birthDate
         });
+
+        setUser(user);
         setLoading(false);
       } else {
         setUser(null);
@@ -97,8 +111,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   };
 
-  const signUp = async (email: string, password: string, name: string, bloodType?: string): Promise<UserCredential> => {
+  const signUp = async (email: string, password: string, name: string, bloodType?: string, birthDate?: Date): Promise<UserCredential> => {
     try {
+      console.log('Inscription avec:', { name, email, bloodType, birthDate: birthDate?.toISOString() });
+
       // Créer l'utilisateur dans Firebase Auth
       const userCredential = await createUserWithEmailAndPassword(firebaseAuth, email, password);
 
@@ -108,17 +124,24 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
           displayName: name
         });
 
-        // Stocker des informations supplémentaires dans Firestore
-        // Mais ne pas bloquer le processus d'inscription si Firestore échoue
-        setDoc(doc(firebaseDB, 'users', userCredential.user.uid), {
+        // Préparer les données utilisateur
+        const userData = {
           name,
           email,
           bloodType: bloodType || 'O+',
-          birthDate: userCredential.user.metadata.creationTime ? new Date(userCredential.user.metadata.creationTime).toISOString() : undefined,
-          createdAt: serverTimestamp()
-        }).catch(error => {
-          errorService.handleGenericError(error, 'AuthContext.signUp.firestore');
-        });
+          birthDate: birthDate ? birthDate.toISOString() : new Date().toISOString(),
+          xpPoints: 0, // XP initiaux
+          lives: 5, // Vies initiales
+          createdAt: serverTimestamp(),
+          lastUpdated: new Date().toISOString()
+        };
+
+        console.log('Sauvegarde des données utilisateur:', userData);
+
+        // Stocker des informations supplémentaires dans Firestore
+        await setDoc(doc(firebaseDB, 'users', userCredential.user.uid), userData);
+
+        console.log('Données utilisateur sauvegardées avec succès dans Firestore');
       }
 
       return userCredential;
@@ -258,16 +281,32 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const refreshUserFromFirestore = async () => {
     if (!user) return;
     try {
+      console.log('Rafraîchissement des données utilisateur depuis Firestore...');
       const userDoc = await getDoc(doc(firebaseDB, 'users', user.uid));
       if (userDoc.exists()) {
         const userData = userDoc.data();
-        setUser({
+        console.log('Nouvelles données récupérées:', userData);
+
+        const updatedUser = {
           ...user,
           ...userData,
           birthDate: userData.birthDate ? new Date(userData.birthDate) : undefined,
+        };
+
+        console.log('Utilisateur mis à jour:', {
+          uid: updatedUser.uid,
+          name: updatedUser.name,
+          email: updatedUser.email,
+          bloodType: updatedUser.bloodType,
+          birthDate: updatedUser.birthDate
         });
+
+        setUser(updatedUser);
+      } else {
+        console.log('Aucun document utilisateur trouvé lors du rafraîchissement');
       }
     } catch (e) {
+      console.error('Erreur lors du rafraîchissement:', e);
       errorService.handleGenericError(e, 'AuthContext.refreshUserFromFirestore');
     }
   };

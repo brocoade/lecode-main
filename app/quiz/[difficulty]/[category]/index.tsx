@@ -254,18 +254,29 @@ export default function QuizCategoryScreen() {
                   category as string,
                   quiz.quizId
                 );
-                
+
                 quiz.locked = !isUnlocked;
-                
+
+                // Vérifier aussi la propriété unlocked directe
+                const quizProgress = categoryProgress.quizzes.find(q => q.quizId === quiz.quizId);
+                if (quizProgress && quizProgress.unlocked === true) {
+                  quiz.locked = false;
+                  console.log(`Quiz ${quiz.quizId} déverrouillé via propriété unlocked=true`);
+                }
+
                 // Afficher dans la console pour déboguer
-                console.log(`Quiz ${quiz.quizId} est ${!isUnlocked ? 'verrouillé' : 'déverrouillé'} car quiz précédent ${i > 0 ? sortedQuizzes[i-1].quizId : 'N/A'} a score=${i > 0 && categoryProgress.quizzes.find(q => q.quizId === sortedQuizzes[i-1].quizId)?.score || 0} et completed=${i > 0 && categoryProgress.quizzes.find(q => q.quizId === sortedQuizzes[i-1].quizId)?.completed || false}`);
+                console.log(`Quiz ${quiz.quizId} est ${quiz.locked ? 'verrouillé' : 'déverrouillé'} - isUnlocked=${isUnlocked}, unlocked=${quizProgress?.unlocked}, quiz précédent ${i > 0 ? sortedQuizzes[i-1].quizId : 'N/A'} a score=${i > 0 && categoryProgress.quizzes.find(q => q.quizId === sortedQuizzes[i-1].quizId)?.score || 0} et completed=${i > 0 && categoryProgress.quizzes.find(q => q.quizId === sortedQuizzes[i-1].quizId)?.completed || false}`);
               }
             }
           }
         }
       }
-      
+
+      // Déboguer l'état des quiz
+      await progressService.debugCategoryQuizzes(difficulty as string, category as string);
+
       setQuizzes(sortedQuizzes);
+      console.log(`${sortedQuizzes.length} quiz chargés pour ${difficulty}/${category}`);
     } catch (error) {
       console.error('Erreur lors du chargement des quiz:', error);
     } finally {
@@ -286,16 +297,17 @@ export default function QuizCategoryScreen() {
       // Vider le cache de progression et recharger les quiz pour s'assurer d'avoir les données à jour
       const progressService = new ProgressService();
       progressService.clearProgressCache();
-      
-      // Forcer un refresh complet des données Firebase
+
+      // Refresh optimisé des données Firebase
       const refreshData = async () => {
-        console.log('Forçage du rechargement des données Firebase');
-        await progressService.getUserProgress(true);
+        console.log('Rechargement optimisé des données Firebase');
+        // Utiliser le cache d'abord, puis forcer le refresh seulement si nécessaire
+        await progressService.getUserProgress(false);
         loadQuizzes();
       };
-      
+
       refreshData();
-      
+
       return () => {
         // Nettoyer lors du unfocus si nécessaire
         console.log('Écran de catégorie unfocus');

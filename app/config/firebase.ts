@@ -1,26 +1,33 @@
 import { initializeApp, getApps, getApp } from 'firebase/app';
-import { getAuth } from 'firebase/auth';
+import { initializeAuth, getAuth, getReactNativePersistence } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBZrwCbEz5aYpW-6SDHtmxEG5s_kEZ6mLk",
-  authDomain: "meducare-b3e95.firebaseapp.com",
-  projectId: "meducare-b3e95",
-  storageBucket: "meducare-b3e95.appspot.com",
-  messagingSenderId: "1234567890",
-  appId: "1:1234567890:web:abcdef0123456789"
+  apiKey: "AIzaSyDE8631Oby-MvXY2g_23mGaDCK-m9PyAwc",
+  authDomain: "meducare01-ea9c1.firebaseapp.com",
+  projectId: "meducare01-ea9c1",
+  storageBucket: "meducare01-ea9c1.appspot.com",
+  messagingSenderId: "584227175357",
+  appId: "1:584227175357:android:809f9489d1646940aaf0d4"
 };
 
 let app;
+let auth;
+
 // Initialiser Firebase seulement s'il n'est pas déjà initialisé
 if (getApps().length === 0) {
   app = initializeApp(firebaseConfig);
+  // Initialiser Auth avec AsyncStorage pour la persistance
+  auth = initializeAuth(app, {
+    persistence: getReactNativePersistence(AsyncStorage)
+  });
 } else {
   app = getApp();
+  auth = getAuth(app);
 }
 
-// Obtenir les services Auth et Firestore
-const auth = getAuth(app);
+// Obtenir le service Firestore
 const firestore = getFirestore(app);
 
 export { auth, firestore };

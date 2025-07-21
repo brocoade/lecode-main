@@ -5,6 +5,7 @@ import { CategoryCard } from '../../../components/game/CategoryCard';
 import { useRouter } from 'expo-router';
 import SharedTransition from '@/components/navigation/SharedTransition';
 import { getCategories } from '../../services/diseaseService';
+import { LearnPageSkeleton } from '../../../components/ui/SkeletonLoader';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
 const screenWidth = Dimensions.get('window').width;
@@ -37,28 +38,52 @@ const categoryImages: Record<string, any> = {
 export default function LearnScreen() {
   const router = useRouter();
   const [categories, setCategories] = useState<Category[]>([]);
-  const [loading, setLoading] = useState(true);
-  
+  const [loading, setLoading] = useState(false); // Commencer par false pour affichage immédiat
+
   // Daily objectives definition
   const dailyObjectives = [
     { id: '1', title: 'Quiz du jour', completed: true },
     { id: '2', title: 'Lecture santé', completed: false },
   ];
 
+  // Catégories par défaut pour affichage immédiat (skeleton)
+  const defaultCategories: Category[] = [
+    { id: '1', firebaseDocId: 'maladies_cardiovasculaires', title: 'Maladies Cardiovasculaires', progress: 0, color: '#FF6B6B', image: categoryImages['4'], isNew: false, locked: false },
+    { id: '2', firebaseDocId: 'maladies_respiratoires', title: 'Maladies Respiratoires', progress: 0, color: '#4ECDC4', image: categoryImages['3'], isNew: false, locked: true },
+    { id: '3', firebaseDocId: 'maladies_digestives', title: 'Maladies Digestives', progress: 0, color: '#45B7D1', image: categoryImages['1'], isNew: false, locked: true },
+    { id: '4', firebaseDocId: 'maladies_endocriniennes', title: 'Maladies Endocriniennes', progress: 0, color: '#96CEB4', image: categoryImages['10'], isNew: false, locked: true },
+    { id: '5', firebaseDocId: 'maladies_autoimmunes', title: 'Maladies Auto-immunes', progress: 0, color: '#FFEAA7', image: categoryImages['7'], isNew: false, locked: true },
+    { id: '6', firebaseDocId: 'maladies_infectieuses', title: 'Maladies Infectieuses', progress: 0, color: '#DDA0DD', image: categoryImages['2'], isNew: false, locked: true },
+  ];
+
+  // Initialiser avec les catégories par défaut
   useEffect(() => {
+    setCategories(defaultCategories);
+
+    // Charger les vraies données en arrière-plan
     async function fetchCategories() {
-      setLoading(true);
-      const data = await getCategories();
-      console.log('Categories fetched from Firebase:', data);
-      // On mappe les images locales
-      const categoriesWithImages = data.map((cat: any) => ({
-        ...cat,
-        image: categoryImages[cat.id] || null,
-      }));
-      setCategories(categoriesWithImages);
-      setLoading(false);
+      try {
+        setLoading(true);
+        const data = await getCategories();
+        console.log('Categories fetched from Firebase:', data);
+
+        // Mapper les images locales
+        const categoriesWithImages = data.map((cat: any) => ({
+          ...cat,
+          image: categoryImages[cat.id] || null,
+        }));
+
+        setCategories(categoriesWithImages);
+      } catch (error) {
+        console.error('Erreur lors du chargement des catégories:', error);
+        // Garder les catégories par défaut en cas d'erreur
+      } finally {
+        setLoading(false);
+      }
     }
-    fetchCategories();
+
+    // Délai minimal pour éviter le flash
+    setTimeout(fetchCategories, 100);
   }, []);
 
   // Fonction pour diviser les catégories en paires pour le rendu en rangées
@@ -108,29 +133,37 @@ export default function LearnScreen() {
     return rows;
   };
 
+  // Afficher le skeleton pendant le chargement initial
+  if (loading && categories.length === 0) {
+    return (
+      <SharedTransition transitionKey="learn-screen">
+        <LearnPageSkeleton />
+      </SharedTransition>
+    );
+  }
+
   return (
     <SharedTransition transitionKey="learn-screen">
-      <ScrollView 
+      <ScrollView
         style={styles.scrollView}
         contentContainerStyle={styles.scrollViewContent}
       >
         <DailyObjectives objectives={dailyObjectives} />
-        
+
         <View style={styles.introCard}>
           <Ionicons name="bulb-outline" size={28} color="#FFD700" style={styles.introIcon} />
           <Text style={styles.introTextBold}>Prêt à explorer ?</Text>
           <Text style={styles.introText}>Votre voyage de découverte des maladies commence ici.</Text>
         </View>
-        
+
         <View style={styles.sectionHeader}>
           <Text style={styles.sectionTitle}>Catégories</Text>
+          {loading && (
+            <ActivityIndicator size="small" color="#2196F3" style={{ marginLeft: 10 }} />
+          )}
         </View>
         <View style={styles.categoriesContainer}>
-          {loading ? (
-            <ActivityIndicator size="large" color="#2196F3" style={{ marginTop: 40 }} />
-          ) : (
-            renderCategoryRows(categories)
-          )}
+          {renderCategoryRows(categories)}
         </View>
       </ScrollView>
     </SharedTransition>

@@ -53,6 +53,12 @@
       "expo-localization"
     ],
     "scheme": "meducare",
-    "newArchEnabled": true
+    "newArchEnabled": true,
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "33ad0f29-ab80-45f7-85a0-01c2c1a5cc57"
+      }
+    }
   }
 }

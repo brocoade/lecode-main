@@ -2,6 +2,7 @@ import React, { createContext, useState, useContext, useEffect } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { HeartsService } from '@/app/services/hearts.service';
 import { useAuth } from './AuthContext';
+import { SyncService } from '@/app/services/sync.service';
 
 interface HeartsContextType {
   hearts: number;
@@ -20,7 +21,7 @@ export const HeartsProvider: React.FC<{ children: React.ReactNode }> = ({ childr
   const { user } = useAuth();
   const heartsService = new HeartsService();
 
-  // Charger les cœurs initiaux
+  // Charger les cœurs initiaux et configurer la synchronisation en temps réel
   useEffect(() => {
     const loadHearts = async () => {
       if (user) {
@@ -36,12 +37,37 @@ export const HeartsProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         }
       }
     };
-    
-    loadHearts();
-    
-    // Mettre à jour les cœurs toutes les minutes pour vérifier les régénérations
-    const interval = setInterval(loadHearts, 60000);
-    return () => clearInterval(interval);
+
+    if (user) {
+      // Chargement initial
+      loadHearts();
+
+      // Attendre un peu avant de démarrer la synchronisation pour éviter les erreurs d'inscription
+      const timer = setTimeout(() => {
+        try {
+          const syncService = SyncService.getInstance();
+          syncService.startUserProgressSync(user.uid, (progressData) => {
+            if (progressData.heartsCount !== undefined && progressData.heartsCount !== hearts) {
+              console.log(`HeartsContext: Mise à jour vies via sync: ${progressData.heartsCount}`);
+              setHearts(progressData.heartsCount);
+            }
+          });
+        } catch (error) {
+          console.error('HeartsContext: Erreur lors du démarrage de la sync:', error);
+        }
+      }, 2000); // Attendre 2 secondes
+
+      // Nettoyer lors du démontage
+      return () => {
+        clearTimeout(timer);
+        try {
+          const syncService = SyncService.getInstance();
+          syncService.cleanup();
+        } catch (error) {
+          console.error('HeartsContext: Erreur lors du nettoyage:', error);
+        }
+      };
+    }
   }, [user]);
 
   const consumeHeart = async (): Promise<boolean> => {

@@ -13,37 +13,37 @@ const XPGainAnimation: React.FC<XPGainAnimationProps> = ({ amount, onAnimationCo
   const opacity = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
-    // Animation de montée et disparition
+    // Animation plus rapide et moins gourmande
     Animated.parallel([
       Animated.timing(translateY, {
-        toValue: -100,
-        duration: 1500,
+        toValue: -80,
+        duration: 1000, // Réduit de 1500 à 1000ms
         useNativeDriver: true,
         easing: Easing.out(Easing.ease),
       }),
       Animated.sequence([
         Animated.timing(scale, {
-          toValue: 1.2,
-          duration: 300,
+          toValue: 1.1, // Réduit de 1.2 à 1.1
+          duration: 200, // Réduit de 300 à 200ms
           useNativeDriver: true,
-          easing: Easing.back(1.5),
+          easing: Easing.back(1.2), // Réduit l'effet de rebond
         }),
         Animated.timing(scale, {
           toValue: 1,
-          duration: 200,
+          duration: 150, // Réduit de 200 à 150ms
           useNativeDriver: true,
         }),
       ]),
       Animated.sequence([
         Animated.timing(opacity, {
           toValue: 1,
-          duration: 300,
+          duration: 200, // Réduit de 300 à 200ms
           useNativeDriver: true,
         }),
-        Animated.delay(800),
+        Animated.delay(500), // Réduit de 800 à 500ms
         Animated.timing(opacity, {
           toValue: 0,
-          duration: 400,
+          duration: 300, // Réduit de 400 à 300ms
           useNativeDriver: true,
         }),
       ]),

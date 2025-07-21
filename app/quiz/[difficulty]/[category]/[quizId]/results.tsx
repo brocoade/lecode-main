@@ -118,8 +118,9 @@ export default function QuizResultsScreen() {
           setSavedProgress(true);
           
           if (updateResult.success) {
+            // Rafraîchir immédiatement les XP
             refreshXP().catch(console.error);
-            
+
             if (updateResult.levelCompleted) {
               setLevelCompleted(true);
             }
@@ -162,35 +163,48 @@ export default function QuizResultsScreen() {
     return `${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
   };
   
-  // Naviguer vers la liste des quiz
+  // Naviguer vers la liste des quiz de la catégorie actuelle
   const handleNavigateToQuizList = () => {
-    // Au lieu de remplacer juste l'écran actuel, nous allons naviguer vers la liste des catégories
-    // pour éviter d'avoir à reparcourir tout l'historique
-    router.replace(`/quiz/${difficulty}`);
+    const categoryId = category as string;
+    const routeCategoryId = categoryId.replace('maladies_', '');
+
+    console.log('Navigation vers la liste des quiz de la catégorie:', routeCategoryId);
+    // Aller directement à la liste des quiz de cette catégorie
+    router.replace(`/quiz/${difficulty}/${routeCategoryId}`);
+  };
+
+  // Naviguer vers la liste des catégories (bouton X)
+  const handleNavigateToCategories = () => {
+    console.log('Navigation vers la liste des catégories');
+    // Aller à la page d'accueil avec les catégories
+    router.replace('/(app)/learn');
   };
   
   // Naviguer vers le quiz suivant
   const handleNavigateToNextQuiz = async () => {
     if (!nextQuizId) return;
-    
-    // Vérifier si l'utilisateur a des cœurs disponibles
+
+    console.log('Navigation vers le quiz suivant:', nextQuizId);
+
+    // Vérification rapide des cœurs (sans attendre)
     const heartsService = new HeartsService();
-    const canPlay = await heartsService.canPlayQuiz();
-    
-    if (!canPlay) {
-      Alert.alert(
-        "Pas assez de cœurs",
-        "Tu n'as plus de vies. Tu dois attendre 1 heure pour en récupérer une et continuer.",
-        [{ text: "OK", onPress: () => handleNavigateToQuizList() }]
-      );
-      return;
-    }
-    
+    heartsService.canPlayQuiz().then(canPlay => {
+      if (!canPlay) {
+        Alert.alert(
+          "Pas assez de cœurs",
+          "Tu n'as plus de vies. Tu dois attendre 1 heure pour en récupérer une et continuer.",
+          [{ text: "OK", onPress: () => handleNavigateToQuizList() }]
+        );
+        return;
+      }
+    });
+
+    // Navigation immédiate sans attendre la vérification des cœurs
     const categoryId = category as string;
     const routeCategoryId = categoryId.replace('maladies_', '');
-    
-    // 🚀 ALLER DIRECTEMENT AU QUIZ SUIVANT (PAS AUX CATÉGORIES !)
-    router.push(`/quiz/${difficulty}/${routeCategoryId}/question?quizId=${nextQuizId}&questionId=q1`);
+
+    // 🚀 NAVIGATION IMMÉDIATE VERS LE QUIZ SUIVANT
+    router.replace(`/quiz/${difficulty}/${routeCategoryId}/question?quizId=${nextQuizId}&questionId=q1`);
   };
   
   // Message de félicitations selon le pourcentage de réussite
@@ -215,7 +229,7 @@ export default function QuizResultsScreen() {
       
       {/* En-tête avec bouton de fermeture */}
       <View style={[styles.header, Platform.OS === 'ios' && { marginTop: 50 }]}>
-        <TouchableOpacity onPress={handleNavigateToQuizList} style={styles.headerButton}>
+        <TouchableOpacity onPress={handleNavigateToCategories} style={styles.headerButton}>
           <Ionicons name="close" size={24} color="#FFF" />
         </TouchableOpacity>
       </View>
@@ -333,11 +347,11 @@ export default function QuizResultsScreen() {
         </View>
       </ScrollView>
       
-      {/* Loader pendant la sauvegarde */}
+      {/* Loader pendant la sauvegarde (plus rapide) */}
       {loading && (
         <View style={styles.loadingOverlay}>
           <ActivityIndicator size="large" color="#FFD600" />
-          <Text style={styles.loadingText}>Sauvegarde des résultats...</Text>
+          <Text style={styles.loadingText}>Finalisation...</Text>
         </View>
       )}
       
@@ -368,12 +382,12 @@ export default function QuizResultsScreen() {
             <Text style={[styles.continueButtonText, !isPassing && {color: '#FFFFFF', fontWeight: 'bold'}]}>
               {isPassing ? (
                 <>
-                  RETOUR AUX QUIZ
+                  RETOUR À LA CATÉGORIE
                   <Ionicons name="arrow-forward" size={18} color="#FFFFFF" style={{marginLeft: 8}} />
                 </>
               ) : (
                 <>
-                  RÉESSAYER
+                  RÉESSAYER CE QUIZ
                   <Ionicons name="refresh" size={18} color="#FFFFFF" style={{marginLeft: 8}} />
                 </>
               )}

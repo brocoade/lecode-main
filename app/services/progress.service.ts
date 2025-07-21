@@ -1,6 +1,6 @@
 import { doc, getDoc, setDoc, updateDoc, collection, query, where, getDocs } from 'firebase/firestore';
 import { firebaseAuth, firebaseDB } from '@/backend/config/firebase.config';
-import { HeartsService } from './hearts.service';
+import { SyncService } from './sync.service';
 
 // Interface pour le suivi de progression d'un quiz
 export interface QuizProgress {
@@ -44,30 +44,77 @@ export class ProgressService {
   // Cache pour stocker la progression de l'utilisateur
   private static progressCache: UserProgress | null = null;
   private static lastCacheTime: number = 0;
-  private static CACHE_EXPIRATION_MS = 5 * 60 * 1000; // 5 minutes
-  
+  private static CACHE_EXPIRATION_MS = 15 * 60 * 1000; // 15 minutes (augmenté)
+  private static updateInProgress = false; // Protection contre les appels multiples
+  private static pendingRequests: Map<string, Promise<UserProgress | null>> = new Map(); // Cache des requêtes en cours
+
+  /**
+   * Vérifie si un utilisateur est connecté
+   */
+  private isUserAuthenticated(): boolean {
+    const user = firebaseAuth.currentUser;
+    return user !== null && user !== undefined;
+  }
+
   /**
    * Récupère la progression complète d'un utilisateur
    * @param forceRefresh Si true, force le rechargement depuis Firebase même si le cache est valide
    */
   async getUserProgress(forceRefresh: boolean = false): Promise<UserProgress | null> {
-    const user = firebaseAuth.currentUser;
-    if (!user) return null;
+    if (!this.isUserAuthenticated()) {
+      console.log('getUserProgress: Aucun utilisateur connecté');
+      return null;
+    }
+
+    const user = firebaseAuth.currentUser!;
+
+    const cacheKey = `${user.uid}_${forceRefresh}`;
+
+    // Vérifier si une requête est déjà en cours pour éviter les doublons
+    if (ProgressService.pendingRequests.has(cacheKey)) {
+      console.log('Requête déjà en cours, attente...');
+      return ProgressService.pendingRequests.get(cacheKey)!;
+    }
 
     // Vérifier si le cache est valide
     const now = Date.now();
-    if (!forceRefresh && 
-        ProgressService.progressCache && 
+    if (!forceRefresh &&
+        ProgressService.progressCache &&
         ProgressService.progressCache.userId === user.uid &&
         now - ProgressService.lastCacheTime < ProgressService.CACHE_EXPIRATION_MS) {
       console.log('Utilisation du cache de progression');
       return ProgressService.progressCache;
     }
 
+    // Créer la promesse et la stocker
+    const requestPromise = this.fetchUserProgressFromFirebase(user.uid);
+    ProgressService.pendingRequests.set(cacheKey, requestPromise);
+
     try {
       console.log('Récupération de la progression depuis Firebase');
+      const result = await requestPromise;
+      return result;
+    } catch (error) {
+      console.error('Erreur lors de la récupération de la progression:', error);
+      return null;
+    } finally {
+      // Nettoyer la requête en cours
+      ProgressService.pendingRequests.delete(cacheKey);
+    }
+  }
+
+  /**
+   * Méthode privée pour récupérer les données depuis Firebase
+   */
+  private async fetchUserProgressFromFirebase(userId: string): Promise<UserProgress | null> {
+    try {
+      if (!userId) {
+        console.error('fetchUserProgressFromFirebase: userId est requis');
+        return null;
+      }
+
       // Récupérer le document de progression de l'utilisateur
-      const progressRef = doc(firebaseDB, 'userProgress', user.uid);
+      const progressRef = doc(firebaseDB, 'userProgress', userId);
       const progressDoc = await getDoc(progressRef);
 
       if (progressDoc.exists()) {
@@ -98,17 +145,17 @@ export class ProgressService {
         
         // Mettre à jour le cache
         ProgressService.progressCache = data;
-        ProgressService.lastCacheTime = now;
+        ProgressService.lastCacheTime = Date.now();
         
         return data;
       } else {
         // Si aucune progression n'existe, créer une nouvelle progression
-        const newProgress = await this.initializeUserProgress(user.uid);
-        
+        const newProgress = await this.initializeUserProgress(userId);
+
         // Mettre à jour le cache
         ProgressService.progressCache = newProgress;
-        ProgressService.lastCacheTime = now;
-        
+        ProgressService.lastCacheTime = Date.now();
+
         return newProgress;
       }
     } catch (error) {
@@ -165,19 +212,92 @@ export class ProgressService {
   }
 
   /**
-   * Initialise la progression d'un nouvel utilisateur
+   * Initialise la progression d'un nouvel utilisateur de manière optimisée
    */
   async initializeUserProgress(userId: string): Promise<UserProgress> {
     try {
+      console.log(`Initialisation rapide de la progression pour ${userId}`);
+
+      // Créer une progression minimale immédiatement
+      const quickProgress: UserProgress = {
+        userId,
+        difficulties: [
+          {
+            difficulty: 'facile',
+            categories: [{
+              categoryId: 'maladies_cardiovasculaires',
+              quizzes: [{
+                quizId: 'maladies_cardiovasculaires_quiz_1',
+                completed: false,
+                score: 0,
+                lastAttemptDate: null,
+                unlocked: true
+              }],
+              completed: false,
+              progress: 0,
+              unlocked: true,
+              started: false
+            }],
+            completedCount: 0,
+            totalCount: 1,
+            progress: 0,
+            unlocked: true,
+            completed: false
+          },
+          {
+            difficulty: 'moyen',
+            categories: [],
+            completedCount: 0,
+            totalCount: 0,
+            progress: 0,
+            unlocked: false,
+            completed: false
+          },
+          {
+            difficulty: 'difficile',
+            categories: [],
+            completedCount: 0,
+            totalCount: 0,
+            progress: 0,
+            unlocked: false,
+            completed: false
+          }
+        ],
+        totalXP: 0,
+        heartsCount: 5
+      };
+
+      // Sauvegarder la progression minimale immédiatement
+      const progressRef = doc(firebaseDB, 'userProgress', userId);
+      await setDoc(progressRef, quickProgress);
+
+      // Mettre à jour le cache
+      ProgressService.progressCache = quickProgress;
+      ProgressService.lastCacheTime = Date.now();
+
+      // Initialiser la progression complète en arrière-plan
+      this.initializeFullProgressInBackground(userId);
+
+      return quickProgress;
+    } catch (error) {
+      console.error('Erreur lors de l\'initialisation rapide:', error);
+      throw error;
+    }
+  }
+
+  /**
+   * Initialise la progression complète en arrière-plan
+   */
+  private async initializeFullProgressInBackground(userId: string): Promise<void> {
+    try {
+      console.log(`Initialisation complète en arrière-plan pour ${userId}`);
+
       // Récupérer tous les quiz disponibles pour construire la structure de progression
       const difficulties = ['facile', 'moyen', 'difficile'];
       const difficultyProgresses: DifficultyProgress[] = [];
-      
+
       // Pour chaque niveau de difficulté
       for (const difficulty of difficulties) {
-        // Créer la collection pour ce niveau de difficulté s'il n'existe pas
-        const difficultyDocRef = doc(firebaseDB, 'quizzes', difficulty);
-        
         // Récupérer les sous-collections (catégories) de ce document
         try {
           // Obtenir la liste des catégories à partir de notre structure de données locale
@@ -275,57 +395,25 @@ export class ProgressService {
         }
       }
       
-      // Créer l'objet de progression utilisateur
-      const userProgress: UserProgress = {
+      // Créer l'objet de progression utilisateur complet
+      const fullUserProgress: UserProgress = {
         userId,
         difficulties: difficultyProgresses,
         totalXP: 0,
         heartsCount: 5 // On donne 5 cœurs au départ
       };
-      
-      // Sauvegarder dans Firestore
+
+      // Sauvegarder la progression complète dans Firestore
       const progressRef = doc(firebaseDB, 'userProgress', userId);
-      await setDoc(progressRef, userProgress);
-      
-      return userProgress;
+      await setDoc(progressRef, fullUserProgress);
+
+      // Mettre à jour le cache avec la progression complète
+      ProgressService.progressCache = fullUserProgress;
+      ProgressService.lastCacheTime = Date.now();
+
+      console.log(`Initialisation complète terminée pour ${userId}`);
     } catch (error) {
-      console.error('Erreur lors de l\'initialisation de la progression:', error);
-      
-      // Retourner une progression par défaut en cas d'erreur
-      return {
-        userId,
-        difficulties: [
-          {
-            difficulty: 'facile',
-            categories: [],
-            completedCount: 0,
-            totalCount: 0,
-            progress: 0,
-            unlocked: true,
-            completed: false
-          },
-          {
-            difficulty: 'moyen',
-            categories: [],
-            completedCount: 0,
-            totalCount: 0,
-            progress: 0,
-            unlocked: false,
-            completed: false
-          },
-          {
-            difficulty: 'difficile',
-            categories: [],
-            completedCount: 0,
-            totalCount: 0,
-            progress: 0,
-            unlocked: false,
-            completed: false
-          }
-        ],
-        totalXP: 0,
-        heartsCount: 5
-      };
+      console.error('Erreur lors de l\'initialisation complète en arrière-plan:', error);
     }
   }
 
@@ -341,14 +429,24 @@ export class ProgressService {
     earnedHearts: number
   ): Promise<{success: boolean, xpGained: number, levelCompleted: boolean, nextQuizUnlocked: boolean}> {
     try {
-      console.log(`=== Début updateQuizProgress ===`);
-      console.log(`Paramètres: difficulty=${difficulty}, categoryId=${categoryId}, quizId=${quizId}, score=${score}, earnedXP=${earnedXP}, earnedHearts=${earnedHearts}`);
-      
-      const user = firebaseAuth.currentUser;
-      if (!user) {
-        console.log(`Aucun utilisateur connecté. Abandon.`);
+      // Protection contre les appels multiples
+      if (ProgressService.updateInProgress) {
+        console.log(`updateQuizProgress déjà en cours, abandon de cet appel`);
         return {success: false, xpGained: 0, levelCompleted: false, nextQuizUnlocked: false};
       }
+
+      ProgressService.updateInProgress = true;
+
+      console.log(`=== Début updateQuizProgress ===`);
+      console.log(`Paramètres: difficulty=${difficulty}, categoryId=${categoryId}, quizId=${quizId}, score=${score}, earnedXP=${earnedXP}, earnedHearts=${earnedHearts}`);
+
+      if (!this.isUserAuthenticated()) {
+        console.log(`Aucun utilisateur connecté. Abandon.`);
+        ProgressService.updateInProgress = false;
+        return {success: false, xpGained: 0, levelCompleted: false, nextQuizUnlocked: false};
+      }
+
+      const user = firebaseAuth.currentUser!;
       
       // Récupérer la progression actuelle
       const userProgress = await this.getUserProgress(true);
@@ -536,6 +634,8 @@ export class ProgressService {
       
       if (heartsGained > 0) {
         console.log(`Attribution de ${heartsGained} cœurs pour le quiz ${quizId}.`);
+        // Import dynamique pour éviter le cycle de dépendances
+        const { HeartsService } = await import('./hearts.service');
         const heartsService = new HeartsService();
         await heartsService.addHearts(heartsGained);
       }
@@ -552,18 +652,17 @@ export class ProgressService {
         const nextQuizExists = categoryProgress.quizzes.some(q => q.quizId === nextQuizId);
         if (nextQuizExists) {
           nextQuizUnlocked = true;
-          
+
           try {
             // Forcer le déblocage du quiz suivant
             await this.forceUnlockNextQuiz(userProgress, difficulty, categoryProgress.categoryId, quizId);
-            
+
             // Trouver et débloquer le quiz suivant dans la structure de données
             const nextQuiz = categoryProgress.quizzes.find(q => q.quizId === nextQuizId);
             if (nextQuiz) {
-              // Forcer l'état de déverrouillage pour le quiz suivant
-              // en marquant explicitement le quiz actuel comme complété
-              quizProgress.completed = true;
-              
+              // Marquer explicitement le quiz suivant comme déverrouillé
+              nextQuiz.unlocked = true;
+
               console.log(`Quiz suivant ${nextQuizId} a été débloqué automatiquement`);
             } else {
               console.log(`Quiz suivant ${nextQuizId} non trouvé dans la structure malgré nextQuizExists=true`);
@@ -573,8 +672,22 @@ export class ProgressService {
             // Continuer l'exécution même en cas d'erreur
           }
         } else {
-          console.log(`Aucun quiz suivant trouvé après ${quizId}. Quiz disponibles dans cette catégorie:`, 
-            categoryProgress.quizzes.map(q => q.quizId).join(', '));
+          // Vérifier s'il faut créer le quiz suivant
+          console.log(`Tentative de création du quiz suivant ${nextQuizId}`);
+
+          // Créer le quiz suivant s'il n'existe pas
+          const newNextQuiz = {
+            quizId: nextQuizId,
+            completed: false,
+            score: 0,
+            lastAttemptDate: null,
+            unlocked: true // Le marquer comme déverrouillé immédiatement
+          };
+
+          categoryProgress.quizzes.push(newNextQuiz);
+          nextQuizUnlocked = true;
+
+          console.log(`Quiz suivant ${nextQuizId} créé et débloqué automatiquement`);
         }
       }
 
@@ -636,13 +749,24 @@ export class ProgressService {
         }
       }
 
+      // Vérifier l'état final du quiz avant sauvegarde
+      const finalQuizState = categoryProgress.quizzes.find(q => q.quizId === quizId);
+      console.log(`État final du quiz ${quizId} avant sauvegarde: score=${finalQuizState?.score}, completed=${finalQuizState?.completed}, unlocked=${finalQuizState?.unlocked}`);
+
       // Sauvegarder les modifications
       const progressRef = doc(firebaseDB, 'userProgress', user.uid);
       await setDoc(progressRef, userProgress);
-      
+      console.log(`Données sauvegardées dans Firebase pour l'utilisateur ${user.uid}`);
+
       // Mettre à jour le cache
       ProgressService.progressCache = userProgress;
       ProgressService.lastCacheTime = Date.now();
+      console.log(`Cache mis à jour avec les nouvelles données`);
+
+      // Déclencher la synchronisation avec la collection users
+      const syncService = SyncService.getInstance();
+      await syncService.syncXPToUserCollection(user.uid, userProgress.totalXP);
+      await syncService.syncHeartsToUserCollection(user.uid, userProgress.heartsCount);
       
       const result = {
         success: true, 
@@ -661,11 +785,14 @@ export class ProgressService {
         console.log(`Aucune XP accordée pour cette tentative.`);
       }
       console.log(`Résultat: success=${result.success}, xpGained=${result.xpGained}, levelCompleted=${result.levelCompleted}, nextQuizUnlocked=${result.nextQuizUnlocked}`);
-      
+
       return result;
     } catch (error) {
       console.error('Erreur lors de la mise à jour de la progression du quiz:', error);
       return {success: false, xpGained: 0, levelCompleted: false, nextQuizUnlocked: false};
+    } finally {
+      // Libérer le verrou
+      ProgressService.updateInProgress = false;
     }
   }
 
@@ -676,8 +803,9 @@ export class ProgressService {
    */
   async awardLevelCompletionBonus(difficulty: string): Promise<number> {
     try {
-      const user = firebaseAuth.currentUser;
-      if (!user) return 0;
+      if (!this.isUserAuthenticated()) return 0;
+
+      const user = firebaseAuth.currentUser!;
       
       // Récupérer la progression actuelle
       const userProgress = await this.getUserProgress(true);
@@ -766,18 +894,25 @@ export class ProgressService {
         }
       }
       
+      // Vérifier d'abord si le quiz a été explicitement déverrouillé
+      const currentQuizProgress = categoryProgress.quizzes.find(q => q.quizId === quizId);
+      if (currentQuizProgress && currentQuizProgress.unlocked === true) {
+        console.log(`Quiz ${quizId} est déverrouillé car marqué explicitement comme unlocked=true`);
+        return true;
+      }
+
       // Le quiz est déverrouillé si le quiz précédent est complété avec un score suffisant (≥ 60%)
       if (previousQuizProgress && previousQuizProgress.completed && previousQuizProgress.score >= 60) {
         console.log(`Quiz ${quizId} est déverrouillé car quiz précédent ${previousQuizId} a score=${previousQuizProgress.score} et completed=${previousQuizProgress.completed}`);
         return true;
       }
-      
+
       if (previousQuizProgress) {
         console.log(`Quiz ${quizId} est verrouillé car quiz précédent ${previousQuizId} a score=${previousQuizProgress.score} et completed=${previousQuizProgress.completed}`);
       } else {
         console.log(`Quiz ${quizId} est verrouillé car le quiz précédent ${previousQuizId} n'existe pas`);
       }
-      
+
       return false;
     } catch (error) {
       console.error('Erreur lors de la vérification du déverrouillage du quiz:', error);
@@ -980,6 +1115,7 @@ export class ProgressService {
   clearProgressCache(): void {
     ProgressService.progressCache = null;
     ProgressService.lastCacheTime = 0;
+    ProgressService.pendingRequests.clear(); // Vider aussi les requêtes en cours
   }
 
   /**
@@ -1108,11 +1244,12 @@ export class ProgressService {
    * @returns True si la mise à jour a réussi, False sinon
    */
   async updateTotalXP(amount: number): Promise<boolean> {
-    const user = firebaseAuth.currentUser;
-    if (!user) {
+    if (!this.isUserAuthenticated()) {
       console.log(`updateTotalXP: Aucun utilisateur connecté, impossible de mettre à jour les XP`);
       return false;
     }
+
+    const user = firebaseAuth.currentUser!;
     
     try {
       console.log(`updateTotalXP: Début de la mise à jour pour ${amount} XP`);
@@ -1136,11 +1273,15 @@ export class ProgressService {
       console.log(`updateTotalXP: Sauvegarde dans Firebase...`);
       const progressRef = doc(firebaseDB, 'userProgress', user.uid);
       await setDoc(progressRef, userProgress);
-      
+
       // Mettre à jour le cache
       ProgressService.progressCache = userProgress;
       ProgressService.lastCacheTime = Date.now();
-      
+
+      // Déclencher la synchronisation avec la collection users
+      const syncService = SyncService.getInstance();
+      await syncService.syncXPToUserCollection(user.uid, newTotalXP);
+
       console.log(`updateTotalXP: Mise à jour réussie, nouveau total: ${newTotalXP} XP`);
       return true;
     } catch (error) {
@@ -1247,8 +1388,42 @@ export class ProgressService {
       // Déverrouiller le quiz suivant
       console.log(`Force unlock: Déverrouillage du quiz suivant ${nextQuizId}`);
       nextQuiz.unlocked = true;
+
+      console.log(`Force unlock: Quiz ${nextQuizId} maintenant déverrouillé avec unlocked=${nextQuiz.unlocked}`);
     } catch (error) {
       console.error('Erreur lors du déblocage du quiz suivant:', error);
+    }
+  }
+
+  /**
+   * Fonction de débogage pour afficher l'état de tous les quiz d'une catégorie
+   */
+  async debugCategoryQuizzes(difficulty: string, categoryId: string): Promise<void> {
+    try {
+      const userProgress = await this.getUserProgress();
+      if (!userProgress) {
+        console.log('DEBUG: Aucune progression utilisateur trouvée');
+        return;
+      }
+
+      const difficultyProgress = userProgress.difficulties.find(d => d.difficulty === difficulty);
+      if (!difficultyProgress) {
+        console.log(`DEBUG: Difficulté ${difficulty} non trouvée`);
+        return;
+      }
+
+      const categoryProgress = difficultyProgress.categories.find(c => c.categoryId === categoryId);
+      if (!categoryProgress) {
+        console.log(`DEBUG: Catégorie ${categoryId} non trouvée`);
+        return;
+      }
+
+      console.log(`DEBUG: État des quiz pour ${difficulty}/${categoryId}:`);
+      categoryProgress.quizzes.forEach((quiz, index) => {
+        console.log(`  ${index + 1}. ${quiz.quizId}: completed=${quiz.completed}, score=${quiz.score}, unlocked=${quiz.unlocked}`);
+      });
+    } catch (error) {
+      console.error('Erreur lors du débogage des quiz:', error);
     }
   }
 }

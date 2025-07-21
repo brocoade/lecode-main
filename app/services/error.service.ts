@@ -28,6 +28,21 @@ export class ErrorService {
    * Log une erreur pour le debugging
    */
   private logError(error: any, context?: string) {
+    // Ne pas logger les erreurs d'authentification courantes
+    if (error?.code) {
+      const normalAuthErrors = [
+        'auth/email-already-in-use',
+        'auth/user-not-found',
+        'auth/wrong-password',
+        'auth/invalid-credential',
+        'auth/user-disabled'
+      ];
+
+      if (normalAuthErrors.includes(error.code)) {
+        return; // Ne pas logger ces erreurs
+      }
+    }
+
     this.errorLog.push({
       timestamp: new Date(),
       error,
@@ -49,8 +64,8 @@ export class ErrorService {
    * Traite une erreur Firebase et retourne un message d'erreur formaté
    */
   public handleFirebaseError(error: FirebaseError, context?: string): ErrorMessage {
-    this.logError(error, context);
-    
+    this.logError(error, context); // Le logError filtre déjà les erreurs normales
+
     const mappedCode = mapFirebaseError(error.code);
     return getErrorMessage(mappedCode);
   }

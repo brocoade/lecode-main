@@ -16,12 +16,12 @@ export default function MainLayout() {
   const { xp } = useXP(); // Obtenir les XP directement du contexte
   const { hearts, maxHearts } = useHearts();
   
-  // Surveillance des changements dans xp (du contexte XP)
+  // Surveillance des changements dans xp (du contexte XP) - optimisée
   useEffect(() => {
     if (xp > 0 && xp !== totalXP) {
       setTotalXP(xp);
     }
-  }, [xp, totalXP]);
+  }, [xp]); // Supprimer totalXP des dépendances pour éviter les boucles
 
   // Charger les statistiques utilisateur au montage seulement
   useEffect(() => {
@@ -32,14 +32,27 @@ export default function MainLayout() {
         const progressService = new ProgressService();
         setIsLoading(true);
 
-        // Charger depuis le cache d'abord
-        const cachedProgress = await progressService.getUserProgress(false);
-        if (cachedProgress) {
-          setTotalXP(cachedProgress.totalXP || 0);
-        }
+        // Charger depuis le cache d'abord, sans bloquer l'interface
+        setTimeout(async () => {
+          try {
+            // Vérifier à nouveau que l'utilisateur est toujours connecté
+            if (!user) {
+              setIsLoading(false);
+              return;
+            }
+
+            const cachedProgress = await progressService.getUserProgress(false);
+            if (cachedProgress) {
+              setTotalXP(cachedProgress.totalXP || 0);
+            }
+          } catch (error) {
+            console.error('Erreur lors du chargement des statistiques utilisateur:', error);
+          } finally {
+            setIsLoading(false);
+          }
+        }, 100); // Délai minimal pour permettre l'affichage de l'interface
       } catch (error) {
-        console.error('Erreur lors du chargement des statistiques utilisateur:', error);
-      } finally {
+        console.error('Erreur lors de l\'initialisation:', error);
         setIsLoading(false);
       }
     };
@@ -48,7 +61,7 @@ export default function MainLayout() {
     if (user && totalXP === 0) {
       loadUserStats();
     }
-  }, [user]); // Supprimer totalXP des dépendances
+  }, [user]); // Optimisé : dépendances minimales
 
   return (
     <View style={styles.container}>

@@ -1,6 +1,7 @@
 import { doc, getDoc, setDoc, updateDoc } from 'firebase/firestore';
 import { firebaseAuth, firebaseDB } from '@/backend/config/firebase.config';
 import { ProgressService } from './progress.service';
+import { SyncService } from './sync.service';
 
 export interface HeartRegenerationInfo {
   nextRegenerationTime: number; // Timestamp en millisecondes
@@ -142,7 +143,11 @@ export class HeartsService {
             
             const progressRef = doc(firebaseDB, 'userProgress', user.uid);
             await setDoc(progressRef, userProgress);
-            
+
+            // Déclencher la synchronisation
+            const syncService = SyncService.getInstance();
+            await syncService.syncHeartsToUserCollection(user.uid, newRemainingHearts);
+
             // Mettre à jour le cache du service de progression
             progressService.clearProgressCache();
           }
@@ -215,7 +220,11 @@ export class HeartsService {
           
           const progressRef = doc(firebaseDB, 'userProgress', user.uid);
           await setDoc(progressRef, userProgress);
-          
+
+          // Déclencher la synchronisation
+          const syncService = SyncService.getInstance();
+          await syncService.syncHeartsToUserCollection(user.uid, newRemainingHearts);
+
           // Mettre à jour le cache du service de progression
           progressService.clearProgressCache();
         }
@@ -329,7 +338,11 @@ export class HeartsService {
         
         const progressRef = doc(firebaseDB, 'userProgress', user.uid);
         await setDoc(progressRef, userProgress);
-        
+
+        // Déclencher la synchronisation
+        const syncService = SyncService.getInstance();
+        await syncService.syncHeartsToUserCollection(user.uid, heartInfo.remainingHearts);
+
         // Mettre à jour le cache du service de progression
         progressService.clearProgressCache();
       }

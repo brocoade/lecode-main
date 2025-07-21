@@ -131,20 +131,40 @@ export default function RegisterScreen() {
       }
 
       setLoading(true);
-    
-      const userCredential = await signUp(email.trim(), password, name.trim()) as UserCredential;
+
+      console.log('Inscription avec les données:', {
+        name: name.trim(),
+        email: email.trim(),
+        bloodType,
+        birthDate: birthDate.toISOString()
+      });
+
+      const userCredential = await signUp(
+        email.trim(),
+        password,
+        name.trim(),
+        bloodType,
+        birthDate
+      ) as UserCredential;
       
       if (userCredential.user) {
-        // Initialiser les statistiques de l'utilisateur
+        console.log('Inscription réussie, finalisation...');
+
+        // Initialiser les statistiques de l'utilisateur en arrière-plan (non bloquant)
         userStatsService.initializeUserStats(
-          userCredential.user.uid,  
+          userCredential.user.uid,
           bloodType,
           birthDate.toISOString(),
           name.trim(),
           email.trim()
-        ).catch(console.error); // Gestion d'erreur non bloquante
-        
-        // Afficher le modal de bienvenue
+        ).then(() => {
+          console.log('Stats utilisateur initialisées avec succès');
+        }).catch(error => {
+          console.error('Erreur lors de l\'initialisation des stats:', error);
+        });
+
+        // Afficher immédiatement le modal de bienvenue
+        console.log('Affichage du modal de bienvenue');
         setShowWelcomeModal(true);
         setLoading(false);
       }
@@ -153,8 +173,7 @@ export default function RegisterScreen() {
       if (error instanceof FirebaseError) {
         // Gestion spéciale pour l'email déjà utilisé avec proposition d'action
         if (error.code === 'auth/email-already-in-use') {
-          const errorMessage = errorService.handleFirebaseError(error, 'RegisterScreen.handleRegister');
-          setError(errorMessage);
+          setError('Un compte existe déjà avec cette adresse email.');
           Alert.alert(
             'Email déjà utilisé',
             'Un compte existe déjà avec cette adresse email. Voulez-vous vous connecter ?',

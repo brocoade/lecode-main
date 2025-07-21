@@ -18,26 +18,34 @@ class UserStatsService {
   private db = getDatabase();
   private auth = getAuth();
 
-  // Initialiser les stats d'un nouvel utilisateur
+  // Initialiser les stats d'un nouvel utilisateur (ne pas écraser les données Firestore)
   async initializeUserStats(uid: string, bloodType: string, birthDate: string, name: string, email: string) {
-    const userRef = ref(this.db, `users/${uid}`);
-    const now = new Date().toISOString();
-    
-    const userData = {
-      profile: {
-        name,
-        email,
-      },
-      stats: {
-        lives: 5, // Nombre initial de vies
-        xpPoints: 0,
-        memberSince: now,
-        bloodType,
-        birthDate
-      }
-    };
+    try {
+      console.log('userStatsService: Initialisation des stats pour:', { uid, bloodType, birthDate, name, email });
 
-    await set(userRef, userData);
+      const userRef = ref(this.db, `users/${uid}`);
+      const now = new Date().toISOString();
+
+      // Données pour Realtime Database (stats de jeu)
+      const realtimeData = {
+        profile: {
+          name,
+          email,
+        },
+        stats: {
+          lives: 5, // Nombre initial de vies
+          xpPoints: 0,
+          memberSince: now,
+          bloodType,
+          birthDate
+        }
+      };
+
+      await set(userRef, realtimeData);
+      console.log('userStatsService: Stats sauvegardées dans Realtime Database');
+    } catch (error) {
+      console.error('userStatsService: Erreur lors de l\'initialisation:', error);
+    }
   }
 
   // Mettre à jour le profil utilisateur

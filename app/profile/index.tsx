@@ -14,16 +14,25 @@ import { firebaseDB } from '../../backend/config/firebase.config';
 import { useLanguage } from '../../context/LanguageContext';
 import Colors from '@/constants/Colors';
 import { useThemeMode } from '@/context/ThemeContext';
+import { SyncService } from '@/app/services/sync.service';
 
 
 
 interface UserStats {
+  name?: string;
+  email?: string;
   lives: number;
   xpPoints: number;
-  memberSince: string;
+  memberSince?: string;
   bloodType: string;
   birthDate: string;
   createdAt?: any;
+  // Nouvelles stats depuis Firebase
+  totalQuizzes?: number;
+  currentStreak?: number;
+  totalGoodAnswers?: number;
+  totalQuestionsAttempted?: number;
+  lastPlayed?: any;
 }
 
 interface StatCard {
@@ -35,7 +44,7 @@ interface StatCard {
 }
 
 export default function ProfileScreen() {
-  const { user, signOut } = useAuth();
+  const { user, signOut, refreshUserFromFirestore } = useAuth();
   const router = useRouter();
   const [stats, setStats] = useState<UserStats | null>(null);
   const { xp } = useXP();
@@ -45,12 +54,44 @@ export default function ProfileScreen() {
 
   useEffect(() => {
     if (user?.uid) {
+      // Écouter les changements dans la collection users
       const unsubscribe = onSnapshot(doc(firebaseDB, 'users', user.uid), (docSnap) => {
         if (docSnap.exists()) {
-          setStats(docSnap.data() as UserStats);
+          const userData = docSnap.data() as UserStats;
+          console.log('Profile: Données users mises à jour:', userData);
+          setStats(userData);
+
+          // Si le nom a changé, rafraîchir le contexte Auth
+          if (userData.name && userData.name !== user.name) {
+            console.log('Profile: Nom mis à jour, rafraîchissement du contexte Auth');
+            refreshUserFromFirestore();
+          }
         }
       });
-      return () => unsubscribe();
+
+      // Démarrer la synchronisation seulement si pas déjà démarrée
+      let syncStarted = false;
+      const timer = setTimeout(() => {
+        if (!syncStarted) {
+          syncStarted = true;
+          try {
+            const syncService = SyncService.getInstance();
+
+            // Forcer une synchronisation initiale une seule fois
+            syncService.forceSyncAll(user.uid).catch(error => {
+              console.error('Profile: Erreur sync forcée:', error);
+            });
+          } catch (error) {
+            console.error('Profile: Erreur lors du démarrage de la sync:', error);
+          }
+        }
+      }, 2000); // Réduire à 2 secondes
+
+      return () => {
+        unsubscribe();
+        clearTimeout(timer);
+        // Le nettoyage du SyncService sera fait par les contextes
+      };
     }
   }, [user]);
 
@@ -73,16 +114,33 @@ export default function ProfileScreen() {
 
 
 
+  // Utiliser les données Firebase en priorité, puis les contextes en fallback
+  const displayHearts = stats?.lives !== undefined ? stats.lives : hearts;
+  const displayXP = stats?.xpPoints !== undefined ? stats.xpPoints : xp;
+  const displayName = stats?.name || user?.name || (language === 'fr' ? 'Utilisateur' : 'User');
+  const displayEmail = user?.email || 'utilisateur@email.com';
+
+  console.log('Profile: Affichage des stats:', {
+    statsFromFirebase: stats,
+    userFromAuth: user,
+    heartsFromContext: hearts,
+    xpFromContext: xp,
+    displayHearts,
+    displayXP,
+    displayName,
+    displayEmail
+  });
+
   const statsCards: StatCard[] = [
     {
       label: language === 'fr' ? 'Vies disponibles' : 'Lives available',
-      value: `${hearts}/${maxHearts}`,
+      value: `${displayHearts}/${maxHearts}`,
       image: require('@/assets/images/coeur.png'),
-      color: hearts > 0 ? '#FF0000' : '#808080'
+      color: displayHearts > 0 ? '#FF0000' : '#808080'
     },
     {
       label: language === 'fr' ? 'Points XP' : 'XP Points',
-      value: xp.toString(),
+      value: displayXP.toString(),
       image: require('@/assets/images/etoile.png'),
       color: '#4CAF50'
     },
@@ -101,6 +159,18 @@ export default function ProfileScreen() {
       value: stats?.bloodType || '-',
       image: require('@/assets/images/blood.png'),
       color: '#FF3B30'
+    },
+    {
+      label: language === 'fr' ? 'Quiz complétés' : 'Completed quizzes',
+      value: (stats?.totalQuizzes || 0).toString(),
+      icon: 'chart-bar',
+      color: '#34C759'
+    },
+    {
+      label: language === 'fr' ? 'Série actuelle' : 'Current streak',
+      value: `${stats?.currentStreak || 0} jour${(stats?.currentStreak || 0) > 1 ? 's' : ''}`,
+      icon: 'calendar-month',
+      color: '#FF9500'
     },
   ];
 
@@ -132,8 +202,18 @@ export default function ProfileScreen() {
                   <MaterialCommunityIcons name="pencil" size={20} color="#fff" />
                 </TouchableOpacity>
               </View>
-              <Text style={[styles.name]}>{user?.name || (language === 'fr' ? 'Utilisateur' : 'User')}</Text>
-              <Text style={[styles.email]}>{user?.email || 'utilisateur@email.com'}</Text>
+              <Text style={[styles.name]}>{displayName}</Text>
+              <Text style={[styles.email]}>{displayEmail}</Text>
+              {/* Bouton de debug temporaire */}
+              <TouchableOpacity
+                onPress={() => {
+                  console.log('Rafraîchissement manuel des données utilisateur');
+                  refreshUserFromFirestore();
+                }}
+                style={{ marginTop: 8, padding: 8, backgroundColor: 'rgba(255,255,255,0.2)', borderRadius: 8 }}
+              >
+                <Text style={{ color: 'white', fontSize: 12, textAlign: 'center' }}>🔄 Rafraîchir profil</Text>
+              </TouchableOpacity>
             </View>
           </LinearGradient>
 

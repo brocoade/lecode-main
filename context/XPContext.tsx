@@ -2,6 +2,7 @@ import React, { createContext, useState, useContext, useEffect } from 'react';
 import { Animated, Text, StyleSheet } from 'react-native';
 import { useAuth } from './AuthContext';
 import { ProgressService } from '@/app/services/progress.service';
+import { SyncService } from '@/app/services/sync.service';
 
 interface XPContextType {
   xp: number;
@@ -27,6 +28,7 @@ const calculateLevel = (totalXP: number): number => {
 export const XPProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [xp, setXP] = useState<number>(0);
   const [level, setLevel] = useState<number>(1);
+  const [isInitialized, setIsInitialized] = useState<boolean>(false);
   const { user } = useAuth();
   const [animationValue] = useState(new Animated.Value(0));
   const [showAnimation, setShowAnimation] = useState(false);
@@ -44,50 +46,60 @@ export const XPProvider: React.FC<{ children: React.ReactNode }> = ({ children }
   // Fonction pour rafraîchir les XP depuis Firebase
   const refreshXP = async () => {
     if (!user) return;
-    
+
     try {
       console.log("XPContext: Rafraîchissement des XP depuis Firebase...");
       const progressService = new ProgressService();
-      // Créer une promesse pour la mise à jour Firebase
-      const updatePromise = progressService.getUserProgress(true);
-      
-      // Mettre à jour l'UI immédiatement avec les données du cache si disponibles
-      // pour une perception de rapidité
-      const cachedProgress = await progressService.getUserProgress(false);
-      if (cachedProgress && cachedProgress.totalXP) {
-        console.log(`XPContext: Utilisation des XP en cache: ${cachedProgress.totalXP}`);
-        setXP(cachedProgress.totalXP);
-      }
-      
-      // Attendre la réponse Firebase et mettre à jour si nécessaire
-      const userProgress = await updatePromise;
-      if (userProgress) {
+
+      // Utiliser le cache d'abord, puis forcer le refresh seulement si nécessaire
+      const userProgress = await progressService.getUserProgress(false);
+      if (userProgress && userProgress.totalXP !== undefined) {
         const newXP = userProgress.totalXP;
-        console.log(`XPContext: XP rechargés, nouvelle valeur: ${newXP}`);
-        setXP(newXP);
+        if (newXP !== xp) {
+          console.log(`XPContext: XP rechargés, nouvelle valeur: ${newXP}`);
+          setXP(newXP);
+        }
       }
     } catch (error) {
       console.error('XPContext: Erreur lors du rafraîchissement des XP:', error);
     }
   };
 
-  // Charger les XP initiaux et configurer le rafraîchissement périodique
+  // Charger les XP initiaux et configurer la synchronisation en temps réel
   useEffect(() => {
-    const loadXP = async () => {
-      await refreshXP();
-    };
-    
-    if (user) {
-      loadXP();
-      
-      // Rafraîchir les XP toutes les 10 secondes au lieu de 30 pour une meilleure réactivité
-      const interval = setInterval(loadXP, 10000);
-      
+    if (user && !isInitialized) {
+      setIsInitialized(true);
+
+      // Chargement initial
+      refreshXP();
+
+      // Attendre un peu avant de démarrer la synchronisation pour éviter les erreurs d'inscription
+      const timer = setTimeout(() => {
+        try {
+          const syncService = SyncService.getInstance();
+          syncService.startUserProgressSync(user.uid, (progressData) => {
+            if (progressData.totalXP !== undefined && progressData.totalXP !== xp) {
+              console.log(`XPContext: Mise à jour XP via sync: ${progressData.totalXP}`);
+              setXP(progressData.totalXP);
+            }
+          });
+        } catch (error) {
+          console.error('XPContext: Erreur lors du démarrage de la sync:', error);
+        }
+      }, 2000); // Attendre 2 secondes
+
+      // Nettoyer lors du démontage
       return () => {
-        clearInterval(interval);
+        clearTimeout(timer);
+        try {
+          const syncService = SyncService.getInstance();
+          syncService.cleanup();
+        } catch (error) {
+          console.error('XPContext: Erreur lors du nettoyage:', error);
+        }
       };
     }
-  }, [user]);
+  }, [user, isInitialized]);
 
   const addXP = async (amount: number) => {
     if (amount <= 0 || !user) return;

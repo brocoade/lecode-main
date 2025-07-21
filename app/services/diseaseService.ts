@@ -9,11 +9,37 @@ interface DiseaseMinimal {
   [key: string]: any;
 }
 
-// Récupérer toutes les catégories
+// Cache pour les catégories
+let categoriesCache: any[] | null = null;
+let categoriesCacheTime = 0;
+const CATEGORIES_CACHE_DURATION = 10 * 60 * 1000; // 10 minutes
+
+// Récupérer toutes les catégories avec cache
 export async function getCategories() {
-  const categoriesRef = collection(firestore, 'categories');
-  const snapshot = await getDocs(categoriesRef);
-  return snapshot.docs.map(doc => ({ firebaseDocId: doc.id, ...doc.data() }));
+  const now = Date.now();
+
+  // Utiliser le cache si valide
+  if (categoriesCache && (now - categoriesCacheTime) < CATEGORIES_CACHE_DURATION) {
+    console.log('Utilisation du cache des catégories');
+    return categoriesCache;
+  }
+
+  try {
+    console.log('Récupération des catégories depuis Firebase');
+    const categoriesRef = collection(firestore, 'categories');
+    const snapshot = await getDocs(categoriesRef);
+    const categories = snapshot.docs.map(doc => ({ firebaseDocId: doc.id, ...doc.data() }));
+
+    // Mettre à jour le cache
+    categoriesCache = categories;
+    categoriesCacheTime = now;
+
+    return categories;
+  } catch (error) {
+    console.error('Erreur lors de la récupération des catégories:', error);
+    // Retourner le cache même expiré en cas d'erreur
+    return categoriesCache || [];
+  }
 }
 
 // Récupérer toutes les maladies d'une catégorie en utilisant l'ID du document Firebase (nom de la catégorie)

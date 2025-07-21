@@ -1,0 +1,9 @@
+{
+  "metro": {
+    "resolver": {
+      "blockList": [
+        "app/services/**/*"
+      ]
+    }
+  }
+}
