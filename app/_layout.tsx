@@ -10,8 +10,8 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { ThemeProvider } from '@/context/ThemeContext';
 import { TranslatorProvider } from 'react-native-translator';
 import { LanguageProvider } from '../context/LanguageContext';
-// Import de la configuration Firebase 
-import '../backend/config/firebase.config';
+// Import de la configuration Firebase
+import './config/firebase';
 
 // Ignorer les avertissements liés à Reanimated et Firebase
 import { LogBox } from 'react-native';

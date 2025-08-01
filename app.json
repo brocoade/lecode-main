@@ -27,6 +27,13 @@
         "backgroundColor": "#3E8E41"
       },
       "package": "com.meducare.app",
+      "versionCode": 1,
+      "compileSdkVersion": 34,
+      "targetSdkVersion": 34,
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.VIBRATE"
+      ],
       "intentFilters": [
         {
           "action": "VIEW",
@@ -57,7 +64,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "33ad0f29-ab80-45f7-85a0-01c2c1a5cc57"
+        "projectId": "168b1f8b-767b-4997-b32b-33a86aa6d176"
       }
     }
   }

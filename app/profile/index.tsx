@@ -166,12 +166,6 @@ export default function ProfileScreen() {
       icon: 'chart-bar',
       color: '#34C759'
     },
-    {
-      label: language === 'fr' ? 'Série actuelle' : 'Current streak',
-      value: `${stats?.currentStreak || 0} jour${(stats?.currentStreak || 0) > 1 ? 's' : ''}`,
-      icon: 'calendar-month',
-      color: '#FF9500'
-    },
   ];
 
   return (
